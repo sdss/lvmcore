@@ -1,3 +1,22 @@
+M31:
+    coords: [[10.576, 41.244], [11.12, 41.19],
+             [11.95, 42.195], [11.42, 42.26]]
+    region_type: polygon
+    frame: icrs
+    priority: 2
+    telescope: LVM-1m
+
+M33:
+    coords: [23.462100, 30.659942]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 1.16
+        b: 0.666
+        pa: 0
+    priority: 2
+    telescope: LVM-1m
+
 MW1:
     coords: [119.616225, -7.43410917]
     region_type: rectangle
@@ -16,14 +35,6 @@ MW2:
     frame: galactic
     priority: 1
     telescope: LVM-160
-
-M31:
-    coords: [[10.576, 41.244], [11.12, 41.19],
-             [11.95, 42.195], [11.42, 42.26]]
-    region_type: polygon
-    frame: icrs
-    priority: 2
-    telescope: LVM-1m
 
 IC1613:
     coords: [16.2258, 2.1333]
