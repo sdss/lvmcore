@@ -3,7 +3,7 @@ M31:
              [11.95, 42.195], [11.42, 42.26]]
     region_type: polygon
     frame: icrs
-    priority: 2
+    priority: 3
     telescope: LVM-1m
 
 M33:
@@ -11,8 +11,8 @@ M33:
     region_type: ellipse
     frame: icrs
     region_params:
-        a: 1.16
-        b: 0.666
+        a: 0.58
+        b: 0.333
         pa: 0
     priority: 2
     telescope: LVM-1m
