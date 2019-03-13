@@ -101,3 +101,12 @@ Pegasus:
         pa: 0.0
     priority: 1
     telescope: LVM-1m
+
+NGC6946:
+    coords: [308.718015, 60.153915]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.28
+    priority: 1
+    telescope: LVM-1m
