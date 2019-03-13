@@ -11,8 +11,8 @@ M33:
     region_type: ellipse
     frame: icrs
     region_params:
-        a: 0.58
-        b: 0.333
+        a: 1.16
+        b: 0.666
         pa: 0
     priority: 2
     telescope: LVM-1m
@@ -45,7 +45,7 @@ IC1613:
         b: 0.241666667
         pa: 50
     priority: 1
-    telescope: LVM-160
+    telescope: LVM-1m
 
 LeoI:
     coords: [152.11717, 12.30650]
@@ -56,7 +56,7 @@ LeoI:
         height: 0.191111667
         pa: 0.0
     priority: 1
-    telescope: LVM-160
+    telescope: LVM-1m
 
 LeoA:
     coords: [149.86025, 30.74639]
@@ -67,7 +67,7 @@ LeoA:
         b: 0.034
         pa: 10
     priority: 1
-    telescope: LVM-160
+    telescope: LVM-1m
 
 LMC:
     coords: [80.8942, -69.7561]
@@ -100,4 +100,4 @@ Pegasus:
         height: 0.033333333
         pa: 0.0
     priority: 1
-    telescope: LVM-160
+    telescope: LVM-1m
