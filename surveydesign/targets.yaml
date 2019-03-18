@@ -5,8 +5,8 @@ M31:
     frame: icrs
     priority: 3
     telescope: LVM-1m
-    max_airmass=1.75
-    exptime_time:8100
+    max_airmass:1.75
+    exptime_total:8100
     n_exposures:9
     min_exposures:3
 
@@ -20,8 +20,8 @@ M33:
         pa: 0
     priority: 2
     telescope: LVM-1m
-    max_airmass=1.75
-    exptime_time:8100
+    max_airmass:1.75
+    exptime_total:8100
     n_exposures:9
     min_exposures:3
 
@@ -35,8 +35,8 @@ MW1:
         pa: 2.5
     priority: 1
     telescope: LVM-160
-    max_airmass=1.75
-    exptime_time:900
+    max_airmass:1.75
+    exptime_total:900
     n_exposures:1
     min_exposures:1
 
@@ -47,8 +47,8 @@ MW2:
     frame: galactic
     priority: 1
     telescope: LVM-160
-    max_airmass=1.75
-    exptime_time:900
+    max_airmass:1.75
+    exptime_total:900
     n_exposures:1
     min_exposures:1
 
@@ -62,8 +62,8 @@ IC1613:
         pa: 50
     priority: 1
     telescope: LVM-1m
-    max_airmass=1.75
-    exptime_time:3600
+    max_airmass:1.75
+    exptime_total:3600
     n_exposures:1
     min_exposures:1
 
@@ -77,8 +77,8 @@ LeoI:
         pa: 0.0
     priority: 1
     telescope: LVM-1m
-    max_airmass=1.75
-    exptime_time:3600
+    max_airmass:1.75
+    exptime_total:3600
     n_exposures:1
     min_exposures:1
 
@@ -92,8 +92,8 @@ LeoA:
         pa: 10
     priority: 1
     telescope: LVM-1m
-    max_airmass=1.75
-    exptime_time:3600
+    max_airmass:1.75
+    exptime_total:3600
     n_exposures:1
     min_exposures:1
 
@@ -107,8 +107,8 @@ LMC:
         pa: 170
     priority: 1
     telescope: LVM-160
-    max_airmass=1.75
-    exptime_time:3600
+    max_airmass:1.75
+    exptime_total:3600
     n_exposures:1
     min_exposures:1
 
@@ -122,8 +122,8 @@ SMC:
         pa: 45
     priority: 1
     telescope: LVM-160
-    max_airmass=1.75
-    exptime_time:3600
+    max_airmass:1.75
+    exptime_total:3600
     n_exposures:1
     min_exposures:1
 
@@ -137,8 +137,8 @@ Pegasus:
         pa: 0.0
     priority: 1
     telescope: LVM-1m
-    max_airmass=1.75
-    exptime_time:3600
+    max_airmass:1.75
+    exptime_total:3600
     n_exposures:1
     min_exposures:1
 
@@ -150,7 +150,7 @@ NGC6946:
         r: 0.28
     priority: 1
     telescope: LVM-1m
-    max_airmass=1.75
+    exptime_total:1.75
     exptime_time:3600
     n_exposures:1
     min_exposures:1
