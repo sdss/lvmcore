@@ -5,8 +5,9 @@ M31:
     frame: icrs
     priority: 3
     telescope: LVM-1m
-    exptime_tot:900
-    exptime_point:8100
+    exptime_time:8100
+    n_exposures:9
+    min_exposures:3
 
 M33:
     coords: [23.462100, 30.659942]
@@ -18,8 +19,9 @@ M33:
         pa: 0
     priority: 2
     telescope: LVM-1m
-    exptime_tot:900
-    exptime_point:8100
+    exptime_time:8100
+    n_exposures:9
+    min_exposures:3
 
 MW1:
     coords: [119.616225, -7.43410917]
@@ -31,8 +33,9 @@ MW1:
         pa: 2.5
     priority: 1
     telescope: LVM-160
-    exptime_tot:900
-    exptime_point:900
+    exptime_time:900
+    n_exposures:1
+    min_exposures:1
 
 MW2:
     coords: [[229.26093667,  -8.49621056], [214.06408833, -51.3662725],
@@ -41,8 +44,9 @@ MW2:
     frame: galactic
     priority: 1
     telescope: LVM-160
-    exptime_tot:900
-    exptime_point:900
+    exptime_time:900
+    n_exposures:1
+    min_exposures:1
 
 IC1613:
     coords: [16.2258, 2.1333]
@@ -54,8 +58,9 @@ IC1613:
         pa: 50
     priority: 1
     telescope: LVM-1m
-    exptime_tot:3600
-    exptime_point:3600
+    exptime_time:3600
+    n_exposures:1
+    min_exposures:1
 
 LeoI:
     coords: [152.11717, 12.30650]
@@ -67,8 +72,9 @@ LeoI:
         pa: 0.0
     priority: 1
     telescope: LVM-1m
-    exptime_tot:3600
-    exptime_point:3600
+    exptime_time:3600
+    n_exposures:1
+    min_exposures:1
 
 LeoA:
     coords: [149.86025, 30.74639]
@@ -80,8 +86,9 @@ LeoA:
         pa: 10
     priority: 1
     telescope: LVM-1m
-    exptime_tot:3600
-    exptime_point:3600
+    exptime_time:3600
+    n_exposures:1
+    min_exposures:1
 
 LMC:
     coords: [80.8942, -69.7561]
@@ -93,8 +100,9 @@ LMC:
         pa: 170
     priority: 1
     telescope: LVM-160
-    exptime_tot:900
-    exptime_point:8100
+    exptime_time:3600
+    n_exposures:1
+    min_exposures:1
 
 SMC:
     coords: [13.1583, -72.8003]
@@ -106,8 +114,9 @@ SMC:
         pa: 45
     priority: 1
     telescope: LVM-160
-    exptime_tot:900
-    exptime_point:8100
+    exptime_time:3600
+    n_exposures:1
+    min_exposures:1
 
 Pegasus:
     coords: [357.9433, 24.5864]
@@ -119,8 +128,9 @@ Pegasus:
         pa: 0.0
     priority: 1
     telescope: LVM-1m
-    exptime_tot:3600
-    exptime_point:3600
+    exptime_time:3600
+    n_exposures:1
+    min_exposures:1
 
 NGC6946:
     coords: [308.718015, 60.153915]
@@ -130,5 +140,6 @@ NGC6946:
         r: 0.28
     priority: 1
     telescope: LVM-1m
-    exptime_tot:3600
-    exptime_point:3600
+    exptime_time:3600
+    n_exposures:1
+    min_exposures:1
