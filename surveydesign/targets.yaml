@@ -4,6 +4,7 @@ M31:
     region_type: polygon
     frame: icrs
     priority: 3
+    observatory: APO
     telescope: LVM-1m
     max_airmass: 1.75
     exptime_total: 8100
@@ -19,6 +20,7 @@ M33:
         b: 0.666
         pa: 0
     priority: 2
+    observatory: APO
     telescope: LVM-1m
     max_airmass: 1.75
     exptime_total: 8100
@@ -34,6 +36,7 @@ MW1:
         height: 22.524
         pa: 2.5
     priority: 1
+    observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
     exptime_total: 900
@@ -46,6 +49,7 @@ MW2:
     region_type: polygon
     frame: galactic
     priority: 1
+    observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
     exptime_total: 900
@@ -61,6 +65,7 @@ IC1613:
         b: 0.241666667
         pa: 50
     priority: 1
+    observatory: APO
     telescope: LVM-1m
     max_airmass: 1.75
     exptime_total: 3600
@@ -76,6 +81,7 @@ LeoI:
         height: 0.191111667
         pa: 0.0
     priority: 1
+    observatory: APO
     telescope: LVM-1m
     max_airmass: 1.75
     exptime_total: 3600
@@ -91,6 +97,7 @@ LeoA:
         b: 0.034
         pa: 10
     priority: 1
+    observatory: APO
     telescope: LVM-1m
     max_airmass: 1.75
     exptime_total: 3600
@@ -106,6 +113,7 @@ LMC:
         b: 4.5795
         pa: 170
     priority: 1
+    observatory: LCO
     telescope: LVM-160
     max_airmass: 1.75
     exptime_total: 3600
@@ -121,6 +129,7 @@ SMC:
         b: 1.55175
         pa: 45
     priority: 1
+    observatory: LCO
     telescope: LVM-160
     max_airmass: 1.75
     exptime_total: 3600
@@ -136,6 +145,7 @@ Pegasus:
         height: 0.033333333
         pa: 0.0
     priority: 1
+    observatory: APO
     telescope: LVM-1m
     max_airmass: 1.75
     exptime_total: 3600
@@ -149,6 +159,7 @@ NGC6946:
     region_params:
         r: 0.28
     priority: 1
+    observatory: APO
     telescope: LVM-1m
     exptime_total: 1.75
     exptime_time: 3600
