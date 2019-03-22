@@ -171,8 +171,8 @@ NGC6946:
     priority: 1
     observatory: APO
     telescope: LVM-1m
-    exptime: 1.75
-    exptime_time: 3600
+    max_airmass: 1.75
+    exptime: 3600
     n_exposures: 1
     min_exposures: 1
     min_moon_dist: 90
