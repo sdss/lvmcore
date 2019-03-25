@@ -150,7 +150,7 @@ NGC6946:
         r: 0.28
     priority: 1
     telescope: LVM-1m
-    exptime_total: 1.75
+    max_airmass: 1.75
     exptime_time: 3600
     n_exposures: 1
     min_exposures: 1
