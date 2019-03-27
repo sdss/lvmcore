@@ -34,7 +34,7 @@ M33:
     overhead: 1.1
 
 MW1:
-    coords: [119.616225, -7.43410917]
+    coords: [119.616225, 0.0]
     region_type: rectangle
     frame: galactic
     region_params:
