@@ -41,7 +41,7 @@ MW1:
         width: 257.11
         height: 22.524
         pa: 2.5
-    priority: 1
+    priority: 0
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -57,7 +57,7 @@ MW2:
              [227.68629528, -30.87828389]]
     region_type: polygon
     frame: galactic
-    priority: 1
+    priority: 0
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -134,7 +134,7 @@ LMC:
         a: 5.38045
         b: 4.5795
         pa: 170
-    priority: 1
+    priority: 3
     observatory: LCO
     telescope: LVM-160
     max_airmass: 1.75
@@ -153,7 +153,7 @@ SMC:
         a: 2.635216667
         b: 1.55175
         pa: 45
-    priority: 1
+    priority: 2
     observatory: LCO
     telescope: LVM-160
     max_airmass: 1.75
