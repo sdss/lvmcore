@@ -38,9 +38,15 @@ MW1:
     region_type: rectangle
     frame: galactic
     region_params:
+<<<<<<< HEAD
         width: 257.11
         height: 22.524
         pa: 2.5
+=======
+        width: 300.0
+        height: 10.0
+        pa: 0
+>>>>>>> bd3cd00a38ae63f8e903773053908fee82d3dbef
     priority: 0
     observatory: BOTH
     telescope: LVM-160
