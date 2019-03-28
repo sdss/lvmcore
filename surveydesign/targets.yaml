@@ -52,12 +52,15 @@ MW1:
     max_lunation: 1.0
     overhead: 1.1
 
-MW2:
-    coords: [[229.26093667,  -8.49621056], [214.06408833, -51.3662725],
-             [227.68629528, -30.87828389]]
-    region_type: polygon
+ORION:
+    coords: [201.4754061, -24.84403857]
+    region_type: ellipse
     frame: galactic
-    priority: 0
+    region_params:
+        a: 3.0
+        b: 0.0
+        pa: 0
+    priority: 2
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -136,7 +139,7 @@ LMC:
     priority: 3
     observatory: LCO
     telescope: LVM-160
-    max_airmass: 1.75
+    max_airmass: 2.00
     exptime: 1200
     n_exposures: 9
     min_exposures: 3
