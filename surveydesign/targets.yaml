@@ -128,8 +128,8 @@ LeoA:
 
 LMC1:
     coords: [281.3082423, -35.51814627]
-    region_type: rectangle
-    frame: circle
+    region_type: circle
+    frame: galactic
     region_params:
         r: 4
     priority: 3
