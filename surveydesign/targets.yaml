@@ -54,12 +54,10 @@ MW1:
 
 ORION:
     coords: [201.4754061, -24.84403857]
-    region_type: ellipse
+    region_type: circle
     frame: galactic
     region_params:
-        a: 3.0
-        b: 3.0
-        pa: 0
+        r: 3.0
     priority: 2
     observatory: BOTH
     telescope: LVM-160
