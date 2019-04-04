@@ -87,6 +87,7 @@ IC1613:
     min_moon_dist: 25
     max_lunation: 0.2
     overhead: 1.1
+    group: ["lvm"]
 
 LeoI:
     coords: [152.11717, 12.30650]
@@ -106,6 +107,7 @@ LeoI:
     min_moon_dist: 25
     max_lunation: 0.2
     overhead: 1.1
+    group: ["lvm"]
 
 LeoA:
     coords: [149.86025, 30.74639]
@@ -125,6 +127,7 @@ LeoA:
     min_moon_dist: 25
     max_lunation: 0.2
     overhead: 1.1
+    group: ["lvm"]
 
 LMC1:
     coords: [280.082423, -34.01814627]
@@ -180,6 +183,7 @@ Pegasus:
     min_moon_dist: 25
     max_lunation: 0.2
     overhead: 1.1
+    group: ["lvm"]
 
 NGC6946:
     coords: [308.718015, 60.153915]
@@ -197,6 +201,7 @@ NGC6946:
     min_moon_dist: 25
     max_lunation: 0.2
     overhead: 1.1
+    group: ["lvm"]
 
 Sh_2-171:
     coords: [118.118785,5.020846]
@@ -214,6 +219,7 @@ Sh_2-171:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
+    group: ["MW", "MWM"]
 
 AFGL490:
     coords: [142.000093,1.820147]
@@ -231,6 +237,7 @@ AFGL490:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
+    group: ["MW", "MWM"]
 
 NGC_1333:
     coords: [158.255039,-20.492303]
@@ -248,6 +255,7 @@ NGC_1333:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
+    group: ["MW", "MWM"]
 
 IC_348:
     coords: [160.489945,-17.802231]
@@ -265,6 +273,7 @@ IC_348:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
+    group: ["MW", "MWM"]
 
 XY_Per:
     coords: [156.796466,-11.902158]
@@ -282,6 +291,7 @@ XY_Per:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
+    group: ["MW", "MWM"]
 
 LkHalpha101:
     coords: [165.356761,-9.006070]
@@ -299,6 +309,7 @@ LkHalpha101:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
+    group: ["MW", "MWM"]
 
 GGD:
     coords: [183.721755,-3.661938]
@@ -316,6 +327,7 @@ GGD:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
+    group: ["MW", "MWM"]
 
 IRAS_06046-0603:
     coords: [213.337350,-12.600942]
@@ -333,6 +345,7 @@ IRAS_06046-0603:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
+    group: ["MW", "MWM"]
 
 Mon_R2:
     coords: [213.703142,-12.601895]
@@ -350,6 +363,7 @@ Mon_R2:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
+    group: ["MW", "MWM"]
 
 GGD_12-15:
     coords: [213.882054,-11.835870]
@@ -367,6 +381,7 @@ GGD_12-15:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
+    group: ["MW", "MWM"]
 
 GGD_17:
     coords: [214.119437,-11.410252]
@@ -384,6 +399,7 @@ GGD_17:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
+    group: ["MW", "MWM"]
 
 VY_Mon:
     coords: [201.341980,0.290690]
@@ -401,6 +417,7 @@ VY_Mon:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
+    group: ["MW", "MWM"]
 
 Cha_I:
     coords: [297.155942,-15.617197]
@@ -418,6 +435,7 @@ Cha_I:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
+    group: ["MW", "MWM"]
 
 Lupus_III:
     coords: [339.710100,9.278453]
@@ -435,6 +453,7 @@ Lupus_III:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
+    group: ["MW", "MWM"]
 
 MWC_297:
     coords: [26.801699,3.526082]
@@ -452,6 +471,7 @@ MWC_297:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
+    group: ["MW", "MWM"]
 
 Serpens:
     coords: [31.573267,5.377944]
@@ -469,6 +489,7 @@ Serpens:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
+    group: ["MW", "MWM"]
 
 IRAS_20050+2720:
     coords: [65.778949,-2.612269]
@@ -486,6 +507,7 @@ IRAS_20050+2720:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
+    group: ["MW", "MWM"]
 
 S106:
     coords: [76.383563,-0.621227]
@@ -503,6 +525,7 @@ S106:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
+    group: ["MW", "MWM"]
 
 S131:
     coords: [99.122711,3.922718]
@@ -520,6 +543,7 @@ S131:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
+    group: ["MW", "MWM"]
 
 NGC_7129:
     coords: [105.393802,9.880870]
@@ -537,6 +561,7 @@ NGC_7129:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
+    group: ["MW", "MWM"]
 
 IC5146:
     coords: [94.383317,-5.494907]
@@ -554,6 +579,7 @@ IC5146:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
+    group: ["MW", "MWM"]
 
 S140:
     coords: [106.765065,5.299621]
@@ -571,6 +597,7 @@ S140:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
+    group: ["MW", "MWM"]
 
 Cep_A:
     coords: [109.870806,2.114224]
@@ -588,6 +615,7 @@ Cep_A:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
+    group: ["MW", "MWM"]
 
 Cep_B:
     coords: [110.210330,2.609301]
@@ -605,6 +633,7 @@ Cep_B:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
+    group: ["MW", "MWM"]
 
 Ori_A:
     coords: [210.954375,-19.544401]
@@ -622,6 +651,7 @@ Ori_A:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
+    group: ["MW", "MWM"]
 
 Ori_B:
     coords: [206.540437,-16.359242]
@@ -639,6 +669,7 @@ Ori_B:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
+    group: ["MW", "MWM"]
 
 NGC_2264:
     coords: [202.935754,2.195738]
@@ -656,6 +687,7 @@ NGC_2264:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
+    group: ["MW", "MWM"]
 
 Cep_OB3b:
     coords: [111.264836,2.983818]
@@ -673,6 +705,7 @@ Cep_OB3b:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
+    group: ["MW", "MWM"]
 
 lambda-Ori:
     coords: [195.051898,-11.995060]
@@ -690,6 +723,7 @@ lambda-Ori:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
+    group: ["MW", "MWM"]
 
 Chameleon:
     coords: [299.917552,-15.459839]
@@ -707,6 +741,7 @@ Chameleon:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
+    group: ["MW", "MWM"]
 
 Taurus-Auriga:
     coords: [173.156479,-15.907064]
@@ -724,6 +759,7 @@ Taurus-Auriga:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
+    group: ["MW", "MWM"]
 
 Upper_Sco:
     coords: [351.505538,20.022782]
@@ -741,6 +777,7 @@ Upper_Sco:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
+    group: ["MW", "MWM"]
 
 W3:
     coords: [133.947607,1.065045]
@@ -758,6 +795,7 @@ W3:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
+    group: ["MW", "MWM"]
 
 W4:
     coords: [134.725633,0.918830]
@@ -775,6 +813,7 @@ W4:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
+    group: ["MW", "MWM"]
 
 W5:
     coords: [137.190258,0.893937]
@@ -792,6 +831,7 @@ W5:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
+    group: ["MW", "MWM"]
 
 Cygnus_X:
     coords: [79.601096,1.395759]
@@ -809,6 +849,7 @@ Cygnus_X:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
+    group: ["MW", "MWM"]
 
 W40:
     coords: [28.801204,3.497780]
@@ -826,6 +867,7 @@ W40:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
+    group: ["MW", "MWM"]
 
 Eagle-M16:
     coords: [16.954043,0.793366]
@@ -843,6 +885,7 @@ Eagle-M16:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
+    group: ["MW", "MWM"]
 
 M17:
     coords: [15.095250,-0.745362]
@@ -860,6 +903,7 @@ M17:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
+    group: ["MW", "MWM"]
 
 Trifid-M20:
     coords: [7.085893,-0.287327]
@@ -877,6 +921,7 @@ Trifid-M20:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
+    group: ["MW", "MWM"]
 
 NGC_6334:
     coords: [351.140145,0.462852]
@@ -894,6 +939,7 @@ NGC_6334:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
+    group: ["MW", "MWM"]
 
 NGC_6537:
     coords: [10.098881,0.739400]
@@ -911,6 +957,7 @@ NGC_6537:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
+    group: ["MW", "MWM"]
 
 Carina:
     coords: [287.609948,-0.854160]
@@ -928,6 +975,7 @@ Carina:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
+    group: ["MW", "MWM"]
 
 RCW_36:
     coords: [265.079379,1.404797]
@@ -945,6 +993,7 @@ RCW_36:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
+    group: ["MW", "MWM"]
 
 RCW_38:
     coords: [267.940673,-1.057698]
@@ -962,6 +1011,7 @@ RCW_38:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
+    group: ["MW", "MWM"]
 
 NGC_2362:
     coords: [238.178892,-5.548235]
@@ -979,6 +1029,7 @@ NGC_2362:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
+    group: ["MW", "MWM"]
 
 Rosette:
     coords: [206.257906,-2.117225]
@@ -996,6 +1047,7 @@ Rosette:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
+    group: ["MW", "MWM"]
 
 NGC_1893:
     coords: [173.584992,-1.680470]
@@ -1013,4 +1065,5 @@ NGC_1893:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
+    group: ["MW", "MWM"]
 
