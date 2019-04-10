@@ -13,6 +13,7 @@ M31:
     min_moon_dist: 25
     max_lunation: 0.2
     overhead: 1.1
+    tiling_strategy: center_first
 
 M33:
     coords: [23.462100, 30.659942]
@@ -32,6 +33,7 @@ M33:
     min_moon_dist: 25
     max_lunation: 0.2
     overhead: 1.1
+    tiling_strategy: center_first
 
 MW1:
     coords: [119.616225, 0.0]
@@ -51,6 +53,7 @@ MW1:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
+    tiling_strategy: lowest_airmass
 
 ORION:
     coords: [201.4754061, -24.84403857]
@@ -68,6 +71,7 @@ ORION:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
+    tiling_strategy: center_first
 
 IC1613:
     coords: [16.2258, 2.1333]
@@ -87,6 +91,7 @@ IC1613:
     min_moon_dist: 25
     max_lunation: 0.2
     overhead: 1.1
+    tiling_strategy: center_first
 
 LeoI:
     coords: [152.11717, 12.30650]
@@ -142,6 +147,7 @@ LMC1:
     min_moon_dist: 25
     max_lunation: 0.2
     overhead: 1.1
+    tiling_strategy: center_first
 
 SMC:
     coords: [13.1583, -72.8003]
@@ -161,6 +167,7 @@ SMC:
     min_moon_dist: 25
     max_lunation: 0.2
     overhead: 1.1
+    tiling_strategy: center_first
 
 Pegasus:
     coords: [357.9433, 24.5864]
@@ -215,6 +222,7 @@ Sh_2-171:
     max_lunation: 1.0
     overhead: 1.1
     group: ["MW"]
+    tiling_strategy: center_first
 
 AFGL490:
     coords: [142.000093,1.820147]
@@ -233,6 +241,7 @@ AFGL490:
     max_lunation: 1.0
     overhead: 1.1
     group: ["MW"]
+    tiling_strategy: center_first
 
 NGC_1333:
     coords: [158.255039,-20.492303]
@@ -251,6 +260,7 @@ NGC_1333:
     max_lunation: 1.0
     overhead: 1.1
     group: ["MW"]
+    tiling_strategy: center_first
 
 IC_348:
     coords: [160.489945,-17.802231]
@@ -269,6 +279,7 @@ IC_348:
     max_lunation: 1.0
     overhead: 1.1
     group: ["MW"]
+    tiling_strategy: center_first
 
 XY_Per:
     coords: [156.796466,-11.902158]
@@ -287,6 +298,7 @@ XY_Per:
     max_lunation: 1.0
     overhead: 1.1
     group: ["MW"]
+    tiling_strategy: center_first
 
 LkHalpha101:
     coords: [165.356761,-9.006070]
@@ -305,6 +317,7 @@ LkHalpha101:
     max_lunation: 1.0
     overhead: 1.1
     group: ["MW"]
+    tiling_strategy: center_first
 
 GGD:
     coords: [183.721755,-3.661938]
@@ -323,6 +336,7 @@ GGD:
     max_lunation: 1.0
     overhead: 1.1
     group: ["MW"]
+    tiling_strategy: center_first
 
 IRAS_06046-0603:
     coords: [213.337350,-12.600942]
@@ -341,6 +355,7 @@ IRAS_06046-0603:
     max_lunation: 1.0
     overhead: 1.1
     group: ["MW"]
+    tiling_strategy: center_first
 
 Mon_R2:
     coords: [213.703142,-12.601895]
@@ -359,6 +374,7 @@ Mon_R2:
     max_lunation: 1.0
     overhead: 1.1
     group: ["MW"]
+    tiling_strategy: center_first
 
 GGD_12-15:
     coords: [213.882054,-11.835870]
@@ -377,6 +393,7 @@ GGD_12-15:
     max_lunation: 1.0
     overhead: 1.1
     group: ["MW"]
+    tiling_strategy: center_first
 
 GGD_17:
     coords: [214.119437,-11.410252]
@@ -395,6 +412,7 @@ GGD_17:
     max_lunation: 1.0
     overhead: 1.1
     group: ["MW"]
+    tiling_strategy: center_first
 
 VY_Mon:
     coords: [201.341980,0.290690]
@@ -413,6 +431,7 @@ VY_Mon:
     max_lunation: 1.0
     overhead: 1.1
     group: ["MW"]
+    tiling_strategy: center_first
 
 Cha_I:
     coords: [297.155942,-15.617197]
@@ -431,6 +450,7 @@ Cha_I:
     max_lunation: 1.0
     overhead: 1.1
     group: ["MW"]
+    tiling_strategy: center_first
 
 Lupus_III:
     coords: [339.710100,9.278453]
@@ -449,6 +469,7 @@ Lupus_III:
     max_lunation: 1.0
     overhead: 1.1
     group: ["MW"]
+    tiling_strategy: center_first
 
 MWC_297:
     coords: [26.801699,3.526082]
@@ -467,6 +488,7 @@ MWC_297:
     max_lunation: 1.0
     overhead: 1.1
     group: ["MW"]
+    tiling_strategy: center_first
 
 Serpens:
     coords: [31.573267,5.377944]
@@ -485,6 +507,7 @@ Serpens:
     max_lunation: 1.0
     overhead: 1.1
     group: ["MW"]
+    tiling_strategy: center_first
 
 IRAS_20050+2720:
     coords: [65.778949,-2.612269]
@@ -503,6 +526,7 @@ IRAS_20050+2720:
     max_lunation: 1.0
     overhead: 1.1
     group: ["MW"]
+    tiling_strategy: center_first
 
 S106:
     coords: [76.383563,-0.621227]
@@ -521,6 +545,7 @@ S106:
     max_lunation: 1.0
     overhead: 1.1
     group: ["MW"]
+    tiling_strategy: center_first
 
 S131:
     coords: [99.122711,3.922718]
@@ -539,6 +564,7 @@ S131:
     max_lunation: 1.0
     overhead: 1.1
     group: ["MW"]
+    tiling_strategy: center_first
 
 NGC_7129:
     coords: [105.393802,9.880870]
@@ -557,6 +583,7 @@ NGC_7129:
     max_lunation: 1.0
     overhead: 1.1
     group: ["MW"]
+    tiling_strategy: center_first
 
 IC5146:
     coords: [94.383317,-5.494907]
@@ -575,6 +602,7 @@ IC5146:
     max_lunation: 1.0
     overhead: 1.1
     group: ["MW"]
+    tiling_strategy: center_first
 
 S140:
     coords: [106.765065,5.299621]
@@ -593,6 +621,7 @@ S140:
     max_lunation: 1.0
     overhead: 1.1
     group: ["MW"]
+    tiling_strategy: center_first
 
 Cep_A:
     coords: [109.870806,2.114224]
@@ -611,6 +640,7 @@ Cep_A:
     max_lunation: 1.0
     overhead: 1.1
     group: ["MW"]
+    tiling_strategy: center_first
 
 Cep_B:
     coords: [110.210330,2.609301]
@@ -629,6 +659,7 @@ Cep_B:
     max_lunation: 1.0
     overhead: 1.1
     group: ["MW"]
+    tiling_strategy: center_first
 
 Ori_A:
     coords: [210.954375,-19.544401]
@@ -647,6 +678,7 @@ Ori_A:
     max_lunation: 1.0
     overhead: 1.1
     group: ["MW"]
+    tiling_strategy: center_first
 
 Ori_B:
     coords: [206.540437,-16.359242]
@@ -665,6 +697,7 @@ Ori_B:
     max_lunation: 1.0
     overhead: 1.1
     group: ["MW"]
+    tiling_strategy: center_first
 
 NGC_2264:
     coords: [202.935754,2.195738]
@@ -683,6 +716,7 @@ NGC_2264:
     max_lunation: 1.0
     overhead: 1.1
     group: ["MW"]
+    tiling_strategy: center_first
 
 Cep_OB3b:
     coords: [111.264836,2.983818]
@@ -701,6 +735,7 @@ Cep_OB3b:
     max_lunation: 1.0
     overhead: 1.1
     group: ["MW"]
+    tiling_strategy: center_first
 
 lambda-Ori:
     coords: [195.051898,-11.995060]
@@ -719,6 +754,7 @@ lambda-Ori:
     max_lunation: 1.0
     overhead: 1.1
     group: ["MW"]
+    tiling_strategy: center_first
 
 Chameleon:
     coords: [299.917552,-15.459839]
@@ -737,6 +773,7 @@ Chameleon:
     max_lunation: 1.0
     overhead: 1.1
     group: ["MW"]
+    tiling_strategy: center_first
 
 Taurus-Auriga:
     coords: [173.156479,-15.907064]
@@ -755,6 +792,7 @@ Taurus-Auriga:
     max_lunation: 1.0
     overhead: 1.1
     group: ["MW"]
+    tiling_strategy: center_first
 
 Upper_Sco:
     coords: [351.505538,20.022782]
@@ -773,6 +811,7 @@ Upper_Sco:
     max_lunation: 1.0
     overhead: 1.1
     group: ["MW"]
+    tiling_strategy: center_first
 
 W3:
     coords: [133.947607,1.065045]
@@ -791,6 +830,7 @@ W3:
     max_lunation: 1.0
     overhead: 1.1
     group: ["MW"]
+    tiling_strategy: center_first
 
 W4:
     coords: [134.725633,0.918830]
@@ -809,6 +849,7 @@ W4:
     max_lunation: 1.0
     overhead: 1.1
     group: ["MW"]
+    tiling_strategy: center_first
 
 W5:
     coords: [137.190258,0.893937]
@@ -827,6 +868,7 @@ W5:
     max_lunation: 1.0
     overhead: 1.1
     group: ["MW"]
+    tiling_strategy: center_first
 
 Cygnus_X:
     coords: [79.601096,1.395759]
@@ -845,6 +887,7 @@ Cygnus_X:
     max_lunation: 1.0
     overhead: 1.1
     group: ["MW"]
+    tiling_strategy: center_first
 
 W40:
     coords: [28.801204,3.497780]
@@ -863,6 +906,7 @@ W40:
     max_lunation: 1.0
     overhead: 1.1
     group: ["MW"]
+    tiling_strategy: center_first
 
 Eagle-M16:
     coords: [16.954043,0.793366]
@@ -881,6 +925,7 @@ Eagle-M16:
     max_lunation: 1.0
     overhead: 1.1
     group: ["MW"]
+    tiling_strategy: center_first
 
 M17:
     coords: [15.095250,-0.745362]
@@ -899,6 +944,7 @@ M17:
     max_lunation: 1.0
     overhead: 1.1
     group: ["MW"]
+    tiling_strategy: center_first
 
 Trifid-M20:
     coords: [7.085893,-0.287327]
@@ -917,6 +963,7 @@ Trifid-M20:
     max_lunation: 1.0
     overhead: 1.1
     group: ["MW"]
+    tiling_strategy: center_first
 
 NGC_6334:
     coords: [351.140145,0.462852]
@@ -935,6 +982,7 @@ NGC_6334:
     max_lunation: 1.0
     overhead: 1.1
     group: ["MW"]
+    tiling_strategy: center_first
 
 NGC_6537:
     coords: [10.098881,0.739400]
@@ -953,6 +1001,7 @@ NGC_6537:
     max_lunation: 1.0
     overhead: 1.1
     group: ["MW"]
+    tiling_strategy: center_first
 
 Carina:
     coords: [287.609948,-0.854160]
@@ -971,6 +1020,7 @@ Carina:
     max_lunation: 1.0
     overhead: 1.1
     group: ["MW"]
+    tiling_strategy: center_first
 
 RCW_36:
     coords: [265.079379,1.404797]
@@ -989,6 +1039,7 @@ RCW_36:
     max_lunation: 1.0
     overhead: 1.1
     group: ["MW"]
+    tiling_strategy: center_first
 
 RCW_38:
     coords: [267.940673,-1.057698]
@@ -1007,6 +1058,7 @@ RCW_38:
     max_lunation: 1.0
     overhead: 1.1
     group: ["MW"]
+    tiling_strategy: center_first
 
 NGC_2362:
     coords: [238.178892,-5.548235]
@@ -1025,6 +1077,7 @@ NGC_2362:
     max_lunation: 1.0
     overhead: 1.1
     group: ["MW"]
+    tiling_strategy: center_first
 
 Rosette:
     coords: [206.257906,-2.117225]
@@ -1043,6 +1096,7 @@ Rosette:
     max_lunation: 1.0
     overhead: 1.1
     group: ["MW"]
+    tiling_strategy: center_first
 
 NGC_1893:
     coords: [173.584992,-1.680470]
@@ -1061,4 +1115,4 @@ NGC_1893:
     max_lunation: 1.0
     overhead: 1.1
     group: ["MW"]
-
+    tiling_strategy: center_first
