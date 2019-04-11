@@ -3,7 +3,7 @@ M31:
              [11.95, 42.195], [11.42, 42.26]]
     region_type: polygon
     frame: icrs
-    priority: 4
+    priority: 10
     observatory: APO
     telescope: LVM-1m
     max_airmass: 1.75
@@ -22,8 +22,8 @@ M33:
     region_params:
         a: 1.16
         b: 0.666
-        pa: 0
-    priority: 3
+        pa: 9
+    priority: 9
     observatory: APO
     telescope: LVM-1m
     max_airmass: 1.75
@@ -41,7 +41,7 @@ ORION:
     frame: galactic
     region_params:
         r: 4.0
-    priority: 2
+    priority: 7
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -61,7 +61,7 @@ IC1613:
         a: 0.27
         b: 0.241666667
         pa: 50
-    priority: 2
+    priority: 7
     observatory: APO
     telescope: LVM-1m
     max_airmass: 1.75
@@ -81,7 +81,7 @@ LeoI:
         width: 0.191111667
         height: 0.191111667
         pa: 0.0
-    priority: 2
+    priority: 7
     observatory: APO
     telescope: LVM-1m
     max_airmass: 1.75
@@ -100,7 +100,7 @@ LeoA:
         a: 0.070833333
         b: 0.034
         pa: 10
-    priority: 2
+    priority: 7
     observatory: APO
     telescope: LVM-1m
     max_airmass: 1.75
@@ -117,7 +117,7 @@ LMC1:
     frame: galactic
     region_params:
         r: 4
-    priority: 3
+    priority: 30
     observatory: LCO
     telescope: LVM-160
     max_airmass: 2.00
@@ -137,7 +137,7 @@ SMC:
         a: 2.635216667
         b: 1.55175
         pa: 45
-    priority: 2
+    priority: 9
     observatory: LCO
     telescope: LVM-160
     max_airmass: 1.75
@@ -157,7 +157,7 @@ Pegasus:
         width: 0.066333333
         height: 0.033333333
         pa: 0.0
-    priority: 2
+    priority: 7
     observatory: APO
     telescope: LVM-1m
     max_airmass: 1.75
@@ -174,7 +174,7 @@ NGC6946:
     frame: icrs
     region_params:
         r: 0.28
-    priority: 2
+    priority: 7
     observatory: APO
     telescope: LVM-1m
     max_airmass: 1.75
@@ -191,7 +191,7 @@ Sh_2-171:
     frame: galactic
     region_params:
         r: 4.0
-    priority: 1
+    priority: 5
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -210,7 +210,7 @@ AFGL490:
     frame: galactic
     region_params:
         r: 4.0
-    priority: 1
+    priority: 5
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -229,7 +229,7 @@ NGC_1333:
     frame: galactic
     region_params:
         r: 4.0
-    priority: 1
+    priority: 5
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -248,7 +248,7 @@ IC_348:
     frame: galactic
     region_params:
         r: 4.0
-    priority: 1
+    priority: 5
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -267,7 +267,7 @@ XY_Per:
     frame: galactic
     region_params:
         r: 4.0
-    priority: 1
+    priority: 5
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -286,7 +286,7 @@ LkHalpha101:
     frame: galactic
     region_params:
         r: 4.0
-    priority: 1
+    priority: 5
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -305,7 +305,7 @@ GGD:
     frame: galactic
     region_params:
         r: 4.0
-    priority: 1
+    priority: 5
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -324,7 +324,7 @@ IRAS_06046-0603:
     frame: galactic
     region_params:
         r: 4.0
-    priority: 1
+    priority: 5
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -343,7 +343,7 @@ Mon_R2:
     frame: galactic
     region_params:
         r: 4.0
-    priority: 1
+    priority: 5
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -362,7 +362,7 @@ GGD_12-15:
     frame: galactic
     region_params:
         r: 4.0
-    priority: 1
+    priority: 5
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -381,7 +381,7 @@ GGD_17:
     frame: galactic
     region_params:
         r: 4.0
-    priority: 1
+    priority: 5
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -400,7 +400,7 @@ VY_Mon:
     frame: galactic
     region_params:
         r: 4.0
-    priority: 1
+    priority: 5
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -419,7 +419,7 @@ Cha_I:
     frame: galactic
     region_params:
         r: 4.0
-    priority: 1
+    priority: 5
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -438,7 +438,7 @@ Lupus_III:
     frame: galactic
     region_params:
         r: 4.0
-    priority: 1
+    priority: 5
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -457,7 +457,7 @@ MWC_297:
     frame: galactic
     region_params:
         r: 4.0
-    priority: 1
+    priority: 5
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -476,7 +476,7 @@ Serpens:
     frame: galactic
     region_params:
         r: 4.0
-    priority: 1
+    priority: 5
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -495,7 +495,7 @@ IRAS_20050+2720:
     frame: galactic
     region_params:
         r: 4.0
-    priority: 1
+    priority: 5
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -514,7 +514,7 @@ S106:
     frame: galactic
     region_params:
         r: 4.0
-    priority: 1
+    priority: 5
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -533,7 +533,7 @@ S131:
     frame: galactic
     region_params:
         r: 4.0
-    priority: 1
+    priority: 5
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -552,7 +552,7 @@ NGC_7129:
     frame: galactic
     region_params:
         r: 4.0
-    priority: 1
+    priority: 5
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -571,7 +571,7 @@ IC5146:
     frame: galactic
     region_params:
         r: 4.0
-    priority: 1
+    priority: 5
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -590,7 +590,7 @@ S140:
     frame: galactic
     region_params:
         r: 4.0
-    priority: 1
+    priority: 5
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -609,7 +609,7 @@ Cep_A:
     frame: galactic
     region_params:
         r: 4.0
-    priority: 1
+    priority: 5
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -628,7 +628,7 @@ Cep_B:
     frame: galactic
     region_params:
         r: 4.0
-    priority: 1
+    priority: 5
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -647,7 +647,7 @@ Ori_A:
     frame: galactic
     region_params:
         r: 4.0
-    priority: 1
+    priority: 5
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -666,7 +666,7 @@ Ori_B:
     frame: galactic
     region_params:
         r: 4.0
-    priority: 1
+    priority: 5
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -685,7 +685,7 @@ NGC_2264:
     frame: galactic
     region_params:
         r: 4.0
-    priority: 1
+    priority: 5
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -704,7 +704,7 @@ Cep_OB3b:
     frame: galactic
     region_params:
         r: 4.0
-    priority: 1
+    priority: 5
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -723,7 +723,7 @@ lambda-Ori:
     frame: galactic
     region_params:
         r: 4.0
-    priority: 1
+    priority: 5
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -742,7 +742,7 @@ Chameleon:
     frame: galactic
     region_params:
         r: 4.0
-    priority: 1
+    priority: 5
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -761,7 +761,7 @@ Taurus-Auriga:
     frame: galactic
     region_params:
         r: 4.0
-    priority: 1
+    priority: 5
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -780,7 +780,7 @@ Upper_Sco:
     frame: galactic
     region_params:
         r: 4.0
-    priority: 1
+    priority: 5
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -799,7 +799,7 @@ W3:
     frame: galactic
     region_params:
         r: 4.0
-    priority: 1
+    priority: 5
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -818,7 +818,7 @@ W4:
     frame: galactic
     region_params:
         r: 4.0
-    priority: 1
+    priority: 5
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -837,7 +837,7 @@ W5:
     frame: galactic
     region_params:
         r: 4.0
-    priority: 1
+    priority: 5
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -856,7 +856,7 @@ Cygnus_X:
     frame: galactic
     region_params:
         r: 4.0
-    priority: 1
+    priority: 5
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -875,7 +875,7 @@ W40:
     frame: galactic
     region_params:
         r: 4.0
-    priority: 1
+    priority: 5
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -894,7 +894,7 @@ Eagle-M16:
     frame: galactic
     region_params:
         r: 4.0
-    priority: 1
+    priority: 5
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -913,7 +913,7 @@ M17:
     frame: galactic
     region_params:
         r: 4.0
-    priority: 1
+    priority: 5
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -932,7 +932,7 @@ Trifid-M20:
     frame: galactic
     region_params:
         r: 4.0
-    priority: 1
+    priority: 5
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -951,7 +951,7 @@ NGC_6334:
     frame: galactic
     region_params:
         r: 4.0
-    priority: 1
+    priority: 5
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -970,7 +970,7 @@ NGC_6537:
     frame: galactic
     region_params:
         r: 4.0
-    priority: 1
+    priority: 5
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -989,7 +989,7 @@ Carina:
     frame: galactic
     region_params:
         r: 4.0
-    priority: 1
+    priority: 5
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -1008,7 +1008,7 @@ RCW_36:
     frame: galactic
     region_params:
         r: 4.0
-    priority: 1
+    priority: 5
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -1027,7 +1027,7 @@ RCW_38:
     frame: galactic
     region_params:
         r: 4.0
-    priority: 1
+    priority: 5
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -1046,7 +1046,7 @@ NGC_2362:
     frame: galactic
     region_params:
         r: 4.0
-    priority: 1
+    priority: 5
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -1065,7 +1065,7 @@ Rosette:
     frame: galactic
     region_params:
         r: 4.0
-    priority: 1
+    priority: 5
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -1084,7 +1084,7 @@ NGC_1893:
     frame: galactic
     region_params:
         r: 4.0
-    priority: 1
+    priority: 5
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -1103,7 +1103,7 @@ MW_0:
     frame: galactic
     region_params:
         r: 5.00
-    priority: 0
+    priority: 3
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -1121,7 +1121,7 @@ MW_1:
     frame: galactic
     region_params:
         r: 5.00
-    priority: 0
+    priority: 3
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -1139,7 +1139,7 @@ MW_2:
     frame: galactic
     region_params:
         r: 5.00
-    priority: 0
+    priority: 3
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -1157,7 +1157,7 @@ MW_3:
     frame: galactic
     region_params:
         r: 5.00
-    priority: 0
+    priority: 3
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -1175,7 +1175,7 @@ MW_4:
     frame: galactic
     region_params:
         r: 5.00
-    priority: 0
+    priority: 3
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -1193,7 +1193,7 @@ MW_5:
     frame: galactic
     region_params:
         r: 5.00
-    priority: 0
+    priority: 3
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -1211,7 +1211,7 @@ MW_6:
     frame: galactic
     region_params:
         r: 5.00
-    priority: 0
+    priority: 3
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -1229,7 +1229,7 @@ MW_7:
     frame: galactic
     region_params:
         r: 5.00
-    priority: 0
+    priority: 3
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -1247,7 +1247,7 @@ MW_8:
     frame: galactic
     region_params:
         r: 5.00
-    priority: 0
+    priority: 3
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -1265,7 +1265,7 @@ MW_9:
     frame: galactic
     region_params:
         r: 5.00
-    priority: 0
+    priority: 3
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -1283,7 +1283,7 @@ MW_10:
     frame: galactic
     region_params:
         r: 5.00
-    priority: 0
+    priority: 3
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -1301,7 +1301,7 @@ MW_11:
     frame: galactic
     region_params:
         r: 5.00
-    priority: 0
+    priority: 3
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -1319,7 +1319,7 @@ MW_12:
     frame: galactic
     region_params:
         r: 5.00
-    priority: 0
+    priority: 3
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -1337,7 +1337,7 @@ MW_13:
     frame: galactic
     region_params:
         r: 5.00
-    priority: 0
+    priority: 3
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -1355,7 +1355,7 @@ MW_14:
     frame: galactic
     region_params:
         r: 5.00
-    priority: 0
+    priority: 3
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -1373,7 +1373,7 @@ MW_15:
     frame: galactic
     region_params:
         r: 5.00
-    priority: 0
+    priority: 3
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -1391,7 +1391,7 @@ MW_16:
     frame: galactic
     region_params:
         r: 5.00
-    priority: 0
+    priority: 3
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -1409,7 +1409,7 @@ MW_17:
     frame: galactic
     region_params:
         r: 5.00
-    priority: 0
+    priority: 3
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -1427,7 +1427,7 @@ MW_18:
     frame: galactic
     region_params:
         r: 5.00
-    priority: 0
+    priority: 3
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -1445,7 +1445,7 @@ MW_19:
     frame: galactic
     region_params:
         r: 5.00
-    priority: 0
+    priority: 3
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -1463,7 +1463,7 @@ MW_20:
     frame: galactic
     region_params:
         r: 5.00
-    priority: 0
+    priority: 3
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -1481,7 +1481,7 @@ MW_21:
     frame: galactic
     region_params:
         r: 5.00
-    priority: 0
+    priority: 3
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -1499,7 +1499,7 @@ MW_22:
     frame: galactic
     region_params:
         r: 5.00
-    priority: 0
+    priority: 3
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -1517,7 +1517,7 @@ MW_23:
     frame: galactic
     region_params:
         r: 5.00
-    priority: 0
+    priority: 3
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -1535,7 +1535,7 @@ MW_24:
     frame: galactic
     region_params:
         r: 5.00
-    priority: 0
+    priority: 3
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -1553,7 +1553,7 @@ MW_25:
     frame: galactic
     region_params:
         r: 5.00
-    priority: 0
+    priority: 3
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -1571,7 +1571,7 @@ MW_26:
     frame: galactic
     region_params:
         r: 5.00
-    priority: 0
+    priority: 3
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -1589,7 +1589,7 @@ MW_27:
     frame: galactic
     region_params:
         r: 5.00
-    priority: 0
+    priority: 3
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -1607,7 +1607,7 @@ MW_28:
     frame: galactic
     region_params:
         r: 5.00
-    priority: 0
+    priority: 3
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -1625,7 +1625,7 @@ MW_29:
     frame: galactic
     region_params:
         r: 5.00
-    priority: 0
+    priority: 3
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -1643,7 +1643,7 @@ MW_30:
     frame: galactic
     region_params:
         r: 5.00
-    priority: 0
+    priority: 3
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -1661,7 +1661,7 @@ MW_31:
     frame: galactic
     region_params:
         r: 5.00
-    priority: 0
+    priority: 3
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -1679,7 +1679,7 @@ MW_32:
     frame: galactic
     region_params:
         r: 5.00
-    priority: 0
+    priority: 3
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -1697,7 +1697,7 @@ MW_33:
     frame: galactic
     region_params:
         r: 5.00
-    priority: 0
+    priority: 3
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -1715,7 +1715,7 @@ MW_34:
     frame: galactic
     region_params:
         r: 5.00
-    priority: 0
+    priority: 3
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -1733,7 +1733,7 @@ MW_35:
     frame: galactic
     region_params:
         r: 5.00
-    priority: 0
+    priority: 3
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -1751,7 +1751,7 @@ MW_36:
     frame: galactic
     region_params:
         r: 5.00
-    priority: 0
+    priority: 3
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -1769,7 +1769,7 @@ MW_37:
     frame: galactic
     region_params:
         r: 5.00
-    priority: 0
+    priority: 3
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -1787,7 +1787,7 @@ MW_38:
     frame: galactic
     region_params:
         r: 5.00
-    priority: 0
+    priority: 3
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -1805,7 +1805,7 @@ MW_39:
     frame: galactic
     region_params:
         r: 5.00
-    priority: 0
+    priority: 3
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -1823,7 +1823,7 @@ MW_40:
     frame: galactic
     region_params:
         r: 5.00
-    priority: 0
+    priority: 3
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -1841,7 +1841,7 @@ MW_41:
     frame: galactic
     region_params:
         r: 5.00
-    priority: 0
+    priority: 3
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -1859,7 +1859,7 @@ MW_42:
     frame: galactic
     region_params:
         r: 5.00
-    priority: 0
+    priority: 3
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -1877,7 +1877,7 @@ MW_43:
     frame: galactic
     region_params:
         r: 5.00
-    priority: 0
+    priority: 3
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -1895,7 +1895,7 @@ MW_44:
     frame: galactic
     region_params:
         r: 5.00
-    priority: 0
+    priority: 3
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -1913,7 +1913,7 @@ MW_45:
     frame: galactic
     region_params:
         r: 5.00
-    priority: 0
+    priority: 3
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -1931,7 +1931,7 @@ MW_46:
     frame: galactic
     region_params:
         r: 5.00
-    priority: 0
+    priority: 3
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -1949,7 +1949,7 @@ MW_47:
     frame: galactic
     region_params:
         r: 5.00
-    priority: 0
+    priority: 3
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -1967,7 +1967,7 @@ MW_48:
     frame: galactic
     region_params:
         r: 5.00
-    priority: 0
+    priority: 3
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -1985,7 +1985,7 @@ MW_49:
     frame: galactic
     region_params:
         r: 5.00
-    priority: 0
+    priority: 3
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -2003,7 +2003,7 @@ MW_50:
     frame: galactic
     region_params:
         r: 5.00
-    priority: 0
+    priority: 3
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -2021,7 +2021,7 @@ MW_51:
     frame: galactic
     region_params:
         r: 5.00
-    priority: 0
+    priority: 3
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -2039,7 +2039,7 @@ MW_52:
     frame: galactic
     region_params:
         r: 5.00
-    priority: 0
+    priority: 3
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -2057,7 +2057,7 @@ MW_53:
     frame: galactic
     region_params:
         r: 5.00
-    priority: 0
+    priority: 3
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -2075,7 +2075,7 @@ MW_54:
     frame: galactic
     region_params:
         r: 5.00
-    priority: 0
+    priority: 3
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -2093,7 +2093,7 @@ MW_55:
     frame: galactic
     region_params:
         r: 5.00
-    priority: 0
+    priority: 3
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -2111,7 +2111,7 @@ MW_56:
     frame: galactic
     region_params:
         r: 5.00
-    priority: 0
+    priority: 3
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -2129,7 +2129,7 @@ MW_57:
     frame: galactic
     region_params:
         r: 5.00
-    priority: 0
+    priority: 3
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -2147,7 +2147,7 @@ MW_58:
     frame: galactic
     region_params:
         r: 5.00
-    priority: 0
+    priority: 3
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -2165,7 +2165,7 @@ MW_59:
     frame: galactic
     region_params:
         r: 5.00
-    priority: 0
+    priority: 3
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -2183,7 +2183,7 @@ MW_60:
     frame: galactic
     region_params:
         r: 5.00
-    priority: 0
+    priority: 3
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -2201,7 +2201,7 @@ MW_61:
     frame: galactic
     region_params:
         r: 5.00
-    priority: 0
+    priority: 3
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -2219,7 +2219,7 @@ MW_62:
     frame: galactic
     region_params:
         r: 5.00
-    priority: 0
+    priority: 3
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -2237,7 +2237,7 @@ MW_63:
     frame: galactic
     region_params:
         r: 5.00
-    priority: 0
+    priority: 3
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -2255,7 +2255,7 @@ MW_64:
     frame: galactic
     region_params:
         r: 5.00
-    priority: 0
+    priority: 3
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -2275,7 +2275,27 @@ MW_64:
 #         width: 360.0
 #         height: 11.0
 #         pa: 0
-#     priority: 0
+#     priority: 1
+#     observatory: BOTH
+#     telescope: LVM-160
+#     max_airmass: 1.75
+#     exptime: 900
+#     n_exposures: 1
+#     min_exposures: 1
+#     min_moon_dist: 75
+#     max_lunation: 1.0
+#     overhead: 1.1
+#     tiling_strategy: lowest_airmass
+
+# MW1:
+#     coords: [119.616225, 0.0]
+#     region_type: rectangle
+#     frame: galactic
+#     region_params:
+#         width: 360.0
+#         height: 11.0
+#         pa: 0
+#     priority: 1
 #     observatory: BOTH
 #     telescope: LVM-160
 #     max_airmass: 1.75
