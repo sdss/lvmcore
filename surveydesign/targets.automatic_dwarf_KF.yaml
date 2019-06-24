@@ -1,0 +1,9237 @@
+M31:
+    coords: [[10.576, 41.244], [11.12, 41.19],
+             [11.95, 42.195], [11.42, 42.26]]
+    region_type: polygon
+    frame: icrs
+    priority: 1010
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    tiling_strategy: center_first
+
+M33:
+    coords: [23.462100, 30.659942]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 1.16
+        b: 0.666
+        pa: 0
+    priority: 1009
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    tiling_strategy: center_first
+
+ORION:
+    coords: [201.4754061, -24.84403857]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 4.0
+    priority: 7
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    tiling_strategy: center_first
+
+IC1613:
+    coords: [16.2258, 2.1333]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.27
+        b: 0.241666667
+        pa: 50
+    priority: 990
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    tiling_strategy: center_first
+
+LeoI:
+    coords: [152.11717, 12.30650]
+    region_type: rectangle
+    frame: icrs
+    region_params:
+        width: 0.191111667
+        height: 0.191111667
+        pa: 0.0
+    priority: 990
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+
+LeoA:
+    coords: [149.86025, 30.74639]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.070833333
+        b: 0.034
+        pa: 10
+    priority: 990
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+
+LMC1:
+    coords: [280.082423, -34.01814627]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 4
+    priority: 1010
+    observatory: LCO
+    telescope: LVM-160
+    max_airmass: 2.00
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 1
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    tiling_strategy: center_first
+
+SMC:
+    coords: [13.1583, -72.8003]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 2.635216667
+        b: 1.55175
+        pa: 45
+    priority: 1010
+    observatory: LCO
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    tiling_strategy: center_first
+
+Pegasus:
+    coords: [357.9433, 24.5864]
+    region_type: rectangle
+    frame: icrs
+    region_params:
+        width: 0.066333333
+        height: 0.033333333
+        pa: 0.0
+    priority: 990
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+
+NGC6946:
+    coords: [308.718015, 60.153915]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.28
+    priority: 990
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+
+Sh_2-171:
+    coords: [118.118785,5.020846]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 4.0
+    priority: 260
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW"]
+    tiling_strategy: center_first
+
+AFGL490:
+    coords: [142.000093,1.820147]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 4.0
+    priority: 260
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW"]
+    tiling_strategy: center_first
+
+NGC_1333:
+    coords: [158.255039,-20.492303]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 4.0
+    priority: 260
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW"]
+    tiling_strategy: center_first
+
+IC_348:
+    coords: [160.489945,-17.802231]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 4.0
+    priority: 260
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW"]
+    tiling_strategy: center_first
+
+XY_Per:
+    coords: [156.796466,-11.902158]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 4.0
+    priority: 260
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW"]
+    tiling_strategy: center_first
+
+LkHalpha101:
+    coords: [165.356761,-9.006070]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 4.0
+    priority: 260
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW"]
+    tiling_strategy: center_first
+
+GGD:
+    coords: [183.721755,-3.661938]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 4.0
+    priority: 260
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW"]
+    tiling_strategy: center_first
+
+IRAS_06046-0603:
+    coords: [213.337350,-12.600942]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 4.0
+    priority: 260
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW"]
+    tiling_strategy: center_first
+
+Mon_R2:
+    coords: [213.703142,-12.601895]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 4.0
+    priority: 260
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW"]
+    tiling_strategy: center_first
+
+GGD_12-15:
+    coords: [213.882054,-11.835870]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 4.0
+    priority: 260
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW"]
+    tiling_strategy: center_first
+
+GGD_17:
+    coords: [214.119437,-11.410252]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 4.0
+    priority: 260
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW"]
+    tiling_strategy: center_first
+
+VY_Mon:
+    coords: [201.341980,0.290690]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 4.0
+    priority: 260
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW"]
+    tiling_strategy: center_first
+
+Cha_I:
+    coords: [297.155942,-15.617197]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 4.0
+    priority: 260
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW"]
+    tiling_strategy: center_first
+
+Lupus_III:
+    coords: [339.710100,9.278453]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 4.0
+    priority: 260
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW"]
+    tiling_strategy: center_first
+
+MWC_297:
+    coords: [26.801699,3.526082]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 4.0
+    priority: 260
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW"]
+    tiling_strategy: center_first
+
+Serpens:
+    coords: [31.573267,5.377944]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 4.0
+    priority: 260
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW"]
+    tiling_strategy: center_first
+
+IRAS_20050+2720:
+    coords: [65.778949,-2.612269]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 4.0
+    priority: 260
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW"]
+    tiling_strategy: center_first
+
+S106:
+    coords: [76.383563,-0.621227]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 4.0
+    priority: 260
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW"]
+    tiling_strategy: center_first
+
+S131:
+    coords: [99.122711,3.922718]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 4.0
+    priority: 260
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW"]
+    tiling_strategy: center_first
+
+NGC_7129:
+    coords: [105.393802,9.880870]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 4.0
+    priority: 260
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW"]
+    tiling_strategy: center_first
+
+IC5146:
+    coords: [94.383317,-5.494907]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 4.0
+    priority: 260
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW"]
+    tiling_strategy: center_first
+
+S140:
+    coords: [106.765065,5.299621]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 4.0
+    priority: 260
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW"]
+    tiling_strategy: center_first
+
+Cep_A:
+    coords: [109.870806,2.114224]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 4.0
+    priority: 260
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW"]
+    tiling_strategy: center_first
+
+Cep_B:
+    coords: [110.210330,2.609301]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 4.0
+    priority: 260
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW"]
+    tiling_strategy: center_first
+
+Ori_A:
+    coords: [210.954375,-19.544401]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 4.0
+    priority: 260
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW"]
+    tiling_strategy: center_first
+
+Ori_B:
+    coords: [206.540437,-16.359242]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 4.0
+    priority: 260
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW"]
+    tiling_strategy: center_first
+
+NGC_2264:
+    coords: [202.935754,2.195738]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 4.0
+    priority: 260
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW"]
+    tiling_strategy: center_first
+
+Cep_OB3b:
+    coords: [111.264836,2.983818]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 4.0
+    priority: 260
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW"]
+    tiling_strategy: center_first
+
+lambda-Ori:
+    coords: [195.051898,-11.995060]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 4.0
+    priority: 260
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW"]
+    tiling_strategy: center_first
+
+Chameleon:
+    coords: [299.917552,-15.459839]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 4.0
+    priority: 260
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW"]
+    tiling_strategy: center_first
+
+Taurus-Auriga:
+    coords: [173.156479,-15.907064]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 4.0
+    priority: 260
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW"]
+    tiling_strategy: center_first
+
+Upper_Sco:
+    coords: [351.505538,20.022782]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 4.0
+    priority: 260
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW"]
+    tiling_strategy: center_first
+
+W3:
+    coords: [133.947607,1.065045]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 4.0
+    priority: 260
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW"]
+    tiling_strategy: center_first
+
+W4:
+    coords: [134.725633,0.918830]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 4.0
+    priority: 260
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW"]
+    tiling_strategy: center_first
+
+W5:
+    coords: [137.190258,0.893937]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 4.0
+    priority: 260
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW"]
+    tiling_strategy: center_first
+
+Cygnus_X:
+    coords: [79.601096,1.395759]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 4.0
+    priority: 260
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW"]
+    tiling_strategy: center_first
+
+W40:
+    coords: [28.801204,3.497780]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 4.0
+    priority: 260
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW"]
+    tiling_strategy: center_first
+
+Eagle-M16:
+    coords: [16.954043,0.793366]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 4.0
+    priority: 260
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW"]
+    tiling_strategy: center_first
+
+M17:
+    coords: [15.095250,-0.745362]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 4.0
+    priority: 260
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW"]
+    tiling_strategy: center_first
+
+Trifid-M20:
+    coords: [7.085893,-0.287327]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 4.0
+    priority: 260
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW"]
+    tiling_strategy: center_first
+
+NGC_6334:
+    coords: [351.140145,0.462852]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 4.0
+    priority: 260
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW"]
+    tiling_strategy: center_first
+
+NGC_6537:
+    coords: [10.098881,0.739400]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 4.0
+    priority: 260
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW"]
+    tiling_strategy: center_first
+
+Carina:
+    coords: [287.609948,-0.854160]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 4.0
+    priority: 260
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW"]
+    tiling_strategy: center_first
+
+RCW_36:
+    coords: [265.079379,1.404797]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 4.0
+    priority: 260
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW"]
+    tiling_strategy: center_first
+
+RCW_38:
+    coords: [267.940673,-1.057698]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 4.0
+    priority: 260
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW"]
+    tiling_strategy: center_first
+
+NGC_2362:
+    coords: [238.178892,-5.548235]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 4.0
+    priority: 260
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW"]
+    tiling_strategy: center_first
+
+Rosette:
+    coords: [206.257906,-2.117225]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 4.0
+    priority: 260
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW"]
+    tiling_strategy: center_first
+
+NGC_1893:
+    coords: [173.584992,-1.680470]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 4.0
+    priority: 260
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW"]
+    tiling_strategy: center_first
+
+MW_0:
+    coords: [287.490234, -0.559538]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 5.00
+    priority: 250
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW_shallow","MW"]
+    tiling_strategy: center_first
+
+MW_1:
+    coords: [5.976563, -1.231059]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 5.00
+    priority: 250
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW_shallow","MW"]
+    tiling_strategy: center_first
+
+MW_2:
+    coords: [208.916016, -19.589958]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 5.00
+    priority: 250
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW_shallow","MW"]
+    tiling_strategy: center_first
+
+MW_3:
+    coords: [15.073242, -0.746060]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 5.00
+    priority: 250
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW_shallow","MW"]
+    tiling_strategy: center_first
+
+MW_4:
+    coords: [294.873047, -1.753465]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 5.00
+    priority: 250
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW_shallow","MW"]
+    tiling_strategy: center_first
+
+MW_5:
+    coords: [344.926758, 1.641510]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 5.00
+    priority: 250
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW_shallow","MW"]
+    tiling_strategy: center_first
+
+MW_6:
+    coords: [336.621094, -1.454932]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 5.00
+    priority: 250
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW_shallow","MW"]
+    tiling_strategy: center_first
+
+MW_7:
+    coords: [351.342773, 0.746060]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 5.00
+    priority: 250
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW_shallow","MW"]
+    tiling_strategy: center_first
+
+MW_8:
+    coords: [206.015625, -2.126699]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 5.00
+    priority: 250
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW_shallow","MW"]
+    tiling_strategy: center_first
+
+MW_9:
+    coords: [269.208984, -1.454932]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 5.00
+    priority: 250
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW_shallow","MW"]
+    tiling_strategy: center_first
+
+MW_10:
+    coords: [84.638672, -0.261114]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 5.00
+    priority: 250
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW_shallow","MW"]
+    tiling_strategy: center_first
+
+MW_11:
+    coords: [299.399414, 5.529265]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 5.00
+    priority: 250
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW_shallow","MW"]
+    tiling_strategy: center_first
+
+MW_12:
+    coords: [79.057617, 3.658075]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 5.00
+    priority: 250
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW_shallow","MW"]
+    tiling_strategy: center_first
+
+MW_13:
+    coords: [223.989258, -1.417618]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 5.00
+    priority: 250
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW_shallow","MW"]
+    tiling_strategy: center_first
+
+MW_14:
+    coords: [359.780273, -0.373022]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 5.00
+    priority: 250
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW_shallow","MW"]
+    tiling_strategy: center_first
+
+MW_15:
+    coords: [263.715820, -8.913776]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 5.00
+    priority: 250
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW_shallow","MW"]
+    tiling_strategy: center_first
+
+MW_16:
+    coords: [253.564453, -0.261114]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 5.00
+    priority: 250
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW_shallow","MW"]
+    tiling_strategy: center_first
+
+MW_17:
+    coords: [205.620117, -12.865095]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 5.00
+    priority: 250
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW_shallow","MW"]
+    tiling_strategy: center_first
+
+MW_18:
+    coords: [243.281250, 0.484931]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 5.00
+    priority: 250
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW_shallow","MW"]
+    tiling_strategy: center_first
+
+MW_19:
+    coords: [88.154297, -4.293741]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 5.00
+    priority: 250
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW_shallow","MW"]
+    tiling_strategy: center_first
+
+MW_20:
+    coords: [263.012695, 1.492246]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 5.00
+    priority: 250
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW_shallow","MW"]
+    tiling_strategy: center_first
+
+MW_21:
+    coords: [137.900391, 1.380305]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 5.00
+    priority: 250
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW_shallow","MW"]
+    tiling_strategy: center_first
+
+MW_22:
+    coords: [194.194336, -2.014720]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 5.00
+    priority: 250
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW_shallow","MW"]
+    tiling_strategy: center_first
+
+MW_23:
+    coords: [203.115234, 2.126699]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 5.00
+    priority: 250
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW_shallow","MW"]
+    tiling_strategy: center_first
+
+MW_24:
+    coords: [102.700195, -0.746060]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 5.00
+    priority: 250
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW_shallow","MW"]
+    tiling_strategy: center_first
+
+MW_25:
+    coords: [315.747070, -0.671450]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 5.00
+    priority: 250
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW_shallow","MW"]
+    tiling_strategy: center_first
+
+MW_26:
+    coords: [249.697266, -8.649565]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 5.00
+    priority: 250
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW_shallow","MW"]
+    tiling_strategy: center_first
+
+MW_27:
+    coords: [160.312500, -11.986563]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 5.00
+    priority: 250
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW_shallow","MW"]
+    tiling_strategy: center_first
+
+MW_28:
+    coords: [351.210938, 17.230946]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 5.00
+    priority: 250
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW_shallow","MW"]
+    tiling_strategy: center_first
+
+MW_29:
+    coords: [99.931641, 3.695454]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 5.00
+    priority: 250
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW_shallow","MW"]
+    tiling_strategy: center_first
+
+MW_30:
+    coords: [307.792969, 0.186510]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 5.00
+    priority: 250
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW_shallow","MW"]
+    tiling_strategy: center_first
+
+MW_31:
+    coords: [269.604492, -7.481631]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 5.00
+    priority: 250
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW_shallow","MW"]
+    tiling_strategy: center_first
+
+MW_32:
+    coords: [59.458008, -0.223812]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 5.00
+    priority: 250
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW_shallow","MW"]
+    tiling_strategy: center_first
+
+MW_33:
+    coords: [231.459961, -4.405970]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 5.00
+    priority: 250
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW_shallow","MW"]
+    tiling_strategy: center_first
+
+MW_34:
+    coords: [173.452148, -1.716146]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 5.00
+    priority: 250
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW_shallow","MW"]
+    tiling_strategy: center_first
+
+MW_35:
+    coords: [260.991211, -13.324671]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 5.00
+    priority: 250
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW_shallow","MW"]
+    tiling_strategy: center_first
+
+MW_36:
+    coords: [340.883789, -9.064839]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 5.00
+    priority: 250
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW_shallow","MW"]
+    tiling_strategy: center_first
+
+MW_37:
+    coords: [320.800781, -1.977395]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 5.00
+    priority: 250
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW_shallow","MW"]
+    tiling_strategy: center_first
+
+MW_38:
+    coords: [327.568359, -0.857977]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 5.00
+    priority: 250
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW_shallow","MW"]
+    tiling_strategy: center_first
+
+MW_39:
+    coords: [255.058594, -9.253757]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 5.00
+    priority: 250
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW_shallow","MW"]
+    tiling_strategy: center_first
+
+MW_40:
+    coords: [193.535156, -13.056481]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 5.00
+    priority: 250
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW_shallow","MW"]
+    tiling_strategy: center_first
+
+MW_41:
+    coords: [111.137695, -0.671450]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 5.00
+    priority: 250
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW_shallow","MW"]
+    tiling_strategy: center_first
+
+MW_42:
+    coords: [253.608398, -14.631667]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 5.00
+    priority: 250
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW_shallow","MW"]
+    tiling_strategy: center_first
+
+MW_43:
+    coords: [239.194336, -4.705332]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 5.00
+    priority: 250
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW_shallow","MW"]
+    tiling_strategy: center_first
+
+MW_44:
+    coords: [332.973633, 2.014720]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 5.00
+    priority: 250
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW_shallow","MW"]
+    tiling_strategy: center_first
+
+MW_45:
+    coords: [211.948242, -1.193748]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 5.00
+    priority: 250
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW_shallow","MW"]
+    tiling_strategy: center_first
+
+MW_46:
+    coords: [123.222656, -6.016664]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 5.00
+    priority: 250
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW_shallow","MW"]
+    tiling_strategy: center_first
+
+MW_47:
+    coords: [211.992188, -15.365405]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 5.00
+    priority: 250
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW_shallow","MW"]
+    tiling_strategy: center_first
+
+MW_48:
+    coords: [264.594727, -3.658075]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 5.00
+    priority: 250
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW_shallow","MW"]
+    tiling_strategy: center_first
+
+MW_49:
+    coords: [268.725586, 11.795963]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 5.00
+    priority: 250
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW_shallow","MW"]
+    tiling_strategy: center_first
+
+MW_50:
+    coords: [303.706055, -3.583322]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 5.00
+    priority: 250
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW_shallow","MW"]
+    tiling_strategy: center_first
+
+MW_51:
+    coords: [64.160156, 1.604193]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 5.00
+    priority: 250
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW_shallow","MW"]
+    tiling_strategy: center_first
+
+MW_52:
+    coords: [346.245117, -4.780192]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 5.00
+    priority: 250
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW_shallow","MW"]
+    tiling_strategy: center_first
+
+MW_53:
+    coords: [189.843750, 0.634146]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 5.00
+    priority: 250
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW_shallow","MW"]
+    tiling_strategy: center_first
+
+MW_54:
+    coords: [282.788086, -2.537361]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 5.00
+    priority: 250
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW_shallow","MW"]
+    tiling_strategy: center_first
+
+MW_55:
+    coords: [73.081055, 1.193748]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 5.00
+    priority: 250
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW_shallow","MW"]
+    tiling_strategy: center_first
+
+MW_56:
+    coords: [73.476562, -7.594513]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 5.00
+    priority: 250
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW_shallow","MW"]
+    tiling_strategy: center_first
+
+MW_57:
+    coords: [232.558594, 0.932590]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 5.00
+    priority: 250
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW_shallow","MW"]
+    tiling_strategy: center_first
+
+MW_58:
+    coords: [259.584961, -5.304450]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 5.00
+    priority: 250
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW_shallow","MW"]
+    tiling_strategy: center_first
+
+MW_59:
+    coords: [352.133789, 12.253630]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 5.00
+    priority: 250
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW_shallow","MW"]
+    tiling_strategy: center_first
+
+MW_60:
+    coords: [118.564453, 5.866650]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 5.00
+    priority: 250
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW_shallow","MW"]
+    tiling_strategy: center_first
+
+MW_61:
+    coords: [25.268555, 0.223812]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 5.00
+    priority: 250
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW_shallow","MW"]
+    tiling_strategy: center_first
+
+MW_62:
+    coords: [94.790039, -1.716146]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 5.00
+    priority: 250
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW_shallow","MW"]
+    tiling_strategy: center_first
+
+MW_63:
+    coords: [291.884766, 4.518216]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 5.00
+    priority: 250
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW_shallow","MW"]
+    tiling_strategy: center_first
+
+MW_64:
+    coords: [200.478516, -14.824513]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 5.00
+    priority: 250
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    group: ["MW_shallow","MW"]
+    tiling_strategy: center_first
+
+MW1:
+    coords: [119.616225, 0.0]
+    region_type: rectangle
+    frame: galactic
+    region_params:
+        width: 360.0
+        height: 11.0
+        pa: 0
+    priority: 2
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 75
+    max_lunation: 1.0
+    overhead: 1.1
+    tiling_strategy: lowest_airmass
+
+# MW1:
+#     coords: [119.616225, 0.0]
+#     region_type: rectangle
+#     frame: galactic
+#     region_params:
+#         width: 360.0
+#         height: 11.0
+#         pa: 0
+#     priority: 1
+#     observatory: BOTH
+#     telescope: LVM-160
+#     max_airmass: 1.75
+#     exptime: 900
+#     n_exposures: 1
+#     min_exposures: 1
+#     min_moon_dist: 75
+#     max_lunation: 1.0
+#     overhead: 1.1
+#     tiling_strategy: lowest_airmass
+
+NGC0024:
+    coords: [2.482917, -24.965278]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.001333
+        b: 0.001083
+        pa: 45.000
+    priority: 190
+    observatory: LCO
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-S"]
+    tiling_strategy: center_first
+
+NGC0337:
+    coords: [14.961250, -7.578889]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.001167
+        b: 0.000897
+        pa: 140.000
+    priority: 190
+    observatory: LCO
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-S"]
+    tiling_strategy: center_first
+
+NGC0584:
+    coords: [22.835833, -6.868056]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.001500
+        b: 0.001295
+        pa: 60.000
+    priority: 190
+    observatory: LCO
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-S"]
+    tiling_strategy: center_first
+
+NGC0855:
+    coords: [33.515417, 27.876944]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.001199
+        b: 0.000782
+        pa: 60.000
+    priority: 190
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+NGC0925:
+    coords: [36.806667, 33.584444]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.003403
+        b: 0.002250
+        pa: 105.000
+    priority: 190
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+NGC1097:
+    coords: [41.575000, -30.278333]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.003509
+        b: 0.002833
+        pa: 130.000
+    priority: 190
+    observatory: LCO
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-S"]
+    tiling_strategy: center_first
+
+NGC1266:
+    coords: [49.002500, -2.428056]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.001083
+        b: 0.001074
+        pa: 0.000
+    priority: 190
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+NGC1291:
+    coords: [49.324583, -41.104444]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.004093
+        b: 0.003870
+        pa: 90.000
+    priority: 190
+    observatory: LCO
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-S"]
+    tiling_strategy: center_first
+
+NGC1316:
+    coords: [50.671667, -37.202778]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.004000
+        b: 0.002699
+        pa: 50.000
+    priority: 190
+    observatory: LCO
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-S"]
+    tiling_strategy: center_first
+
+NGC1377:
+    coords: [54.162500, -20.902222]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.000838
+        b: 0.000750
+        pa: 90.000
+    priority: 190
+    observatory: LCO
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-S"]
+    tiling_strategy: center_first
+
+NGC1404:
+    coords: [54.717917, -35.594444]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.002426
+        b: 0.001708
+        pa: 149.000
+    priority: 190
+    observatory: LCO
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-S"]
+    tiling_strategy: center_first
+
+IC0342:
+    coords: [56.747917, 68.094167]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.007718
+        b: 0.006662
+        pa: 100.000
+    priority: 190
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+NGC1482:
+    coords: [58.662500, -20.502500]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.001616
+        b: 0.001435
+        pa: 119.000
+    priority: 190
+    observatory: LCO
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-S"]
+    tiling_strategy: center_first
+
+NGC1512:
+    coords: [60.981667, -43.363611]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.004634
+        b: 0.004296
+        pa: 83.000
+    priority: 190
+    observatory: LCO
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-S"]
+    tiling_strategy: center_first
+
+NGC1566:
+    coords: [65.001667, -54.937500]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.002556
+        b: 0.002014
+        pa: 40.000
+    priority: 190
+    observatory: LCO
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-S"]
+    tiling_strategy: center_first
+
+NGC1705:
+    coords: [73.556250, -53.360278]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.000773
+        b: 0.000556
+        pa: 40.000
+    priority: 190
+    observatory: LCO
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-S"]
+    tiling_strategy: center_first
+
+NGC2146:
+    coords: [94.648333, 78.358056]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.001093
+        b: 0.001088
+        pa: 120.000
+    priority: 190
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+NGC2403:
+    coords: [114.229583, 65.592778]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.007000
+        b: 0.004301
+        pa: 124.000
+    priority: 190
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+HolmbergII:
+    coords: [124.795000, 70.722222]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.002565
+        b: 0.002153
+        pa: 60.000
+    priority: 190
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+M081DwarfA:
+    coords: [125.983333, 71.029167]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.000361
+        b: 0.000361
+        pa: 90.000
+    priority: 190
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+DDO053:
+    coords: [128.530833, 66.178611]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.000718
+        b: 0.000657
+        pa: 90.000
+    priority: 190
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+NGC2798:
+    coords: [139.346250, 41.999167]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.001088
+        b: 0.001074
+        pa: 90.000
+    priority: 190
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+NGC2841:
+    coords: [140.513750, 50.976944]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.002912
+        b: 0.001546
+        pa: 150.000
+    priority: 190
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+NGC2915:
+    coords: [141.539167, -76.626667]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.000847
+        b: 0.000611
+        pa: 110.000
+    priority: 190
+    observatory: LCO
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-S"]
+    tiling_strategy: center_first
+
+HolmbergI:
+    coords: [145.140000, 71.188889]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.001222
+        b: 0.001014
+        pa: 63.000
+    priority: 190
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+NGC2976:
+    coords: [146.813750, 67.919167]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.002505
+        b: 0.001634
+        pa: 144.000
+    priority: 190
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+NGC3049:
+    coords: [148.706667, 9.270556]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.001009
+        b: 0.000741
+        pa: 29.000
+    priority: 190
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+NGC3031:
+    coords: [148.882500, 69.067500]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.007537
+        b: 0.005194
+        pa: 154.000
+    priority: 190
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+NGC3034:
+    coords: [148.967083, 69.682500]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.003231
+        b: 0.002690
+        pa: 65.000
+    priority: 190
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+HolmbergIX:
+    coords: [149.371667, 69.047222]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.001144
+        b: 0.000833
+        pa: 40.000
+    priority: 190
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+NGC3077:
+    coords: [150.822917, 68.731667]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.002259
+        b: 0.002019
+        pa: 64.000
+    priority: 190
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+M081DwarfB:
+    coords: [151.380000, 70.364167]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.000620
+        b: 0.000417
+        pa: 139.000
+    priority: 190
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+NGC3190:
+    coords: [154.523750, 21.832500]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.001546
+        b: 0.000907
+        pa: 117.000
+    priority: 190
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+NGC3184:
+    coords: [154.565000, 41.428333]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.002843
+        b: 0.002491
+        pa: 169.000
+    priority: 190
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+NGC3198:
+    coords: [154.978333, 45.550278]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.002398
+        b: 0.001458
+        pa: 35.000
+    priority: 190
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+IC2574:
+    coords: [157.099583, 68.418056]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.004000
+        b: 0.002250
+        pa: 59.000
+    priority: 190
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+NGC3265:
+    coords: [157.778333, 28.797500]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.000852
+        b: 0.000810
+        pa: 50.000
+    priority: 190
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+Mrk33:
+    coords: [158.130000, 54.399722]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.000838
+        b: 0.000819
+        pa: 90.000
+    priority: 190
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+NGC3351:
+    coords: [160.992083, 11.702778]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.002741
+        b: 0.002042
+        pa: 11.000
+    priority: 190
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+NGC3521:
+    coords: [166.450417, -0.024167]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.004287
+        b: 0.002106
+        pa: 165.000
+    priority: 190
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+NGC3621:
+    coords: [169.576250, -32.815278]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.003662
+        b: 0.002569
+        pa: 160.000
+    priority: 190
+    observatory: LCO
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-S"]
+    tiling_strategy: center_first
+
+NGC3627:
+    coords: [170.055833, 12.990833]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.003449
+        b: 0.002250
+        pa: 167.000
+    priority: 190
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+NGC3773:
+    coords: [174.554583, 12.112222]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.000546
+        b: 0.000537
+        pa: 0.000
+    priority: 190
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+NGC3938:
+    coords: [178.209583, 44.120833]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.002333
+        b: 0.002167
+        pa: 0.000
+    priority: 190
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+NGC4125:
+    coords: [182.024167, 65.173333]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.001056
+        b: 0.000699
+        pa: 90.000
+    priority: 190
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+NGC4236:
+    coords: [184.180000, 69.455278]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.005741
+        b: 0.001708
+        pa: 162.000
+    priority: 190
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+NGC4254:
+    coords: [184.707083, 14.421944]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.002403
+        b: 0.001944
+        pa: 60.000
+    priority: 190
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+NGC4321:
+    coords: [185.728333, 15.818611]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.002583
+        b: 0.002236
+        pa: 40.000
+    priority: 190
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+NGC4450:
+    coords: [187.125417, 17.081667]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.001856
+        b: 0.001315
+        pa: 180.000
+    priority: 190
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+NGC4536:
+    coords: [188.614583, 2.186944]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.002102
+        b: 0.001741
+        pa: 120.000
+    priority: 190
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+NGC4552:
+    coords: [188.915833, 12.556389]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.001417
+        b: 0.001417
+        pa: 90.000
+    priority: 190
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+NGC4559:
+    coords: [188.992083, 27.964444]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.002667
+        b: 0.001514
+        pa: 140.000
+    priority: 190
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+NGC4569:
+    coords: [189.209167, 13.166944]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.002745
+        b: 0.001514
+        pa: 21.000
+    priority: 190
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+NGC4579:
+    coords: [189.432500, 11.816111]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.001505
+        b: 0.001255
+        pa: 90.000
+    priority: 190
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+NGC4594:
+    coords: [189.998333, -11.623889]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.003551
+        b: 0.003097
+        pa: 90.000
+    priority: 190
+    observatory: LCO
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-S"]
+    tiling_strategy: center_first
+
+NGC4625:
+    coords: [190.478333, 41.273056]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.001380
+        b: 0.000991
+        pa: 100.000
+    priority: 190
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+NGC4631:
+    coords: [190.517500, 32.538611]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.004171
+        b: 0.001111
+        pa: 85.000
+    priority: 190
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+NGC4725:
+    coords: [192.615417, 25.496667]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.003190
+        b: 0.002421
+        pa: 30.000
+    priority: 190
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+NGC4736:
+    coords: [192.730000, 41.114444]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.004370
+        b: 0.004162
+        pa: 0.000
+    priority: 190
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+DDO154:
+    coords: [193.531667, 27.154444]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.001000
+        b: 0.000583
+        pa: 50.000
+    priority: 190
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+NGC4826:
+    coords: [194.180417, 21.680000]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.003315
+        b: 0.001977
+        pa: 114.000
+    priority: 190
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+DDO165:
+    coords: [196.607917, 67.708056]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.001218
+        b: 0.000745
+        pa: 90.000
+    priority: 190
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+NGC5033:
+    coords: [198.367500, 36.592778]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.003375
+        b: 0.002162
+        pa: 180.000
+    priority: 190
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+NGC5055:
+    coords: [198.955000, 42.029722]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.005079
+        b: 0.003292
+        pa: 80.000
+    priority: 190
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+NGC5194:
+    coords: [202.460833, 47.218611]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.007866
+        b: 0.005227
+        pa: 15.000
+    priority: 190
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+NGC5195:
+    coords: [202.497500, 47.265556]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.000935
+        b: 0.000884
+        pa: 0.000
+    priority: 190
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+NGC5398:
+    coords: [210.338333, -33.067222]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.000917
+        b: 0.000676
+        pa: 0.000
+    priority: 190
+    observatory: LCO
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-S"]
+    tiling_strategy: center_first
+
+NGC5457:
+    coords: [210.854167, 54.408056]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.008333
+        b: 0.006694
+        pa: 37.000
+    priority: 190
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+NGC5408:
+    coords: [210.837917, -41.378056]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.001185
+        b: 0.000968
+        pa: 67.000
+    priority: 190
+    observatory: LCO
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-S"]
+    tiling_strategy: center_first
+
+NGC5474:
+    coords: [211.253333, 53.655556]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.001907
+        b: 0.001727
+        pa: 90.000
+    priority: 190
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+NGC5713:
+    coords: [220.047500, -0.290556]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.001042
+        b: 0.001042
+        pa: 90.000
+    priority: 190
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+NGC5866:
+    coords: [226.620000, 55.764167]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.002315
+        b: 0.001417
+        pa: 129.000
+    priority: 190
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+IC4710:
+    coords: [277.162083, -66.984167]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.001449
+        b: 0.001014
+        pa: 120.000
+    priority: 190
+    observatory: LCO
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-S"]
+    tiling_strategy: center_first
+
+NGC6822:
+    coords: [296.221667, -14.803056]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.006727
+        b: 0.005093
+        pa: 150.000
+    priority: 190
+    observatory: LCO
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-S"]
+    tiling_strategy: center_first
+
+NGC6946:
+    coords: [308.705000, 60.166389]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.004412
+        b: 0.004296
+        pa: 0.000
+    priority: 190
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+NGC7331:
+    coords: [339.267917, 34.409722]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.003162
+        b: 0.001551
+        pa: 168.000
+    priority: 190
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+NGC7552:
+    coords: [349.045000, -42.584722]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.002042
+        b: 0.001505
+        pa: 120.000
+    priority: 190
+    observatory: LCO
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-S"]
+    tiling_strategy: center_first
+
+NGC7793:
+    coords: [359.457917, -32.590278]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.003315
+        b: 0.002435
+        pa: 98.000
+    priority: 190
+    observatory: LCO
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-S"]
+    tiling_strategy: center_first
+
+WLM:
+    coords: [0.492083, -15.460833]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.191667
+    priority: 3
+    observatory: LCO
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-S"]
+    tiling_strategy: center_first
+
+NGC0045:
+    coords: [3.516667, -23.181944]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.141667
+    priority: 3
+    observatory: LCO
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-S"]
+    tiling_strategy: center_first
+
+NGC0055:
+    coords: [3.725000, -39.196944]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.540000
+    priority: 3
+    observatory: LCO
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-S"]
+    tiling_strategy: center_first
+
+ESO410-G005:
+    coords: [3.880833, -32.179722]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.021667
+    priority: 3
+    observatory: LCO
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-S"]
+    tiling_strategy: center_first
+
+Sculptor-dE1:
+    coords: [5.965417, -24.705000]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.015000
+    priority: 3
+    observatory: LCO
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-S"]
+    tiling_strategy: center_first
+
+NGC059:
+    coords: [3.855833, -21.445000]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.043333
+    priority: 3
+    observatory: LCO
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-S"]
+    tiling_strategy: center_first
+
+ESO294-G010:
+    coords: [6.639167, -41.855278]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.018333
+    priority: 3
+    observatory: LCO
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-S"]
+    tiling_strategy: center_first
+
+IC1574:
+    coords: [10.765833, -22.246944]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.035000
+    priority: 3
+    observatory: LCO
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-S"]
+    tiling_strategy: center_first
+
+NGC0247:
+    coords: [11.784583, -20.760556]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.356667
+    priority: 3
+    observatory: LCO
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-S"]
+    tiling_strategy: center_first
+
+NGC0253:
+    coords: [11.887917, -25.288333]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.458333
+    priority: 3
+    observatory: LCO
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-S"]
+    tiling_strategy: center_first
+
+ESO540-G030:
+    coords: [12.337083, -18.075556]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.020000
+    priority: 3
+    observatory: LCO
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-S"]
+    tiling_strategy: center_first
+
+UGCA015:
+    coords: [12.455000, -21.015000]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.028333
+    priority: 3
+    observatory: LCO
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-S"]
+    tiling_strategy: center_first
+
+ESO540-G032:
+    coords: [12.601250, -19.906667]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.021667
+    priority: 3
+    observatory: LCO
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-S"]
+    tiling_strategy: center_first
+
+UGC00521:
+    coords: [12.800833, 12.025278]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.015000
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+NGC0300:
+    coords: [13.722917, -37.683333]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.365000
+    priority: 3
+    observatory: LCO
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-S"]
+    tiling_strategy: center_first
+
+UGC00668:
+    coords: [16.199167, 2.117778]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.270000
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+UGC00685:
+    coords: [16.843333, 16.683889]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.020000
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+UGC00695:
+    coords: [16.943333, 1.063611]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.018333
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+NGC404:
+    coords: [17.362500, 35.717778]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.041667
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+UGC00891:
+    coords: [20.328750, 12.411944]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.038333
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+UGC01056:
+    coords: [22.197083, 16.688611]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.015000
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+UGC01104:
+    coords: [23.177083, 18.317222]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.016667
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+NGC0598:
+    coords: [23.462083, 30.660278]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 1.180000
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+NGC0625:
+    coords: [23.767500, -41.437500]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.096667
+    priority: 3
+    observatory: LCO
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-S"]
+    tiling_strategy: center_first
+
+NGC0628:
+    coords: [24.173750, 15.783056]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.175000
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+UGC01176:
+    coords: [25.041250, 15.904722]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.076667
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+ESO245-G005:
+    coords: [26.265417, -43.598056]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.060000
+    priority: 3
+    observatory: LCO
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-S"]
+    tiling_strategy: center_first
+
+UGC01249:
+    coords: [26.877500, 27.331111]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.115000
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+NGC0672:
+    coords: [26.976250, 27.433056]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.120000
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+ESO245-G007:
+    coords: [27.776250, -44.444722]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.081667
+    priority: 3
+    observatory: LCO
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-S"]
+    tiling_strategy: center_first
+
+NGC0784:
+    coords: [30.320833, 28.837500]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.110000
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+NGC855:
+    coords: [33.515000, 27.877222]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.043333
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+ESO115-G021:
+    coords: [39.450417, -61.338333]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.081667
+    priority: 3
+    observatory: LCO
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-S"]
+    tiling_strategy: center_first
+
+ESO154-G023:
+    coords: [44.210000, -54.571389]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.141667
+    priority: 3
+    observatory: LCO
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-S"]
+    tiling_strategy: center_first
+
+NGC1313:
+    coords: [49.565833, -66.498056]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.151667
+    priority: 3
+    observatory: LCO
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-S"]
+    tiling_strategy: center_first
+
+NGC1311:
+    coords: [50.030833, -52.185278]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.050000
+    priority: 3
+    observatory: LCO
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-S"]
+    tiling_strategy: center_first
+
+UGC02716:
+    coords: [51.030000, 17.753333]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.026667
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+IC1959:
+    coords: [53.299167, -50.410556]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.046667
+    priority: 3
+    observatory: LCO
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-S"]
+    tiling_strategy: center_first
+
+NGC1487:
+    coords: [58.942083, -42.368056]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.055000
+    priority: 3
+    observatory: LCO
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-S"]
+    tiling_strategy: center_first
+
+NGC1510:
+    coords: [60.885833, -43.400000]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.021667
+    priority: 3
+    observatory: LCO
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-S"]
+    tiling_strategy: center_first
+
+NGC1522:
+    coords: [61.532083, -52.669167]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.020000
+    priority: 3
+    observatory: LCO
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-S"]
+    tiling_strategy: center_first
+
+IC2049:
+    coords: [63.017917, -58.556944]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.016667
+    priority: 3
+    observatory: LCO
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-S"]
+    tiling_strategy: center_first
+
+ESO483-G013:
+    coords: [63.172083, -23.160000]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.026667
+    priority: 3
+    observatory: LCO
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-S"]
+    tiling_strategy: center_first
+
+ESO158-G003:
+    coords: [71.569583, -57.343056]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.026667
+    priority: 3
+    observatory: LCO
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-S"]
+    tiling_strategy: center_first
+
+ESO119-G016:
+    coords: [72.871667, -61.650833]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.038333
+    priority: 3
+    observatory: LCO
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-S"]
+    tiling_strategy: center_first
+
+NGC1744:
+    coords: [74.990000, -26.021944]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.135000
+    priority: 3
+    observatory: LCO
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-S"]
+    tiling_strategy: center_first
+
+NGC1796:
+    coords: [75.678333, -61.139722]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.031667
+    priority: 3
+    observatory: LCO
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-S"]
+    tiling_strategy: center_first
+
+ESO486-G021:
+    coords: [75.832083, -25.423056]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.020000
+    priority: 3
+    observatory: LCO
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-S"]
+    tiling_strategy: center_first
+
+MCG-05-13-004:
+    coords: [76.600417, -31.953056]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.003333
+    priority: 3
+    observatory: LCO
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-S"]
+    tiling_strategy: center_first
+
+NGC1800:
+    coords: [76.605833, -31.954167]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.033333
+    priority: 3
+    observatory: LCO
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-S"]
+    tiling_strategy: center_first
+
+UGCA106:
+    coords: [77.997083, -32.972500]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.058333
+    priority: 3
+    observatory: LCO
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-S"]
+    tiling_strategy: center_first
+
+KKH037:
+    coords: [101.940833, 80.123889]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.020000
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+NGC2366:
+    coords: [112.227500, 69.215833]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.121667
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+UGCA133:
+    coords: [113.547500, 66.886111]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.050000
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+NGC2500:
+    coords: [120.472083, 50.737500]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.048333
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+NGC2537:
+    coords: [123.311250, 45.990556]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.028333
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+UGC04278:
+    coords: [123.495417, 45.742778]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.078333
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+UGC04305:
+    coords: [124.766667, 70.719167]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.131667
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+NGC2552:
+    coords: [124.833750, 50.006944]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.058333
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+M81dwA:
+    coords: [125.983333, 71.029167]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.021667
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+UGC04426:
+    coords: [127.118333, 41.856667]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.033333
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+UGC04459:
+    coords: [128.530000, 66.181667]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.025000
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+UGC04483:
+    coords: [129.262500, 69.775278]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.018333
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+NGC2683:
+    coords: [133.172500, 33.420556]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.155000
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+UGC04704:
+    coords: [134.751250, 39.210000]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.068333
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+UGC04787:
+    coords: [136.895417, 33.276667]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.035000
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+UGC04998:
+    coords: [141.300417, 68.383056]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.026667
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+NGC2903:
+    coords: [143.042083, 21.501111]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.210000
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+UGC05076:
+    coords: [143.151667, 51.871944]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.016667
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+CGCG035-007:
+    coords: [143.687083, 6.425556]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.013333
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+UGC05139:
+    coords: [145.134583, 71.182222]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.060000
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+IC0559:
+    coords: [146.182917, 9.615278]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.013333
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+F8D1:
+    coords: [146.196250, 67.438611]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.091667
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+FM2000_1:
+    coords: [146.291667, 68.765000]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.015000
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+LEDA166101:
+    coords: [147.543750, 67.506667]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.040000
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+UGC05272:
+    coords: [147.593333, 31.487778]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.035000
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+UGC05288:
+    coords: [147.820833, 7.827500]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.021667
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+BK03N:
+    coords: [148.452083, 68.968889]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.008333
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+UGC05340:
+    coords: [149.190417, 28.826389]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.045000
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+KDG061:
+    coords: [149.262917, 68.591944]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.020000
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+UGC05336:
+    coords: [149.383333, 69.045833]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.041667
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+ArpsLoop:
+    coords: [149.385833, 69.283333]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.030000
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+UGC05364:
+    coords: [149.860000, 30.746389]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.085000
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+UGC05373:
+    coords: [150.000417, 5.332222]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.085000
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+KKH057:
+    coords: [150.066250, 63.185000]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.010000
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+UGCA193:
+    coords: [150.650000, -6.013611]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.046667
+    priority: 3
+    observatory: LCO
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-S"]
+    tiling_strategy: center_first
+
+NGC3109:
+    coords: [150.777500, -26.158889]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.283333
+    priority: 3
+    observatory: LCO
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-S"]
+    tiling_strategy: center_first
+
+AM1001-270:
+    coords: [151.016250, -27.331944]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.033333
+    priority: 3
+    observatory: LCO
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-S"]
+    tiling_strategy: center_first
+
+BK05N:
+    coords: [151.171250, 68.256111]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.013333
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+UGC5428:
+    coords: [151.276667, 66.558889]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.028333
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+UGC05423:
+    coords: [151.377500, 70.364444]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.015000
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+UGC5442:
+    coords: [151.757917, 67.827500]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.031667
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+UGC05456:
+    coords: [151.831667, 10.362778]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.026667
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+IKN:
+    coords: [152.024583, 68.399167]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.045000
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+SextansA:
+    coords: [152.753333, -4.692778]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.098333
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+HS98_117:
+    coords: [155.355000, 71.114167]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.025000
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+NGC3239:
+    coords: [156.273333, 17.160278]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.083333
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+DDO078:
+    coords: [156.614167, 67.654444]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.033333
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+UGC05672:
+    coords: [157.087083, 22.571389]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.030000
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+UGC05666:
+    coords: [157.088333, 68.411944]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.220000
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+UGC05692:
+    coords: [157.645833, 70.618611]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.053333
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+NGC3274:
+    coords: [158.071250, 27.668611]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.035000
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+BK06N:
+    coords: [158.624167, 66.008333]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.018333
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+NGC3299:
+    coords: [159.099167, 12.707500]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.036667
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+UGC05764:
+    coords: [159.180417, 31.546667]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.033333
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+UGC05797:
+    coords: [159.855000, 1.718056]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.016667
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+UGC05829:
+    coords: [160.675833, 34.448889]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.078333
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+NGC3344:
+    coords: [160.878750, 24.922778]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.118333
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+NGC3368:
+    coords: [161.690417, 11.820000]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.126667
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+UGC05889:
+    coords: [161.842917, 14.069444]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.036667
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+UGC05923:
+    coords: [162.281667, 6.917222]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.015000
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+UGC05918:
+    coords: [162.402083, 65.530556]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.040000
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+NGC3432:
+    coords: [163.130417, 36.619722]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.113333
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+KDG73:
+    coords: [163.237917, 69.549444]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.010000
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+NGC3486:
+    coords: [165.099583, 28.975000]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.118333
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+NGC3510:
+    coords: [165.930833, 28.886944]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.066667
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+NGC3593:
+    coords: [168.654167, 12.817778]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.086667
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+NGC3623:
+    coords: [169.732917, 13.093611]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.163333
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+NGC3628:
+    coords: [170.070417, 13.588889]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.246667
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+UGC06457:
+    coords: [171.800833, 0.994722]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.015000
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+UGC06541:
+    coords: [173.370417, 49.237222]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.020000
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+NGC3738:
+    coords: [173.953333, 54.523889]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.041667
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+NGC3741:
+    coords: [174.025833, 45.283611]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.033333
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+UGC06782:
+    coords: [177.238333, 23.837778]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.033333
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+UGC06817:
+    coords: [177.720833, 38.880278]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.068333
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+UGC06900:
+    coords: [178.914167, 31.519444]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.035000
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+NGC4020:
+    coords: [179.735833, 30.412222]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.035000
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+NGC4068:
+    coords: [181.003333, 52.588333]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.055000
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+NGC4080:
+    coords: [181.215833, 26.992500]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.020000
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+NGC4096:
+    coords: [181.504167, 47.477778]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.110000
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+NGC4144:
+    coords: [182.493333, 46.457500]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.100000
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+NGC4163:
+    coords: [183.037917, 36.169167]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.030000
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+ESO321-G014:
+    coords: [183.456667, -38.231389]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.023333
+    priority: 3
+    observatory: LCO
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-S"]
+    tiling_strategy: center_first
+
+NGC4190:
+    coords: [183.436250, 36.634167]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.028333
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+UGC07242:
+    coords: [183.535000, 66.094722]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.033333
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+UGCA276:
+    coords: [183.741250, 36.218889]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.025000
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+UGC07267:
+    coords: [183.848333, 51.349444]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.035000
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+NGC4214:
+    coords: [183.912083, 36.327778]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.141667
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+CGCG269-049:
+    coords: [183.945000, 52.388056]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.020000
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+NGC4244:
+    coords: [184.374583, 37.808056]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.276667
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+NGC4242:
+    coords: [184.375417, 45.618889]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.083333
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+UGC07321:
+    coords: [184.390833, 22.540556]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.091667
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+NGC4248:
+    coords: [184.459583, 47.408611]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.050000
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+NGC4258:
+    coords: [184.739583, 47.303889]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.310000
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+ISZ399:
+    coords: [184.997917, -17.391944]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.016667
+    priority: 3
+    observatory: LCO
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-S"]
+    tiling_strategy: center_first
+
+NGC4288:
+    coords: [185.158750, 46.292500]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.035000
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+UGC07408:
+    coords: [185.312500, 45.811389]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.043333
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+UGC07490:
+    coords: [186.105417, 70.333611]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.055000
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+NGC4395:
+    coords: [186.453750, 33.546667]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.220000
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+UGCA281:
+    coords: [186.566667, 48.493611]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.013333
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+UGC07559:
+    coords: [186.771250, 37.142500]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.053333
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+UGC07577:
+    coords: [186.920417, 43.495556]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.071667
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+NGC4449:
+    coords: [187.046667, 44.093333]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.103333
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+UGC07599:
+    coords: [187.118750, 37.233611]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.033333
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+UGC07605:
+    coords: [187.161250, 35.717500]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.018333
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+NGC4455:
+    coords: [187.183750, 22.822500]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.046667
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+UGC07608:
+    coords: [187.188750, 43.226389]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.056667
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+NGC4460:
+    coords: [187.189583, 44.864167]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.066667
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+UGC07639:
+    coords: [187.472500, 47.531111]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.038333
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+NGC4485:
+    coords: [187.629583, 41.700278]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.038333
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+NGC4490:
+    coords: [187.650417, 41.642778]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.105000
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+UGC07690:
+    coords: [188.111667, 42.705000]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.028333
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+UGC07699:
+    coords: [188.200000, 37.621667]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.063333
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+UGC07698:
+    coords: [188.226667, 31.541111]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.106667
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+UGC07719:
+    coords: [188.502500, 39.019444]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.031667
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+UGC07774:
+    coords: [189.093750, 40.005278]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.060000
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+UGCA292:
+    coords: [189.666667, 32.766944]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.016667
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+MESSIER104:
+    coords: [189.997500, -11.623056]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.145000
+    priority: 3
+    observatory: LCO
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-S"]
+    tiling_strategy: center_first
+
+NGC4605:
+    coords: [190.001250, 61.608056]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.096667
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+NGC4618:
+    coords: [190.386250, 41.151111]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.070000
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+UGC07866:
+    coords: [190.562917, 38.503333]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.056667
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+NGC4656:
+    coords: [190.990417, 32.168056]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.251667
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+UGC07916:
+    coords: [191.104583, 34.386667]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.041667
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+UGC07950:
+    coords: [191.735000, 51.612778]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.021667
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+UGC07949:
+    coords: [191.749167, 36.476389]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.033333
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+NGC4707:
+    coords: [192.095417, 51.164722]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.036667
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+UGC08024:
+    coords: [193.521667, 27.148611]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.050000
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+UGC08091:
+    coords: [194.668333, 14.217500]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.018333
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+UGCA319:
+    coords: [195.560000, -17.237500]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.026667
+    priority: 3
+    observatory: LCO
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-S"]
+    tiling_strategy: center_first
+
+UGCA320:
+    coords: [195.820000, -17.423056]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.093333
+    priority: 3
+    observatory: LCO
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-S"]
+    tiling_strategy: center_first
+
+UGC08188:
+    coords: [196.456250, 37.605000]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.100000
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+UGC08201:
+    coords: [196.603333, 67.706944]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.058333
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+MCG-03-34-002:
+    coords: [196.985833, -16.689167]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.011667
+    priority: 3
+    observatory: LCO
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-S"]
+    tiling_strategy: center_first
+
+UGC08245:
+    coords: [197.142500, 78.936944]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.028333
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+NGC5023:
+    coords: [198.050417, 44.038889]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.100000
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+CGCG217-018:
+    coords: [198.215833, 40.543056]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.011667
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+UGC08313:
+    coords: [198.475417, 42.210000]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.028333
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+UGC08320:
+    coords: [198.616250, 45.919167]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.060000
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+UGC08331:
+    coords: [198.876250, 47.498889]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.045000
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+NGC5068:
+    coords: [199.727500, -21.038889]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.120000
+    priority: 3
+    observatory: LCO
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-S"]
+    tiling_strategy: center_first
+
+IC4247:
+    coords: [201.685000, -30.362500]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.021667
+    priority: 3
+    observatory: LCO
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-S"]
+    tiling_strategy: center_first
+
+NGC5204:
+    coords: [202.400833, 58.418333]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.083333
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+UGC08508:
+    coords: [202.685000, 54.910000]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.028333
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+NGC5229:
+    coords: [203.511250, 47.915278]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.055000
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+NGC5238:
+    coords: [203.677917, 51.614167]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.028333
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+KK98_208:
+    coords: [204.147917, -29.571389]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.100000
+    priority: 3
+    observatory: LCO
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-S"]
+    tiling_strategy: center_first
+
+NGC5236:
+    coords: [204.253333, -29.866389]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.215000
+    priority: 3
+    observatory: LCO
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-S"]
+    tiling_strategy: center_first
+
+ESO444-G084:
+    coords: [204.333750, -28.046111]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.021667
+    priority: 3
+    observatory: LCO
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-S"]
+    tiling_strategy: center_first
+
+UGC08638:
+    coords: [204.830833, 24.775556]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.020000
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+UGC08651:
+    coords: [204.974167, 40.739167]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.038333
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+NGC5253:
+    coords: [204.982917, -31.640000]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.083333
+    priority: 3
+    observatory: LCO
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-S"]
+    tiling_strategy: center_first
+
+NGC5264:
+    coords: [205.403750, -29.913889]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.041667
+    priority: 3
+    observatory: LCO
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-S"]
+    tiling_strategy: center_first
+
+UGC08760:
+    coords: [207.710833, 38.019167]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.036667
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+KKH086:
+    coords: [208.639583, 4.243056]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.011667
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+UGC08837:
+    coords: [208.690417, 53.900833]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.071667
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+UGC08833:
+    coords: [208.702917, 35.837500]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.015000
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+NGC5477:
+    coords: [211.387917, 54.460833]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.028333
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+KK98_230:
+    coords: [211.793750, 35.060278]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.010000
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+UGC09128:
+    coords: [213.985417, 23.055278]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.028333
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+NGC5585:
+    coords: [214.950833, 56.729444]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.096667
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+UGC09240:
+    coords: [216.180833, 44.525833]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.030000
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+UGC09405:
+    coords: [218.851667, 57.255278]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.028333
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+MRK475:
+    coords: [219.772500, 36.805833]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.006667
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+NGC5832:
+    coords: [224.440417, 71.682222]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.061667
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+NGC5949:
+    coords: [232.002917, 64.763056]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.036667
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+UGC09992:
+    coords: [235.449167, 67.254167]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.026667
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+KKR25:
+    coords: [243.449583, 54.371111]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.018333
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+NGC6503:
+    coords: [267.362917, 70.144444]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.118333
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+IC4951:
+    coords: [302.380000, -61.846389]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.046667
+    priority: 3
+    observatory: LCO
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-S"]
+    tiling_strategy: center_first
+
+DDO210:
+    coords: [311.715833, -12.848056]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.036667
+    priority: 3
+    observatory: LCO
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-S"]
+    tiling_strategy: center_first
+
+IC5052:
+    coords: [313.026250, -69.203611]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.098333
+    priority: 3
+    observatory: LCO
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-S"]
+    tiling_strategy: center_first
+
+NGC7064:
+    coords: [322.262500, -52.767500]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.063333
+    priority: 3
+    observatory: LCO
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-S"]
+    tiling_strategy: center_first
+
+NGC7090:
+    coords: [324.119167, -54.556667]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.123333
+    priority: 3
+    observatory: LCO
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-S"]
+    tiling_strategy: center_first
+
+IC5152:
+    coords: [330.674583, -51.295556]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.086667
+    priority: 3
+    observatory: LCO
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-S"]
+    tiling_strategy: center_first
+
+IC5256:
+    coords: [342.440833, -68.690556]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.018333
+    priority: 3
+    observatory: LCO
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-S"]
+    tiling_strategy: center_first
+
+UGCA438:
+    coords: [351.614583, -32.388889]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.025000
+    priority: 3
+    observatory: LCO
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-S"]
+    tiling_strategy: center_first
+
+ESO347-G017:
+    coords: [351.733333, -37.346944]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.023333
+    priority: 3
+    observatory: LCO
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-S"]
+    tiling_strategy: center_first
+
+UGC12613:
+    coords: [352.150833, 14.743056]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.083333
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+IC5332:
+    coords: [353.614167, -36.101389]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.130000
+    priority: 3
+    observatory: LCO
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-S"]
+    tiling_strategy: center_first
+
+NGC7713:
+    coords: [354.064167, -37.938611]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.075000
+    priority: 3
+    observatory: LCO
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-S"]
+    tiling_strategy: center_first
+
+UGCA442:
+    coords: [355.939583, -31.956111]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.058333
+    priority: 3
+    observatory: LCO
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-S"]
+    tiling_strategy: center_first
+
+KKH098:
+    coords: [356.391667, 38.717778]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.018333
+    priority: 3
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-N"]
+    tiling_strategy: center_first
+
+ESO149-G003:
+    coords: [358.011667, -52.577778]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 0.036667
+    priority: 3
+    observatory: LCO
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_extended-S"]
+    tiling_strategy: center_first
+
+HIZSS003:
+    coords: [105.122083, -4.208333]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.004167
+        b: 0.000042
+        pa: 0.000
+    priority: 980
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_dwarf-N"]
+    tiling_strategy: center_first
+
+KK230:
+    coords: [211.794583, 35.060278]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.006333
+        b: 0.000088
+        pa: 0.000
+    priority: 980
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_dwarf-N"]
+    tiling_strategy: center_first
+
+FM1:
+    coords: [146.291667, 68.765000]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.007417
+        b: 0.000110
+        pa: 0.000
+    priority: 980
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_dwarf-N"]
+    tiling_strategy: center_first
+
+Dw2:
+    coords: [43.535417, 59.005278]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.008333
+        b: 0.000056
+        pa: 0.000
+    priority: 980
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_dwarf-N"]
+    tiling_strategy: center_first
+
+KKH22:
+    coords: [56.235833, 72.064444]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.008750
+        b: 0.000076
+        pa: 0.000
+    priority: 980
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_dwarf-N"]
+    tiling_strategy: center_first
+
+KKH98:
+    coords: [356.391667, 38.717778]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.008750
+        b: 0.000080
+        pa: 0.000
+    priority: 980
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_dwarf-N"]
+    tiling_strategy: center_first
+
+MB1:
+    coords: [38.898333, 59.379722]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.008917
+        b: 0.000062
+        pa: 0.000
+    priority: 980
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_dwarf-N"]
+    tiling_strategy: center_first
+
+KKH37:
+    coords: [101.940833, 80.123889]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.009583
+        b: 0.000107
+        pa: 0.000
+    priority: 980
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_dwarf-N"]
+    tiling_strategy: center_first
+
+CamB:
+    coords: [73.278750, 67.099167]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.012333
+        b: 0.000103
+        pa: 0.000
+    priority: 980
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_dwarf-N"]
+    tiling_strategy: center_first
+
+MB3:
+    coords: [43.931667, 58.861667]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.013167
+        b: 0.000068
+        pa: 0.000
+    priority: 980
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_dwarf-N"]
+    tiling_strategy: center_first
+
+GR8:
+    coords: [194.668333, 14.217500]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.013833
+        b: 0.000210
+        pa: 0.000
+    priority: 980
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_dwarf-N"]
+    tiling_strategy: center_first
+
+KKH11:
+    coords: [36.145833, 56.011667]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.013833
+        b: 0.000125
+        pa: 0.000
+    priority: 980
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_dwarf-N"]
+    tiling_strategy: center_first
+
+DDO187:
+    coords: [213.985417, 23.055278]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.014167
+        b: 0.000179
+        pa: 0.000
+    priority: 980
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_dwarf-N"]
+    tiling_strategy: center_first
+
+KKH12:
+    coords: [36.862500, 57.487778]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.014167
+        b: 0.000068
+        pa: 0.000
+    priority: 980
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_dwarf-N"]
+    tiling_strategy: center_first
+
+KDG063:
+    coords: [151.280417, 66.555000]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.015917
+        b: 0.000233
+        pa: 0.000
+    priority: 980
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_dwarf-N"]
+    tiling_strategy: center_first
+
+Dw1:
+    coords: [44.233750, 58.911667]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.016667
+        b: 0.000181
+        pa: 0.000
+    priority: 980
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_dwarf-N"]
+    tiling_strategy: center_first
+
+UGCA092:
+    coords: [68.001250, 63.613889]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.016667
+        b: 0.000139
+        pa: 0.000
+    priority: 980
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_dwarf-N"]
+    tiling_strategy: center_first
+
+Cas1:
+    coords: [31.532917, 69.010000]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.018250
+        b: 0.000234
+        pa: 0.000
+    priority: 980
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_dwarf-N"]
+    tiling_strategy: center_first
+
+DDO181:
+    coords: [204.974167, 40.739167]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.020000
+        b: 0.000190
+        pa: 0.000
+    priority: 980
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_dwarf-N"]
+    tiling_strategy: center_first
+
+DDO183:
+    coords: [207.712917, 38.021111]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.020000
+        b: 0.000107
+        pa: 0.000
+    priority: 980
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_dwarf-N"]
+    tiling_strategy: center_first
+
+DDO190:
+    coords: [216.181250, 44.525833]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.020000
+        b: 0.000297
+        pa: 0.000
+    priority: 980
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_dwarf-N"]
+    tiling_strategy: center_first
+
+KK77:
+    coords: [147.541667, 67.506667]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.020000
+        b: 0.000250
+        pa: 0.000
+    priority: 980
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_dwarf-N"]
+    tiling_strategy: center_first
+
+DDO044:
+    coords: [113.547083, 66.886111]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.023500
+        b: 0.000262
+        pa: 0.000
+    priority: 980
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_dwarf-N"]
+    tiling_strategy: center_first
+
+Sag_dIr:
+    coords: [292.495833, -17.678056]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.024000
+        b: 0.000288
+        pa: 0.000
+    priority: 980
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_dwarf-N"]
+    tiling_strategy: center_first
+
+NGC0404:
+    coords: [17.362083, 35.717500]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.028917
+        b: 0.000458
+        pa: 0.000
+    priority: 980
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_dwarf-N"]
+    tiling_strategy: center_first
+
+Maffei2:
+    coords: [40.477083, 59.603056]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.031667
+        b: 0.000264
+        pa: 0.000
+    priority: 980
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_dwarf-N"]
+    tiling_strategy: center_first
+
+DDO125:
+    coords: [186.924167, 43.493889]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.032417
+        b: 0.000303
+        pa: 0.000
+    priority: 980
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_dwarf-N"]
+    tiling_strategy: center_first
+
+NGC1569:
+    coords: [67.704583, 64.848056]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.033167
+        b: 0.000282
+        pa: 0.000
+    priority: 980
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_dwarf-N"]
+    tiling_strategy: center_first
+
+DDO099:
+    coords: [177.720833, 38.880556]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.035583
+        b: 0.000219
+        pa: 0.000
+    priority: 980
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_dwarf-N"]
+    tiling_strategy: center_first
+
+Pegasus:
+    coords: [352.142083, 14.746667]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.045833
+        b: 0.000413
+        pa: 0.000
+    priority: 980
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_dwarf-N"]
+    tiling_strategy: center_first
+
+UGCA105:
+    coords: [78.562917, 62.580833]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.045833
+        b: 0.000489
+        pa: 0.000
+    priority: 980
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_dwarf-N"]
+    tiling_strategy: center_first
+
+LeoA:
+    coords: [149.860000, 30.746389]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.047917
+        b: 0.000487
+        pa: 0.000
+    priority: 980
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_dwarf-N"]
+    tiling_strategy: center_first
+
+SexA:
+    coords: [152.753333, -4.692778]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.049083
+        b: 0.000679
+        pa: 0.000
+    priority: 980
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_dwarf-N"]
+    tiling_strategy: center_first
+
+SexB:
+    coords: [150.000417, 5.332222]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.050250
+        b: 0.000578
+        pa: 0.000
+    priority: 980
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_dwarf-N"]
+    tiling_strategy: center_first
+
+IC0010:
+    coords: [5.102083, 59.291667]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.056333
+        b: 0.000817
+        pa: 0.000
+    priority: 980
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_dwarf-N"]
+    tiling_strategy: center_first
+
+HolmII:
+    coords: [124.766667, 70.714167]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.074250
+        b: 0.001064
+        pa: 0.000
+    priority: 980
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_dwarf-N"]
+    tiling_strategy: center_first
+
+NGC1560:
+    coords: [68.207917, 71.881111]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.081417
+        b: 0.000204
+        pa: 0.000
+    priority: 980
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_dwarf-N"]
+    tiling_strategy: center_first
+
+IC1613:
+    coords: [16.199167, 2.133333]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 0.158750
+        b: 0.002381
+        pa: 0.000
+    priority: 980
+    observatory: APO
+    telescope: LVM-1m
+    max_airmass: 1.75
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 25
+    max_lunation: 0.2
+    overhead: 1.1
+    group: ["LVM_dwarf-N"]
+    tiling_strategy: center_first
+
