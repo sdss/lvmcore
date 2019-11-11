@@ -11,7 +11,7 @@ LMC:
     exptime: 1200
     n_exposures: 9
     min_exposures: 1
-    min_moon_dist: 25
+    min_moon_dist: 45
     max_lunation: 0.25
     overhead: 1.1
     tiling_strategy: center_first
@@ -31,13 +31,13 @@ SMC:
     exptime: 1200
     n_exposures: 9
     min_exposures: 3
-    min_moon_dist: 25
+    min_moon_dist: 45
     max_lunation: 0.25
     overhead: 1.1
     tiling_strategy: center_first
 
 ORION:
-    coords: [-153.58, -17.74]
+    coords: [206.42, -17.74]
     region_type: circle
     frame: galactic
     region_params:
@@ -55,11 +55,11 @@ ORION:
     tiling_strategy: center_first
 
 MW1:
-   coords: [-51.0, 0.0]
+   coords: [309.0, 0.0]
    region_type: rectangle
    frame: galactic
    region_params:
-       width: 133.0
+       width: 143.0
        height: 15.0
        pa: 0
    priority: 6
@@ -69,17 +69,17 @@ MW1:
    exptime: 900
    n_exposures: 1
    min_exposures: 1
-   min_moon_dist: 60
+   min_moon_dist: 35
    max_lunation: 1.0
    overhead: 1.1
    tiling_strategy: lowest_airmass
 
 MW2:
-   coords: [-90.0, 0.0]
+   coords: [270, 0.0]
    region_type: rectangle
    frame: galactic
    region_params:
-       width: 180
+       width: 190
        height: 5.0
        pa: 0
    priority: 7
@@ -89,47 +89,7 @@ MW2:
    exptime: 900
    n_exposures: 1
    min_exposures: 1
-   min_moon_dist: 60
-   max_lunation: 1.0
-   overhead: 1.1
-   tiling_strategy: lowest_airmass
-
-MW1b:
-   coords: [-51.0, -7.5]
-   region_type: rectangle
-   frame: galactic
-   region_params:
-       width: 133.0
-       height: 15.0
-       pa: 0
-   priority: 4
-   observatory: LCO
-   telescope: LVM-160
-   max_airmass: 2.00
-   exptime: 900
-   n_exposures: 1
-   min_exposures: 1
-   min_moon_dist: 60
-   max_lunation: 1.0
-   overhead: 1.1
-   tiling_strategy: lowest_airmass
-
-MW2b:
-   coords: [-90.0, -7.5]
-   region_type: rectangle
-   frame: galactic
-   region_params:
-       width: 180
-       height: 5.0
-       pa: 0
-   priority: 5
-   observatory: LCO
-   telescope: LVM-160
-   max_airmass: 2.00
-   exptime: 900
-   n_exposures: 1
-   min_exposures: 1
-   min_moon_dist: 60
+   min_moon_dist: 35
    max_lunation: 1.0
    overhead: 1.1
    tiling_strategy: lowest_airmass
@@ -149,7 +109,7 @@ THOR:
     exptime: 900
     n_exposures: 1
     min_exposures: 1
-    min_moon_dist: 50
+    min_moon_dist: 35
     max_lunation: 1.0
     overhead: 1.1
     tiling_strategy: center_first
