@@ -1,0 +1,115 @@
+LMC:
+    coords: [79.8872037, -68.6122414]
+    region_type: circle
+    frame: icrs
+    region_params:
+        r: 3.5
+    priority: 6
+    observatory: LCO
+    telescope: LVM-160
+    max_airmass: 2.00
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 1
+    min_moon_dist: 45
+    max_lunation: 0.20
+    overhead: 1.1
+    tiling_strategy: center_first
+
+SMC:
+    coords: [13.1583, -72.8003]
+    region_type: ellipse
+    frame: icrs
+    region_params:
+        a: 2.635216667
+        b: 1.55175
+        pa: 45
+    priority: 6
+    observatory: LCO
+    telescope: LVM-160
+    max_airmass: 2.00
+    exptime: 1200
+    n_exposures: 9
+    min_exposures: 3
+    min_moon_dist: 45
+    max_lunation: 0.20
+    overhead: 1.1
+    tiling_strategy: center_first
+
+ORION:
+    coords: [206.42, -17.74]
+    region_type: circle
+    frame: galactic
+    region_params:
+        r: 7.0
+    priority: 5
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 60
+    max_lunation: 1.0
+    overhead: 1.1
+    tiling_strategy: center_first
+
+MW1:
+   coords: [309.0, 0.0]
+   region_type: rectangle
+   frame: galactic
+   region_params:
+       width: 143.0
+       height: 15.0
+       pa: 0
+   priority: 3
+   observatory: LCO
+   telescope: LVM-160
+   max_airmass: 2.00
+   exptime: 900
+   n_exposures: 1
+   min_exposures: 1
+   min_moon_dist: 45
+   max_lunation: 1.0
+   overhead: 1.1
+   tiling_strategy: lowest_airmass
+
+MW2:
+   coords: [270, 0.0]
+   region_type: rectangle
+   frame: galactic
+   region_params:
+       width: 190
+       height: 5.0
+       pa: 0
+   priority: 3
+   observatory: LCO
+   telescope: LVM-160
+   max_airmass: 2.00
+   exptime: 900
+   n_exposures: 1
+   min_exposures: 1
+   min_moon_dist: 45
+   max_lunation: 1.0
+   overhead: 1.1
+   tiling_strategy: lowest_airmass
+
+THOR:
+    coords: [30, 0.0]
+    region_type: rectangle
+    frame: galactic
+    region_params:
+        width: 60.0
+        height: 2.0
+        pa: 0
+    priority: 2
+    observatory: LCO
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 60
+    max_lunation: 1.0
+    overhead: 1.1
+    tiling_strategy: center_first
