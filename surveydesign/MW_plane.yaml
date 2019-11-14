@@ -60,7 +60,7 @@ MW1:
    frame: galactic
    region_params:
        width: 143.0
-       height: 15.0
+       height: 18.0
        pa: 0
    priority: 6
    observatory: LCO
@@ -80,7 +80,7 @@ MW2:
    frame: galactic
    region_params:
        width: 190
-       height: 5.0
+       height: 8.0
        pa: 0
    priority: 7
    observatory: LCO
