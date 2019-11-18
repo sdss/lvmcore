@@ -1,9 +1,9 @@
 LMC:
-    coords: [79.8872037, -68.6122414]
+    coords: [79.5135633, -68.5271292]
     region_type: circle
     frame: icrs
     region_params:
-        r: 3.5
+        r: 4.0
     priority: 10
     observatory: LCO
     telescope: LVM-160
@@ -41,7 +41,67 @@ ORION:
     region_type: circle
     frame: galactic
     region_params:
-        r: 7.0
+        r: 6.5
+    priority: 9
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 60
+    max_lunation: 1.0
+    overhead: 1.1
+    tiling_strategy: center_first
+
+ORION_ext_spk1:
+    coords: [206.42, -17.74]
+    region_type: rectangle
+    frame: galactic
+    region_params:
+       width: 15.0
+       height: 0.20
+       pa: 0
+    priority: 9
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 60
+    max_lunation: 1.0
+    overhead: 1.1
+    tiling_strategy: center_first
+
+ORION_ext_spk2:
+    coords: [206.42, -17.74]
+    region_type: rectangle
+    frame: galactic
+    region_params:
+       width: 15.0
+       height: 0.20
+       pa: 120
+    priority: 9
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 60
+    max_lunation: 1.0
+    overhead: 1.1
+    tiling_strategy: center_first
+
+ORION_ext_spk3:
+    coords: [206.42, -17.74]
+    region_type: rectangle
+    frame: galactic
+    region_params:
+       width: 15.0
+       height: 0.20
+       pa: 240
     priority: 9
     observatory: BOTH
     telescope: LVM-160
@@ -55,12 +115,12 @@ ORION:
     tiling_strategy: center_first
 
 MW1:
-   coords: [309.0, 0.0]
+   coords: [315.0, 0.0]
    region_type: rectangle
    frame: galactic
    region_params:
-       width: 143.0
-       height: 18.0
+       width: 150.0
+       height: 17.0
        pa: 0
    priority: 6
    observatory: LCO
@@ -75,11 +135,12 @@ MW1:
    tiling_strategy: lowest_airmass
 
 MW2:
-   coords: [270, 0.0]
+#   coords: [270, 0.0]
+   coords: [282, 0.0]
    region_type: rectangle
    frame: galactic
    region_params:
-       width: 190
+       width: 215
        height: 8.0
        pa: 0
    priority: 7
@@ -93,7 +154,6 @@ MW2:
    max_lunation: 1.0
    overhead: 1.1
    tiling_strategy: lowest_airmass
-
 THOR:
     coords: [15, 0.0]
     region_type: rectangle
