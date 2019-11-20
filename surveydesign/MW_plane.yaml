@@ -54,13 +54,13 @@ ORION:
     overhead: 1.1
     tiling_strategy: center_first
 
-ORI_ext_spk1:
+ORI_ext1:
     coords: [206.42, -17.74]
     region_type: rectangle
     frame: galactic
     region_params:
-       width: 30.0
-       height: 0.60
+       width: 60.0
+       height: 0.10
        pa: 0
     priority: 9
     observatory: BOTH
@@ -74,13 +74,13 @@ ORI_ext_spk1:
     overhead: 1.1
     tiling_strategy: center_first
 
-ORI_ext_spk2:
+ORI_ext2:
     coords: [206.42, -17.74]
     region_type: rectangle
     frame: galactic
     region_params:
-       width: 30.0
-       height: 0.60
+       width: 60.0
+       height: 0.10
        pa: 120
     priority: 9
     observatory: BOTH
@@ -94,13 +94,13 @@ ORI_ext_spk2:
     overhead: 1.1
     tiling_strategy: center_first
 
-ORI_ext_spk3:
+ORI_ext3:
     coords: [206.42, -17.74]
     region_type: rectangle
     frame: galactic
     region_params:
-       width: 30.0
-       height: 0.60
+       width: 60.0
+       height: 0.10
        pa: 240
     priority: 9
     observatory: BOTH
@@ -114,13 +114,73 @@ ORI_ext_spk3:
     overhead: 1.1
     tiling_strategy: center_first
 
+GUM_ext1:
+    coords: [258.19, -6.84]
+    region_type: rectangle
+    frame: galactic
+    region_params:
+       width: 60.0
+       height: 0.10
+       pa: 90
+    priority: 9
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 60
+    max_lunation: 1.0
+    overhead: 1.1
+    tiling_strategy: center_first
+
+GUM_ext2:
+    coords: [273.19, -6.84]
+    region_type: rectangle
+    frame: galactic
+    region_params:
+       width: 60.0
+       height: 0.10
+       pa: 90
+    priority: 9
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 60
+    max_lunation: 1.0
+    overhead: 1.1
+    tiling_strategy: center_first
+
+GUM_ext3:
+    coords: [243.19, -6.84]
+    region_type: rectangle
+    frame: galactic
+    region_params:
+       width: 60.0
+       height: 0.10
+       pa: 90
+    priority: 9
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 60
+    max_lunation: 1.0
+    overhead: 1.1
+    tiling_strategy: center_first
+ 
 MW1:
    coords: [315.0, 0.0]
    region_type: rectangle
    frame: galactic
    region_params:
        width: 150.0
-       height: 17.0
+       height: 15.3
        pa: 0
    priority: 6
    observatory: LCO
@@ -141,7 +201,7 @@ MW2:
    frame: galactic
    region_params:
        width: 215
-       height: 8.0
+       height: 6.0
        pa: 0
    priority: 7
    observatory: LCO
