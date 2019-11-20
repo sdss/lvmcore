@@ -53,6 +53,8 @@ ORION:
     max_lunation: 1.0
     overhead: 1.1
     tiling_strategy: center_first
+    group: ["ORI"]
+
 
 ORI_ext1:
     coords: [206.42, -17.74]
@@ -73,6 +75,8 @@ ORI_ext1:
     max_lunation: 1.0
     overhead: 1.1
     tiling_strategy: center_first
+    group: ["ORI"]
+
 
 ORI_ext2:
     coords: [206.42, -17.74]
@@ -93,6 +97,8 @@ ORI_ext2:
     max_lunation: 1.0
     overhead: 1.1
     tiling_strategy: center_first
+    group: ["ORI"]
+
 
 ORI_ext3:
     coords: [206.42, -17.74]
@@ -113,6 +119,8 @@ ORI_ext3:
     max_lunation: 1.0
     overhead: 1.1
     tiling_strategy: center_first
+    group: ["ORI"]
+
 
 GUM_ext1:
     coords: [258.19, -6.84]
@@ -133,6 +141,8 @@ GUM_ext1:
     max_lunation: 1.0
     overhead: 1.1
     tiling_strategy: center_first
+    group: ["GUM"]
+
 
 GUM_ext2:
     coords: [273.19, -6.84]
@@ -153,6 +163,7 @@ GUM_ext2:
     max_lunation: 1.0
     overhead: 1.1
     tiling_strategy: center_first
+    group: ["GUM"]
 
 GUM_ext3:
     coords: [243.19, -6.84]
@@ -173,14 +184,15 @@ GUM_ext3:
     max_lunation: 1.0
     overhead: 1.1
     tiling_strategy: center_first
- 
+    group: ["GUM"]
+
 MW1:
    coords: [315.0, 0.0]
    region_type: rectangle
    frame: galactic
    region_params:
        width: 150.0
-       height: 15.3
+       height: 16.0
        pa: 0
    priority: 6
    observatory: LCO
@@ -201,7 +213,7 @@ MW2:
    frame: galactic
    region_params:
        width: 215
-       height: 6.0
+       height: 7.0
        pa: 0
    priority: 7
    observatory: LCO
@@ -214,6 +226,7 @@ MW2:
    max_lunation: 1.0
    overhead: 1.1
    tiling_strategy: lowest_airmass
+
 THOR:
     coords: [15, 0.0]
     region_type: rectangle
