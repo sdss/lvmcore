@@ -15,6 +15,7 @@ LMC:
     max_lunation: 0.25
     overhead: 1.1
     tiling_strategy: center_first
+    group: ["MCs"]
 
 SMC:
     coords: [13.1583, -72.8003]
@@ -35,6 +36,7 @@ SMC:
     max_lunation: 0.25
     overhead: 1.1
     tiling_strategy: center_first
+    group: ["MCs"]
 
 ORION:
     coords: [206.42, -17.74]
@@ -61,7 +63,7 @@ ORI_ext1:
     region_type: rectangle
     frame: galactic
     region_params:
-       width: 60.0
+       width: 140.0
        height: 0.10
        pa: 0
     priority: 9
@@ -83,7 +85,7 @@ ORI_ext2:
     region_type: rectangle
     frame: galactic
     region_params:
-       width: 60.0
+       width: 140.0
        height: 0.10
        pa: 120
     priority: 9
@@ -105,7 +107,7 @@ ORI_ext3:
     region_type: rectangle
     frame: galactic
     region_params:
-       width: 60.0
+       width: 140.0
        height: 0.10
        pa: 240
     priority: 9
@@ -121,13 +123,12 @@ ORI_ext3:
     tiling_strategy: center_first
     group: ["ORI"]
 
-
-GUM_ext1:
-    coords: [258.19, -6.84]
+GUM_ext5:
+    coords: [303.19, -6.84]
     region_type: rectangle
     frame: galactic
     region_params:
-       width: 60.0
+       width: 160.0
        height: 0.10
        pa: 90
     priority: 9
@@ -143,13 +144,12 @@ GUM_ext1:
     tiling_strategy: center_first
     group: ["GUM"]
 
-
-GUM_ext2:
-    coords: [273.19, -6.84]
+GUM_ext4:
+    coords: [288.19, -6.84]
     region_type: rectangle
     frame: galactic
     region_params:
-       width: 60.0
+       width: 160.0
        height: 0.10
        pa: 90
     priority: 9
@@ -166,11 +166,53 @@ GUM_ext2:
     group: ["GUM"]
 
 GUM_ext3:
+    coords: [273.19, -6.84]
+    region_type: rectangle
+    frame: galactic
+    region_params:
+       width: 160.0
+       height: 0.10
+       pa: 90
+    priority: 9
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 60
+    max_lunation: 1.0
+    overhead: 1.1
+    tiling_strategy: center_first
+    group: ["GUM"]
+
+GUM_ext2:
+    coords: [258.19, -6.84]
+    region_type: rectangle
+    frame: galactic
+    region_params:
+       width: 160
+       height: 0.10
+       pa: 90
+    priority: 9
+    observatory: BOTH
+    telescope: LVM-160
+    max_airmass: 1.75
+    exptime: 900
+    n_exposures: 1
+    min_exposures: 1
+    min_moon_dist: 60
+    max_lunation: 1.0
+    overhead: 1.1
+    tiling_strategy: center_first
+    group: ["GUM"]
+
+GUM_ext1:
     coords: [243.19, -6.84]
     region_type: rectangle
     frame: galactic
     region_params:
-       width: 60.0
+       width: 160.0
        height: 0.10
        pa: 90
     priority: 9
@@ -205,6 +247,7 @@ MW1:
    max_lunation: 1.0
    overhead: 1.1
    tiling_strategy: lowest_airmass
+   group: ["MW"]
 
 MW2:
 #   coords: [270, 0.0]
@@ -226,6 +269,7 @@ MW2:
    max_lunation: 1.0
    overhead: 1.1
    tiling_strategy: lowest_airmass
+   group: ["MW"]
 
 THOR:
     coords: [15, 0.0]
@@ -246,4 +290,5 @@ THOR:
     max_lunation: 1.0
     overhead: 1.1
     tiling_strategy: center_first
+    group: ["MW"]
 
