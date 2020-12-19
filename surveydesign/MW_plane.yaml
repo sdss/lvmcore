@@ -170,5 +170,5 @@ FULLSKY:
    tiling_strategy: lowest_airmass
    overlap: False
    geodesic: True
-   sparse: 3
+   sparse: 90
    group: ["ALLSKY"]
