@@ -171,4 +171,4 @@ FULLSKY:
    overlap: False
    geodesic: True
    sparse: 3
-   group: ["MW"]
+   group: ["ALLSKY"]
