@@ -4,7 +4,7 @@ LMC:
     frame: icrs
     region_params:
         r: 4.0
-    priority: 10
+    priority: 30
     observatory: LCO
     telescope: LVM-160
     max_airmass: 2.00
@@ -26,7 +26,7 @@ SMC:
         a: 2.635216667
         b: 1.55175
         pa: 45
-    priority: 10
+    priority: 30
     observatory: LCO
     telescope: LVM-160
     max_airmass: 1.75
@@ -46,11 +46,11 @@ ORION:
     frame: galactic
     region_params:
         r: 6.5
-    priority: 1
+    priority: 19
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
-    min_shadowheight: 1000.0
+    min_shadowheight: 500.0
     exptime: 900
     n_exposures: 1
     min_exposures: 1
@@ -60,20 +60,17 @@ ORION:
     tiling_strategy: center_first
     group: ["ORI"]
 
-
-ORI_ext1:
+ORION_SPARSE:
     coords: [206.42, -17.74]
-    region_type: rectangle
+    region_type: circle
     frame: galactic
     region_params:
-       width: 140.0
-       height: 0.10
-       pa: 0
-    priority: 1
+        r: 19.5
+    priority: 9
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
-    min_shadowheight: 1000.0
+    min_shadowheight: 500.0
     exptime: 900
     n_exposures: 1
     min_exposures: 1
@@ -81,161 +78,8 @@ ORI_ext1:
     max_lunation: 1.0
     overhead: 1.1
     tiling_strategy: center_first
+    sparse: 5
     group: ["ORI"]
-
-
-ORI_ext2:
-    coords: [206.42, -17.74]
-    region_type: rectangle
-    frame: galactic
-    region_params:
-       width: 140.0
-       height: 0.10
-       pa: 120
-    priority: 1
-    observatory: BOTH
-    telescope: LVM-160
-    max_airmass: 1.75
-    min_shadowheight: 1000.0
-    exptime: 900
-    n_exposures: 1
-    min_exposures: 1
-    min_moon_dist: 60
-    max_lunation: 1.0
-    overhead: 1.1
-    tiling_strategy: center_first
-    group: ["ORI"]
-
-
-ORI_ext3:
-    coords: [206.42, -17.74]
-    region_type: rectangle
-    frame: galactic
-    region_params:
-       width: 140.0
-       height: 0.10
-       pa: 240
-    priority: 1
-    observatory: BOTH
-    telescope: LVM-160
-    max_airmass: 1.75
-    exptime: 900
-    n_exposures: 1
-    min_exposures: 1
-    min_moon_dist: 60
-    max_lunation: 1.0
-    overhead: 1.1
-    tiling_strategy: center_first
-    group: ["ORI"]
-
-GUM_ext5:
-    coords: [303.19, -6.84]
-    region_type: rectangle
-    frame: galactic
-    region_params:
-       width: 160.0
-       height: 0.10
-       pa: 90
-    priority: 1
-    observatory: BOTH
-    telescope: LVM-160
-    max_airmass: 1.75
-    min_shadowheight: 1000.0
-    exptime: 900
-    n_exposures: 1
-    min_exposures: 1
-    min_moon_dist: 60
-    max_lunation: 1.0
-    overhead: 1.1
-    tiling_strategy: center_first
-    group: ["GUM"]
-
-GUM_ext4:
-    coords: [288.19, -6.84]
-    region_type: rectangle
-    frame: galactic
-    region_params:
-       width: 160.0
-       height: 0.10
-       pa: 90
-    priority: 1
-    observatory: BOTH
-    telescope: LVM-160
-    max_airmass: 1.75
-    exptime: 900
-    n_exposures: 1
-    min_exposures: 1
-    min_moon_dist: 60
-    max_lunation: 1.0
-    overhead: 1.1
-    tiling_strategy: center_first
-    group: ["GUM"]
-
-GUM_ext3:
-    coords: [273.19, -6.84]
-    region_type: rectangle
-    frame: galactic
-    region_params:
-       width: 160.0
-       height: 0.10
-       pa: 90
-    priority: 1
-    observatory: BOTH
-    telescope: LVM-160
-    max_airmass: 1.75
-    min_shadowheight: 1000.0
-    exptime: 900
-    n_exposures: 1
-    min_exposures: 1
-    min_moon_dist: 60
-    max_lunation: 1.0
-    overhead: 1.1
-    tiling_strategy: center_first
-    group: ["GUM"]
-
-GUM_ext2:
-    coords: [258.19, -6.84]
-    region_type: rectangle
-    frame: galactic
-    region_params:
-       width: 160
-       height: 0.10
-       pa: 90
-    priority: 1
-    observatory: BOTH
-    telescope: LVM-160
-    max_airmass: 1.75
-    min_shadowheight: 1000.0
-    exptime: 900
-    n_exposures: 1
-    min_exposures: 1
-    min_moon_dist: 60
-    max_lunation: 1.0
-    overhead: 1.1
-    tiling_strategy: center_first
-    group: ["GUM"]
-
-GUM_ext1:
-    coords: [243.19, -6.84]
-    region_type: rectangle
-    frame: galactic
-    region_params:
-       width: 160.0
-       height: 0.10
-       pa: 90
-    priority: 1
-    observatory: BOTH
-    telescope: LVM-160
-    max_airmass: 1.75
-    min_shadowheight: 1000.0
-    exptime: 900
-    n_exposures: 1
-    min_exposures: 1
-    min_moon_dist: 60
-    max_lunation: 1.0
-    overhead: 1.1
-    tiling_strategy: center_first
-    group: ["GUM"]
 
 MW1:
    coords: [315.0, 0.0]
@@ -245,7 +89,7 @@ MW1:
        width: 150.0
        height: 16.0
        pa: 0
-   priority: 1
+   priority: 10
    observatory: LCO
    telescope: LVM-160
    max_airmass: 1.75
@@ -268,7 +112,7 @@ MW2:
        width: 215
        height: 7.0
        pa: 0
-   priority: 1
+   priority: 10
    observatory: LCO
    telescope: LVM-160
    max_airmass: 1.75
@@ -290,7 +134,7 @@ THOR:
         width: 30.0
         height: 2.0
         pa: 0
-    priority: 1
+    priority: 10
     observatory: LCO
     telescope: LVM-160
     max_airmass: 1.75
@@ -304,3 +148,27 @@ THOR:
     tiling_strategy: center_first
     group: ["MW"]
 
+FULLSKY:
+   coords: [180, 0]
+   region_type: rectangle
+   frame: icrs
+   region_params:
+       width: 358
+       height: 179
+       pa: 0
+   priority: 1
+   observatory: LCO
+   telescope: LVM-160
+   max_airmass: 1.75
+   min_shadowheight: 1000.0
+   exptime: 900
+   n_exposures: 1
+   min_exposures: 1
+   min_moon_dist: 60
+   max_lunation: 1.0
+   overhead: 1.1
+   tiling_strategy: lowest_airmass
+   overlap: False
+   geodesic: True
+   sparse: 3
+   group: ["MW"]
