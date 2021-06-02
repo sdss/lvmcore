@@ -14,7 +14,7 @@ Sh_2-171:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
-    group: ["MW", "MW_targets"]
+    group: ["MW_SFregions"]
     tiling_strategy: center_first
 
 AFGL490:
@@ -33,7 +33,7 @@ AFGL490:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
-    group: ["MW", "MW_targets"]
+    group: ["MW_SFregions"]
     tiling_strategy: center_first
 
 NGC_1333:
@@ -52,7 +52,7 @@ NGC_1333:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
-    group: ["MW", "MW_targets"]
+    group: ["MW_SFregions"]
     tiling_strategy: center_first
 
 IC_348:
@@ -71,7 +71,7 @@ IC_348:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
-    group: ["MW", "MW_targets"]
+    group: ["MW_SFregions"]
     tiling_strategy: center_first
 
 XY_Per:
@@ -90,7 +90,7 @@ XY_Per:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
-    group: ["MW", "MW_targets"]
+    group: ["MW_SFregions"]
     tiling_strategy: center_first
 
 LkHalpha101:
@@ -109,7 +109,7 @@ LkHalpha101:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
-    group: ["MW", "MW_targets"]
+    group: ["MW_SFregions"]
     tiling_strategy: center_first
 
 GGD:
@@ -128,7 +128,7 @@ GGD:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
-    group: ["MW", "MW_targets"]
+    group: ["MW_SFregions"]
     tiling_strategy: center_first
 
 IRAS_06046-0603:
@@ -147,7 +147,7 @@ IRAS_06046-0603:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
-    group: ["MW", "MW_targets"]
+    group: ["MW_SFregions"]
     tiling_strategy: center_first
 
 Mon_R2:
@@ -166,7 +166,7 @@ Mon_R2:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
-    group: ["MW", "MW_targets"]
+    group: ["MW_SFregions"]
     tiling_strategy: center_first
 
 GGD_12-15:
@@ -185,7 +185,7 @@ GGD_12-15:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
-    group: ["MW", "MW_targets"]
+    group: ["MW_SFregions"]
     tiling_strategy: center_first
 
 GGD_17:
@@ -204,7 +204,7 @@ GGD_17:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
-    group: ["MW", "MW_targets"]
+    group: ["MW_SFregions"]
     tiling_strategy: center_first
 
 VY_Mon:
@@ -223,7 +223,7 @@ VY_Mon:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
-    group: ["MW", "MW_targets"]
+    group: ["MW_SFregions"]
     tiling_strategy: center_first
 
 Cha_I:
@@ -242,7 +242,7 @@ Cha_I:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
-    group: ["MW", "MW_targets"]
+    group: ["MW_SFregions"]
     tiling_strategy: center_first
 
 Lupus_III:
@@ -261,7 +261,7 @@ Lupus_III:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
-    group: ["MW", "MW_targets"]
+    group: ["MW_SFregions"]
     tiling_strategy: center_first
 
 MWC_297:
@@ -280,7 +280,7 @@ MWC_297:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
-    group: ["MW", "MW_targets"]
+    group: ["MW_SFregions"]
     tiling_strategy: center_first
 
 Serpens:
@@ -299,7 +299,7 @@ Serpens:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
-    group: ["MW", "MW_targets"]
+    group: ["MW_SFregions"]
     tiling_strategy: center_first
 
 IRAS_20050+2720:
@@ -318,7 +318,7 @@ IRAS_20050+2720:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
-    group: ["MW", "MW_targets"]
+    group: ["MW_SFregions"]
     tiling_strategy: center_first
 
 S106:
@@ -337,7 +337,7 @@ S106:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
-    group: ["MW", "MW_targets"]
+    group: ["MW_SFregions"]
     tiling_strategy: center_first
 
 S131:
@@ -356,7 +356,7 @@ S131:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
-    group: ["MW", "MW_targets"]
+    group: ["MW_SFregions"]
     tiling_strategy: center_first
 
 NGC_7129:
@@ -375,7 +375,7 @@ NGC_7129:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
-    group: ["MW", "MW_targets"]
+    group: ["MW_SFregions"]
     tiling_strategy: center_first
 
 IC5146:
@@ -394,7 +394,7 @@ IC5146:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
-    group: ["MW", "MW_targets"]
+    group: ["MW_SFregions"]
     tiling_strategy: center_first
 
 S140:
@@ -413,7 +413,7 @@ S140:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
-    group: ["MW", "MW_targets"]
+    group: ["MW_SFregions"]
     tiling_strategy: center_first
 
 Cep_A:
@@ -432,7 +432,7 @@ Cep_A:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
-    group: ["MW", "MW_targets"]
+    group: ["MW_SFregions"]
     tiling_strategy: center_first
 
 Cep_B:
@@ -451,7 +451,7 @@ Cep_B:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
-    group: ["MW", "MW_targets"]
+    group: ["MW_SFregions"]
     tiling_strategy: center_first
 
 Ori_A:
@@ -470,7 +470,7 @@ Ori_A:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
-    group: ["MW", "MW_targets"]
+    group: ["MW_SFregions"]
     tiling_strategy: center_first
 
 Ori_B:
@@ -489,7 +489,7 @@ Ori_B:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
-    group: ["MW", "MW_targets"]
+    group: ["MW_SFregions"]
     tiling_strategy: center_first
 
 NGC_2264:
@@ -508,7 +508,7 @@ NGC_2264:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
-    group: ["MW", "MW_targets"]
+    group: ["MW_SFregions"]
     tiling_strategy: center_first
 
 Cep_OB3b:
@@ -527,7 +527,7 @@ Cep_OB3b:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
-    group: ["MW", "MW_targets"]
+    group: ["MW_SFregions"]
     tiling_strategy: center_first
 
 lambda-Ori:
@@ -546,7 +546,7 @@ lambda-Ori:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
-    group: ["MW", "MW_targets"]
+    group: ["MW_SFregions"]
     tiling_strategy: center_first
 
 Chameleon:
@@ -565,7 +565,7 @@ Chameleon:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
-    group: ["MW", "MW_targets"]
+    group: ["MW_SFregions"]
     tiling_strategy: center_first
 
 Taurus-Auriga:
@@ -584,7 +584,7 @@ Taurus-Auriga:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
-    group: ["MW", "MW_targets"]
+    group: ["MW_SFregions"]
     tiling_strategy: center_first
 
 Upper_Sco:
@@ -603,7 +603,7 @@ Upper_Sco:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
-    group: ["MW", "MW_targets"]
+    group: ["MW_SFregions"]
     tiling_strategy: center_first
 
 W3:
@@ -622,7 +622,7 @@ W3:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
-    group: ["MW", "MW_targets"]
+    group: ["MW_SFregions"]
     tiling_strategy: center_first
 
 W4:
@@ -641,7 +641,7 @@ W4:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
-    group: ["MW", "MW_targets"]
+    group: ["MW_SFregions"]
     tiling_strategy: center_first
 
 W5:
@@ -660,7 +660,7 @@ W5:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
-    group: ["MW", "MW_targets"]
+    group: ["MW_SFregions"]
     tiling_strategy: center_first
 
 Cygnus_X:
@@ -679,7 +679,7 @@ Cygnus_X:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
-    group: ["MW", "MW_targets"]
+    group: ["MW_SFregions"]
     tiling_strategy: center_first
 
 W40:
@@ -698,7 +698,7 @@ W40:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
-    group: ["MW", "MW_targets"]
+    group: ["MW_SFregions"]
     tiling_strategy: center_first
 
 Eagle-M16:
@@ -717,7 +717,7 @@ Eagle-M16:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
-    group: ["MW", "MW_targets"]
+    group: ["MW_SFregions"]
     tiling_strategy: center_first
 
 M17:
@@ -736,7 +736,7 @@ M17:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
-    group: ["MW", "MW_targets"]
+    group: ["MW_SFregions"]
     tiling_strategy: center_first
 
 Trifid-M20:
@@ -755,7 +755,7 @@ Trifid-M20:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
-    group: ["MW", "MW_targets"]
+    group: ["MW_SFregions"]
     tiling_strategy: center_first
 
 NGC_6334:
@@ -774,7 +774,7 @@ NGC_6334:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
-    group: ["MW", "MW_targets"]
+    group: ["MW_SFregions"]
     tiling_strategy: center_first
 
 NGC_6537:
@@ -793,7 +793,7 @@ NGC_6537:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
-    group: ["MW", "MW_targets"]
+    group: ["MW_SFregions"]
     tiling_strategy: center_first
 
 Carina:
@@ -812,7 +812,7 @@ Carina:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
-    group: ["MW", "MW_targets"]
+    group: ["MW_SFregions"]
     tiling_strategy: center_first
 
 RCW_36:
@@ -831,7 +831,7 @@ RCW_36:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
-    group: ["MW", "MW_targets"]
+    group: ["MW_SFregions"]
     tiling_strategy: center_first
 
 RCW_38:
@@ -850,7 +850,7 @@ RCW_38:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
-    group: ["MW", "MW_targets"]
+    group: ["MW_SFregions"]
     tiling_strategy: center_first
 
 NGC_2362:
@@ -869,7 +869,7 @@ NGC_2362:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
-    group: ["MW", "MW_targets"]
+    group: ["MW_SFregions"]
     tiling_strategy: center_first
 
 Rosette:
@@ -888,7 +888,7 @@ Rosette:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
-    group: ["MW", "MW_targets"]
+    group: ["MW_SFregions"]
     tiling_strategy: center_first
 
 NGC_1893:
@@ -907,5 +907,5 @@ NGC_1893:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
-    group: ["MW", "MW_targets"]
+    group: ["MW_SFregions"]
     tiling_strategy: center_first
