@@ -1,197 +1,10 @@
-M31:
-    coords: [[10.576, 41.244], [11.12, 41.19],
-             [11.95, 42.195], [11.42, 42.26]]
-    region_type: polygon
-    frame: icrs
-    priority: 4
-    observatory: APO
-    telescope: LVM-1m
-    max_airmass: 1.75
-    exptime: 1200
-    n_exposures: 9
-    min_exposures: 3
-    min_moon_dist: 25
-    max_lunation: 0.2
-    overhead: 1.1
-    tiling_strategy: center_first
-
-M33:
-    coords: [23.462100, 30.659942]
-    region_type: ellipse
-    frame: icrs
-    region_params:
-        a: 1.16
-        b: 0.666
-        pa: 0
-    priority: 3
-    observatory: APO
-    telescope: LVM-1m
-    max_airmass: 1.75
-    exptime: 1200
-    n_exposures: 9
-    min_exposures: 3
-    min_moon_dist: 25
-    max_lunation: 0.2
-    overhead: 1.1
-    tiling_strategy: center_first
-
-ORION:
-    coords: [201.4754061, -24.84403857]
-    region_type: circle
-    frame: galactic
-    region_params:
-        r: 4.0
-    priority: 2
-    observatory: BOTH
-    telescope: LVM-160
-    max_airmass: 1.75
-    exptime: 900
-    n_exposures: 1
-    min_exposures: 1
-    min_moon_dist: 75
-    max_lunation: 1.0
-    overhead: 1.1
-    tiling_strategy: center_first
-
-IC1613:
-    coords: [16.2258, 2.1333]
-    region_type: ellipse
-    frame: icrs
-    region_params:
-        a: 0.27
-        b: 0.241666667
-        pa: 50
-    priority: 2
-    observatory: APO
-    telescope: LVM-1m
-    max_airmass: 1.75
-    exptime: 1200
-    n_exposures: 9
-    min_exposures: 3
-    min_moon_dist: 25
-    max_lunation: 0.2
-    overhead: 1.1
-    tiling_strategy: center_first
-
-LeoI:
-    coords: [152.11717, 12.30650]
-    region_type: rectangle
-    frame: icrs
-    region_params:
-        width: 0.191111667
-        height: 0.191111667
-        pa: 0.0
-    priority: 2
-    observatory: APO
-    telescope: LVM-1m
-    max_airmass: 1.75
-    exptime: 1200
-    n_exposures: 9
-    min_exposures: 3
-    min_moon_dist: 25
-    max_lunation: 0.2
-    overhead: 1.1
-
-LeoA:
-    coords: [149.86025, 30.74639]
-    region_type: ellipse
-    frame: icrs
-    region_params:
-        a: 0.070833333
-        b: 0.034
-        pa: 10
-    priority: 2
-    observatory: APO
-    telescope: LVM-1m
-    max_airmass: 1.75
-    exptime: 1200
-    n_exposures: 9
-    min_exposures: 3
-    min_moon_dist: 25
-    max_lunation: 0.2
-    overhead: 1.1
-
-LMC1:
-    coords: [280.082423, -34.01814627]
-    region_type: circle
-    frame: galactic
-    region_params:
-        r: 4
-    priority: 3
-    observatory: LCO
-    telescope: LVM-160
-    max_airmass: 2.00
-    exptime: 1200
-    n_exposures: 9
-    min_exposures: 1
-    min_moon_dist: 25
-    max_lunation: 0.2
-    overhead: 1.1
-    tiling_strategy: center_first
-
-SMC:
-    coords: [13.1583, -72.8003]
-    region_type: ellipse
-    frame: icrs
-    region_params:
-        a: 2.635216667
-        b: 1.55175
-        pa: 45
-    priority: 2
-    observatory: LCO
-    telescope: LVM-160
-    max_airmass: 1.75
-    exptime: 1200
-    n_exposures: 9
-    min_exposures: 3
-    min_moon_dist: 25
-    max_lunation: 0.2
-    overhead: 1.1
-    tiling_strategy: center_first
-
-Pegasus:
-    coords: [357.9433, 24.5864]
-    region_type: rectangle
-    frame: icrs
-    region_params:
-        width: 0.066333333
-        height: 0.033333333
-        pa: 0.0
-    priority: 2
-    observatory: APO
-    telescope: LVM-1m
-    max_airmass: 1.75
-    exptime: 1200
-    n_exposures: 9
-    min_exposures: 3
-    min_moon_dist: 25
-    max_lunation: 0.2
-    overhead: 1.1
-
-NGC6946:
-    coords: [308.718015, 60.153915]
-    region_type: circle
-    frame: icrs
-    region_params:
-        r: 0.28
-    priority: 2
-    observatory: APO
-    telescope: LVM-1m
-    max_airmass: 1.75
-    exptime: 1200
-    n_exposures: 9
-    min_exposures: 3
-    min_moon_dist: 25
-    max_lunation: 0.2
-    overhead: 1.1
-
 Sh_2-171:
     coords: [118.118785,5.020846]
     region_type: circle
     frame: galactic
     region_params:
         r: 4.0
-    priority: 1
+    priority: 2000
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -201,7 +14,7 @@ Sh_2-171:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
-    group: ["MW"]
+    group: ["MW_SFregions"]
     tiling_strategy: center_first
 
 AFGL490:
@@ -210,7 +23,7 @@ AFGL490:
     frame: galactic
     region_params:
         r: 4.0
-    priority: 1
+    priority: 2000
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -220,7 +33,7 @@ AFGL490:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
-    group: ["MW"]
+    group: ["MW_SFregions"]
     tiling_strategy: center_first
 
 NGC_1333:
@@ -229,7 +42,7 @@ NGC_1333:
     frame: galactic
     region_params:
         r: 4.0
-    priority: 1
+    priority: 2000
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -239,7 +52,7 @@ NGC_1333:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
-    group: ["MW"]
+    group: ["MW_SFregions"]
     tiling_strategy: center_first
 
 IC_348:
@@ -248,7 +61,7 @@ IC_348:
     frame: galactic
     region_params:
         r: 4.0
-    priority: 1
+    priority: 2000
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -258,7 +71,7 @@ IC_348:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
-    group: ["MW"]
+    group: ["MW_SFregions"]
     tiling_strategy: center_first
 
 XY_Per:
@@ -267,7 +80,7 @@ XY_Per:
     frame: galactic
     region_params:
         r: 4.0
-    priority: 1
+    priority: 2000
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -277,7 +90,7 @@ XY_Per:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
-    group: ["MW"]
+    group: ["MW_SFregions"]
     tiling_strategy: center_first
 
 LkHalpha101:
@@ -286,7 +99,7 @@ LkHalpha101:
     frame: galactic
     region_params:
         r: 4.0
-    priority: 1
+    priority: 2000
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -296,7 +109,7 @@ LkHalpha101:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
-    group: ["MW"]
+    group: ["MW_SFregions"]
     tiling_strategy: center_first
 
 GGD:
@@ -305,7 +118,7 @@ GGD:
     frame: galactic
     region_params:
         r: 4.0
-    priority: 1
+    priority: 2000
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -315,7 +128,7 @@ GGD:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
-    group: ["MW"]
+    group: ["MW_SFregions"]
     tiling_strategy: center_first
 
 IRAS_06046-0603:
@@ -324,7 +137,7 @@ IRAS_06046-0603:
     frame: galactic
     region_params:
         r: 4.0
-    priority: 1
+    priority: 2000
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -334,7 +147,7 @@ IRAS_06046-0603:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
-    group: ["MW"]
+    group: ["MW_SFregions"]
     tiling_strategy: center_first
 
 Mon_R2:
@@ -343,7 +156,7 @@ Mon_R2:
     frame: galactic
     region_params:
         r: 4.0
-    priority: 1
+    priority: 2000
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -353,7 +166,7 @@ Mon_R2:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
-    group: ["MW"]
+    group: ["MW_SFregions"]
     tiling_strategy: center_first
 
 GGD_12-15:
@@ -362,7 +175,7 @@ GGD_12-15:
     frame: galactic
     region_params:
         r: 4.0
-    priority: 1
+    priority: 2000
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -372,7 +185,7 @@ GGD_12-15:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
-    group: ["MW"]
+    group: ["MW_SFregions"]
     tiling_strategy: center_first
 
 GGD_17:
@@ -381,7 +194,7 @@ GGD_17:
     frame: galactic
     region_params:
         r: 4.0
-    priority: 1
+    priority: 2000
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -391,7 +204,7 @@ GGD_17:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
-    group: ["MW"]
+    group: ["MW_SFregions"]
     tiling_strategy: center_first
 
 VY_Mon:
@@ -400,7 +213,7 @@ VY_Mon:
     frame: galactic
     region_params:
         r: 4.0
-    priority: 1
+    priority: 2000
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -410,7 +223,7 @@ VY_Mon:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
-    group: ["MW"]
+    group: ["MW_SFregions"]
     tiling_strategy: center_first
 
 Cha_I:
@@ -419,7 +232,7 @@ Cha_I:
     frame: galactic
     region_params:
         r: 4.0
-    priority: 1
+    priority: 2000
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -429,7 +242,7 @@ Cha_I:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
-    group: ["MW"]
+    group: ["MW_SFregions"]
     tiling_strategy: center_first
 
 Lupus_III:
@@ -438,7 +251,7 @@ Lupus_III:
     frame: galactic
     region_params:
         r: 4.0
-    priority: 1
+    priority: 2000
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -448,7 +261,7 @@ Lupus_III:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
-    group: ["MW"]
+    group: ["MW_SFregions"]
     tiling_strategy: center_first
 
 MWC_297:
@@ -457,7 +270,7 @@ MWC_297:
     frame: galactic
     region_params:
         r: 4.0
-    priority: 1
+    priority: 2000
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -467,7 +280,7 @@ MWC_297:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
-    group: ["MW"]
+    group: ["MW_SFregions"]
     tiling_strategy: center_first
 
 Serpens:
@@ -476,7 +289,7 @@ Serpens:
     frame: galactic
     region_params:
         r: 4.0
-    priority: 1
+    priority: 2000
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -486,7 +299,7 @@ Serpens:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
-    group: ["MW"]
+    group: ["MW_SFregions"]
     tiling_strategy: center_first
 
 IRAS_20050+2720:
@@ -495,7 +308,7 @@ IRAS_20050+2720:
     frame: galactic
     region_params:
         r: 4.0
-    priority: 1
+    priority: 2000
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -505,7 +318,7 @@ IRAS_20050+2720:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
-    group: ["MW"]
+    group: ["MW_SFregions"]
     tiling_strategy: center_first
 
 S106:
@@ -514,7 +327,7 @@ S106:
     frame: galactic
     region_params:
         r: 4.0
-    priority: 1
+    priority: 2000
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -524,7 +337,7 @@ S106:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
-    group: ["MW"]
+    group: ["MW_SFregions"]
     tiling_strategy: center_first
 
 S131:
@@ -533,7 +346,7 @@ S131:
     frame: galactic
     region_params:
         r: 4.0
-    priority: 1
+    priority: 2000
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -543,7 +356,7 @@ S131:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
-    group: ["MW"]
+    group: ["MW_SFregions"]
     tiling_strategy: center_first
 
 NGC_7129:
@@ -552,7 +365,7 @@ NGC_7129:
     frame: galactic
     region_params:
         r: 4.0
-    priority: 1
+    priority: 2000
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -562,7 +375,7 @@ NGC_7129:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
-    group: ["MW"]
+    group: ["MW_SFregions"]
     tiling_strategy: center_first
 
 IC5146:
@@ -571,7 +384,7 @@ IC5146:
     frame: galactic
     region_params:
         r: 4.0
-    priority: 1
+    priority: 2000
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -581,7 +394,7 @@ IC5146:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
-    group: ["MW"]
+    group: ["MW_SFregions"]
     tiling_strategy: center_first
 
 S140:
@@ -590,7 +403,7 @@ S140:
     frame: galactic
     region_params:
         r: 4.0
-    priority: 1
+    priority: 2000
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -600,7 +413,7 @@ S140:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
-    group: ["MW"]
+    group: ["MW_SFregions"]
     tiling_strategy: center_first
 
 Cep_A:
@@ -609,7 +422,7 @@ Cep_A:
     frame: galactic
     region_params:
         r: 4.0
-    priority: 1
+    priority: 2000
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -619,7 +432,7 @@ Cep_A:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
-    group: ["MW"]
+    group: ["MW_SFregions"]
     tiling_strategy: center_first
 
 Cep_B:
@@ -628,7 +441,7 @@ Cep_B:
     frame: galactic
     region_params:
         r: 4.0
-    priority: 1
+    priority: 2000
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -638,7 +451,7 @@ Cep_B:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
-    group: ["MW"]
+    group: ["MW_SFregions"]
     tiling_strategy: center_first
 
 Ori_A:
@@ -647,7 +460,7 @@ Ori_A:
     frame: galactic
     region_params:
         r: 4.0
-    priority: 1
+    priority: 2000
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -657,7 +470,7 @@ Ori_A:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
-    group: ["MW"]
+    group: ["MW_SFregions"]
     tiling_strategy: center_first
 
 Ori_B:
@@ -666,7 +479,7 @@ Ori_B:
     frame: galactic
     region_params:
         r: 4.0
-    priority: 1
+    priority: 2000
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -676,7 +489,7 @@ Ori_B:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
-    group: ["MW"]
+    group: ["MW_SFregions"]
     tiling_strategy: center_first
 
 NGC_2264:
@@ -685,7 +498,7 @@ NGC_2264:
     frame: galactic
     region_params:
         r: 4.0
-    priority: 1
+    priority: 2000
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -695,7 +508,7 @@ NGC_2264:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
-    group: ["MW"]
+    group: ["MW_SFregions"]
     tiling_strategy: center_first
 
 Cep_OB3b:
@@ -704,7 +517,7 @@ Cep_OB3b:
     frame: galactic
     region_params:
         r: 4.0
-    priority: 1
+    priority: 2000
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -714,7 +527,7 @@ Cep_OB3b:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
-    group: ["MW"]
+    group: ["MW_SFregions"]
     tiling_strategy: center_first
 
 lambda-Ori:
@@ -723,7 +536,7 @@ lambda-Ori:
     frame: galactic
     region_params:
         r: 4.0
-    priority: 1
+    priority: 2000
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -733,7 +546,7 @@ lambda-Ori:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
-    group: ["MW"]
+    group: ["MW_SFregions"]
     tiling_strategy: center_first
 
 Chameleon:
@@ -742,7 +555,7 @@ Chameleon:
     frame: galactic
     region_params:
         r: 4.0
-    priority: 1
+    priority: 2000
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -752,7 +565,7 @@ Chameleon:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
-    group: ["MW"]
+    group: ["MW_SFregions"]
     tiling_strategy: center_first
 
 Taurus-Auriga:
@@ -761,7 +574,7 @@ Taurus-Auriga:
     frame: galactic
     region_params:
         r: 4.0
-    priority: 1
+    priority: 2000
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -771,7 +584,7 @@ Taurus-Auriga:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
-    group: ["MW"]
+    group: ["MW_SFregions"]
     tiling_strategy: center_first
 
 Upper_Sco:
@@ -780,7 +593,7 @@ Upper_Sco:
     frame: galactic
     region_params:
         r: 4.0
-    priority: 1
+    priority: 2000
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -790,7 +603,7 @@ Upper_Sco:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
-    group: ["MW"]
+    group: ["MW_SFregions"]
     tiling_strategy: center_first
 
 W3:
@@ -799,7 +612,7 @@ W3:
     frame: galactic
     region_params:
         r: 4.0
-    priority: 1
+    priority: 2000
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -809,7 +622,7 @@ W3:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
-    group: ["MW"]
+    group: ["MW_SFregions"]
     tiling_strategy: center_first
 
 W4:
@@ -818,7 +631,7 @@ W4:
     frame: galactic
     region_params:
         r: 4.0
-    priority: 1
+    priority: 2000
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -828,7 +641,7 @@ W4:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
-    group: ["MW"]
+    group: ["MW_SFregions"]
     tiling_strategy: center_first
 
 W5:
@@ -837,7 +650,7 @@ W5:
     frame: galactic
     region_params:
         r: 4.0
-    priority: 1
+    priority: 2000
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -847,7 +660,7 @@ W5:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
-    group: ["MW"]
+    group: ["MW_SFregions"]
     tiling_strategy: center_first
 
 Cygnus_X:
@@ -856,7 +669,7 @@ Cygnus_X:
     frame: galactic
     region_params:
         r: 4.0
-    priority: 1
+    priority: 2000
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -866,7 +679,7 @@ Cygnus_X:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
-    group: ["MW"]
+    group: ["MW_SFregions"]
     tiling_strategy: center_first
 
 W40:
@@ -875,7 +688,7 @@ W40:
     frame: galactic
     region_params:
         r: 4.0
-    priority: 1
+    priority: 2000
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -885,7 +698,7 @@ W40:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
-    group: ["MW"]
+    group: ["MW_SFregions"]
     tiling_strategy: center_first
 
 Eagle-M16:
@@ -894,7 +707,7 @@ Eagle-M16:
     frame: galactic
     region_params:
         r: 4.0
-    priority: 1
+    priority: 2000
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -904,7 +717,7 @@ Eagle-M16:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
-    group: ["MW"]
+    group: ["MW_SFregions"]
     tiling_strategy: center_first
 
 M17:
@@ -913,7 +726,7 @@ M17:
     frame: galactic
     region_params:
         r: 4.0
-    priority: 1
+    priority: 2000
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -923,7 +736,7 @@ M17:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
-    group: ["MW"]
+    group: ["MW_SFregions"]
     tiling_strategy: center_first
 
 Trifid-M20:
@@ -932,7 +745,7 @@ Trifid-M20:
     frame: galactic
     region_params:
         r: 4.0
-    priority: 1
+    priority: 2000
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -942,7 +755,7 @@ Trifid-M20:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
-    group: ["MW"]
+    group: ["MW_SFregions"]
     tiling_strategy: center_first
 
 NGC_6334:
@@ -951,7 +764,7 @@ NGC_6334:
     frame: galactic
     region_params:
         r: 4.0
-    priority: 1
+    priority: 2000
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -961,7 +774,7 @@ NGC_6334:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
-    group: ["MW"]
+    group: ["MW_SFregions"]
     tiling_strategy: center_first
 
 NGC_6537:
@@ -970,7 +783,7 @@ NGC_6537:
     frame: galactic
     region_params:
         r: 4.0
-    priority: 1
+    priority: 2000
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -980,7 +793,7 @@ NGC_6537:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
-    group: ["MW"]
+    group: ["MW_SFregions"]
     tiling_strategy: center_first
 
 Carina:
@@ -989,7 +802,7 @@ Carina:
     frame: galactic
     region_params:
         r: 4.0
-    priority: 1
+    priority: 2000
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -999,7 +812,7 @@ Carina:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
-    group: ["MW"]
+    group: ["MW_SFregions"]
     tiling_strategy: center_first
 
 RCW_36:
@@ -1008,7 +821,7 @@ RCW_36:
     frame: galactic
     region_params:
         r: 4.0
-    priority: 1
+    priority: 2000
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -1018,7 +831,7 @@ RCW_36:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
-    group: ["MW"]
+    group: ["MW_SFregions"]
     tiling_strategy: center_first
 
 RCW_38:
@@ -1027,7 +840,7 @@ RCW_38:
     frame: galactic
     region_params:
         r: 4.0
-    priority: 1
+    priority: 2000
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -1037,7 +850,7 @@ RCW_38:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
-    group: ["MW"]
+    group: ["MW_SFregions"]
     tiling_strategy: center_first
 
 NGC_2362:
@@ -1046,7 +859,7 @@ NGC_2362:
     frame: galactic
     region_params:
         r: 4.0
-    priority: 1
+    priority: 2000
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -1056,7 +869,7 @@ NGC_2362:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
-    group: ["MW"]
+    group: ["MW_SFregions"]
     tiling_strategy: center_first
 
 Rosette:
@@ -1065,7 +878,7 @@ Rosette:
     frame: galactic
     region_params:
         r: 4.0
-    priority: 1
+    priority: 2000
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -1075,7 +888,7 @@ Rosette:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
-    group: ["MW"]
+    group: ["MW_SFregions"]
     tiling_strategy: center_first
 
 NGC_1893:
@@ -1084,7 +897,7 @@ NGC_1893:
     frame: galactic
     region_params:
         r: 4.0
-    priority: 1
+    priority: 2000
     observatory: BOTH
     telescope: LVM-160
     max_airmass: 1.75
@@ -1094,25 +907,5 @@ NGC_1893:
     min_moon_dist: 75
     max_lunation: 1.0
     overhead: 1.1
-    group: ["MW"]
+    group: ["MW_SFregions"]
     tiling_strategy: center_first
-
-MW1:
-    coords: [119.616225, 0.0]
-    region_type: rectangle
-    frame: galactic
-    region_params:
-        width: 360.0
-        height: 11.0
-        pa: 0
-    priority: 0
-    observatory: BOTH
-    telescope: LVM-160
-    max_airmass: 1.75
-    exptime: 900
-    n_exposures: 1
-    min_exposures: 1
-    min_moon_dist: 75
-    max_lunation: 1.0
-    overhead: 1.1
-    tiling_strategy: lowest_airmass
