@@ -16,6 +16,7 @@ LMC:
     max_lunation: 0.25
     overhead: 1.1
     tiling_strategy: center_first
+    tile_overlap: 0.0416
     group: ["MCs"]
 
 SMC:
@@ -38,6 +39,7 @@ SMC:
     max_lunation: 0.25
     overhead: 1.1
     tiling_strategy: center_first
+    tile_overlap: 0.0416
     group: ["MCs"]
 
 ORION:
@@ -58,6 +60,7 @@ ORION:
     max_lunation: 1.0
     overhead: 1.1
     tiling_strategy: center_first
+    tile_overlap: 0.0416
     group: ["ORI"]
 
 ORION_SPARSE:
@@ -102,6 +105,7 @@ MW1:
    overhead: 1.1
    tile_union: MW
    tiling_strategy: lowest_airmass
+   tile_overlap: 0.0416
    group: ["MW"]
 
 MW2:
@@ -125,6 +129,7 @@ MW2:
    overhead: 1.1
    tile_union: MW
    tiling_strategy: lowest_airmass
+   tile_overlap: 0.0416
    group: ["MW"]
 
 THOR:
@@ -148,6 +153,7 @@ THOR:
     overhead: 1.1
     tile_union: MW
     tiling_strategy: center_first
+    tile_overlap: 0.0416
     group: ["MW"]
 
 FULLSKY:
