@@ -3,7 +3,7 @@ LMC:
     region_type: circle
     frame: icrs
     region_params:
-        r: 4.0
+        r: 5.0
     priority: 30
     observatory: LCO
     telescope: LVM-160
@@ -24,8 +24,8 @@ SMC:
     region_type: ellipse
     frame: icrs
     region_params:
-        a: 2.635216667
-        b: 1.55175
+        a: 3.0
+        b: 1.78
         pa: 45
     priority: 30
     observatory: LCO
@@ -90,7 +90,7 @@ MW1:
    frame: galactic
    region_params:
        width: 150.0
-       height: 16.0
+       height: 18.0
        pa: 0
    priority: 9
    observatory: LCO
@@ -114,7 +114,7 @@ MW2:
    frame: galactic
    region_params:
        width: 215
-       height: 7.0
+       height: 8.0
        pa: 0
    priority: 10
    observatory: LCO
