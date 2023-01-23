@@ -1,4 +1,4 @@
-# LMV fiber mapping file: lvm_fiducial_fibermap
+# LVM fiber mapping file: lvm_fiducial_fibermap
 #
 # This file is a machine-readble translation of the fiducial fiber mapping
 # information specified in the given excel sheet.
@@ -68,7 +68,7 @@ schema:
     unit: null
 
 fibers:
-  - [1, 1, B1 , 1, SKY, A3, 1, 0, 0, 1, 0]
+  - [1, 1, B1, 1, SKY, A3, 1, 0, 0, 1, 0]
   - [2, 1, B1, 2, standard, P1, 1, 1.429, 5.115, 19, 0]
   - [3, 1, B1, 3, science, S1, 1, 0, 7.92, 25, 0]
   - [4, 1, B1, 4, science, S1, 2, 0.286, 7.755, 25, 0]
