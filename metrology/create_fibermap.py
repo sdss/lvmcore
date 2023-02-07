@@ -474,7 +474,6 @@ def set_ring(col: str, main: pd.DataFrame, ifu: pd.DataFrame) -> pd.DataFrame:
     # update the ringnum column with the relevant ring id
     main = main.set_index("label", drop=False)
     main.loc[sub.index, 'ringnum'] = sub["ringid"].tolist()
-    main.loc[sub.index, 'ringnum'] = sub["ringid"].tolist()
     main = main.reset_index(drop=True)
     return main
 
@@ -706,6 +705,209 @@ def create_fibermap(filename: str, output: str):
 
     # write the fibers out to a YAML file
     write_yaml(output, final=fibers, comments=comments)
+
+
+def set_column(col: str, main: pd.DataFrame, ifu: pd.DataFrame,
+               main_col: str, ifu_col: str) -> pd.DataFrame:
+    """ Updates a column in main fiber df with values from ifu df
+
+    Updates a column in main fiber df with values from the
+    matching column in the ifu df.  ``main_col`` specifies the
+    main column to update.  ``ifu_col`` specifies the ifu column
+    to pull values from.  ``col`` specifies the name of the column
+    of fibers you want to match, either "label" for science fibers,
+    "altP" for standards, "altA" for sky IFU A, or "altB" for sky
+    IFU B.  It uses their relative positions equivalent to the
+    same science fiber at the same id location.
+
+    Parameters
+    ----------
+    col : str
+        the name of the column to match
+    main : pd.DataFrame
+        the input fiber df
+    ifu : pd.DataFrame
+        the input IFU df
+    main_col : str
+        the name of the column in the main fibers df
+    ifu_col : str
+        the name of the column in the main IFU df
+
+    Returns
+    -------
+    pd.DataFrame
+        updated fiber df
+    """
+    # identify the locations of the sky and standard with
+    # respect to their science fiber locations
+    sub = ifu[~ifu[col].isna()]
+    sub = sub.set_index(col, drop=False)
+    sub = sub.reindex(index=main[main.label.isin(ifu[col])].label)
+
+    # update the column with the relevant IFU values
+    main = main.set_index("label", drop=False)
+    main.loc[sub.index, main_col] = sub[ifu_col].tolist()
+    main = main.reset_index(drop=True)
+    return main
+
+
+def insert_into_db(filename: str = None, ifu: pd.DataFrame = None, fibers: pd.DataFrame = None):
+    """ Insert static fiber data into the LVM db
+
+    Inserts the static fiber data from the IFU and fibers dataframes
+    into the lvmdb drp schema, tables "ifu", and "fibers".
+
+    Parameters
+    ----------
+    filename : str, optional
+        the name of the fibermap excel file, by default None
+    ifu : pd.DataFrame, optional
+        the IFU dataframe, by default None
+    fibers : pd.DataFrame, optional
+        the fibermap dataframe, by default None
+    """
+    from sdssdb.sqlalchemy.lvmdb import database
+
+    if filename and (ifu is not None or fibers is not None):
+        fmap, coords = read_excel_map(filename)
+        ifu = build_ifu(coords)
+        ifu = add_radec_offs(ifu=ifu)
+        fibers = build_fiber_data(fmap, coords, ifu)
+
+    # insert ifu table
+    sub = ifu.rename(columns={'fibid':'fiberid', 'specfib':'specfibid', 'altP':'standard', 'altA':'skya', 'altB':'skyb'})
+    sub.to_sql('ifu', database.engine, schema='drp', index=False, if_exists='append')
+
+    # fill out ifu_pk column
+    fibers['label'] = fibers.apply(lambda x: f'{x.ifulabel}-{x.finifu}', axis=1)
+    sub = fibers.set_index('label', drop=False)
+    tmp = ifu.set_index('label', drop=False)
+    sub = set_column('altP', sub, tmp, main_col='ifu_pk', ifu_col='fibid')
+    sub = set_column('altA', sub, tmp, main_col='ifu_pk', ifu_col='fibid')
+    sub = set_column('altB', sub, tmp, main_col='ifu_pk', ifu_col='fibid')
+    sub = set_column('label', sub, tmp, main_col='ifu_pk', ifu_col='fibid')
+    fibers = sub.reset_index(drop=True).drop(columns="label")
+
+    # insert fibers table
+    sub = fibers.rename(columns={'spectrographid':'specid', 'fibstatus':'status'})
+    sub.to_sql('fibers', database.engine, schema='drp', index=False, if_exists='append')
+
+
+def load_offsets_to_db():
+    """ Loads the RA/Dec offsets to IFU table
+
+    This can be used to load the RA/Dec offsets from the
+    simbmap file to the drp.IFU table independently from the rest
+    of the IFU columns.  This is useful if you don't want to
+    have the LVM datasimulator package and the db package
+    dependencies in the same env.
+    """
+    from sdssdb.sqlalchemy.lvmdb import database, drp
+    df = pd.read_table('lvm_simbmap_1801.dat', sep=',', header=21)
+    sub = df[['fiberid', 'raoff','decoff']]
+    out = sub.rename(columns={'fiberid': 'pk'}).to_dict('records')
+    with database.Session() as session, session.begin():
+        session.execute(update(drp.IFU), out)
+
+
+def add_radec_offs(ifu: pd.DataFrame = None) -> pd.DataFrame:
+    """ Add RA/Dec offsets to the IFU dataframe
+
+    Adds the RA/Dec relative fiber offsets in units
+    of arcsec to the IFU bundle dataframe.  Offsets are
+    taken from the input science_array.dat file from the
+    LVM data simulator bundle, and mapped onto the existing
+    IFU dataframe fiber ordering. Note: running this
+    method requires the LVM datasimulator package to be installed.
+
+    Parameters
+    ----------
+    ifu : pd.DataFrame, optional
+        the input IFU df, by default None
+
+    Returns
+    -------
+    pd.DataFrame
+        the updated IFU df
+    """
+    if filename and (ifu is not None or fibers is not None):
+        fmap, coords = read_excel_map(filename)
+        ifu = build_ifu(coords)
+
+    # create a fiber bundle, rotated to match the excel IFU spec
+    from lvmdatasimulator.fibers import FiberBundle
+    bundle = FiberBundle(bundle_name='full', nrings=25, angle=-90)
+
+    # convert to a df
+    df = bundle.fibers_table_science.to_pandas()
+
+    # round the x and y arcsec offsets so pandas can properly sort values
+    sub = df.copy()
+    sub = sub.round({'x': 4, 'y': 4})
+
+    # sort the bundle df in descending x (ra) and ascending y (dec)
+    bsort = sub.sort_values(['x', 'y'], ascending=[False,True])
+
+    # sort the IFU df in ascending x, y
+    ifusort = ifu.sort_values(['xpmm','ypmm'], ascending=[True, True])
+
+    # map the columns, default matches by df index
+    bb = bsort.set_index('ring_id', drop=False)
+    ii = ifusort.set_index('ringid', drop=False)
+    ii.loc[bb.index, 'raoff'] = bb.loc[bb.index, 'x'].tolist()
+    ii.loc[bb.index, 'decoff'] = bb.loc[bb.index, 'y'].tolist()
+
+    # reset back to the original IFU df sort
+    return ii.sort_values('fibid').reset_index(drop=True)
+
+
+def create_simbmap(filename: str, output: str = 'lvm_simbmap_1801.dat'):
+    """
+    """
+    # resolve the filepath
+    filepath = pathlib.Path(filename).resolve()
+    filename = filepath.name
+
+    # read the excel file
+    fmap, coords = read_excel_map(filepath)
+
+    # build the IFU and add the RA/Dec offsets
+    ifu = build_ifu(coords)
+    ifu = add_radec_offs(ifu=ifu)
+
+    # create a subset to write out
+    sub = ifu[['fibid','ringid','ringfibnum','raoff','decoff']]
+    sub = sub.rename(columns={'fibid':'fiberid','ringfibnum':'ringfnum'})
+
+    comments = r"""
+# LVM fiducial metrology file
+#
+# The purpose of this file is to give fiducial positions relative to the center of an IFU
+# for fibers in a given bundle.  The fiber numbering scheme here is clockwise starting
+# from the center, incrementing along the vertical x=0 axis, using the Excel IFU fiber map
+# schematic as guide. The data structure is as follows.
+#
+# Data table entries:
+# 1) fiberid: Fiber number within the bundle.
+# 2) ringid: Ring id number of the fiber
+# 3) ringfnum: Fiber number within a ring, starting from 1, at the vertical x=0 position
+# 4) raoff: The ra offset of the fiber in arcsec relative to the ifu center
+# 5) decoff: The dec offset of the fiber in arcsec relative to the ifu center
+#
+# raoff and decoff are both given in arcseconds, so they should be added to the central pointing to get
+# the effective on-sky coordinates of the fiber
+# E.g., if RA=213.3423D and DEC=52.3234D in decimal degrees (ALWAYS use double precision here!)
+# then RAfiber=RA+raoff/3600.D/cos(DEC*!DPI/180.)    DECfiber=DEC+decoff/3600.D
+#
+# Assumes that fiberdiameter=35.3 arcsec
+#
+    """
+
+    # write the fibers out to a dat file
+    with open(output, 'w') as f:
+        f.write(comments + '\n\n')
+        sub.to_csv(f, sep=',', index=False)
+
 
 
 parser = argparse.ArgumentParser(
