@@ -803,6 +803,7 @@ def load_offsets_to_db():
     dependencies in the same env.
     """
     from sdssdb.sqlalchemy.lvmdb import database, drp
+    from sqlalchemy import update
     df = pd.read_table('lvm_simbmap_1801.dat', sep=',', header=21)
     sub = df[['fiberid', 'raoff','decoff']]
     out = sub.rename(columns={'fiberid': 'pk'}).to_dict('records')
