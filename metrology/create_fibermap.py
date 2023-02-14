@@ -831,10 +831,6 @@ def add_radec_offs(ifu: pd.DataFrame = None) -> pd.DataFrame:
     pd.DataFrame
         the updated IFU df
     """
-    if filename and (ifu is not None or fibers is not None):
-        fmap, coords = read_excel_map(filename)
-        ifu = build_ifu(coords)
-
     # create a fiber bundle, rotated to match the excel IFU spec
     from lvmdatasimulator.fibers import FiberBundle
     bundle = FiberBundle(bundle_name='full', nrings=25, angle=-90)
