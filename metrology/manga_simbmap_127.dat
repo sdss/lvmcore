@@ -1,3 +1,24 @@
+# MaNGA fiducial metrology file
+#
+# The purpose of this file is to give fiducial positions relative to the center of an IFU
+# for fibers in a given bundle.  Note that the fiber numbering scheme here is serpentine
+# and starts at the SW corner of the IFU, and that fiberid used here may therefore
+# not correspond identically to the arrangement of fiberid in a real as-built bundle.
+#
+# The data structure is as follows.
+#
+# Data table entries:
+# 1) fiberid: Fiber number within the bundle.
+# 2) raoff: The ra offset of the fiber in arcsec relative to the ifu center
+# 3) decoff: The dec offset of the fiber in arcsec relative to the ifu center
+#
+# raoff and decoff are both given in arcseconds, so they should be added to the central pointing to get
+# the effective on-sky coordinates of the fiber
+# E.g., if RA=213.3423D and DEC=52.3234D in decimal degrees (ALWAYS use double precision here!)
+# then RAfiber=RA+raoff/3600.D/cos(DEC*!DPI/180.)    DECfiber=DEC+decoff/3600.D
+#
+# Assumes that outer fiberdiameter=2.5 arcsec, with plate scale 60 microns/arcsec
+
 fiberid,raoff,decoff
 1,0.00000,0.00000
 2,-1.25000,-2.16506
