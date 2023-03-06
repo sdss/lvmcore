@@ -18,6 +18,7 @@
 # then RAfiber=RA+raoff/3600.D/cos(DEC*!DPI/180.)    DECfiber=DEC+decoff/3600.D
 #
 # Assumes that outer fiberdiameter=2.5 arcsec, with plate scale 60 microns/arcsec
+#
 
 fiberid,raoff,decoff
 1,0.00000,0.00000

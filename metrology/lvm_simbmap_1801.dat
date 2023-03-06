@@ -1,4 +1,3 @@
-
 # LVM fiducial metrology file
 #
 # The purpose of this file is to give fiducial positions relative to the center of an IFU
@@ -20,7 +19,6 @@
 #
 # Assumes that fiberdiameter=35.3 arcsec
 #
-    
 
 fiberid,ringid,ringfnum,raoff,decoff
 1,1,1,0.0,0.0
