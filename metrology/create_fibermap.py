@@ -664,7 +664,7 @@ def create_comments(filename, df):
 # The data structure is as follows.
 # 1) fiberid: Number of the fiber along the slithead (should be 1 --> 1944 where 1944
 #    is the total number of fibers, 1--> 648 should be on
-#    spectrograph 1, 649 --> 1296 should be on spectrograph 2, 1976 --> 1944 should
+#    spectrograph 1, 649 --> 1296 should be on spectrograph 2, 1297 --> 1944 should
 #    be on spectrograph 3
 # 2) spectrographid: Either 1, 2, or 3
 # 3) blockid: ID label of block along the slit
