@@ -7,6 +7,7 @@
 import argparse
 import datetime
 import itertools
+import os
 import pathlib
 
 import numpy as np
@@ -45,7 +46,7 @@ def read_excel_map(filepath: str) -> tuple:
 
     Read the excel file into a pandas DataFrame. Returns
     a tuple of dataframes, one for each sheet of the excel
-    file.  Sheet 1, "New Fibre Mapping", is the spectrograph
+    file.  Sheet 1, "Fibre Mapping", is the spectrograph
     fiber assignments. Sheet 2, "Science IFU Coordinates", is
     the science fiber xy position coordinates in mm.
 
@@ -59,8 +60,11 @@ def read_excel_map(filepath: str) -> tuple:
     tuple
         two dataframes
     """
-    df = pd.read_excel(filepath, 'New Fibre Mapping')
-    coords = pd.read_excel(filepath, 'Science IFU Coordinates')
+    df = pd.read_excel(filepath, 1)  # Fiber Mapping
+    df.name = filepath.stem
+    df.version = filepath.stem.rsplit('_v', 1)[1]
+    df.created = pd.Timestamp.fromtimestamp(os.stat(filepath).st_ctime).date().isoformat()
+    coords = pd.read_excel(filepath, 2) # Science IFU Coordinates
     return df, coords
 
 
@@ -356,29 +360,35 @@ def create_spectro_df(df: pd.DataFrame, specid: int = 1, coords: pd.DataFrame = 
         output fiber df for a spectrograph
     """
 
+    # set start column to search for slit title
+    start_col = 3 if df.version == '0.3' else 2
+
     # get the starting spectrograph rows
-    idxes = df.index[df.iloc[:, 3].str.contains('SPECTROGRAPH SLIT').fillna(False)]
+    idxes = df.index[df.iloc[:, start_col].str.contains('SPECTROGRAPH SLIT').fillna(False)]
+    if len(idxes) < 3:
+        # insert a starting index if there is less than 3
+        idxes = idxes.insert(0, -1)
 
     # get the starting block and and fiber rows for the input spectrograph id
     block_idxes = (idxes + 1)
     start_idx = block_idxes[specid - 1]
     fib_idx = start_idx + 1
 
-    # extract the blocks in columns 3-20
+    # extract the blocks in columns 3-20 (v0.3) or 2-19 (v0.5)
     n_blocks = 18
-    blocks = df.iloc[start_idx][3:3 + n_blocks].tolist()
+    blocks = df.iloc[start_idx][start_col:start_col + n_blocks].tolist()
 
     # extract the fiber num within the block
     n_finblock = 36
-    finblock =  df.iloc[fib_idx:fib_idx + n_finblock, 2].tolist() * n_blocks
+    finblock =  df.iloc[fib_idx:fib_idx + n_finblock, start_col - 1].tolist() * n_blocks
 
     # extract fiber block
-    sub = df.iloc[fib_idx:fib_idx + n_finblock, 3:3 + n_blocks]
+    sub = df.iloc[fib_idx:fib_idx + n_finblock, start_col:start_col + n_blocks]
     fibers = sub.unstack()
     n_fibs = len(fibers)
 
     # expand the blocks
-    blocks = df.iloc[start_idx, 3:3 + n_blocks].apply(lambda x: x.split(f'S{specid}')[1]).repeat(n_finblock)
+    blocks = df.iloc[start_idx, start_col:start_col + n_blocks].apply(lambda x: x.split(f'S{specid}')[1]).repeat(n_finblock)
 
     # expand the spectrograph id
     spectroid = [specid] * n_fibs
@@ -511,9 +521,6 @@ def build_fiber_data(main: pd.DataFrame, coords: pd.DataFrame, ifu: pd.DataFrame
     final = pd.concat([spec1, spec2, spec3])
     final = final.reset_index(drop=True)
 
-    # add fiberid column
-    final.insert(0, 'fiberid' , pd.RangeIndex(len(final)) + 1)
-
     # update sky and standard xy positions
     final = set_xypos('altP', final, ifu)
     final = set_xypos('altA', final, ifu)
@@ -528,26 +535,38 @@ def build_fiber_data(main: pd.DataFrame, coords: pd.DataFrame, ifu: pd.DataFrame
     tmp = set_ring('altB', tmp, ifu)
     final = tmp.reset_index(drop=True)
 
-    # add fibstatus column
-    broken = [(1, 384, 'dead'),
-            (2, 262, 'dead'),
-            (2, 415, 'dead'),
-            (3, 27, 'short'),
-            (3, 131, 'short'),
-            (3, 310, 'short'),
-            (3, 518, 'short'),
-            (3, 538, 'dead')]
-    broke = pd.DataFrame(broken, columns=['spectrographid', 'finifu', 'type'])
-    broke['status'] = broke['type'].apply(lambda x: 1 if x == 'dead' else 2)
-    broke = broke.set_index(['spectrographid', 'finifu'])
+    # deal with broken, dead, misrouted fibers
+    broke = pd.read_table('metrology/fiber_status.dat', sep=',', header=17, names=['specid', 'label', 'finifu', 'status', 'misroute', 'blockid', 'finblock'])
+    broke['label'] = broke['label'].str.strip()
+    broke['statnum'] = pd.Categorical(broke['status'].str.strip(), categories=['ok', 'dead', 'low', 'repair']).codes
+    broke = broke.set_index(['specid', 'label', 'finifu'])
 
-    tmp = final.set_index(['spectrographid', 'finifu'], drop=False)
+    # add fiber status column
+    tmp = final.set_index(['spectrographid', 'ifulabel', 'finifu'], drop=False)
     tmp['fibstatus'] = 0
-    tmp.loc[broke.index, 'fibstatus'] = broke.loc[broke.index, 'status']
+    tmp.loc[broke.index, 'fibstatus'] = broke.loc[broke.index, 'statnum']
+
+    # check misrouted fibers
+    misb = broke[broke['misroute'] == 1]
+    bb = tmp.loc[misb.index]['finblock'] == misb['finblock']
+    if not bb.all():
+        tmp.loc[misb.index,'finblock'] = misb['finblock']
+        bb = tmp.loc[misb.index]['finblock'] == misb['finblock']
+        if not bb.all():
+            raise ValueError('Mismatch between misrouted fibers in broken status table and main fiber table.  Double check correct fiber numbers and blocks.')
+
+    # reset index
     final = tmp.reset_index(drop=True)
 
-    # drop the label column
-    final = final.drop(columns="label")
+    # sort by specid, blockid, finblock to reorder misrouted fibers
+    final['block'] = final['blockid'].str[1:].astype(int)
+    final = final.sort_values(['spectrographid', 'block', 'finblock'])
+
+    # add fiberid column
+    final.insert(0, 'fiberid' , pd.RangeIndex(len(final)) + 1)
+
+    # drop unneeded columns
+    final = final.drop(columns=["label", "block"])
 
     return final
 
@@ -642,14 +661,18 @@ schema = [{'name': 'fiberid',
   'unit': None},
  {'name': 'fibstatus',
   'dtype': 'int',
-  'description': 'the status of the fiber, 0=live, 1=dead, 2=short',
+  'description': 'the status of the fiber, 0=live, 1=dead, 2=low, 3=repair, 4=short',
   'unit': None}]
 
 # comments for YAML file
 def create_comments(filename, df):
 
-    version = df['Fibre mapping'][0]
-    date = df['Fibre mapping'][1]
+    if 'Fibre mapping' in df.columns:
+        version = df['Fibre mapping'][0]
+        date = df['Fibre mapping'][1]
+    else:
+        version = f'Version {df.version}'
+        date = f'Date: {df.created}'
     return rf"""
 # LVM fiber mapping file: lvm_fiducial_fibermap
 #
@@ -675,7 +698,7 @@ def create_comments(filename, df):
 # 8) xpmm: The x coordinate in mm of the fiber relative to the centroid
 # 9) ypmm: The y coordinate in mm of the fiber relative to the centroid
 # 10) ringnum: Number of the IFU ring the fiber belongs to
-# 11) fibstatus: 0=live, 1=dead, 2=short
+# 11) fibstatus: 0=live, 1=dead, 2=low, 3=repair, 4=short
         """
 
 
@@ -911,7 +934,7 @@ parser = argparse.ArgumentParser(
                     prog = 'create_fibermap',
                     description = 'Creates the fiducial fibermap machine-readable YAML file')
 
-parser.add_argument('-f', '--filename', help='the input fibermap excel file', default="SDSS-V_QQQQ-LVMI-fiber-mapping_v0.3.xlsx")
+parser.add_argument('-f', '--filename', help='the input fibermap excel file', default="SDSS-V_QQQQ-LVMI-fiber-mapping_v0.5.xlsx")
 parser.add_argument('-o', '--output', help='the output YAML filename', default="lvm_fiducial_fibermap.yaml")
 
 if __name__ == '__main__':
