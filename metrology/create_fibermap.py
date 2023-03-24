@@ -402,6 +402,11 @@ def create_spectro_df(df: pd.DataFrame, specid: int = 1, coords: pd.DataFrame = 
     new[['ifulabel', 'finifu']]=new['label'].str.split('-', expand=True)
     new['finifu'] = new.finifu.astype(int)
 
+    # add telescope column
+    # TODO - check which sky IFU A, B is SkyE and SkyW
+    tmap = {'S': 'Sci', 'P': 'Spec', 'A': 'SkyE', 'B': 'SkyW'}
+    new['telescope'] = new['ifulabel'].apply(lambda x: tmap[x[0]])
+
     # return nothing if no coords provided
     if coords is None:
         return new
@@ -647,6 +652,10 @@ schema = [{'name': 'fiberid',
   'dtype': 'int',
   'description': 'the fiber number within the IFU',
   'unit': None},
+  {'name': 'telescope',
+  'dtype': 'str',
+  'description': 'the name of the telescope; Sci, Spec, SkyE/W for science, standards, or skies',
+  'unit': None},
  {'name': 'xpmm',
   'dtype': 'float',
   'description': 'the x coordinate in mm of the fiber relative to the centroid',
@@ -695,10 +704,11 @@ def create_comments(filename, df):
 # 5) targettype: science, standard, or sky
 # 6) ifulabel: ID label for the IFU + spectrograph
 # 7) finifu: Fiber number within the IFU
-# 8) xpmm: The x coordinate in mm of the fiber relative to the centroid
-# 9) ypmm: The y coordinate in mm of the fiber relative to the centroid
-# 10) ringnum: Number of the IFU ring the fiber belongs to
-# 11) fibstatus: 0=live, 1=dead, 2=low, 3=repair, 4=short
+# 8) telescope: The name of the telescope; Sci, Spec, SkyE/W for science, standards, or skies
+# 9) xpmm: The x coordinate in mm of the fiber relative to the centroid
+# 10) ypmm: The y coordinate in mm of the fiber relative to the centroid
+# 11) ringnum: Number of the IFU ring the fiber belongs to
+# 12) fibstatus: 0=live, 1=dead, 2=low, 3=repair, 4=short
         """
 
 
