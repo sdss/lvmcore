@@ -1,0 +1,168 @@
+schema:
+  - name: fileroot
+    dtype: str
+    description: the raw frame file root with * as wildcard
+  - name: keyword
+    dtype: str
+    description: the name of the header keyword to fix
+  - name: value
+    dtype: str
+    description: the value of the header keyword to update
+
+fixes:
+  - fileroot: sdR-*-*-*
+    keyword: TILEID
+    value: 1111
+
+  - fileroot: sdR-*-*-0000068[2-4]
+    keyword: IMAGETYP
+    value: arc
+  - fileroot: sdR-*-*-0000068[2-4]
+    keyword: ARGON
+    value: ON
+  - fileroot: sdR-*-*-0000068[2-4]
+    keyword: NEON
+    value: OFF
+  - fileroot: sdR-*-*-0000068[2-4]
+    keyword: LDLS
+    value: OFF
+  - fileroot: sdR-*-*-0000068[2-4]
+    keyword: HGNE
+    value: OFF
+  - fileroot: sdR-*-*-0000068[2-4]
+    keyword: XENON
+    value: OFF
+  - fileroot: sdR-*-*-0000068[2-4]
+    keyword: QUARTZ
+    value: OFF
+
+  - fileroot: sdR-*-*-0000068[5-7]
+    keyword: IMAGETYP
+    value: arc
+  - fileroot: sdR-*-*-0000068[5-7]
+    keyword: ARGON
+    value: OFF
+  - fileroot: sdR-*-*-0000068[5-7]
+    keyword: NEON
+    value: ON
+  - fileroot: sdR-*-*-0000068[5-7]
+    keyword: LDLS
+    value: OFF
+  - fileroot: sdR-*-*-0000068[5-7]
+    keyword: HGNE
+    value: OFF
+  - fileroot: sdR-*-*-0000068[5-7]
+    keyword: XENON
+    value: OFF
+  - fileroot: sdR-*-*-0000068[5-7]
+    keyword: QUARTZ
+    value: OFF
+
+  - fileroot: sdR-*-*-0000068[89]
+    keyword: IMAGETYP
+    value: arc
+  - fileroot: sdR-*-*-0000068[89]
+    keyword: ARGON
+    value: OFF
+  - fileroot: sdR-*-*-0000068[89]
+    keyword: NEON
+    value: OFF
+  - fileroot: sdR-*-*-0000068[89]
+    keyword: LDLS
+    value: OFF
+  - fileroot: sdR-*-*-0000068[89]
+    keyword: HGNE
+    value: ON
+  - fileroot: sdR-*-*-0000068[89]
+    keyword: XENON
+    value: OFF
+  - fileroot: sdR-*-*-0000068[89]
+    keyword: QUARTZ
+    value: OFF
+  - fileroot: sdR-*-*-00000690
+    keyword: IMAGETYP
+    value: arc
+  - fileroot: sdR-*-*-00000690
+    keyword: ARGON
+    value: OFF
+  - fileroot: sdR-*-*-00000690
+    keyword: NEON
+    value: OFF
+  - fileroot: sdR-*-*-00000690
+    keyword: LDLS
+    value: OFF
+  - fileroot: sdR-*-*-00000690
+    keyword: HGNE
+    value: ON
+  - fileroot: sdR-*-*-00000690
+    keyword: XENON
+    value: OFF
+  - fileroot: sdR-*-*-00000690
+    keyword: QUARTZ
+    value: OFF
+
+  - fileroot: sdR-*-*-0000069[1-3]
+    keyword: IMAGETYP
+    value: arc
+  - fileroot: sdR-*-*-0000069[1-3]
+    keyword: ARGON
+    value: OFF
+  - fileroot: sdR-*-*-0000069[1-3]
+    keyword: NEON
+    value: OFF
+  - fileroot: sdR-*-*-0000069[1-3]
+    keyword: LDLS
+    value: OFF
+  - fileroot: sdR-*-*-0000069[1-3]
+    keyword: HGNE
+    value: OFF
+  - fileroot: sdR-*-*-0000069[1-3]
+    keyword: XENON
+    value: ON
+  - fileroot: sdR-*-*-0000069[1-3]
+    keyword: QUARTZ
+    value: OFF
+
+  - fileroot: sdR-*-*-0000069[4-6]
+    keyword: IMAGETYP
+    value: arc
+  - fileroot: sdR-*-*-0000069[4-6]
+    keyword: ARGON
+    value: OFF
+  - fileroot: sdR-*-*-0000069[4-6]
+    keyword: NEON
+    value: OFF
+  - fileroot: sdR-*-*-0000069[4-6]
+    keyword: LDLS
+    value: ON
+  - fileroot: sdR-*-*-0000069[4-6]
+    keyword: HGNE
+    value: OFF
+  - fileroot: sdR-*-*-0000069[4-6]
+    keyword: XENON
+    value: OFF
+  - fileroot: sdR-*-*-0000069[4-6]
+    keyword: QUARTZ
+    value: OFF
+
+  - fileroot: sdR-*-*-0000069[7-9]
+    keyword: IMAGETYP
+    value: arc
+  - fileroot: sdR-*-*-0000069[7-9]
+    keyword: ARGON
+    value: OFF
+  - fileroot: sdR-*-*-0000069[7-9]
+    keyword: NEON
+    value: OFF
+  - fileroot: sdR-*-*-0000069[7-9]
+    keyword: LDLS
+    value: OFF
+  - fileroot: sdR-*-*-0000069[7-9]
+    keyword: HGNE
+    value: OFF
+  - fileroot: sdR-*-*-0000069[7-9]
+    keyword: XENON
+    value: OFF
+  - fileroot: sdR-*-*-0000069[7-9]
+    keyword: QUARTZ
+    value: ON
