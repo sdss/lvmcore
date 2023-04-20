@@ -15,7 +15,15 @@ fixes:
 - fileroot: sdR-*-*-*
   keyword: TILEID
   value: 1111
-- fileroot: sdR-*-b*-0000008*
+- fileroot: sdR-*-*-000000*
   keyword: QUALITY
   value: BAD
-
+- fileroot: sdR-*-*-000001[0-4]*
+  keyword: QUALITY
+  value: BAD
+- fileroot: sdR-*-*-0000015[0-2]
+  keyword: QUALITY
+  value: BAD
+- fileroot: sdR-*-*-0000016[4-7]
+  keyword: IMAGETYP
+  value: arc
