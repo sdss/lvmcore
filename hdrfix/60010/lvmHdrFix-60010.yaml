@@ -15,6 +15,12 @@ fixes:
 - fileroot: sdR-*-*-*
   keyword: TILEID
   value: 1111
+- fileroot: sdR-*-b*-00000199
+  keyword: QUALITY
+  value: BAD
+- fileroot: sdR-*-b*-000002*
+  keyword: QUALITY
+  value: BAD
 - fileroot: sdR-*-*-000000*
   keyword: QUALITY
   value: BAD
