@@ -14,4 +14,4 @@ fixes:
   value: 1111
 - fileroot: sdR-*-*-*
   keyword: QUALITY
-  value: BAD
+  value: TEST
