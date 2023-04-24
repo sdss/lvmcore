@@ -12,7 +12,7 @@ fixes:
 - fileroot: sdR-*-b*-*
   keyword: QUALITY
   value: BAD
-- fileroot: sdR-*-*-00000199
+- fileroot: sdR-*-*-0000019[3-9]
   keyword: IMAGETYP
   value: flat
 - fileroot: sdR-*-*-*
