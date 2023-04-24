@@ -9,18 +9,15 @@ schema:
   dtype: str
   description: the value of the header keyword to update
 fixes:
+- fileroot: sdR-*-b*-*
+  keyword: QUALITY
+  value: BAD
 - fileroot: sdR-*-*-00000199
   keyword: IMAGETYP
   value: flat
 - fileroot: sdR-*-*-*
   keyword: TILEID
   value: 1111
-- fileroot: sdR-*-b*-00000199
-  keyword: QUALITY
-  value: BAD
-- fileroot: sdR-*-b*-000002*
-  keyword: QUALITY
-  value: BAD
 - fileroot: sdR-*-*-000000*
   keyword: QUALITY
   value: BAD
@@ -33,3 +30,21 @@ fixes:
 - fileroot: sdR-*-*-0000016[4-7]
   keyword: IMAGETYP
   value: arc
+- fileroot: sdR-*-*-0000016[4-7]
+  keyword: NEON
+  value: ON
+- fileroot: sdR-*-*-0000016[4-7]
+  keyword: HGNE
+  value: ON
+- fileroot: sdR-*-*-0000016[4-7]
+  keyword: XENON
+  value: ON
+- fileroot: sdR-*-*-0000016[4-7]
+  keyword: ARGON
+  value: ON
+- fileroot: sdR-*-*-0000068[2-4]
+  keyword: LDLS
+  value: OFF
+- fileroot: sdR-*-*-0000068[2-4]
+  keyword: QUARTZ
+  value: OFF
