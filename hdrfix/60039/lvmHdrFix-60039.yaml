@@ -1,0 +1,78 @@
+schema:
+  - name: fileroot
+    dtype: str
+    description: the raw frame file root with * as wildcard
+  - name: keyword
+    dtype: str
+    description: the name of the header keyword to fix
+  - name: value
+    dtype: str
+    description: the value of the header keyword to update
+
+fixes:
+  - fileroot: sdR-*-*-*
+    keyword: TILEID
+    value: 1111
+  - fileroot: sdR-*-*-0000049[78]
+    keyword: QUALITY
+    value: BAD
+  - fileroot: sdR-*-*-0000051[3-5]
+    keyword: ARGON
+    value: ON
+  - fileroot: sdR-*-*-0000051[6-8]
+    keyword: ARGON
+    value: OFF
+  - fileroot: sdR-*-*-00000519
+    keyword: ARGON
+    value: ON
+  - fileroot: sdR-*-*-0000052[0-3]
+    keyword: ARGON
+    value: ON
+  - fileroot: sdR-*-*-0000052[3-8]
+    keyword: XENON
+    value: ON
+  - fileroot: sdR-*-*-00000529
+    keyword: NEON
+    value: ON
+  - fileroot: sdR-*-*-0000053[0-3]
+    keyword: NEON
+    value: ON
+  - fileroot: sdR-*-*-0000053[4-8]
+    keyword: HGNE
+    value: ON
+  - fileroot: sdR-*-*-00000559
+    keyword: QUALITY
+    value: BAD
+  - fileroot: sdR-*-*-00000559
+    keyword: IMAGETYP
+    value: flat
+  - fileroot: sdR-*-*-00000560
+    keyword: IMAGETYP
+    value: flat
+  - fileroot: sdR-*-*-0000056[1-9]
+    keyword: IMAGETYP
+    value: flat
+  - fileroot: sdR-*-*-0000056[1-9]
+    keyword: QUARTZ
+    value: ON
+  - fileroot: sdR-*-*-00000570
+    keyword: IMAGETYP
+    value: flat
+  - fileroot: sdR-*-*-00000570
+    keyword: QUARTZ
+    value: ON
+  - fileroot: sdR-*-*-0000057[1-9]
+    keyword: IMAGETYP
+    value: flat
+  - fileroot: sdR-*-*-0000057[1-9]
+    keyword: QUARTZ
+    value: ON
+  - fileroot: sdR-*-*-0000058[0-9]
+    keyword: IMAGETYP
+    value: flat
+  - fileroot: sdR-*-*-00000580
+    keyword: QUARTZ
+    value: ON
+  - fileroot: sdR-*-*-0000059[0-3]
+    keyword: IMAGETYP
+    value: flat
