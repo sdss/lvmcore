@@ -13,9 +13,9 @@ fixes:
   - fileroot: sdR-*-*-*
     keyword: TILEID
     value: 1111
-  - fileroot: sdR-*-*-000006[12-37]
+  - fileroot: sdR-*-*-000006[12|37]
     keyword: QUALITY
     value: BAD
-  - fileroot: sdR-*-*-000006[38-48]
+  - fileroot: sdR-*-*-000006[38|48]
     keyword: IMAGETYP
     value: dark
