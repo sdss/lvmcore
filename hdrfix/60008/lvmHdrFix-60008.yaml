@@ -15,3 +15,6 @@ fixes:
 - fileroot: sdR-*-*-*
   keyword: QUALITY
   value: TEST
+- fileroot: sdR-*-*-0000000[6-8]
+  keyword: MJD
+  value: 60008

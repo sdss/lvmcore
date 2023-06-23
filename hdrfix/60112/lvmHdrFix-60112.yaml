@@ -13,12 +13,6 @@ fixes:
   - fileroot: sdR-*-*-*
     keyword: TILEID
     value: 1111
-  - fileroot: sdR-*-*-000006[12|37]
-    keyword: QUALITY
-    value: BAD
-  - fileroot: sdR-*-*-000006[38|48]
-    keyword: IMAGETYP
-    value: dark
-  - fileroot: sdR-*-*-000006[5-7][0-9]
+  - fileroot: sdR-*-*-000007[3-5][0-9]
     keyword: MJD
-    value: 60040
+    value: 60112

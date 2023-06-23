@@ -48,3 +48,9 @@ fixes:
 - fileroot: sdR-*-*-0000068[2-4]
   keyword: QUARTZ
   value: OFF
+- fileroot: sdR-*-*-0000019[2-9]
+  keyword: MJD
+  value: 60010
+- fileroot: sdR-*-*-0000020[0-2]
+  keyword: MJD
+  value: 60010
