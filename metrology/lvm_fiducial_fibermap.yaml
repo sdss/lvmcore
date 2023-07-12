@@ -36,7 +36,7 @@ schema:
     description: the spectrograph id number, either 1, 2 or 3
     unit: null
   - name: blockid
-    dtype: finblock
+    dtype: str
     description: the ID label of the block along the slit
     unit: null
   - name: finblock
