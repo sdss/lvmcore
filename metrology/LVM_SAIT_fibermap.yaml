@@ -60,7 +60,7 @@ schema:
     dtype: float
     description: the x coordinate in mm of the fiber relative to the centroid
     unit: mm
-  - name: ypmxx
+  - name: ypmm
     dtype: float
     description: the x coordinate in mm of the fiber relative to the centroid
     unit: mm

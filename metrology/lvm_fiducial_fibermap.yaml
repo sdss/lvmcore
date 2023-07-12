@@ -1,4 +1,3 @@
-
 # LVM fiber mapping file: lvm_fiducial_fibermap
 #
 # This file is a machine-readble translation of the fiducial fiber mapping
@@ -26,7 +25,7 @@
 # 11) ringnum: Number of the IFU ring the fiber belongs to
 # 12) ypix: The y coordinate in pixels of the fiber relative to the centroid (expnum=912 in the blue channel were used to fill in this information)
 # 13) fibstatus: 0=live, 1=dead, 2=low, 3=repair, 4=short
-        
+
 schema:
   - name: fiberid
     dtype: int
@@ -58,14 +57,15 @@ schema:
     unit: null
   - name: telescope
     dtype: str
-    description: the name of the telescope; Sci, Spec, SkyE/W for science, standards,
+    description:
+      the name of the telescope; Sci, Spec, SkyE/W for science, standards,
       or skies
     unit: null
   - name: xpmm
     dtype: float
     description: the x coordinate in mm of the fiber relative to the centroid
     unit: mm
-  - name: ypmxx
+  - name: ypmm
     dtype: float
     description: the x coordinate in mm of the fiber relative to the centroid
     unit: mm
@@ -717,7 +717,21 @@ fibers:
   - [633, 1, B18, 21.0, science, S1, 586, Sci, 6.859, 0.99, 25.0, 266, 0]
   - [634, 1, B18, 22.0, science, S1, 587, Sci, 6.859, 0.66, 25.0, 260, 0]
   - [635, 1, B18, 23.0, science, S1, 588, Sci, 6.859, 0.33, 25.0, 255, 0]
-  - [636, 1, B18, 24.0, science, S1, 589, Sci, 6.859, -7.77156e-16, 25.0, 249, 0]
+  - [
+      636,
+      1,
+      B18,
+      24.0,
+      science,
+      S1,
+      589,
+      Sci,
+      6.859,
+      -7.77156e-16,
+      25.0,
+      249,
+      0,
+    ]
   - [637, 1, B18, 25.0, science, S1, 590, Sci, 6.859, -0.33, 25.0, 243, 0]
   - [638, 1, B18, 26.0, science, S1, 591, Sci, 6.859, -0.66, 25.0, 238, 0]
   - [639, 1, B18, 27.0, science, S1, 592, Sci, 6.859, -0.99, 25.0, 232, 0]
