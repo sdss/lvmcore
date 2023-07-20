@@ -63,7 +63,7 @@ def read_excel_map(filepath: str) -> tuple:
     df.name = filepath.stem
     df.version = filepath.stem.rsplit('_v', 1)[1]
     df.created = pd.Timestamp.fromtimestamp(os.stat(filepath).st_ctime).date().isoformat()
-    coords = pd.read_excel(filepath, 2) # Science IFU Coordinates
+    coords = pd.read_excel(filepath, 2)  # Science IFU Coordinates
     return df, coords
 
 
@@ -402,7 +402,7 @@ def create_spectro_df(df: pd.DataFrame, specid: int = 1, coords: pd.DataFrame = 
 
     # add telescope column
     # TODO - check which sky IFU A, B is SkyE and SkyW
-    tmap = {'S': 'Sci', 'P': 'Spec', 'A': 'SkyE', 'B': 'SkyW'}
+    tmap = {'S': 'Sci', 'P': 'Spec', 'A': 'SkyW', 'B': 'SkyE'}
     new['telescope'] = new['ifulabel'].apply(lambda x: tmap[x[0]])
 
     # return nothing if no coords provided
