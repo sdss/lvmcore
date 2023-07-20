@@ -40,7 +40,6 @@ segment_count = list(reversed(np.arange(1, n_ring)))  # fiber number in each hex
 rstart = totals[:-1] + 1  # starting fiber number at vertical x=0 in each ring (segment 1 of 6)
 
 
-
 def read_excel_map(filepath: str) -> tuple:
     """ Read the excel file
 
@@ -66,8 +65,6 @@ def read_excel_map(filepath: str) -> tuple:
     df.created = pd.Timestamp.fromtimestamp(os.stat(filepath).st_ctime).date().isoformat()
     coords = pd.read_excel(filepath, 2) # Science IFU Coordinates
     return df, coords
-
-
 
 
 def build_ifu(coords: pd.DataFrame) -> pd.DataFrame:
@@ -123,7 +120,7 @@ def build_ifu(coords: pd.DataFrame) -> pd.DataFrame:
 
     # add x, y coords to ifu
     tmp = coords.set_index(["Sector", "Fiber #"])
-    tt=spec.set_index(['specid', 'specfib'], drop=False)
+    tt = spec.set_index(['specid', 'specfib'], drop=False)
     tt.loc[tmp.index, "xpmm"] = tmp["X [mm]"]
     tt.loc[tmp.index, "ypmm"] = tmp["Y [mm]"]
     spec = tt.reset_index(drop=True)
@@ -183,7 +180,7 @@ def build_standards_df() -> pd.DataFrame:
     return df
 
 
-def chunk_spectro(specid: int  = 1, seg: int = 1) -> list:
+def chunk_spectro(specid: int = 1, seg: int = 1) -> list:
     """ Chunk the spectrograph fiber ranges by hex segment
 
     Maps the spectrograph fiber id to the IFU fiber id.
@@ -223,6 +220,7 @@ def chunk_spectro(specid: int  = 1, seg: int = 1) -> list:
         aa.append(list(reversed(tt)) if odd else list(tt))
 
     return aa if seg % 2 == 1 else list(reversed(aa))
+
 
 def chunk_fibers(seg: int = 1) -> list:
     """ Chunk the IFU fiber range by hex segment
@@ -278,7 +276,7 @@ def chunk_sky(specid: int = 1, label: str = 'A') -> list:
 
     start = np.array(list(reversed(skystart))) + (np.array(skyseg)) * (seg - 1)
 
-    chunked = np.array_split(srange, 5) # number of rows of skies
+    chunked = np.array_split(srange, 5)  # number of rows of skies
 
     # manual fiber mapping
     start = np.array(list(reversed(skystart))) + (np.array(skyseg)) * (seg - 1)
@@ -380,7 +378,7 @@ def create_spectro_df(df: pd.DataFrame, specid: int = 1, coords: pd.DataFrame = 
 
     # extract the fiber num within the block
     n_finblock = 36
-    finblock =  df.iloc[fib_idx:fib_idx + n_finblock, start_col - 1].tolist() * n_blocks
+    finblock = df.iloc[fib_idx:fib_idx + n_finblock, start_col - 1].tolist() * n_blocks
 
     # extract fiber block
     sub = df.iloc[fib_idx:fib_idx + n_finblock, start_col:start_col + n_blocks]
@@ -399,7 +397,7 @@ def create_spectro_df(df: pd.DataFrame, specid: int = 1, coords: pd.DataFrame = 
     new['blockid'] = blocks.tolist()
     new['finblock'] = finblock
     new['targettype'] = new['label'].apply(lambda x: 'science' if x.startswith('S') else 'standard' if x.startswith('P') else 'SKY')
-    new[['ifulabel', 'finifu']]=new['label'].str.split('-', expand=True)
+    new[['ifulabel', 'finifu']] = new['label'].str.split('-', expand=True)
     new['finifu'] = new.finifu.astype(int)
 
     # add telescope column
@@ -414,8 +412,8 @@ def create_spectro_df(df: pd.DataFrame, specid: int = 1, coords: pd.DataFrame = 
     # add in the x and y pos science coords
     sc = coords['Sector'] == specid
     new['xpmm'] = new['ypmm'] = ''
-    new.loc[new['targettype']=='science', 'xpmm'] = coords[sc].iloc[:, 0].tolist()
-    new.loc[new['targettype']=='science', 'ypmm'] = coords[sc].iloc[:, 1].tolist()
+    new.loc[new['targettype'] == 'science', 'xpmm'] = coords[sc].iloc[:, 0].tolist()
+    new.loc[new['targettype'] == 'science', 'ypmm'] = coords[sc].iloc[:, 1].tolist()
 
     return new
 
@@ -541,9 +539,11 @@ def build_fiber_data(main: pd.DataFrame, coords: pd.DataFrame, ifu: pd.DataFrame
     final = tmp.reset_index(drop=True)
 
     # deal with broken, dead, misrouted fibers
-    broke = pd.read_table('metrology/fiber_status.dat', sep=',', header=17, names=['specid', 'label', 'finifu', 'status', 'misroute', 'blockid', 'finblock'])
+    broke = pd.read_table('metrology/fiber_status.dat', sep=',', header=17,
+                          names=['specid', 'label', 'finifu', 'status', 'misroute', 'blockid', 'finblock'])
     broke['label'] = broke['label'].str.strip()
-    broke['statnum'] = pd.Categorical(broke['status'].str.strip(), categories=['ok', 'dead', 'low', 'repair']).codes
+    broke['statnum'] = pd.Categorical(broke['status'].str.strip(),
+                                      categories=['ok', 'dead', 'low', 'repair']).codes
     broke = broke.set_index(['specid', 'label', 'finifu'])
 
     # add fiber status column
@@ -555,7 +555,7 @@ def build_fiber_data(main: pd.DataFrame, coords: pd.DataFrame, ifu: pd.DataFrame
     misb = broke[broke['misroute'] == 1]
     bb = tmp.loc[misb.index]['finblock'] == misb['finblock']
     if not bb.all():
-        tmp.loc[misb.index,'finblock'] = misb['finblock']
+        tmp.loc[misb.index, 'finblock'] = misb['finblock']
         bb = tmp.loc[misb.index]['finblock'] == misb['finblock']
         if not bb.all():
             raise ValueError('Mismatch between misrouted fibers in broken status table and main fiber table.  Double check correct fiber numbers and blocks.')
@@ -568,7 +568,7 @@ def build_fiber_data(main: pd.DataFrame, coords: pd.DataFrame, ifu: pd.DataFrame
     final = final.sort_values(['spectrographid', 'block', 'finblock'])
 
     # add fiberid column
-    final.insert(0, 'fiberid' , pd.RangeIndex(len(final)) + 1)
+    final.insert(0, 'fiberid', pd.RangeIndex(len(final)) + 1)
 
     # drop unneeded columns
     final = final.drop(columns=["label", "block"])
@@ -624,7 +624,8 @@ def write_yaml(output: str = "lvm_fiducial_fibermap.yaml",
 
 # schema description of columns in YAML file
 
-schema = [{'name': 'fiberid',
+schema = [
+ {'name': 'fiberid',
   'dtype': 'int',
   'description': 'number of the fiber along the slithead',
   'unit': None},
@@ -652,7 +653,7 @@ schema = [{'name': 'fiberid',
   'dtype': 'int',
   'description': 'the fiber number within the IFU',
   'unit': None},
-  {'name': 'telescope',
+ {'name': 'telescope',
   'dtype': 'str',
   'description': 'the name of the telescope; Sci, Spec, SkyE/W for science, standards, or skies',
   'unit': None},
@@ -672,6 +673,7 @@ schema = [{'name': 'fiberid',
   'dtype': 'int',
   'description': 'the status of the fiber, 0=live, 1=dead, 2=low, 3=repair, 4=short',
   'unit': None}]
+
 
 # comments for YAML file
 def create_comments(filename, df):
@@ -808,7 +810,8 @@ def insert_into_db(filename: str = None, ifu: pd.DataFrame = None, fibers: pd.Da
         fibers = build_fiber_data(fmap, coords, ifu)
 
     # insert ifu table
-    sub = ifu.rename(columns={'fibid':'fiberid', 'specfib':'specfibid', 'altP':'standard', 'altA':'skya', 'altB':'skyb'})
+    sub = ifu.rename(columns={'fibid': 'fiberid', 'specfib': 'specfibid',
+                              'altP': 'standard', 'altA': 'skya', 'altB': 'skyb'})
     sub.to_sql('ifu', database.engine, schema='drp', index=False, if_exists='append')
 
     # fill out ifu_pk column
@@ -822,7 +825,7 @@ def insert_into_db(filename: str = None, ifu: pd.DataFrame = None, fibers: pd.Da
     fibers = sub.reset_index(drop=True).drop(columns="label")
 
     # insert fibers table
-    sub = fibers.rename(columns={'spectrographid':'specid', 'fibstatus':'status'})
+    sub = fibers.rename(columns={'spectrographid': 'specid', 'fibstatus': 'status'})
     sub.to_sql('fibers', database.engine, schema='drp', index=False, if_exists='append')
 
 
@@ -838,7 +841,7 @@ def load_offsets_to_db():
     from sdssdb.sqlalchemy.lvmdb import database, drp
     from sqlalchemy import update
     df = pd.read_table('lvm_simbmap_1801.dat', sep=',', header=21)
-    sub = df[['fiberid', 'raoff','decoff']]
+    sub = df[['fiberid', 'raoff', 'decoff']]
     out = sub.rename(columns={'fiberid': 'pk'}).to_dict('records')
     with database.Session() as session, session.begin():
         session.execute(update(drp.IFU), out)
@@ -876,10 +879,10 @@ def add_radec_offs(ifu: pd.DataFrame = None) -> pd.DataFrame:
     sub = sub.round({'x': 4, 'y': 4})
 
     # sort the bundle df in descending x (ra) and ascending y (dec)
-    bsort = sub.sort_values(['x', 'y'], ascending=[False,True])
+    bsort = sub.sort_values(['x', 'y'], ascending=[False, True])
 
     # sort the IFU df in ascending x, y
-    ifusort = ifu.sort_values(['xpmm','ypmm'], ascending=[True, True])
+    ifusort = ifu.sort_values(['xpmm', 'ypmm'], ascending=[True, True])
 
     # map the columns, default matches by df index
     bb = bsort.set_index('ring_id', drop=False)
@@ -906,8 +909,8 @@ def create_simbmap(filename: str, output: str = 'lvm_simbmap_1801.dat'):
     ifu = add_radec_offs(ifu=ifu)
 
     # create a subset to write out
-    sub = ifu[['fibid','ringid','ringfibnum','raoff','decoff']]
-    sub = sub.rename(columns={'fibid':'fiberid','ringfibnum':'ringfnum'})
+    sub = ifu[['fibid', 'ringid', 'ringfibnum', 'raoff', 'decoff']]
+    sub = sub.rename(columns={'fibid': 'fiberid', 'ringfibnum': 'ringfnum'})
 
     comments = r"""
 # LVM fiducial metrology file
@@ -939,10 +942,9 @@ def create_simbmap(filename: str, output: str = 'lvm_simbmap_1801.dat'):
         sub.to_csv(f, sep=',', index=False)
 
 
-
 parser = argparse.ArgumentParser(
-                    prog = 'create_fibermap',
-                    description = 'Creates the fiducial fibermap machine-readable YAML file')
+    prog='create_fibermap',
+    description='Creates the fiducial fibermap machine-readable YAML file')
 
 parser.add_argument('-f', '--filename', help='the input fibermap excel file', default="SDSS-V_QQQQ-LVMI-fiber-mapping_v0.5.xlsx")
 parser.add_argument('-o', '--output', help='the output YAML filename', default="lvm_fiducial_fibermap.yaml")
