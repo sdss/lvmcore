@@ -401,7 +401,6 @@ def create_spectro_df(df: pd.DataFrame, specid: int = 1, coords: pd.DataFrame = 
     new['finifu'] = new.finifu.astype(int)
 
     # add telescope column
-    # TODO - check which sky IFU A, B is SkyE and SkyW
     tmap = {'S': 'Sci', 'P': 'Spec', 'A': 'SkyW', 'B': 'SkyE'}
     new['telescope'] = new['ifulabel'].apply(lambda x: tmap[x[0]])
 
