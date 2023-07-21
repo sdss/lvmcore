@@ -537,30 +537,35 @@ def build_fiber_data(main: pd.DataFrame, coords: pd.DataFrame, ifu: pd.DataFrame
     tmp = set_ring('altB', tmp, ifu)
     final = tmp.reset_index(drop=True)
 
-    # deal with broken, dead, misrouted fibers
-    broke = pd.read_table('metrology/fiber_status.dat', sep=',', header=17,
-                          names=['specid', 'label', 'finifu', 'status', 'misroute', 'blockid', 'finblock'])
-    broke['label'] = broke['label'].str.strip()
-    broke['statnum'] = pd.Categorical(broke['status'].str.strip(),
-                                      categories=['ok', 'dead', 'low', 'repair']).codes
-    broke = broke.set_index(['specid', 'label', 'finifu'])
+    # turning fiber status code off so this produces original excel dataframe
 
-    # add fiber status column
-    tmp = final.set_index(['spectrographid', 'ifulabel', 'finifu'], drop=False)
-    tmp['fibstatus'] = 0
-    tmp.loc[broke.index, 'fibstatus'] = broke.loc[broke.index, 'statnum']
+    # # deal with broken, dead, misrouted fibers
+    # broke = pd.read_table('metrology/fiber_status.dat', sep=',', header=17,
+    #                       names=['specid', 'label', 'finifu', 'status', 'misroute', 'blockid', 'finblock'])
+    # broke['label'] = broke['label'].str.strip()
+    # broke['statnum'] = pd.Categorical(broke['status'].str.strip(),
+    #                                   categories=['ok', 'dead', 'low', 'repair']).codes
+    # broke = broke.set_index(['specid', 'label', 'finifu'])
 
-    # check misrouted fibers
-    misb = broke[broke['misroute'] == 1]
-    bb = tmp.loc[misb.index]['finblock'] == misb['finblock']
-    if not bb.all():
-        tmp.loc[misb.index, 'finblock'] = misb['finblock']
-        bb = tmp.loc[misb.index]['finblock'] == misb['finblock']
-        if not bb.all():
-            raise ValueError('Mismatch between misrouted fibers in broken status table and main fiber table.  Double check correct fiber numbers and blocks.')
+    # # add fiber status column
+    # tmp = final.set_index(['spectrographid', 'ifulabel', 'finifu'], drop=False)
+    # tmp['fibstatus'] = 0
+    # tmp.loc[broke.index, 'fibstatus'] = broke.loc[broke.index, 'statnum']
 
-    # reset index
-    final = tmp.reset_index(drop=True)
+    # # check misrouted fibers
+    # misb = broke[broke['misroute'] == 1]
+    # bb = tmp.loc[misb.index]['finblock'] == misb['finblock']
+    # if not bb.all():
+    #     tmp.loc[misb.index, 'finblock'] = misb['finblock']
+    #     bb = tmp.loc[misb.index]['finblock'] == misb['finblock']
+    #     if not bb.all():
+    #         raise ValueError('Mismatch between misrouted fibers in broken status table and main fiber table.  Double check correct fiber numbers and blocks.')
+
+    # # reset index
+    # final = tmp.reset_index(drop=True)
+
+    # add temp fiber status column for now, all good
+    final['fibstatus'] = 0
 
     # sort by specid, blockid, finblock to reorder misrouted fibers
     final['block'] = final['blockid'].str[1:].astype(int)
@@ -573,6 +578,14 @@ def build_fiber_data(main: pd.DataFrame, coords: pd.DataFrame, ifu: pd.DataFrame
     final = final.drop(columns=["label", "block"])
 
     return final
+
+
+def resort_dataframe(df):
+    df['block'] = df['blockid'].str[1:].astype(int)
+    df = df.sort_values(['spectrographid', 'block', 'finblock'])
+    df['fiberid'] = pd.RangeIndex(len(df)) + 1
+    df = df.drop(columns=["block"])
+    return df
 
 
 class Dumper(yaml.Dumper):
@@ -650,7 +663,7 @@ schema = [
   'unit': None},
  {'name': 'finifu',
   'dtype': 'int',
-  'description': 'the fiber number within the IFU',
+  'description': 'a running fiber number within the IFU from 1 to N',
   'unit': None},
  {'name': 'telescope',
   'dtype': 'str',
@@ -667,6 +680,26 @@ schema = [
  {'name': 'ringnum',
   'dtype': 'int',
   'description': 'the number of the IFU ring the fiber belongs to',
+  'unit': None},
+ {'name': 'orig_ifulabel',
+  'dtype': 'str',
+  'description': 'the original IFU label from the Excel document. WRONG! DO NOT USE!',
+  'unit': None},
+ {'name': 'orig_slitlabel',
+  'dtype': 'str',
+  'description': 'the original slitblock label from the Excel document. WRONG! DO NOT USE!',
+  'unit': None},
+ {'name': 'finsector',
+  'dtype': 'int',
+  'description': 'the original fiber number within the IFU sector',
+  'unit': None},
+ {'name': 'fmap',
+  'dtype': 'str',
+  'description': 'the current fiber flow FROM:TO, from the IFU position to the SLIT position.',
+  'unit': None},
+ {'name': 'ypix',
+  'dtype': 'int',
+  'description': 'the y coordinate in pixels of the fiber relative to the centroid',
   'unit': None},
  {'name': 'fibstatus',
   'dtype': 'int',
@@ -704,12 +737,16 @@ def create_comments(filename, df):
 # 4) finblock: Fiber number within the v-groove block
 # 5) targettype: science, standard, or sky
 # 6) ifulabel: ID label for the IFU + spectrograph
-# 7) finifu: Fiber number within the IFU
+# 7) finifu: A running fiber number within the IFU from 1 to N (1801 science, 61 sky)
 # 8) telescope: The name of the telescope; Sci, Spec, SkyE/W for science, standards, or skies
 # 9) xpmm: The x coordinate in mm of the fiber relative to the centroid
 # 10) ypmm: The y coordinate in mm of the fiber relative to the centroid
 # 11) ringnum: Number of the IFU ring the fiber belongs to
-# 12) fibstatus: 0=live, 1=dead, 2=low, 3=repair, 4=short
+# 12) orig_ifulabel: The original incorrect IFU label from the Excel sheet
+# 13) orig_slitlabel: The original incorrect Slitblock label from the Excel sheet
+# 14) finsector: The fiber number within the IFU sector
+# 15) fmap: The fiber flow FROM the IFU TO the slitblock
+# 16) fibstatus: 0=good, 1=dead, 2=low, 3=repair, 4=short
         """
 
 
@@ -739,6 +776,65 @@ def create_fibermap(filename: str, output: str):
 
     # write the fibers out to a YAML file
     write_yaml(output, final=fibers, comments=comments)
+
+
+def update_orig_excel(df):
+    """ Update the original excel dataframe
+
+    This function operates on the dataframe output of the original excel
+    spreadsheet.  It is only meant to capture changes made before producing
+    the file for future manual updates; so the how is not forgotten.
+    """
+    # include original excel IFU label
+    df['orig_ifulabel'] = df.apply(lambda x: f'{x.ifulabel}-{x.finifu}', axis=1)
+
+    # include original excel slitblock label
+    df['orig_slitlabel'] = df.apply(lambda x: f'S{x.spectrographid}{x.blockid}-{int(x.finblock)}', axis=1)
+
+    # include fiber number within the IFU sector
+    df['finsector'] = df['finifu']
+
+    # update finifu to be running number 1 to N_IFU_FIBERS
+    # A/skyW, 61 fiber IFU
+    df.loc[df.ifulabel == 'A1', 'finifu'] += 1
+    df.loc[df.ifulabel == 'A2', 'finifu'] += 21
+    df.loc[(df.ifulabel == 'A3') & (df.finifu > 1), 'finifu'] += 40
+
+    # B/skyE, 61 fiber IFU
+    df.loc[df.ifulabel == 'B1', 'finifu'] += 1
+    df.loc[df.ifulabel == 'B2', 'finifu'] += 21
+    df.loc[(df.ifulabel == 'B3') & (df.finifu > 1), 'finifu'] += 40
+
+    # S/Sci, 1801 fiber IFU
+    df.loc[(df.ifulabel == 'S2'), 'finifu'] += 600
+    df.loc[(df.ifulabel == 'S3'), 'finifu'] += 1200
+
+    # P/Spec, map finifu to equivalent science fiber, using the ifu dataframe (build_ifu output)
+    # to match S label
+    p1fibnum = [135, 143, 459, 467, 735, 743, 1059, 1067, 1335, 1343, 1660, 1668]
+    p2fibnum = [41, 30, 570, 559, 641, 630, 1170, 1159, 1241, 1230, 1771, 1760]
+    df.loc[df.ifulabel == 'P1', 'finifu'] = p1fibnum
+    df.loc[df.ifulabel == 'P2', 'finifu'] = p2fibnum
+
+    # include column mapping fiber FROM:TO, mapping fiber from IFU to spectrograph
+    df['fmap'] = df.apply(lambda x: f'{x.telescope}{x.ifulabel[1] if "S" in x.ifulabel else ""}-{x.finsector}:{x.orig_slitlabel}', axis=1)
+
+    # swap spectrograph 2 and 3
+    df.loc[df.spectrographid == 2, 'spectrographid'] = 4
+    df.loc[df.spectrographid == 3, 'spectrographid'] = 2
+    df.loc[df.spectrographid == 4, 'spectrographid'] = 3
+    df['fmap'] = df['fmap'].str.replace(':S3', ':S4')
+    df['fmap'] = df['fmap'].str.replace(':S2', ':S3')
+    df['fmap'] = df['fmap'].str.replace(':S4', ':S2')
+    df.loc[df.ifulabel == 'S2', 'ifulabel'] = 'S4'
+    df.loc[df.ifulabel == 'S3', 'ifulabel'] = 'S2'
+    df.loc[df.ifulabel == 'S4', 'ifulabel'] = 'S3'
+
+    # need the manually added ypix column
+    # need to manually update the fiber swaps
+    # need to manually update the fiber status
+
+    return df
 
 
 def set_column(col: str, main: pd.DataFrame, ifu: pd.DataFrame,
