@@ -659,7 +659,7 @@ schema = [
   'unit': None},
  {'name': 'ifulabel',
   'dtype': 'str',
-  'description': 'the ID label for the IFU + spectrograph',
+  'description': 'an ID label for the telescope + sector',
   'unit': None},
  {'name': 'finifu',
   'dtype': 'int',
@@ -736,7 +736,7 @@ def create_comments(filename, df):
 # 3) blockid: ID label of block along the slit
 # 4) finblock: Fiber number within the v-groove block
 # 5) targettype: science, standard, or sky
-# 6) ifulabel: ID label for the IFU + spectrograph
+# 6) ifulabel: ID label for the telescope + sector
 # 7) finifu: A running fiber number within the IFU from 1 to N (1801 science, 61 sky)
 # 8) telescope: The name of the telescope; Sci, Spec, SkyE/W for science, standards, or skies
 # 9) xpmm: The x coordinate in mm of the fiber relative to the centroid
@@ -817,7 +817,7 @@ def update_orig_excel(df):
     df.loc[df.ifulabel == 'P2', 'finifu'] = p2fibnum
 
     # include column mapping fiber FROM:TO, mapping fiber from IFU to spectrograph
-    df['fmap'] = df.apply(lambda x: f'{x.telescope}{x.ifulabel[1] if "S" in x.ifulabel else ""}-{x.finsector}:{x.orig_slitlabel}', axis=1)
+    df['fmap'] = df.apply(lambda x: f'{x.telescope}{x.ifulabel[1]}-{x.finsector}:{x.orig_slitlabel}', axis=1)
 
     # swap spectrograph 2 and 3
     df.loc[df.spectrographid == 2, 'spectrographid'] = 4
@@ -829,6 +829,9 @@ def update_orig_excel(df):
     df.loc[df.ifulabel == 'S2', 'ifulabel'] = 'S4'
     df.loc[df.ifulabel == 'S3', 'ifulabel'] = 'S2'
     df.loc[df.ifulabel == 'S4', 'ifulabel'] = 'S3'
+
+    # update ifulabel name
+    df['ifulabel'] = df.apply(lambda x: f'{x.telescope}{x.ifulabel[1]}', axis=1)
 
     # need the manually added ypix column
     # need to manually update the fiber swaps
