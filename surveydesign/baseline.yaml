@@ -181,10 +181,62 @@ THOR:
     tile_overlap: 0.0416
     group: ["MW"]
 
+Gum_SW_limb:
+  coords:
+  - 109.53171831
+  - -41.53573432
+  exptime: 900
+  frame: icrs
+  group:
+  - GUM
+  max_airmass: 1.75
+  max_lunation: 1.0
+  min_exposures: 1
+  min_moon_dist: 60
+  min_shadowheight: 500.0
+  n_exposures: 1
+  observatory: LCO
+  overhead: 1.1
+  priority: 10
+  region_params:
+    a: 5.5
+    b: 5.5
+    pa: 0
+  region_type: ellipse
+  telescope: LVM-160
+  tile_overlap: 0.0416
+  tiling_strategy: center_first
+
+Gum_shell:
+  coords:
+  - 119.7499028
+  - -50.90300515
+  exptime: 900
+  frame: icrs
+  group:
+  - GUM
+  max_airmass: 1.75
+  max_lunation: 1.0
+  min_exposures: 1
+  min_moon_dist: 60
+  min_shadowheight: 500.0
+  n_exposures: 1
+  observatory: LCO
+  overhead: 1.1
+  priority: 10
+  region_params:
+    a: 5.5
+    b: 5.5
+    pa: 0
+  region_type: ellipse
+  telescope: LVM-160
+  tile_overlap: 0.0416
+  tiling_strategy: center_first
+
 FULLSKY:
    coords: [180, 0]
    region_type: rectangle
-   frame: icrs
+   frame: galactic
    region_params:
        width: 358
        height: 179
@@ -205,3 +257,4 @@ FULLSKY:
    geodesic: True
    sparse: 90
    group: ["ALLSKY"]
+
