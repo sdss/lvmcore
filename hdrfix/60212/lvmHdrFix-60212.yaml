@@ -1,0 +1,39 @@
+schema:
+- description: the raw frame file root with * as wildcard
+  dtype: str
+  name: fileroot
+- description: the name of the header keyword to fix
+  dtype: str
+  name: keyword
+- description: the value of the header keyword to update
+  dtype: str
+  name: value
+fixes:
+- fileroot: sdR-*-*-00005515
+  keyword: TILE_ID
+  value: 1028459
+- fileroot: sdR-*-*-00005516
+  keyword: TILE_ID
+  value: 1028740
+- fileroot: sdR-*-*-00005517
+  keyword: TILE_ID
+  value: 1028771
+- fileroot: sdR-*-*-00005518
+  keyword: TILE_ID
+  value: 1028769
+- fileroot: sdR-*-*-00005519
+  keyword: TILE_ID
+  value: 1028799
+- fileroot: sdR-*-*-00005520
+  keyword: TILE_ID
+  value: 1028832
+- fileroot: sdR-*-*-00005521
+  keyword: TILE_ID
+  value: 1028831
+- fileroot: sdR-*-*-00005522
+  keyword: TILE_ID
+  value: 1028830
+- fileroot: sdR-*-*-00005523
+  keyword: TILE_ID
+  value: 1028739
+

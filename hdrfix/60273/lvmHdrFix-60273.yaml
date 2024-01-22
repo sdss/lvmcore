@@ -1,0 +1,57 @@
+schema:
+  - name: fileroot
+    dtype: str
+    description: the raw frame file root with * as wildcard
+  - name: keyword
+    dtype: str
+    description: the name of the header keyword to fix
+  - name: value
+    dtype: str
+    description: the value of the header keyword to update
+
+fixes:
+  - fileroot: sdR-*-*-*
+    keyword: ARGON
+    value: OFF
+  - fileroot: sdR-*-*-*
+    keyword: NEON
+    value: OFF
+  - fileroot: sdR-*-*-*
+    keyword: LDLS
+    value: OFF
+  - fileroot: sdR-*-*-*
+    keyword: QUARTZ
+    value: OFF
+  - fileroot: sdR-*-*-*
+    keyword: HGNE
+    value: OFF
+  - fileroot: sdR-*-*-*
+    keyword: XENON
+    value: OFF
+  - fileroot: sdR-*-*-00008209
+    keyword: QUARTZ
+    value: ON
+  - fileroot: sdR-*-*-0000821[0-9]
+    keyword: QUARTZ
+    value: ON
+  - fileroot: sdR-*-*-00008220
+    keyword: QUARTZ
+    value: ON
+  - fileroot: sdR-*-*-0000822[1-9]
+    keyword: LDLS
+    value: ON
+  - fileroot: sdR-*-*-0000823[0-2]
+    keyword: LDLS
+    value: ON
+  - fileroot: sdR-*-*-0000823[3-8]
+    keyword: HGNE
+    value: ON
+  - fileroot: sdR-*-*-0000823[3-8]
+    keyword: ARGON
+    value: ON
+  - fileroot: sdR-*-*-0000823[3-8]
+    keyword: XENON
+    value: ON
+  - fileroot: sdR-*-*-0000823[3-8]
+    keyword: ARGON
+    value: ON
