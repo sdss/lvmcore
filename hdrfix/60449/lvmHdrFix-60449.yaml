@@ -1,0 +1,72 @@
+schema:
+- description: the raw frame file root with * as wildcard
+  dtype: str
+  name: fileroot
+- description: the name of the header keyword to fix
+  dtype: str
+  name: keyword
+- description: the value of the header keyword to update
+  dtype: str
+  name: value
+fixes:
+- fileroot: sdR-*-*-00017934
+  keyword: SKYENAME
+  value: grid409
+- fileroot: sdR-*-*-00017934
+  keyword: SKYWNAME
+  value: WHAM_south_07
+- fileroot: sdR-*-*-00017927
+  keyword: SKYENAME
+  value: grid332
+- fileroot: sdR-*-*-00017927
+  keyword: SKYWNAME
+  value: grid295
+- fileroot: sdR-*-*-00017939
+  keyword: SKYENAME
+  value: grid409
+- fileroot: sdR-*-*-00017939
+  keyword: SKYWNAME
+  value: WHAM_south_07
+- fileroot: sdR-*-*-00017929
+  keyword: SKYENAME
+  value: grid409
+- fileroot: sdR-*-*-00017929
+  keyword: SKYWNAME
+  value: WHAM_south_07
+- fileroot: sdR-*-*-00017917
+  keyword: SKYENAME
+  value: grid324
+- fileroot: sdR-*-*-00017917
+  keyword: SKYWNAME
+  value: grid320
+- fileroot: sdR-*-*-00017923
+  keyword: SKYENAME
+  value: grid264
+- fileroot: sdR-*-*-00017923
+  keyword: SKYWNAME
+  value: grid295
+- fileroot: sdR-*-*-00017940
+  keyword: SKYENAME
+  value: grid409
+- fileroot: sdR-*-*-00017940
+  keyword: SKYWNAME
+  value: WHAM_south_07
+- fileroot: sdR-*-*-00017935
+  keyword: SKYENAME
+  value: grid409
+- fileroot: sdR-*-*-00017935
+  keyword: SKYWNAME
+  value: WHAM_south_07
+- fileroot: sdR-*-*-00017920
+  keyword: SKYENAME
+  value: grid242
+- fileroot: sdR-*-*-00017920
+  keyword: SKYWNAME
+  value: grid295
+- fileroot: sdR-*-*-00017945
+  keyword: SKYENAME
+  value: grid409
+- fileroot: sdR-*-*-00017945
+  keyword: SKYWNAME
+  value: WHAM_south_07
+

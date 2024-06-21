@@ -61,3 +61,52 @@ fixes:
   keyword: TILE_ID
   value: 1027979
 
+- fileroot: sdR-*-*-00006709
+  keyword: SKYENAME
+  value: grid085
+- fileroot: sdR-*-*-00006709
+  keyword: SKYWNAME
+  value: WHAM_south_08
+- fileroot: sdR-*-*-00006702
+  keyword: SKYENAME
+  value: grid085
+- fileroot: sdR-*-*-00006702
+  keyword: SKYWNAME
+  value: WHAM_south_02
+- fileroot: sdR-*-*-00006693
+  keyword: SKYENAME
+  value: grid085
+- fileroot: sdR-*-*-00006693
+  keyword: SKYWNAME
+  value: grid003
+- fileroot: sdR-*-*-00006695
+  keyword: SKYENAME
+  value: grid085
+- fileroot: sdR-*-*-00006695
+  keyword: SKYWNAME
+  value: grid003
+- fileroot: sdR-*-*-00006694
+  keyword: SKYENAME
+  value: grid085
+- fileroot: sdR-*-*-00006694
+  keyword: SKYWNAME
+  value: grid003
+- fileroot: sdR-*-*-00006708
+  keyword: SKYENAME
+  value: grid085
+- fileroot: sdR-*-*-00006708
+  keyword: SKYWNAME
+  value: WHAM_south_08
+- fileroot: sdR-*-*-00006703
+  keyword: SKYENAME
+  value: grid085
+- fileroot: sdR-*-*-00006703
+  keyword: SKYWNAME
+  value: WHAM_south_02
+- fileroot: sdR-*-*-00006701
+  keyword: SKYENAME
+  value: grid085
+- fileroot: sdR-*-*-00006701
+  keyword: SKYWNAME
+  value: WHAM_south_02
+

@@ -12,3 +12,22 @@ fixes:
 - fileroot: sdR-*-*-0000465[3-9]
   keyword: TILE_ID
   value: 11111
+- fileroot: sdR-*-*-00004651
+  keyword: SKYENAME
+  value: grid398
+- fileroot: sdR-*-*-00004651
+  keyword: SKYWNAME
+  value: WHAM_south_07
+- fileroot: sdR-*-*-00004649
+  keyword: SKYENAME
+  value: grid398
+- fileroot: sdR-*-*-00004649
+  keyword: SKYWNAME
+  value: WHAM_south_07
+- fileroot: sdR-*-*-00004652
+  keyword: SKYENAME
+  value: grid004
+- fileroot: sdR-*-*-00004652
+  keyword: SKYWNAME
+  value: WHAM_south_07
+
