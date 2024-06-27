@@ -31,3 +31,22 @@ fixes:
   keyword: TILE_ID
   value: 1028032
 
+- fileroot: sdR-*-*-00006544
+  keyword: SKYENAME
+  value: grid017
+- fileroot: sdR-*-*-00006544
+  keyword: SKYWNAME
+  value: grid003
+- fileroot: sdR-*-*-00006543
+  keyword: SKYENAME
+  value: grid017
+- fileroot: sdR-*-*-00006543
+  keyword: SKYWNAME
+  value: grid003
+- fileroot: sdR-*-*-00006545
+  keyword: SKYENAME
+  value: grid017
+- fileroot: sdR-*-*-00006545
+  keyword: SKYWNAME
+  value: grid003
+

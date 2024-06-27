@@ -1,0 +1,36 @@
+schema:
+- description: the raw frame file root with * as wildcard
+  dtype: str
+  name: fileroot
+- description: the name of the header keyword to fix
+  dtype: str
+  name: keyword
+- description: the value of the header keyword to update
+  dtype: str
+  name: value
+fixes:
+- fileroot: sdR-*-*-00007918
+  keyword: SKYENAME
+  value: grid125
+- fileroot: sdR-*-*-00007918
+  keyword: SKYWNAME
+  value: WHAM_south_08
+- fileroot: sdR-*-*-00007907
+  keyword: SKYENAME
+  value: grid114
+- fileroot: sdR-*-*-00007907
+  keyword: SKYWNAME
+  value: WHAM_south_02
+- fileroot: sdR-*-*-00007916
+  keyword: SKYENAME
+  value: grid125
+- fileroot: sdR-*-*-00007916
+  keyword: SKYWNAME
+  value: WHAM_south_08
+- fileroot: sdR-*-*-00007910
+  keyword: SKYENAME
+  value: grid125
+- fileroot: sdR-*-*-00007910
+  keyword: SKYWNAME
+  value: WHAM_south_02
+

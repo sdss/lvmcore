@@ -16,3 +16,10 @@ fixes:
   keyword: TILE_ID
   value: 1028800
 
+- fileroot: sdR-*-*-00004171
+  keyword: SKYENAME
+  value: grid125
+- fileroot: sdR-*-*-00004171
+  keyword: SKYWNAME
+  value: WHAM_south_08
+
