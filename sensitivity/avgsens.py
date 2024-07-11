@@ -4,7 +4,6 @@ from astropy.io import fits
 from astropy.table import Table
 import numpy as np
 from scipy.integrate import simpson
-import pathlib
 import os.path as path
 import os
 import sys
@@ -30,7 +29,7 @@ def avg_sens(p, res, line):
                 s = Table(frame['FLUXCAL'].data)
                 try:
                     res[line,:] = s['mean']
-                except:
+                except Exception:
                     print('WARNING no sens info: '+p)
             else:
                 print('WARNING fluxcal==F in '+p)
@@ -104,7 +103,6 @@ def main():
     except getopt.GetoptError as err:
         # print help information and exit:
         print(err)  # will print something like "option -a not recognized"
-        usage()
         sys.exit(2)
     for o, a in opts:
         if o in ("-m", "--mean-sens-only"):
@@ -112,7 +110,6 @@ def main():
             mk_mean_sens()
             sys.exit()
         elif o in ("-h", "--help"):
-            usage()
             sys.exit()
     print("Creating sensitivity FITS files ...")
     mk_sens()
