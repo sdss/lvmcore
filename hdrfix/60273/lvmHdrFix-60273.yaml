@@ -55,76 +55,75 @@ fixes:
   - fileroot: sdR-*-*-0000823[3-8]
     keyword: ARGON
     value: ON
-- fileroot: sdR-*-*-00008284
-  keyword: SKYENAME
-  value: grid134
-- fileroot: sdR-*-*-00008284
-  keyword: SKYWNAME
-  value: WHAM_south_08
-- fileroot: sdR-*-*-00008244
-  keyword: SKYENAME
-  value: grid134
-- fileroot: sdR-*-*-00008244
-  keyword: SKYWNAME
-  value: WHAM_south_02
-- fileroot: sdR-*-*-00008251
-  keyword: SKYENAME
-  value: grid134
-- fileroot: sdR-*-*-00008251
-  keyword: SKYWNAME
-  value: WHAM_south_08
-- fileroot: sdR-*-*-00008248
-  keyword: SKYENAME
-  value: grid125
-- fileroot: sdR-*-*-00008248
-  keyword: SKYWNAME
-  value: WHAM_south_08
-- fileroot: sdR-*-*-00008239
-  keyword: SKYENAME
-  value: grid120
-- fileroot: sdR-*-*-00008239
-  keyword: SKYWNAME
-  value: WHAM_south_02
-- fileroot: sdR-*-*-00008253
-  keyword: SKYENAME
-  value: grid134
-- fileroot: sdR-*-*-00008253
-  keyword: SKYWNAME
-  value: WHAM_south_08
-- fileroot: sdR-*-*-00008252
-  keyword: SKYENAME
-  value: grid134
-- fileroot: sdR-*-*-00008252
-  keyword: SKYWNAME
-  value: WHAM_south_08
-- fileroot: sdR-*-*-00008286
-  keyword: SKYENAME
-  value: grid125
-- fileroot: sdR-*-*-00008286
-  keyword: SKYWNAME
-  value: WHAM_south_08
-- fileroot: sdR-*-*-00008243
-  keyword: SKYENAME
-  value: grid125
-- fileroot: sdR-*-*-00008243
-  keyword: SKYWNAME
-  value: WHAM_south_02
-- fileroot: sdR-*-*-00008241
-  keyword: SKYENAME
-  value: grid124
-- fileroot: sdR-*-*-00008241
-  keyword: SKYWNAME
-  value: WHAM_south_02
-- fileroot: sdR-*-*-00008246
-  keyword: SKYENAME
-  value: grid125
-- fileroot: sdR-*-*-00008246
-  keyword: SKYWNAME
-  value: WHAM_south_02
-- fileroot: sdR-*-*-00008245
-  keyword: SKYENAME
-  value: grid134
-- fileroot: sdR-*-*-00008245
-  keyword: SKYWNAME
-  value: WHAM_south_02
-
+  - fileroot: sdR-*-*-00008284
+    keyword: SKYENAME
+    value: grid134
+  - fileroot: sdR-*-*-00008284
+    keyword: SKYWNAME
+    value: WHAM_south_08
+  - fileroot: sdR-*-*-00008244
+    keyword: SKYENAME
+    value: grid134
+  - fileroot: sdR-*-*-00008244
+    keyword: SKYWNAME
+    value: WHAM_south_02
+  - fileroot: sdR-*-*-00008251
+    keyword: SKYENAME
+    value: grid134
+  - fileroot: sdR-*-*-00008251
+    keyword: SKYWNAME
+    value: WHAM_south_08
+  - fileroot: sdR-*-*-00008248
+    keyword: SKYENAME
+    value: grid125
+  - fileroot: sdR-*-*-00008248
+    keyword: SKYWNAME
+    value: WHAM_south_08
+  - fileroot: sdR-*-*-00008239
+    keyword: SKYENAME
+    value: grid120
+  - fileroot: sdR-*-*-00008239
+    keyword: SKYWNAME
+    value: WHAM_south_02
+  - fileroot: sdR-*-*-00008253
+    keyword: SKYENAME
+    value: grid134
+  - fileroot: sdR-*-*-00008253
+    keyword: SKYWNAME
+    value: WHAM_south_08
+  - fileroot: sdR-*-*-00008252
+    keyword: SKYENAME
+    value: grid134
+  - fileroot: sdR-*-*-00008252
+    keyword: SKYWNAME
+    value: WHAM_south_08
+  - fileroot: sdR-*-*-00008286
+    keyword: SKYENAME
+    value: grid125
+  - fileroot: sdR-*-*-00008286
+    keyword: SKYWNAME
+    value: WHAM_south_08
+  - fileroot: sdR-*-*-00008243
+    keyword: SKYENAME
+    value: grid125
+  - fileroot: sdR-*-*-00008243
+    keyword: SKYWNAME
+    value: WHAM_south_02
+  - fileroot: sdR-*-*-00008241
+    keyword: SKYENAME
+    value: grid124
+  - fileroot: sdR-*-*-00008241
+    keyword: SKYWNAME
+    value: WHAM_south_02
+  - fileroot: sdR-*-*-00008246
+    keyword: SKYENAME
+    value: grid125
+  - fileroot: sdR-*-*-00008246
+    keyword: SKYWNAME
+    value: WHAM_south_02
+  - fileroot: sdR-*-*-00008245
+    keyword: SKYENAME
+    value: grid134
+  - fileroot: sdR-*-*-00008245
+    keyword: SKYWNAME
+    value: WHAM_south_02
