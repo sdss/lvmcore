@@ -1,13 +1,13 @@
 schema:
-- description: the raw frame file root with * as wildcard
+- name: fileroot
   dtype: str
-  name: fileroot
-- description: the name of the header keyword to fix
+  description: the raw frame file root with * as wildcard
+- name: keyword
   dtype: str
-  name: keyword
-- description: the value of the header keyword to update
+  description: the name of the header keyword to fix
+- name: value
   dtype: str
-  name: value
+  description: the value of the header keyword to update
 fixes:
 - fileroot: sdR-*-*-00011866
   keyword: SKYENAME
@@ -117,4 +117,33 @@ fixes:
 - fileroot: sdR-*-*-00011863
   keyword: SKYWNAME
   value: WHAM_south_08
-
+- fileroot: sdR-*-*-00011866
+  keyword: QAQUAL
+  value: BAD
+- fileroot: sdR-*-*-00011866
+  keyword: QAFLAG
+  value: '0001'
+- fileroot: sdR-*-*-00011867
+  keyword: QAQUAL
+  value: BAD
+- fileroot: sdR-*-*-00011867
+  keyword: QAFLAG
+  value: '0001'
+- fileroot: sdR-*-*-00011870
+  keyword: QAQUAL
+  value: BAD
+- fileroot: sdR-*-*-00011870
+  keyword: QAFLAG
+  value: '0001'
+- fileroot: sdR-*-*-00011882
+  keyword: QAQUAL
+  value: BAD
+- fileroot: sdR-*-*-00011882
+  keyword: QAFLAG
+  value: '0001'
+- fileroot: sdR-*-*-00011883
+  keyword: QAQUAL
+  value: BAD
+- fileroot: sdR-*-*-00011883
+  keyword: QAFLAG
+  value: '0001'
