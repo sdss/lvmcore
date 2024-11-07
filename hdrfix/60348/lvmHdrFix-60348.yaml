@@ -1,13 +1,13 @@
 schema:
-- description: the raw frame file root with * as wildcard
+- name: fileroot
   dtype: str
-  name: fileroot
-- description: the name of the header keyword to fix
+  description: the raw frame file root with * as wildcard
+- name: keyword
   dtype: str
-  name: keyword
-- description: the value of the header keyword to update
+  description: the name of the header keyword to fix
+- name: value
   dtype: str
-  name: value
+  description: the value of the header keyword to update
 fixes:
 - fileroot: sdR-*-*-00012125
   keyword: SKYENAME
@@ -39,4 +39,87 @@ fixes:
 - fileroot: sdR-*-*-00012137
   keyword: SKYWNAME
   value: grid272
-
+- fileroot: sdR-*-*-00012123
+  keyword: QAQUAL
+  value: BAD
+- fileroot: sdR-*-*-00012123
+  keyword: QAFLAG
+  value: '0001'
+- fileroot: sdR-*-*-00012124
+  keyword: QAQUAL
+  value: BAD
+- fileroot: sdR-*-*-00012124
+  keyword: QAFLAG
+  value: '0001'
+- fileroot: sdR-*-*-00012125
+  keyword: QAQUAL
+  value: BAD
+- fileroot: sdR-*-*-00012125
+  keyword: QAFLAG
+  value: '0001'
+- fileroot: sdR-*-*-00012126
+  keyword: QAQUAL
+  value: BAD
+- fileroot: sdR-*-*-00012126
+  keyword: QAFLAG
+  value: '0001'
+- fileroot: sdR-*-*-00012127
+  keyword: QAQUAL
+  value: BAD
+- fileroot: sdR-*-*-00012127
+  keyword: QAFLAG
+  value: '0001'
+- fileroot: sdR-*-*-00012128
+  keyword: QAQUAL
+  value: BAD
+- fileroot: sdR-*-*-00012128
+  keyword: QAFLAG
+  value: '0001'
+- fileroot: sdR-*-*-00012129
+  keyword: QAQUAL
+  value: BAD
+- fileroot: sdR-*-*-00012129
+  keyword: QAFLAG
+  value: '0001'
+- fileroot: sdR-*-*-00012130
+  keyword: QAQUAL
+  value: BAD
+- fileroot: sdR-*-*-00012130
+  keyword: QAFLAG
+  value: '0001'
+- fileroot: sdR-*-*-00012131
+  keyword: QAQUAL
+  value: BAD
+- fileroot: sdR-*-*-00012131
+  keyword: QAFLAG
+  value: '0001'
+- fileroot: sdR-*-*-00012132
+  keyword: QAQUAL
+  value: BAD
+- fileroot: sdR-*-*-00012132
+  keyword: QAFLAG
+  value: '0001'
+- fileroot: sdR-*-*-00012133
+  keyword: QAQUAL
+  value: BAD
+- fileroot: sdR-*-*-00012133
+  keyword: QAFLAG
+  value: '0001'
+- fileroot: sdR-*-*-00012134
+  keyword: QAQUAL
+  value: BAD
+- fileroot: sdR-*-*-00012134
+  keyword: QAFLAG
+  value: '0001'
+- fileroot: sdR-*-*-00012135
+  keyword: QAQUAL
+  value: BAD
+- fileroot: sdR-*-*-00012135
+  keyword: QAFLAG
+  value: '0001'
+- fileroot: sdR-*-*-00012138
+  keyword: QAQUAL
+  value: BAD
+- fileroot: sdR-*-*-00012138
+  keyword: QAFLAG
+  value: '0001'
