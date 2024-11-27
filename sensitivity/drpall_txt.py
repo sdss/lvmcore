@@ -1,11 +1,7 @@
 #! /usr/bin/env python
 
 from astropy.io import fits
-from astropy.table import Table
-import numpy as np
 import os.path as path
-import os
-import sys
 
 def process(line, outfile):
     dir = path.dirname(line)
@@ -24,8 +20,8 @@ def process(line, outfile):
 i=0
 with open('cframes.txt') as f:
     with open('drpall_txt.csv', 'w') as outf:
-        for l in f:
-            process(l[:-1], outf)
+        for line in f:
+            process(line[:-1], outf)
             if i%100 == 0:
                 print(i)
             i = i+1

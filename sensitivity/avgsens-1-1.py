@@ -5,7 +5,6 @@ from astropy.table import Table
 import numpy as np
 from scipy.integrate import simpson
 import os.path as path
-import os
 import sys
 import getopt
 
@@ -54,7 +53,7 @@ def mk_sens():
         line += 1
         if(line%100 == 0):
             print(line)
-    
+
     fits.writeto('sens-b-v1.1.fits', res_b, overwrite=True)
     fits.writeto('sens-r-v1.1.fits', res_r, overwrite=True)
     fits.writeto('sens-z-v1.1.fits', res_z, overwrite=True)
@@ -98,7 +97,7 @@ def mk_mean_sens():
     m = np.nanmedian(s, axis=0)
     np.savetxt("mean-sens-z-v1.1.csv", np.c_[w,m], fmt='%.8g', delimiter=",")
 
-    
+
 def main():
     try:
         opts, args = getopt.getopt(sys.argv[1:], "hsm", ["help", "output="])
@@ -117,6 +116,6 @@ def main():
     mk_sens()
     print("Extracting mean sensitivity curves from FITS files ...")
     mk_mean_sens()
-                
+
 if __name__ == "__main__":
     main()

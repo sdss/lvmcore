@@ -1,13 +1,12 @@
-import numpy as np
 from astropy.time import Time
 from astropy.io import fits
 
 with open('lvmFFrame.txt') as file:
     lines = [line.rstrip() for line in file]
 
-lines_b = [l for l in lines if l[-15]=='b']
-lines_r = [l for l in lines if l[-15]=='r']
-lines_z = [l for l in lines if l[-15]=='z']
+lines_b = [line for line in lines if line[-15]=='b']
+lines_r = [line for line in lines if line[-15]=='r']
+lines_z = [line for line in lines if line[-15]=='z']
 
 for frame in lines_z:
     with fits.open(frame) as f:
