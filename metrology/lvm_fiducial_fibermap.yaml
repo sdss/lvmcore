@@ -85,31 +85,31 @@ schema:
   - name: orig_ifulabel
     dtype: str
     description: the original IFU label from the Excel document. WRONG! DO NOT USE!
-    unit: None
+    unit: null
   - name: orig_slitlabel
     dtype: str
     description: the original slitblock label from the Excel document. WRONG! DO NOT USE!
-    unit: None
+    unit: null
   - name: finsector
     dtype: int
     description: the original fiber number within the IFU sector
-    unit: None
+    unit: null
   - name: fmap
     dtype: str
     description: the current fiber flow FROM:TO from the IFU position to the SLIT position.
-    unit: None
+    unit: null
   - name: ypix_b
     dtype: int
     description: the y coordinate in pixels of the fiber at column 2000 for channel b
-    unit: pixels
+    unit: pix
   - name: ypix_r
     dtype: int
     description: the y coordinate in pixels of the fiber at column 2000 for channel r
-    unit: pixels
+    unit: pix
   - name: ypix_z
     dtype: int
     description: the y coordinate in pixels of the fiber at column 2000 for channel z
-    unit: pixels
+    unit: pix
   - name: fibstatus
     dtype: int
     description: the status of the fiber, 0=good, 1=dead, 2=low, 3=repair, 4=short
