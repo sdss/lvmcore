@@ -15,3 +15,9 @@ fixes:
 - fileroot: sdR-*-*-00028935
   keyword: QAFLAG
   value: '0010'
+- fileroot: sdR-*-*-00000000
+  keyword: QAQUAL
+  value: BAD
+- fileroot: sdR-*-*-00000000
+  keyword: QAFLAG
+  value: '0000'
