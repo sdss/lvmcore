@@ -9,150 +9,144 @@ schema:
   dtype: str
   name: value
 fixes:
-- fileroot: sdR-*-*-00004111
-  keyword: SKYENAME
-  value: grid070
-- fileroot: sdR-*-*-00004111
-  keyword: SKYWNAME
-  value: grid003
-- fileroot: sdR-*-*-00004041
+- fileroot: sdR-*-*-00003992
   keyword: IMAGETYP
   value: bias
-- fileroot: sdR-*-*-00004042
+- fileroot: sdR-*-*-00003993
   keyword: IMAGETYP
   value: bias
-- fileroot: sdR-*-*-00004043
+- fileroot: sdR-*-*-00003994
   keyword: IMAGETYP
   value: bias
-- fileroot: sdR-*-*-00004044
+- fileroot: sdR-*-*-00003995
   keyword: IMAGETYP
   value: bias
-- fileroot: sdR-*-*-00004045
+- fileroot: sdR-*-*-00003996
   keyword: IMAGETYP
   value: bias
-- fileroot: sdR-*-*-00004046
+- fileroot: sdR-*-*-00003997
   keyword: IMAGETYP
   value: bias
-- fileroot: sdR-*-*-00004047
+- fileroot: sdR-*-*-00003998
   keyword: IMAGETYP
   value: bias
-- fileroot: sdR-*-*-00004048
+- fileroot: sdR-*-*-00003999
   keyword: IMAGETYP
   value: bias
-- fileroot: sdR-*-*-00004049
+- fileroot: sdR-*-*-00004000
   keyword: IMAGETYP
   value: bias
-- fileroot: sdR-*-*-00004050
+- fileroot: sdR-*-*-00004001
   keyword: IMAGETYP
   value: flat
-- fileroot: sdR-*-*-00004051
+- fileroot: sdR-*-*-00004002
   keyword: IMAGETYP
   value: flat
-- fileroot: sdR-*-*-00004052
+- fileroot: sdR-*-*-00004003
   keyword: IMAGETYP
   value: flat
-- fileroot: sdR-*-*-00004053
+- fileroot: sdR-*-*-00004004
   keyword: IMAGETYP
   value: flat
-- fileroot: sdR-*-*-00004054
+- fileroot: sdR-*-*-00004005
   keyword: IMAGETYP
   value: arc
-- fileroot: sdR-*-*-00004055
+- fileroot: sdR-*-*-00004006
   keyword: IMAGETYP
   value: arc
-- fileroot: sdR-*-*-00004056
+- fileroot: sdR-*-*-00004007
   keyword: IMAGETYP
   value: arc
-- fileroot: sdR-*-*-00004057
+- fileroot: sdR-*-*-00004008
   keyword: IMAGETYP
   value: arc
-- fileroot: sdR-*-*-00004058
+- fileroot: sdR-*-*-00004009
   keyword: IMAGETYP
   value: arc
-- fileroot: sdR-*-*-00004059
+- fileroot: sdR-*-*-00004010
   keyword: IMAGETYP
   value: arc
-- fileroot: sdR-*-*-00004060
+- fileroot: sdR-*-*-00004011
   keyword: IMAGETYP
   value: arc
-- fileroot: sdR-*-*-00004061
+- fileroot: sdR-*-*-00004012
   keyword: IMAGETYP
   value: arc
-- fileroot: sdR-*-*-00004062
+- fileroot: sdR-*-*-00004013
   keyword: IMAGETYP
   value: arc
-- fileroot: sdR-*-*-00004063
+- fileroot: sdR-*-*-00004014
   keyword: IMAGETYP
   value: arc
-- fileroot: sdR-*-*-00004064
+- fileroot: sdR-*-*-00004015
   keyword: IMAGETYP
   value: arc
-- fileroot: sdR-*-*-00004065
+- fileroot: sdR-*-*-00004016
   keyword: IMAGETYP
   value: arc
-- fileroot: sdR-*-*-00004066
+- fileroot: sdR-*-*-00004017
   keyword: IMAGETYP
   value: arc
-- fileroot: sdR-*-*-00004067
+- fileroot: sdR-*-*-00004018
   keyword: IMAGETYP
   value: arc
-- fileroot: sdR-*-*-00004070
+- fileroot: sdR-*-*-00004021
   keyword: IMAGETYP
   value: bias
-- fileroot: sdR-*-*-00004071
+- fileroot: sdR-*-*-00004022
   keyword: IMAGETYP
   value: bias
-- fileroot: sdR-*-*-00004072
+- fileroot: sdR-*-*-00004023
   keyword: IMAGETYP
   value: bias
-- fileroot: sdR-*-*-00004073
+- fileroot: sdR-*-*-00004024
   keyword: IMAGETYP
   value: bias
-- fileroot: sdR-*-*-00004074
+- fileroot: sdR-*-*-00004025
   keyword: IMAGETYP
   value: bias
-- fileroot: sdR-*-*-00004075
+- fileroot: sdR-*-*-00004026
   keyword: IMAGETYP
   value: bias
-- fileroot: sdR-*-*-00004076
+- fileroot: sdR-*-*-00004027
   keyword: IMAGETYP
   value: bias
-- fileroot: sdR-*-*-00004077
+- fileroot: sdR-*-*-00004028
   keyword: IMAGETYP
   value: bias
-- fileroot: sdR-*-*-00004078
+- fileroot: sdR-*-*-00004029
   keyword: IMAGETYP
   value: bias
-- fileroot: sdR-*-*-00004079
+- fileroot: sdR-*-*-00004030
   keyword: IMAGETYP
   value: bias
-- fileroot: sdR-*-*-00004080
+- fileroot: sdR-*-*-00004031
   keyword: IMAGETYP
   value: bias
-- fileroot: sdR-*-*-00004081
+- fileroot: sdR-*-*-00004032
   keyword: IMAGETYP
   value: bias
-- fileroot: sdR-*-*-00004082
+- fileroot: sdR-*-*-00004033
   keyword: IMAGETYP
   value: bias
-- fileroot: sdR-*-*-00004083
+- fileroot: sdR-*-*-00004034
   keyword: IMAGETYP
   value: bias
-- fileroot: sdR-*-*-00004084
+- fileroot: sdR-*-*-00004035
   keyword: IMAGETYP
   value: bias
-- fileroot: sdR-*-*-00004085
+- fileroot: sdR-*-*-00004036
   keyword: IMAGETYP
   value: bias
-- fileroot: sdR-*-*-00004086
+- fileroot: sdR-*-*-00004037
   keyword: IMAGETYP
   value: bias
-- fileroot: sdR-*-*-00004087
+- fileroot: sdR-*-*-00004038
   keyword: IMAGETYP
   value: bias
-- fileroot: sdR-*-*-00004088
+- fileroot: sdR-*-*-00004039
   keyword: IMAGETYP
   value: bias
-- fileroot: sdR-*-*-00004089
+- fileroot: sdR-*-*-00004040
   keyword: IMAGETYP
   value: bias

@@ -9,96 +9,84 @@ schema:
   dtype: str
   name: value
 fixes:
-- fileroot: sdR-*-*-00004168
-  keyword: TILE_ID
-  value: 1028770
-- fileroot: sdR-*-*-00004171
-  keyword: TILE_ID
-  value: 1028800
-- fileroot: sdR-*-*-00004171
-  keyword: SKYENAME
-  value: grid125
-- fileroot: sdR-*-*-00004171
-  keyword: SKYWNAME
-  value: WHAM_south_08
-- fileroot: sdR-*-*-00004126
+- fileroot: sdR-*-*-00003812
   keyword: IMAGETYP
   value: bias
-- fileroot: sdR-*-*-00004127
+- fileroot: sdR-*-*-00003813
   keyword: IMAGETYP
   value: bias
-- fileroot: sdR-*-*-00004128
+- fileroot: sdR-*-*-00003814
   keyword: IMAGETYP
   value: bias
-- fileroot: sdR-*-*-00004129
+- fileroot: sdR-*-*-00003815
   keyword: IMAGETYP
   value: bias
-- fileroot: sdR-*-*-00004130
+- fileroot: sdR-*-*-00003816
   keyword: IMAGETYP
   value: bias
-- fileroot: sdR-*-*-00004131
+- fileroot: sdR-*-*-00003817
   keyword: IMAGETYP
   value: bias
-- fileroot: sdR-*-*-00004132
+- fileroot: sdR-*-*-00003818
   keyword: IMAGETYP
   value: bias
-- fileroot: sdR-*-*-00004133
+- fileroot: sdR-*-*-00003819
   keyword: IMAGETYP
   value: bias
-- fileroot: sdR-*-*-00004134
+- fileroot: sdR-*-*-00003820
   keyword: IMAGETYP
   value: bias
-- fileroot: sdR-*-*-00004135
+- fileroot: sdR-*-*-00003821
   keyword: IMAGETYP
   value: flat
-- fileroot: sdR-*-*-00004136
+- fileroot: sdR-*-*-00003822
   keyword: IMAGETYP
   value: flat
-- fileroot: sdR-*-*-00004137
+- fileroot: sdR-*-*-00003823
   keyword: IMAGETYP
   value: flat
-- fileroot: sdR-*-*-00004138
+- fileroot: sdR-*-*-00003824
   keyword: IMAGETYP
   value: flat
-- fileroot: sdR-*-*-00004139
+- fileroot: sdR-*-*-00003825
   keyword: IMAGETYP
   value: arc
-- fileroot: sdR-*-*-00004140
+- fileroot: sdR-*-*-00003826
   keyword: IMAGETYP
   value: arc
-- fileroot: sdR-*-*-00004141
+- fileroot: sdR-*-*-00003827
   keyword: IMAGETYP
   value: arc
-- fileroot: sdR-*-*-00004142
+- fileroot: sdR-*-*-00003828
   keyword: IMAGETYP
   value: arc
-- fileroot: sdR-*-*-00004143
+- fileroot: sdR-*-*-00003829
   keyword: IMAGETYP
   value: arc
-- fileroot: sdR-*-*-00004144
+- fileroot: sdR-*-*-00003830
   keyword: IMAGETYP
   value: arc
-- fileroot: sdR-*-*-00004145
+- fileroot: sdR-*-*-00003831
   keyword: IMAGETYP
   value: arc
-- fileroot: sdR-*-*-00004146
+- fileroot: sdR-*-*-00003832
   keyword: IMAGETYP
   value: arc
-- fileroot: sdR-*-*-00004147
+- fileroot: sdR-*-*-00003833
   keyword: IMAGETYP
   value: arc
-- fileroot: sdR-*-*-00004148
+- fileroot: sdR-*-*-00003834
   keyword: IMAGETYP
   value: arc
-- fileroot: sdR-*-*-00004149
+- fileroot: sdR-*-*-00003835
   keyword: IMAGETYP
   value: arc
-- fileroot: sdR-*-*-00004150
+- fileroot: sdR-*-*-00003836
   keyword: IMAGETYP
   value: arc
-- fileroot: sdR-*-*-00004151
+- fileroot: sdR-*-*-00003837
   keyword: IMAGETYP
   value: arc
-- fileroot: sdR-*-*-00004152
+- fileroot: sdR-*-*-00003838
   keyword: IMAGETYP
   value: arc
