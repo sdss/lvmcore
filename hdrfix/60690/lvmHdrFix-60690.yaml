@@ -1,0 +1,35 @@
+schema:
+- name: fileroot
+  dtype: str
+  description: the raw frame file root with * as wildcard
+- name: keyword
+  dtype: str
+  description: the name of the header keyword to fix
+- name: value
+  dtype: str
+  description: the value of the header keyword to update
+fixes:
+- fileroot: sdR-*-*-00032890
+  keyword: QAQUAL
+  value: BAD
+- fileroot: sdR-*-*-00032890
+  keyword: QAFLAG
+  value: '00001'
+- fileroot: sdR-*-*-00032892
+  keyword: QAQUAL
+  value: BAD
+- fileroot: sdR-*-*-00032892
+  keyword: QAFLAG
+  value: '00001'
+- fileroot: sdR-*-*-00032893
+  keyword: QAQUAL
+  value: BAD
+- fileroot: sdR-*-*-00032893
+  keyword: QAFLAG
+  value: '00001'
+- fileroot: sdR-*-*-00032894
+  keyword: QAQUAL
+  value: BAD
+- fileroot: sdR-*-*-00032894
+  keyword: QAFLAG
+  value: '00001'
