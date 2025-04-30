@@ -21,4 +21,15 @@ fixes:
 - fileroot: sdR-*-*-00009032
   keyword: SKYWNAME
   value: WHAM_south_08
-
+- fileroot: sdR-*-*-00009031
+  keyword: POSCIRA
+  value: 81.72690156604058
+- fileroot: sdR-*-*-00009031
+  keyword: POSCIDE
+  value: -68.27556119549165
+- fileroot: sdR-*-*-00009032
+  keyword: POSCIRA
+  value: 81.71121241069734
+- fileroot: sdR-*-*-00009032
+  keyword: POSCIDE
+  value: -68.27919926376053

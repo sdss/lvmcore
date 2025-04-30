@@ -15,4 +15,27 @@ fixes:
 - fileroot: sdR-*-*-00007550
   keyword: SKYWNAME
   value: grid003
-
+- fileroot: sdR-*-*-00007545
+  keyword: POSCIRA
+  value: 12.456100962179933
+- fileroot: sdR-*-*-00007545
+  keyword: POSCIDE
+  value: -72.8303700845906
+- fileroot: sdR-*-*-00007546
+  keyword: POSCIRA
+  value: 12.445732034916485
+- fileroot: sdR-*-*-00007546
+  keyword: POSCIDE
+  value: -72.83190558437202
+- fileroot: sdR-*-*-00007548
+  keyword: POSCIRA
+  value: 78.27212175732717
+- fileroot: sdR-*-*-00007548
+  keyword: POSCIDE
+  value: -69.02214694075008
+- fileroot: sdR-*-*-00007549
+  keyword: POSCIRA
+  value: 78.25555585958331
+- fileroot: sdR-*-*-00007549
+  keyword: POSCIDE
+  value: -69.02202653983757

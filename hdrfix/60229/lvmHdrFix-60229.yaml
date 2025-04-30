@@ -30,7 +30,6 @@ fixes:
 - fileroot: sdR-*-*-00006553
   keyword: TILE_ID
   value: 1028032
-
 - fileroot: sdR-*-*-00006544
   keyword: SKYENAME
   value: grid017
@@ -49,4 +48,75 @@ fixes:
 - fileroot: sdR-*-*-00006545
   keyword: SKYWNAME
   value: grid003
-
+- fileroot: sdR-*-*-00006541
+  keyword: POSCIRA
+  value: 12.070878743962234
+- fileroot: sdR-*-*-00006541
+  keyword: POSCIDE
+  value: -72.4899404860852
+- fileroot: sdR-*-*-00006542
+  keyword: POSCIRA
+  value: 12.05121025474355
+- fileroot: sdR-*-*-00006542
+  keyword: POSCIDE
+  value: -72.48953507651008
+- fileroot: sdR-*-*-00006543
+  keyword: POSCIRA
+  value: 12.062988760909723
+- fileroot: sdR-*-*-00006543
+  keyword: POSCIDE
+  value: -72.48119390665863
+- fileroot: sdR-*-*-00006544
+  keyword: POSCIRA
+  value: 12.05276604237271
+- fileroot: sdR-*-*-00006544
+  keyword: POSCIDE
+  value: -72.4826983140273
+- fileroot: sdR-*-*-00006545
+  keyword: POSCIRA
+  value: 12.072434531591396
+- fileroot: sdR-*-*-00006545
+  keyword: POSCIDE
+  value: -72.48310372360241
+- fileroot: sdR-*-*-00006547
+  keyword: POSCIRA
+  value: 79.45066291988786
+- fileroot: sdR-*-*-00006547
+  keyword: POSCIDE
+  value: -68.29712593962469
+- fileroot: sdR-*-*-00006548
+  keyword: POSCIRA
+  value: 79.43462155099212
+- fileroot: sdR-*-*-00006548
+  keyword: POSCIDE
+  value: -68.29711910655634
+- fileroot: sdR-*-*-00006549
+  keyword: POSCIRA
+  value: 79.44266889979045
+- fileroot: sdR-*-*-00006549
+  keyword: POSCIDE
+  value: -68.28855863988066
+- fileroot: sdR-*-*-00006550
+  keyword: POSCIRA
+  value: 79.43464288766178
+- fileroot: sdR-*-*-00006550
+  keyword: POSCIDE
+  value: -68.29026633332289
+- fileroot: sdR-*-*-00006551
+  keyword: POSCIRA
+  value: 79.45068425655752
+- fileroot: sdR-*-*-00006551
+  keyword: POSCIDE
+  value: -68.29027316639126
+- fileroot: sdR-*-*-00006552
+  keyword: POSCIRA
+  value: 79.43463221500254
+- fileroot: sdR-*-*-00006552
+  keyword: POSCIDE
+  value: -68.29369410882758
+- fileroot: sdR-*-*-00006553
+  keyword: POSCIRA
+  value: 79.45067358389828
+- fileroot: sdR-*-*-00006553
+  keyword: POSCIDE
+  value: -68.29370094189595

@@ -1,0 +1,47 @@
+schema:
+- description: the raw frame file root with * as wildcard
+  dtype: str
+  name: fileroot
+- description: the name of the header keyword to fix
+  dtype: str
+  name: keyword
+- description: the value of the header keyword to update
+  dtype: str
+  name: value
+fixes:
+- fileroot: sdR-*-*-00037917
+  keyword: POSCIRA
+  value: 78.7559657112105
+- fileroot: sdR-*-*-00037917
+  keyword: POSCIDE
+  value: -71.57494193859468
+- fileroot: sdR-*-*-00037918
+  keyword: POSCIRA
+  value: 78.77473524133629
+- fileroot: sdR-*-*-00037918
+  keyword: POSCIDE
+  value: -71.57501413641945
+- fileroot: sdR-*-*-00037919
+  keyword: POSCIRA
+  value: 78.76528460586073
+- fileroot: sdR-*-*-00037919
+  keyword: POSCIDE
+  value: -71.57668902193615
+- fileroot: sdR-*-*-00037922
+  keyword: POSCIRA
+  value: 214.246583
+- fileroot: sdR-*-*-00037922
+  keyword: POSCIDE
+  value: -44.973942
+- fileroot: sdR-*-*-00037923
+  keyword: POSCIRA
+  value: 214.24238915609146
+- fileroot: sdR-*-*-00037923
+  keyword: POSCIDE
+  value: -44.975653111111114
+- fileroot: sdR-*-*-00037924
+  keyword: POSCIRA
+  value: 214.2507768439085
+- fileroot: sdR-*-*-00037924
+  keyword: POSCIDE
+  value: -44.975653111111114

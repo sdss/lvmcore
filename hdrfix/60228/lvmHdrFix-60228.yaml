@@ -21,7 +21,6 @@ fixes:
 - fileroot: sdR-*-*-00006441
   keyword: TILE_ID
   value: 1028032
-
 - fileroot: sdR-*-*-00006433
   keyword: SKYENAME
   value: grid118
@@ -46,4 +45,69 @@ fixes:
 - fileroot: sdR-*-*-00006441
   keyword: SKYWNAME
   value: WHAM_south_02
-
+- fileroot: sdR-*-*-00006430
+  keyword: POSCIRA
+  value: 12.69964960249128
+- fileroot: sdR-*-*-00006430
+  keyword: POSCIDE
+  value: -72.86722170598166
+- fileroot: sdR-*-*-00006431
+  keyword: POSCIRA
+  value: 12.67954818142675
+- fileroot: sdR-*-*-00006431
+  keyword: POSCIDE
+  value: -72.86687845721593
+- fileroot: sdR-*-*-00006432
+  keyword: POSCIRA
+  value: 80.01198335472967
+- fileroot: sdR-*-*-00006432
+  keyword: POSCIDE
+  value: -68.65772353515176
+- fileroot: sdR-*-*-00006433
+  keyword: POSCIRA
+  value: 80.0282846539869
+- fileroot: sdR-*-*-00006433
+  keyword: POSCIDE
+  value: -68.65767472195239
+- fileroot: sdR-*-*-00006434
+  keyword: POSCIRA
+  value: 80.02017268154772
+- fileroot: sdR-*-*-00006434
+  keyword: POSCIDE
+  value: -68.65941018175599
+- fileroot: sdR-*-*-00006435
+  keyword: POSCIRA
+  value: 12.691280161037199
+- fileroot: sdR-*-*-00006435
+  keyword: POSCIDE
+  value: -72.8585005352253
+- fileroot: sdR-*-*-00006436
+  keyword: POSCIRA
+  value: 12.680893523890544
+- fileroot: sdR-*-*-00006436
+  keyword: POSCIDE
+  value: -72.86003715624176
+- fileroot: sdR-*-*-00006437
+  keyword: POSCIRA
+  value: 12.700994944955074
+- fileroot: sdR-*-*-00006437
+  keyword: POSCIDE
+  value: -72.86038040500749
+- fileroot: sdR-*-*-00006438
+  keyword: POSCIRA
+  value: 12.68022057999094
+- fileroot: sdR-*-*-00006438
+  keyword: POSCIDE
+  value: -72.86345919329166
+- fileroot: sdR-*-*-00006439
+  keyword: POSCIRA
+  value: 12.70032200105547
+- fileroot: sdR-*-*-00006439
+  keyword: POSCIDE
+  value: -72.86380244205739
+- fileroot: sdR-*-*-00006440
+  keyword: POSCIRA
+  value: 12.689935363908816
+- fileroot: sdR-*-*-00006440
+  keyword: POSCIDE
+  value: -72.86533906307385
