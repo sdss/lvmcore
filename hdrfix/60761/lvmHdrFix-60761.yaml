@@ -1,13 +1,13 @@
 schema:
-- description: the raw frame file root with * as wildcard
+- name: fileroot
   dtype: str
-  name: fileroot
-- description: the name of the header keyword to fix
+  description: the raw frame file root with * as wildcard
+- name: keyword
   dtype: str
-  name: keyword
-- description: the value of the header keyword to update
+  description: the name of the header keyword to fix
+- name: value
   dtype: str
-  name: value
+  description: the value of the header keyword to update
 fixes:
 - fileroot: sdR-*-*-00038000
   keyword: POSCIRA
@@ -111,3 +111,45 @@ fixes:
 - fileroot: sdR-*-*-00038024
   keyword: POSCIDE
   value: -20.672453
+- fileroot: sdR-*-*-00038000
+  keyword: QAQUAL
+  value: BAD
+- fileroot: sdR-*-*-00038000
+  keyword: QAFLAG
+  value: '00001'
+- fileroot: sdR-*-*-00038001
+  keyword: QAQUAL
+  value: BAD
+- fileroot: sdR-*-*-00038001
+  keyword: QAFLAG
+  value: '00001'
+- fileroot: sdR-*-*-00038002
+  keyword: QAQUAL
+  value: BAD
+- fileroot: sdR-*-*-00038002
+  keyword: QAFLAG
+  value: '00001'
+- fileroot: sdR-*-*-00038003
+  keyword: QAQUAL
+  value: BAD
+- fileroot: sdR-*-*-00038003
+  keyword: QAFLAG
+  value: '00001'
+- fileroot: sdR-*-*-00038007
+  keyword: QAQUAL
+  value: BAD
+- fileroot: sdR-*-*-00038007
+  keyword: QAFLAG
+  value: '00001'
+- fileroot: sdR-*-*-00038008
+  keyword: QAQUAL
+  value: BAD
+- fileroot: sdR-*-*-00038008
+  keyword: QAFLAG
+  value: '00001'
+- fileroot: sdR-*-*-00038026
+  keyword: QAQUAL
+  value: BAD
+- fileroot: sdR-*-*-00038026
+  keyword: QAFLAG
+  value: '00001'
