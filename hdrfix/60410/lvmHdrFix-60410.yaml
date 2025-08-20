@@ -87,3 +87,33 @@ fixes:
 - fileroot: sdR-*-*-00015975
   keyword: QAFLAG
   value: '0001'
+- fileroot: sdR-*-*-00015957
+  keyword: POSCIRA
+  value: 80.04670290208257
+- fileroot: sdR-*-*-00015957
+  keyword: POSCIDE
+  value: -70.11665211467178
+- fileroot: sdR-*-*-00015958
+  keyword: POSCIRA
+  value: 80.06414628977726
+- fileroot: sdR-*-*-00015958
+  keyword: POSCIDE
+  value: -70.1165998813051
+- fileroot: sdR-*-*-00015959
+  keyword: POSCIRA
+  value: 80.05546888294379
+- fileroot: sdR-*-*-00015959
+  keyword: POSCIDE
+  value: -70.1183370427932
+- fileroot: sdR-*-*-00015961
+  keyword: POSCIRA
+  value: 89.20726461985545
+- fileroot: sdR-*-*-00015961
+  keyword: POSCIDE
+  value: -68.38140373015892
+- fileroot: sdR-*-*-00015962
+  keyword: POSCIRA
+  value: 89.1913618394716
+- fileroot: sdR-*-*-00015962
+  keyword: POSCIDE
+  value: -68.38233248673839

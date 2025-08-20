@@ -135,4 +135,45 @@ fixes:
 - fileroot: sdR-*-*-00018908
   keyword: SKYWNAME
   value: WHAM_south_07
-
+- fileroot: sdR-*-*-00018918
+  keyword: POSCIRA
+  value: 9.61625421266264
+- fileroot: sdR-*-*-00018918
+  keyword: POSCIDE
+  value: -72.76494258595392
+- fileroot: sdR-*-*-00018919
+  keyword: POSCIRA
+  value: 9.596346658345102
+- fileroot: sdR-*-*-00018919
+  keyword: POSCIDE
+  value: -72.76431697212325
+- fileroot: sdR-*-*-00018920
+  keyword: POSCIRA
+  value: 12.436713849650326
+- fileroot: sdR-*-*-00018920
+  keyword: POSCIDE
+  value: -72.82660270192089
+- fileroot: sdR-*-*-00018921
+  keyword: POSCIRA
+  value: 12.436037930905536
+- fileroot: sdR-*-*-00018921
+  keyword: POSCIDE
+  value: -72.83002466610377
+- fileroot: sdR-*-*-00018922
+  keyword: POSCIRA
+  value: 9.609347105944398
+- fileroot: sdR-*-*-00018922
+  keyword: POSCIDE
+  value: -72.75611362860575
+- fileroot: sdR-*-*-00018923
+  keyword: POSCIRA
+  value: 9.598784587627224
+- fileroot: sdR-*-*-00018923
+  keyword: POSCIDE
+  value: -72.75750239440097
+- fileroot: sdR-*-*-00018924
+  keyword: POSCIRA
+  value: 9.618692141944761
+- fileroot: sdR-*-*-00018924
+  keyword: POSCIDE
+  value: -72.75812800823162

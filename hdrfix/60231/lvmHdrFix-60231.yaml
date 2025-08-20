@@ -42,7 +42,6 @@ fixes:
 - fileroot: sdR-*-*-00006640
   keyword: TILE_ID
   value: 1027985
-
 - fileroot: sdR-*-*-00006630
   keyword: SKYENAME
   value: grid132
@@ -109,4 +108,75 @@ fixes:
 - fileroot: sdR-*-*-00006624
   keyword: SKYWNAME
   value: WHAM_south_02
-
+- fileroot: sdR-*-*-00006620
+  keyword: POSCIRA
+  value: 12.051987833238384
+- fileroot: sdR-*-*-00006620
+  keyword: POSCIDE
+  value: -72.48611808091168
+- fileroot: sdR-*-*-00006621
+  keyword: POSCIRA
+  value: 12.07165632245707
+- fileroot: sdR-*-*-00006621
+  keyword: POSCIDE
+  value: -72.48652349048679
+- fileroot: sdR-*-*-00006622
+  keyword: POSCIRA
+  value: 12.061433603920056
+- fileroot: sdR-*-*-00006622
+  keyword: POSCIDE
+  value: -72.48802789785546
+- fileroot: sdR-*-*-00006623
+  keyword: POSCIRA
+  value: 79.44264757176961
+- fileroot: sdR-*-*-00006623
+  keyword: POSCIDE
+  value: -68.29540863533818
+- fileroot: sdR-*-*-00006625
+  keyword: POSCIRA
+  value: 78.87092676532102
+- fileroot: sdR-*-*-00006625
+  keyword: POSCIDE
+  value: -68.66066234364267
+- fileroot: sdR-*-*-00006626
+  keyword: POSCIRA
+  value: 78.85462618347213
+- fileroot: sdR-*-*-00006626
+  keyword: POSCIDE
+  value: -68.6605996438774
+- fileroot: sdR-*-*-00006627
+  keyword: POSCIRA
+  value: 78.863025111994
+- fileroot: sdR-*-*-00006627
+  keyword: POSCIDE
+  value: -68.65206758304684
+- fileroot: sdR-*-*-00006628
+  keyword: POSCIRA
+  value: 78.85482514193885
+- fileroot: sdR-*-*-00006628
+  keyword: POSCIDE
+  value: -68.65374724873324
+- fileroot: sdR-*-*-00006629
+  keyword: POSCIRA
+  value: 78.87112572378771
+- fileroot: sdR-*-*-00006629
+  keyword: POSCIDE
+  value: -68.6538099484985
+- fileroot: sdR-*-*-00006630
+  keyword: POSCIRA
+  value: 78.85472562238152
+- fileroot: sdR-*-*-00006630
+  keyword: POSCIDE
+  value: -68.65717483511666
+- fileroot: sdR-*-*-00006631
+  keyword: POSCIRA
+  value: 78.87102620423039
+- fileroot: sdR-*-*-00006631
+  keyword: POSCIDE
+  value: -68.65723753488193
+- fileroot: sdR-*-*-00006632
+  keyword: POSCIRA
+  value: 78.86282623417523
+- fileroot: sdR-*-*-00006632
+  keyword: POSCIDE
+  value: -68.65891720056833

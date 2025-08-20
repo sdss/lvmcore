@@ -1,0 +1,23 @@
+schema:
+- description: the raw frame file root with * as wildcard
+  dtype: str
+  name: fileroot
+- description: the name of the header keyword to fix
+  dtype: str
+  name: keyword
+- description: the value of the header keyword to update
+  dtype: str
+  name: value
+fixes:
+- fileroot: sdR-*-*-00008959
+  keyword: POSCIRA
+  value: 81.71872557956746
+- fileroot: sdR-*-*-00008959
+  keyword: POSCIDE
+  value: -68.27395742671064
+- fileroot: sdR-*-*-00008960
+  keyword: POSCIRA
+  value: 81.71088073311336
+- fileroot: sdR-*-*-00008960
+  keyword: POSCIDE
+  value: -68.27577368484921

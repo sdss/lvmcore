@@ -135,3 +135,15 @@ fixes:
 - fileroot: sdR-*-*-00018837
   keyword: QAFLAG
   value: '0001'
+- fileroot: sdR-*-*-00018826
+  keyword: POSCIRA
+  value: 317.498167098941
+- fileroot: sdR-*-*-00018826
+  keyword: POSCIDE
+  value: -37.502283187807215
+- fileroot: sdR-*-*-00018827
+  keyword: POSCIRA
+  value: 317.5019067006273
+- fileroot: sdR-*-*-00018827
+  keyword: POSCIDE
+  value: -37.5074220766961

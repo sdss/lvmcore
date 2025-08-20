@@ -111,3 +111,15 @@ fixes:
 - fileroot: sdR-*-*-00016203
   keyword: QAFLAG
   value: '0011'
+- fileroot: sdR-*-*-00016120
+  keyword: POSCIRA
+  value: 89.84967632378434
+- fileroot: sdR-*-*-00016120
+  keyword: POSCIDE
+  value: -69.81536315792525
+- fileroot: sdR-*-*-00016202
+  keyword: POSCIRA
+  value: 330.6698390032602
+- fileroot: sdR-*-*-00016202
+  keyword: POSCIDE
+  value: -51.29356388888889
