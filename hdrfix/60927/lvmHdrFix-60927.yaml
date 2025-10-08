@@ -9,9 +9,9 @@ schema:
   dtype: str
   description: the value of the header keyword to update
 fixes:
-- fileroot: sdR-*-*-00043322
+- fileroot: sdR-*-*-00045865
   keyword: QAQUAL
   value: BAD
-- fileroot: sdR-*-*-00043322
+- fileroot: sdR-*-*-00045865
   keyword: QAFLAG
-  value: '00010'
+  value: '00001'
