@@ -468,3 +468,6 @@ fixes:
 - fileroot: sdR-*-*-00007686
   keyword: CALIBFIB
   value: P1-12
+- fileroot: sdR-*-*-00007689
+  keyword: QAQUAL
+  value: BAD
