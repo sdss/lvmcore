@@ -1,0 +1,65 @@
+schema:
+- description: the raw frame file root with * as wildcard
+  dtype: str
+  name: fileroot
+- description: the name of the header keyword to fix
+  dtype: str
+  name: keyword
+- description: the value of the header keyword to update
+  dtype: str
+  name: value
+fixes:
+- fileroot: sdR-*-*-00005930
+  keyword: CALIBFIB
+  value: P1-2
+- fileroot: sdR-*-*-00005931
+  keyword: CALIBFIB
+  value: P1-2
+- fileroot: sdR-*-*-00005932
+  keyword: CALIBFIB
+  value: P1-2
+- fileroot: sdR-*-*-00005933
+  keyword: CALIBFIB
+  value: P1-2
+- fileroot: sdR-*-*-00005934
+  keyword: CALIBFIB
+  value: null
+- fileroot: sdR-*-*-00005935
+  keyword: CALIBFIB
+  value: null
+- fileroot: sdR-*-*-00005936
+  keyword: CALIBFIB
+  value: null
+- fileroot: sdR-*-*-00005937
+  keyword: CALIBFIB
+  value: null
+- fileroot: sdR-*-*-00005938
+  keyword: CALIBFIB
+  value: null
+- fileroot: sdR-*-*-00005939
+  keyword: CALIBFIB
+  value: null
+- fileroot: sdR-*-*-00005940
+  keyword: CALIBFIB
+  value: null
+- fileroot: sdR-*-*-00005941
+  keyword: CALIBFIB
+  value: null
+- fileroot: sdR-*-*-00005942
+  keyword: CALIBFIB
+  value: P1-2
+- fileroot: sdR-*-*-00005943
+  keyword: CALIBFIB
+  value: P1-2
+- fileroot: sdR-*-*-00005944
+  keyword: CALIBFIB
+  value: null
+- fileroot: sdR-*-*-00005945
+  keyword: CALIBFIB
+  value: null
+- fileroot: sdR-*-*-00005946
+  keyword: CALIBFIB
+  value: null
+- fileroot: sdR-*-*-00005947
+  keyword: CALIBFIB
+  value: null

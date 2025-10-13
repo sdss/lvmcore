@@ -33,4 +33,33 @@ fixes:
 - fileroot: sdR-*-*-00007910
   keyword: SKYWNAME
   value: WHAM_south_02
-
+- fileroot: sdR-*-*-00007898
+  keyword: CALIBFIB
+  value: P1-2
+- fileroot: sdR-*-*-00007899
+  keyword: CALIBFIB
+  value: P1-2
+- fileroot: sdR-*-*-00007927
+  keyword: CALIBFIB
+  value: P1-1
+- fileroot: sdR-*-*-00007928
+  keyword: CALIBFIB
+  value: P1-2
+- fileroot: sdR-*-*-00007929
+  keyword: CALIBFIB
+  value: P1-3
+- fileroot: sdR-*-*-00007930
+  keyword: CALIBFIB
+  value: P1-4
+- fileroot: sdR-*-*-00007931
+  keyword: CALIBFIB
+  value: P1-5
+- fileroot: sdR-*-*-00007932
+  keyword: CALIBFIB
+  value: P1-6
+- fileroot: sdR-*-*-00007896
+  keyword: CALIBFIB
+  value: P1-2
+- fileroot: sdR-*-*-00007897
+  keyword: CALIBFIB
+  value: P1-2

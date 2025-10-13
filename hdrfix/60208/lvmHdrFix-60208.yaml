@@ -15,11 +15,63 @@ fixes:
 - fileroot: sdR-*-*-00005355
   keyword: TILE_ID
   value: 1028801
-
 - fileroot: sdR-*-*-00005355
   keyword: SKYENAME
   value: grid125
 - fileroot: sdR-*-*-00005355
   keyword: SKYWNAME
   value: WHAM_south_02
-
+- fileroot: sdR-*-*-00005316
+  keyword: CALIBFIB
+  value: P1-2
+- fileroot: sdR-*-*-00005317
+  keyword: CALIBFIB
+  value: P1-2
+- fileroot: sdR-*-*-00005318
+  keyword: CALIBFIB
+  value: P1-2
+- fileroot: sdR-*-*-00005319
+  keyword: CALIBFIB
+  value: P1-2
+- fileroot: sdR-*-*-00005320
+  keyword: CALIBFIB
+  value: null
+- fileroot: sdR-*-*-00005321
+  keyword: CALIBFIB
+  value: P1-1
+- fileroot: sdR-*-*-00005322
+  keyword: CALIBFIB
+  value: null
+- fileroot: sdR-*-*-00005323
+  keyword: CALIBFIB
+  value: null
+- fileroot: sdR-*-*-00005324
+  keyword: CALIBFIB
+  value: P1-2
+- fileroot: sdR-*-*-00005325
+  keyword: CALIBFIB
+  value: null
+- fileroot: sdR-*-*-00005326
+  keyword: CALIBFIB
+  value: null
+- fileroot: sdR-*-*-00005327
+  keyword: CALIBFIB
+  value: null
+- fileroot: sdR-*-*-00005328
+  keyword: CALIBFIB
+  value: P1-2
+- fileroot: sdR-*-*-00005329
+  keyword: CALIBFIB
+  value: P1-2
+- fileroot: sdR-*-*-00005330
+  keyword: CALIBFIB
+  value: null
+- fileroot: sdR-*-*-00005331
+  keyword: CALIBFIB
+  value: null
+- fileroot: sdR-*-*-00005332
+  keyword: CALIBFIB
+  value: null
+- fileroot: sdR-*-*-00005333
+  keyword: CALIBFIB
+  value: null

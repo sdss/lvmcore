@@ -39,3 +39,15 @@ fixes:
 - fileroot: sdR-*-*-00007549
   keyword: POSCIDE
   value: -69.02202653983757
+- fileroot: sdR-*-*-00007533
+  keyword: CALIBFIB
+  value: P1-12
+- fileroot: sdR-*-*-00007534
+  keyword: CALIBFIB
+  value: P1-12
+- fileroot: sdR-*-*-00007531
+  keyword: CALIBFIB
+  value: P1-12
+- fileroot: sdR-*-*-00007532
+  keyword: CALIBFIB
+  value: P1-12

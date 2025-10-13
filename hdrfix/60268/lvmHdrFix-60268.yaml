@@ -1,13 +1,13 @@
 schema:
-- name: fileroot
+- description: the raw frame file root with * as wildcard
   dtype: str
-  description: the raw frame file root with * as wildcard
-- name: keyword
+  name: fileroot
+- description: the name of the header keyword to fix
   dtype: str
-  description: the name of the header keyword to fix
-- name: value
+  name: keyword
+- description: the value of the header keyword to update
   dtype: str
-  description: the value of the header keyword to update
+  name: value
 fixes:
 - fileroot: sdR-*-*-00007948
   keyword: SKYENAME
@@ -81,3 +81,51 @@ fixes:
 - fileroot: sdR-*-*-00007949
   keyword: QAFLAG
   value: '1000'
+- fileroot: sdR-*-*-00007935
+  keyword: CALIBFIB
+  value: P1-2
+- fileroot: sdR-*-*-00007936
+  keyword: CALIBFIB
+  value: P1-2
+- fileroot: sdR-*-*-00007964
+  keyword: CALIBFIB
+  value: P1-1
+- fileroot: sdR-*-*-00007965
+  keyword: CALIBFIB
+  value: P1-2
+- fileroot: sdR-*-*-00007966
+  keyword: CALIBFIB
+  value: P1-3
+- fileroot: sdR-*-*-00007967
+  keyword: CALIBFIB
+  value: P1-4
+- fileroot: sdR-*-*-00007968
+  keyword: CALIBFIB
+  value: P1-5
+- fileroot: sdR-*-*-00007969
+  keyword: CALIBFIB
+  value: P1-6
+- fileroot: sdR-*-*-00007970
+  keyword: CALIBFIB
+  value: P1-7
+- fileroot: sdR-*-*-00007971
+  keyword: CALIBFIB
+  value: P1-8
+- fileroot: sdR-*-*-00007972
+  keyword: CALIBFIB
+  value: P1-9
+- fileroot: sdR-*-*-00007973
+  keyword: CALIBFIB
+  value: P1-10
+- fileroot: sdR-*-*-00007974
+  keyword: CALIBFIB
+  value: P1-11
+- fileroot: sdR-*-*-00007975
+  keyword: CALIBFIB
+  value: P1-12
+- fileroot: sdR-*-*-00007933
+  keyword: CALIBFIB
+  value: P1-2
+- fileroot: sdR-*-*-00007934
+  keyword: CALIBFIB
+  value: P1-2
