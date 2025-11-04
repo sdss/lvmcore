@@ -320,7 +320,7 @@ fixes:
   value: P1-8
 - fileroot: sdR-*-*-00007349
   keyword: CALIBFIB
-  value: null
+  value: P1-9
 - fileroot: sdR-*-*-00007350
   keyword: CALIBFIB
   value: P1-10
@@ -329,13 +329,7 @@ fixes:
   value: P1-11
 - fileroot: sdR-*-*-00007352
   keyword: CALIBFIB
-  value: null
-- fileroot: sdR-*-*-00007349
-  keyword: CALIBFIB
-  value: null
-- fileroot: sdR-*-*-00007352
-  keyword: CALIBFIB
-  value: null
+  value: P1-12
 - fileroot: sdR-*-*-00007276
   keyword: IMAGETYP
   value: arc

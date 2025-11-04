@@ -1,13 +1,13 @@
 schema:
-- name: fileroot
+- description: the raw frame file root with * as wildcard
   dtype: str
-  description: the raw frame file root with * as wildcard
-- name: keyword
+  name: fileroot
+- description: the name of the header keyword to fix
   dtype: str
-  description: the name of the header keyword to fix
-- name: value
+  name: keyword
+- description: the value of the header keyword to update
   dtype: str
-  description: the value of the header keyword to update
+  name: value
 fixes:
 - fileroot: sdR-*-*-00011937
   keyword: SKYENAME
@@ -159,3 +159,75 @@ fixes:
 - fileroot: sdR-*-*-00011959
   keyword: QAFLAG
   value: '0001'
+- fileroot: sdR-*-*-00011912
+  keyword: CALIBFIB
+  value: P1-1
+- fileroot: sdR-*-*-00011913
+  keyword: CALIBFIB
+  value: P1-2
+- fileroot: sdR-*-*-00011914
+  keyword: CALIBFIB
+  value: P1-3
+- fileroot: sdR-*-*-00011915
+  keyword: CALIBFIB
+  value: P1-4
+- fileroot: sdR-*-*-00011916
+  keyword: CALIBFIB
+  value: P1-5
+- fileroot: sdR-*-*-00011917
+  keyword: CALIBFIB
+  value: P1-6
+- fileroot: sdR-*-*-00011918
+  keyword: CALIBFIB
+  value: P1-7
+- fileroot: sdR-*-*-00011919
+  keyword: CALIBFIB
+  value: P1-8
+- fileroot: sdR-*-*-00011920
+  keyword: CALIBFIB
+  value: P1-9
+- fileroot: sdR-*-*-00011921
+  keyword: CALIBFIB
+  value: P1-10
+- fileroot: sdR-*-*-00011922
+  keyword: CALIBFIB
+  value: P1-11
+- fileroot: sdR-*-*-00011923
+  keyword: CALIBFIB
+  value: P1-12
+- fileroot: sdR-*-*-00011924
+  keyword: CALIBFIB
+  value: P1-1
+- fileroot: sdR-*-*-00011925
+  keyword: CALIBFIB
+  value: P1-2
+- fileroot: sdR-*-*-00011926
+  keyword: CALIBFIB
+  value: P1-3
+- fileroot: sdR-*-*-00011927
+  keyword: CALIBFIB
+  value: P1-4
+- fileroot: sdR-*-*-00011928
+  keyword: CALIBFIB
+  value: P1-5
+- fileroot: sdR-*-*-00011929
+  keyword: CALIBFIB
+  value: P1-6
+- fileroot: sdR-*-*-00011930
+  keyword: CALIBFIB
+  value: P1-7
+- fileroot: sdR-*-*-00011931
+  keyword: CALIBFIB
+  value: P1-8
+- fileroot: sdR-*-*-00011932
+  keyword: CALIBFIB
+  value: P1-9
+- fileroot: sdR-*-*-00011933
+  keyword: CALIBFIB
+  value: P1-10
+- fileroot: sdR-*-*-00011934
+  keyword: CALIBFIB
+  value: P1-11
+- fileroot: sdR-*-*-00011935
+  keyword: CALIBFIB
+  value: P1-12

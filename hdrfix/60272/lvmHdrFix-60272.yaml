@@ -54,9 +54,6 @@ fixes:
 - fileroot: sdR-*-*-00008170
   keyword: CALIBFIB
   value: P1-3
-- fileroot: sdR-*-*-00008165
-  keyword: CALIBFIB
-  value: null
 - fileroot: sdR-*-*-00008159
   keyword: CALIBFIB
   value: P1-3
@@ -75,3 +72,6 @@ fixes:
 - fileroot: sdR-*-*-00008164
   keyword: CALIBFIB
   value: P1-3
+- fileroot: sdR-*-*-00008165
+  keyword: QAQUAL
+  value: BAD

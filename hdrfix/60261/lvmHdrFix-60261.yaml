@@ -9,18 +9,6 @@ schema:
   dtype: str
   name: value
 fixes:
-- fileroot: sdR-*-*-00007616
-  keyword: CALIBFIB
-  value: null
-- fileroot: sdR-*-*-00007617
-  keyword: CALIBFIB
-  value: null
-- fileroot: sdR-*-*-00007620
-  keyword: CALIBFIB
-  value: null
-- fileroot: sdR-*-*-00007621
-  keyword: CALIBFIB
-  value: null
 - fileroot: sdR-*-*-00007595
   keyword: CALIBFIB
   value: P1-1
@@ -57,18 +45,6 @@ fixes:
 - fileroot: sdR-*-*-00007606
   keyword: CALIBFIB
   value: P1-12
-- fileroot: sdR-*-*-00007614
-  keyword: CALIBFIB
-  value: null
-- fileroot: sdR-*-*-00007615
-  keyword: CALIBFIB
-  value: null
-- fileroot: sdR-*-*-00007618
-  keyword: CALIBFIB
-  value: null
-- fileroot: sdR-*-*-00007619
-  keyword: CALIBFIB
-  value: null
 - fileroot: sdR-*-*-00007616
   keyword: QAQUAL
   value: BAD

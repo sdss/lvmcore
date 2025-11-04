@@ -408,18 +408,12 @@ fixes:
 - fileroot: sdR-*-*-00007687
   keyword: CALIBFIB
   value: P1-12
-- fileroot: sdR-*-*-00007689
-  keyword: CALIBFIB
-  value: null
 - fileroot: sdR-*-*-00007690
   keyword: CALIBFIB
   value: P1-12
 - fileroot: sdR-*-*-00007691
   keyword: CALIBFIB
   value: P1-12
-- fileroot: sdR-*-*-00007688
-  keyword: CALIBFIB
-  value: null
 - fileroot: sdR-*-*-00007723
   keyword: CALIBFIB
   value: P1-1
@@ -469,5 +463,8 @@ fixes:
   keyword: CALIBFIB
   value: P1-12
 - fileroot: sdR-*-*-00007689
+  keyword: QAQUAL
+  value: BAD
+- fileroot: sdR-*-*-00007688
   keyword: QAQUAL
   value: BAD
