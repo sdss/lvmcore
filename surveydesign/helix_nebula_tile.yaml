@@ -1,0 +1,25 @@
+ancillary_Helix_Nebula:
+  coords:
+  - 337.410606
+  - -20.837152
+  exptime: 900
+  frame: icrs
+  group:
+  - ancillary
+  max_airmass: 1.75
+  max_lunation: 1.0
+  min_exposures: 3
+  min_moon_dist: 45
+  min_shadowheight: 1000.0
+  n_exposures: 9
+  observatory: LCO
+  overhead: 1.1
+  priority: 2
+  region_params:
+    a: 0.2
+    b: 0.2
+    pa: 0
+  region_type: ellipse
+  telescope: LVM-160
+  tile_overlap: 0.0416
+  tiling_strategy: center_first
