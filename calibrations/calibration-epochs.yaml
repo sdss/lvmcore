@@ -301,3 +301,12 @@ epochs:
       twilight: 60974
     trigger: Warm up
     comment: The INDURA delivery person accidentally left the pressure regulator valve closed after completing the tank fill on Friday Oct. 24th (see email 'Temperature blip this morning')
+  60985:
+    flavors:
+      bias: 60986-60995
+      trace: 60986
+      wave: 60986
+      dome: 60986
+      twilight: 60987
+    trigger: Instrument intervention
+    comment: No twilights taken on MJD=60985, using close ones instead. Wash of siderostat mirrors (first since commissioning) yield ~15% in throughput recovery (see email MJD '60985 calibration epoch')
