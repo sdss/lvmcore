@@ -162,3 +162,6 @@ fixes:
 - fileroot: sdR-*-*-00036883
   keyword: CALIBFIB
   value: P1-12
+- fileroot: sdR-*-*-00036822
+  keyword: IMAGETYP
+  value: flat
