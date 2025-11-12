@@ -51,4 +51,9 @@ fixes:
 - fileroot: sdR-*-*-00009534
   keyword: SKYWNAME
   value: WHAM_south_02
-
+- fileroot: sdR-*-*-00009518
+  keyword: QAQUAL
+  value: BAD
+- fileroot: sdR-*-*-00009520
+  keyword: QAQUAL
+  value: BAD

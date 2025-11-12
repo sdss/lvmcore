@@ -468,3 +468,9 @@ fixes:
 - fileroot: sdR-*-*-00007688
   keyword: QAQUAL
   value: BAD
+- fileroot: sdR-*-*-00007687
+  keyword: QAQUAL
+  value: BAD
+- fileroot: sdR-*-*-00007731
+  keyword: QAQUAL
+  value: BAD

@@ -48,3 +48,18 @@ fixes:
 - fileroot: sdR-*-*-00022300
   keyword: CALIBFIB
   value: P2-1
+- fileroot: sdR-*-*-00022241
+  keyword: QAQUAL
+  value: BAD
+- fileroot: sdR-*-*-00022321
+  keyword: QAQUAL
+  value: BAD
+- fileroot: sdR-*-*-00022323
+  keyword: QAQUAL
+  value: BAD
+- fileroot: sdR-*-*-00022325
+  keyword: QAQUAL
+  value: BAD
+- fileroot: sdR-*-*-00022327
+  keyword: QAQUAL
+  value: BAD

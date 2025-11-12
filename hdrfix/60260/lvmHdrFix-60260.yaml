@@ -174,3 +174,6 @@ fixes:
 - fileroot: sdR-*-*-00007570
   keyword: QAQUAL
   value: BAD
+- fileroot: sdR-*-*-00007566
+  keyword: QAQUAL
+  value: BAD

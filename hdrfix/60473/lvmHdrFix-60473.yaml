@@ -123,3 +123,6 @@ fixes:
 - fileroot: sdR-*-*-00019305
   keyword: CALIBFIB
   value: P2-12
+- fileroot: sdR-*-*-00019292
+  keyword: QAQUAL
+  value: BAD

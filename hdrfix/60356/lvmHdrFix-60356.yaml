@@ -102,3 +102,9 @@ fixes:
 - fileroot: sdR-*-*-00012604
   keyword: QAQUAL
   value: BAD
+- fileroot: sdR-*-*-00012592
+  keyword: QAQUAL
+  value: BAD
+- fileroot: sdR-*-*-00012594
+  keyword: QAQUAL
+  value: BAD

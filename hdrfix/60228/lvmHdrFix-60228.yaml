@@ -210,3 +210,21 @@ fixes:
 - fileroot: sdR-*-*-00006416
   keyword: CALIBFIB
   value: null
+- fileroot: sdR-*-*-00006387
+  keyword: QAQUAL
+  value: BAD
+- fileroot: sdR-*-*-00006452
+  keyword: QAQUAL
+  value: BAD
+- fileroot: sdR-*-*-00006453
+  keyword: QAQUAL
+  value: BAD
+- fileroot: sdR-*-*-00006455
+  keyword: QAQUAL
+  value: BAD
+- fileroot: sdR-*-*-00006459
+  keyword: QAQUAL
+  value: BAD
+- fileroot: sdR-*-*-00006460
+  keyword: QAQUAL
+  value: BAD

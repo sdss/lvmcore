@@ -1,13 +1,13 @@
 schema:
-- name: fileroot
+- description: the raw frame file root with * as wildcard
   dtype: str
-  description: the raw frame file root with * as wildcard
-- name: keyword
+  name: fileroot
+- description: the name of the header keyword to fix
   dtype: str
-  description: the name of the header keyword to fix
-- name: value
+  name: keyword
+- description: the value of the header keyword to update
   dtype: str
-  description: the value of the header keyword to update
+  name: value
 fixes:
 - fileroot: sdR-*-*-00015136
   keyword: SKYENAME
@@ -105,3 +105,15 @@ fixes:
 - fileroot: sdR-*-*-00015125
   keyword: QAFLAG
   value: '0000'
+- fileroot: sdR-*-*-00015108
+  keyword: QAQUAL
+  value: BAD
+- fileroot: sdR-*-*-00015145
+  keyword: QAQUAL
+  value: BAD
+- fileroot: sdR-*-*-00015147
+  keyword: QAQUAL
+  value: BAD
+- fileroot: sdR-*-*-00015152
+  keyword: QAQUAL
+  value: BAD

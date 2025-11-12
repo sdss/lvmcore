@@ -165,3 +165,6 @@ fixes:
 - fileroot: sdR-*-*-00036822
   keyword: IMAGETYP
   value: flat
+- fileroot: sdR-*-*-00036874
+  keyword: QAQUAL
+  value: BAD

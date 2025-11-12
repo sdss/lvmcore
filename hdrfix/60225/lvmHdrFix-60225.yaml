@@ -153,3 +153,6 @@ fixes:
 - fileroot: sdR-*-*-00006278
   keyword: CALIBFIB
   value: P1-2
+- fileroot: sdR-*-*-00006260
+  keyword: QAQUAL
+  value: BAD

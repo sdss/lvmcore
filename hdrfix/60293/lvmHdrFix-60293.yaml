@@ -177,3 +177,6 @@ fixes:
 - fileroot: sdR-*-*-00009392
   keyword: POSCIDE
   value: -67.90290596252734
+- fileroot: sdR-*-*-00009367
+  keyword: QAQUAL
+  value: BAD

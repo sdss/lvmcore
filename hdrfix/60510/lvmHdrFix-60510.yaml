@@ -3081,3 +3081,18 @@ fixes:
 - fileroot: sdR-*-*-00021808
   keyword: CALIBFIB
   value: P1-12
+- fileroot: sdR-*-*-00021714
+  keyword: QAQUAL
+  value: BAD
+- fileroot: sdR-*-*-00021755
+  keyword: QAQUAL
+  value: BAD
+- fileroot: sdR-*-*-00021704
+  keyword: QAQUAL
+  value: BAD
+- fileroot: sdR-*-*-00021705
+  keyword: QAQUAL
+  value: BAD
+- fileroot: sdR-*-*-00021712
+  keyword: QAQUAL
+  value: BAD

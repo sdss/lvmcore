@@ -381,3 +381,6 @@ fixes:
 - fileroot: sdR-*-*-00020675
   keyword: CALIBFIB
   value: P1-12
+- fileroot: sdR-*-*-00020638
+  keyword: QAQUAL
+  value: BAD

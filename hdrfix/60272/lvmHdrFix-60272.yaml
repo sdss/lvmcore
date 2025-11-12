@@ -75,3 +75,27 @@ fixes:
 - fileroot: sdR-*-*-00008165
   keyword: QAQUAL
   value: BAD
+- fileroot: sdR-*-*-00008150
+  keyword: QAQUAL
+  value: BAD
+- fileroot: sdR-*-*-00008168
+  keyword: QAQUAL
+  value: BAD
+- fileroot: sdR-*-*-00008143
+  keyword: QAQUAL
+  value: BAD
+- fileroot: sdR-*-*-00008144
+  keyword: QAQUAL
+  value: BAD
+- fileroot: sdR-*-*-00008145
+  keyword: QAQUAL
+  value: BAD
+- fileroot: sdR-*-*-00008189
+  keyword: QAQUAL
+  value: BAD
+- fileroot: sdR-*-*-00008191
+  keyword: QAQUAL
+  value: BAD
+- fileroot: sdR-*-*-00008193
+  keyword: QAQUAL
+  value: BAD

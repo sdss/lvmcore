@@ -75,4 +75,6 @@ fixes:
 - fileroot: sdR-*-*-00012803
   keyword: SKYWNAME
   value: grid272
-
+- fileroot: sdR-*-*-00012762
+  keyword: QAQUAL
+  value: BAD

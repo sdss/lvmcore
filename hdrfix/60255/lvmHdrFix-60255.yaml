@@ -474,3 +474,27 @@ fixes:
 - fileroot: sdR-*-*-00007323
   keyword: IMAGETYP
   value: arc
+- fileroot: sdR-*-*-00007266
+  keyword: QAQUAL
+  value: BAD
+- fileroot: sdR-*-*-00007269
+  keyword: QAQUAL
+  value: BAD
+- fileroot: sdR-*-*-00007230
+  keyword: QAQUAL
+  value: BAD
+- fileroot: sdR-*-*-00007237
+  keyword: QAQUAL
+  value: BAD
+- fileroot: sdR-*-*-00007238
+  keyword: QAQUAL
+  value: BAD
+- fileroot: sdR-*-*-00007240
+  keyword: QAQUAL
+  value: BAD
+- fileroot: sdR-*-*-00007342
+  keyword: QAQUAL
+  value: BAD
+- fileroot: sdR-*-*-00007347
+  keyword: QAQUAL
+  value: BAD
