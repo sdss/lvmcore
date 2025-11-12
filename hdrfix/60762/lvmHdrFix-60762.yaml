@@ -1,13 +1,13 @@
 schema:
-- name: fileroot
+- description: the raw frame file root with * as wildcard
   dtype: str
-  description: the raw frame file root with * as wildcard
-- name: keyword
+  name: fileroot
+- description: the name of the header keyword to fix
   dtype: str
-  description: the name of the header keyword to fix
-- name: value
+  name: keyword
+- description: the value of the header keyword to update
   dtype: str
-  description: the value of the header keyword to update
+  name: value
 fixes:
 - fileroot: sdR-*-*-00038087
   keyword: POSCIRA
@@ -123,3 +123,12 @@ fixes:
 - fileroot: sdR-*-*-00038088
   keyword: QAFLAG
   value: '00001'
+- fileroot: sdR-*-*-00038039
+  keyword: QAQUAL
+  value: BAD
+- fileroot: sdR-*-*-00038045
+  keyword: QAQUAL
+  value: BAD
+- fileroot: sdR-*-*-00038051
+  keyword: QAQUAL
+  value: BAD

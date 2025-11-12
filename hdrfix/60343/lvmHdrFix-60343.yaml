@@ -87,4 +87,9 @@ fixes:
 - fileroot: sdR-*-*-00011821
   keyword: SKYWNAME
   value: grid272
-
+- fileroot: sdR-*-*-00011780
+  keyword: QAQUAL
+  value: BAD
+- fileroot: sdR-*-*-00011826
+  keyword: QAQUAL
+  value: BAD

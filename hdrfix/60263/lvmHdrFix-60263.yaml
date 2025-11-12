@@ -1,13 +1,13 @@
 schema:
-- name: fileroot
+- description: the raw frame file root with * as wildcard
   dtype: str
-  description: the raw frame file root with * as wildcard
-- name: keyword
+  name: fileroot
+- description: the name of the header keyword to fix
   dtype: str
-  description: the name of the header keyword to fix
-- name: value
+  name: keyword
+- description: the value of the header keyword to update
   dtype: str
-  description: the value of the header keyword to update
+  name: value
 fixes:
 - fileroot: sdR-*-*-00007718
   keyword: SKYENAME
@@ -405,3 +405,72 @@ fixes:
 - fileroot: sdR-*-*-00007721
   keyword: POSCIDE
   value: -69.01629041875623
+- fileroot: sdR-*-*-00007687
+  keyword: CALIBFIB
+  value: P1-12
+- fileroot: sdR-*-*-00007690
+  keyword: CALIBFIB
+  value: P1-12
+- fileroot: sdR-*-*-00007691
+  keyword: CALIBFIB
+  value: P1-12
+- fileroot: sdR-*-*-00007723
+  keyword: CALIBFIB
+  value: P1-1
+- fileroot: sdR-*-*-00007724
+  keyword: CALIBFIB
+  value: P1-2
+- fileroot: sdR-*-*-00007725
+  keyword: CALIBFIB
+  value: P1-3
+- fileroot: sdR-*-*-00007726
+  keyword: CALIBFIB
+  value: P1-4
+- fileroot: sdR-*-*-00007727
+  keyword: CALIBFIB
+  value: P1-5
+- fileroot: sdR-*-*-00007728
+  keyword: CALIBFIB
+  value: P1-6
+- fileroot: sdR-*-*-00007729
+  keyword: CALIBFIB
+  value: P1-7
+- fileroot: sdR-*-*-00007730
+  keyword: CALIBFIB
+  value: P1-8
+- fileroot: sdR-*-*-00007731
+  keyword: CALIBFIB
+  value: P1-9
+- fileroot: sdR-*-*-00007732
+  keyword: CALIBFIB
+  value: P1-10
+- fileroot: sdR-*-*-00007733
+  keyword: CALIBFIB
+  value: P1-11
+- fileroot: sdR-*-*-00007734
+  keyword: CALIBFIB
+  value: P1-12
+- fileroot: sdR-*-*-00007683
+  keyword: CALIBFIB
+  value: P1-12
+- fileroot: sdR-*-*-00007684
+  keyword: CALIBFIB
+  value: P1-12
+- fileroot: sdR-*-*-00007685
+  keyword: CALIBFIB
+  value: P1-12
+- fileroot: sdR-*-*-00007686
+  keyword: CALIBFIB
+  value: P1-12
+- fileroot: sdR-*-*-00007689
+  keyword: QAQUAL
+  value: BAD
+- fileroot: sdR-*-*-00007688
+  keyword: QAQUAL
+  value: BAD
+- fileroot: sdR-*-*-00007687
+  keyword: QAQUAL
+  value: BAD
+- fileroot: sdR-*-*-00007731
+  keyword: QAQUAL
+  value: BAD

@@ -1,13 +1,13 @@
 schema:
-- name: fileroot
+- description: the raw frame file root with * as wildcard
   dtype: str
-  description: the raw frame file root with * as wildcard
-- name: keyword
+  name: fileroot
+- description: the name of the header keyword to fix
   dtype: str
-  description: the name of the header keyword to fix
-- name: value
+  name: keyword
+- description: the value of the header keyword to update
   dtype: str
-  description: the value of the header keyword to update
+  name: value
 fixes:
 - fileroot: sdR-*-*-00020676
   keyword: QAQUAL
@@ -309,3 +309,78 @@ fixes:
 - fileroot: sdR-*-*-00020712
   keyword: POSCIDE
   value: -73.04628646436579
+- fileroot: sdR-*-*-00020652
+  keyword: CALIBFIB
+  value: null
+- fileroot: sdR-*-*-00020653
+  keyword: CALIBFIB
+  value: null
+- fileroot: sdR-*-*-00020654
+  keyword: CALIBFIB
+  value: null
+- fileroot: sdR-*-*-00020655
+  keyword: CALIBFIB
+  value: null
+- fileroot: sdR-*-*-00020656
+  keyword: CALIBFIB
+  value: null
+- fileroot: sdR-*-*-00020657
+  keyword: CALIBFIB
+  value: P1-3
+- fileroot: sdR-*-*-00020658
+  keyword: CALIBFIB
+  value: P1-4
+- fileroot: sdR-*-*-00020659
+  keyword: CALIBFIB
+  value: null
+- fileroot: sdR-*-*-00020660
+  keyword: CALIBFIB
+  value: null
+- fileroot: sdR-*-*-00020661
+  keyword: CALIBFIB
+  value: null
+- fileroot: sdR-*-*-00020662
+  keyword: CALIBFIB
+  value: null
+- fileroot: sdR-*-*-00020663
+  keyword: CALIBFIB
+  value: P1-6
+- fileroot: sdR-*-*-00020664
+  keyword: CALIBFIB
+  value: P1-7
+- fileroot: sdR-*-*-00020665
+  keyword: CALIBFIB
+  value: null
+- fileroot: sdR-*-*-00020666
+  keyword: CALIBFIB
+  value: null
+- fileroot: sdR-*-*-00020667
+  keyword: CALIBFIB
+  value: null
+- fileroot: sdR-*-*-00020668
+  keyword: CALIBFIB
+  value: null
+- fileroot: sdR-*-*-00020669
+  keyword: CALIBFIB
+  value: P1-9
+- fileroot: sdR-*-*-00020670
+  keyword: CALIBFIB
+  value: P1-10
+- fileroot: sdR-*-*-00020671
+  keyword: CALIBFIB
+  value: null
+- fileroot: sdR-*-*-00020672
+  keyword: CALIBFIB
+  value: null
+- fileroot: sdR-*-*-00020673
+  keyword: CALIBFIB
+  value: null
+- fileroot: sdR-*-*-00020674
+  keyword: CALIBFIB
+  value: null
+- fileroot: sdR-*-*-00020675
+  keyword: CALIBFIB
+  value: P1-12
+- fileroot: sdR-*-*-00020638
+  keyword: QAQUAL
+  value: BAD

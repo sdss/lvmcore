@@ -159,3 +159,21 @@ fixes:
 - fileroot: sdR-*-*-00007568
   keyword: QAQUAL
   value: BAD
+- fileroot: sdR-*-*-00007564
+  keyword: CALIBFIB
+  value: P1-1
+- fileroot: sdR-*-*-00007565
+  keyword: CALIBFIB
+  value: P1-1
+- fileroot: sdR-*-*-00007566
+  keyword: CALIBFIB
+  value: P1-2
+- fileroot: sdR-*-*-00007569
+  keyword: QAQUAL
+  value: BAD
+- fileroot: sdR-*-*-00007570
+  keyword: QAQUAL
+  value: BAD
+- fileroot: sdR-*-*-00007566
+  keyword: QAQUAL
+  value: BAD

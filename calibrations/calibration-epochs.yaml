@@ -1,0 +1,312 @@
+schemas:
+  - name: epochs
+    dtype: dict[int, dict]
+    description: Dictionary mapping epoch MJD to its calibration metadata
+    keyschemas:
+      - name: flavors
+        dtype: dict[int, list[str]]
+        description: Dictionary mapping calibration flavors (e.g., bias, dome, arc, twilight) to a list of MJDs to source from
+      - name: trigger
+        dtype: str
+        description: Reason for which these calibrations were taken, e.g., 'Early-science', 'Survey start', 'Instrument intervention', etc.
+      - name: comment
+        dtype: str | null
+        description: Optional comment providing more context about the calibration epoch
+epochs:
+  60177:
+    flavors:
+      bias: 60177-60187
+      trace: 60177, 60196, 60202, 60204, 60206
+      wave: 60177, 60196, 60202, 60204, 60209, 60229, 60251
+      dome: 60177, 60196, 60202, 60204, 60206
+      twilight: 60209, 60215, 60216, 60217
+    trigger: Early-science
+    comment: No twilight flats for MJD=60177, starting later MJD=60209. Other candidate MJDs are 60206 (saturated), 60215 (too far away?)
+  60255:
+    flavors:
+      bias: 60255-60265
+      trace: 60255, 60256, 60262, 60271, 60273
+      wave: 60255
+      dome: 60255, 60256, 60262, 60271, 60273
+      twilight: 60255, 60256, 60257
+    trigger: Survey start
+    comment: null
+  60321:
+    flavors:
+      bias: 60321-60331
+      trace: 60321, 60322, 60324
+      wave: 60321, 60322, 60323
+      dome: 60321, 60322, 60324
+      twilight: 60321, 60322
+    trigger: Normal operations
+    comment: null
+  60339:
+    flavors:
+      bias: 60339-60349
+      trace: 60339, 60345
+      wave: 60339
+      dome: 60339, 60345
+      twilight: 60339
+    trigger: Instrument intervention
+    comment: Maintenance, replacement of SkyE azimuth motor and pumping cryostats. Missing P1-10 on LDLS sequence
+  60355:
+    flavors:
+      bias: 60355-60365
+      trace: 60355, 60356, 60361
+      wave: 60355
+      dome: 60355, 60356, 60361
+      twilight: 60355, 60356
+    trigger: Seism on 60355
+    comment: null
+  60380:
+    flavors:
+      bias: 60380-60390
+      trace: 60380, 60382, 60388
+      wave: 60380
+      dome: 60380, 60382, 60388
+      twilight: 60380, 60381
+    trigger: Normal operations
+    comment: null
+  60402:
+    flavors:
+      bias: 60402-60412
+      trace: 60402, 60403, 60406, 60407, 60410, 60414, 60416, 60421
+      wave: 60402, 60410
+      dome: 60402, 60403, 60406, 60407, 60410, 60414, 60416, 60421
+      twilight: 60402, 60405
+    trigger: Normal operations
+    comment: First epoch (MJD=60388) running with the fiber selector issue (see email 'Standard flux in LVM observations')
+  60422:
+    flavors:
+      bias: 60422-60432
+      trace: 60422, 60423, 60424, 60426, 60428, 60435, 60437
+      wave: 60422, 60427, 60437
+      dome: 60422, 60423, 60424, 60426, 60428, 60435, 60437
+      twilight: 60422, 60423
+    trigger: Normal operations
+    comment: null
+  60446:
+    flavors:
+      bias: 60446-60456
+      trace: 60446, 60447, 60448, 60452
+      wave: 60446, 60448, 60451, 60452, 60461
+      dome: 60446, 60447, 60448, 60452
+      twilight: 60448, 60450
+    trigger: Warm-up
+    comment: No twilights taken on MJD=60446, using close ones insted. Last epoch effected by the fiber selector issue (fixed on MJD=60450)
+  60465:
+    flavors:
+      bias: 60469-60479
+      trace: 60469, 60470
+      wave: 60469, 60470
+      dome: 60469, 60470
+      twilight: 60469, 60477
+    trigger: Instrument intervention
+    comment: Calibration system misaligned from 60465-60469
+  60511:
+    flavors:
+      bias: 60511-60521
+      trace: 60511, 60512
+      wave: 60511
+      dome: 60511, 60512
+      twilight: 60514, 60515
+    trigger: Bad weather
+    comment: No twilights taken on MJD=60511, using close ones instead
+  60524:
+    flavors:
+      bias: 60524-60534
+      trace: 60523, 60524
+      wave: 60524
+      dome: 60523, 60524
+      twilight: 60526, 60530
+    trigger: Bad weather
+    comment: No twilights take on MJD=60524, using close ones instead
+  60538:
+    flavors:
+      bias: 60538-60548
+      trace: 60538, 60539
+      wave: 60538
+      dome: 60538, 60539
+      twilight: 60542, 60543
+    trigger: Bad weather
+    comment: No twilights taken on MJD=60538, using close ones instead
+  60550:
+    flavors:
+      bias: 60550-60560
+      trace: 60550, 60552, 60556
+      wave: 60550
+      dome: 60550, 60552, 60556
+      twilight: 60553, 60554
+    trigger: Normal operations
+    comment: No twilights taken on MJD=60550, using closest one instead. Using automated telescopes software
+  60573:
+    flavors:
+      bias: 60573-60583
+      trace: 60573, 60574
+      wave: 60573, 60574
+      dome: 60573, 60574
+      twilight: 60573
+    trigger: Instrument intervention
+    comment: Using new calibrations script
+  60588:
+    flavors:
+      bias: 60588-60598
+      trace: 60588, 60589, 60591
+      wave: 60588
+      dome: 60588, 60589, 60591
+      twilight: 60594, 60597, 60598
+    trigger: Normal operations
+    comment: No twilights taken on MJD=60588, using close ones instead
+  60607:
+    flavors:
+      bias: 60607-60617
+      trace: 60607, 60612, 60615, 60616
+      wave: 60607, 60608, 60609, 60610, 60611, 60612, 60614, 60615, 60616
+      dome: 60607, 60612, 60615, 60616
+      twilight: 60607
+    trigger: Normal operations
+    comment: null
+  60636:
+    flavors:
+      bias: 60636-60646
+      trace: 60636, 60641, 60642, 60644, 60646
+      wave: 60636
+      dome: 60636, 60641, 60642, 60644, 60646
+      twilight: 60636, 60637
+    trigger: Normal operations
+    comment: null
+  60655:
+    flavors:
+      bias: 60655-60665
+      trace: 60655, 60668
+      wave: 60655
+      dome: 60655, 60668
+      twilight: 60655, 60656
+    trigger: Bad weather
+    comment: First time running new calibration script. Missing fiber P1-4 on LDLS sequence
+  60670:
+    flavors:
+      bias: 60670-60680
+      trace: 60670, 60675, 60680
+      wave: 60670
+      dome: 60670, 60675, 60680
+      twilight: 60671
+    trigger: Seism
+    comment: No twilights taken on MJD=60670, using close ones instead
+  60698:
+    flavors:
+      bias: 60698-60708
+      trace: 60690, 60698, 60699, 60704
+      wave: 60698
+      dome: 60690, 60698, 60699, 60704
+      twilight: 60697, 60699
+    trigger: Normal operations
+    comment: No twilights taken on MJD=60698, using close ones instead. Bias frames taken in the morning
+  # 60718:
+  #   flavors:
+  #     bias: 60718-60728
+  #     trace: 60718
+  #     wave: 60718
+  #     dome: 60718
+  #     twilight: 60717
+  #   trigger: Bad weather
+  #   comment: No twilights taken on MJD=60718, using close ones instead. All exposures in z3 have a circular feature of D=1500 pixels
+  60744:
+    flavors:
+      bias: 60744-60754
+      trace: 60744
+      wave: 60744
+      dome: 60744
+      twilight: 60745
+    trigger: Instrument intervention
+    comment: No twilights taken on MJD=60744, using close ones instead
+  60762:
+    flavors:
+      bias: 60762-60772
+      trace: 60762, 60764, 60776
+      wave: 60762
+      dome: 60762, 60764, 60776
+      twilight: 60761, 60764, 60765
+    trigger: Normal operations
+    comment: No twilights taken on MJD=60762, using close ones instead. All epochs moving forward (since MJD=60770) had correct values for CALIBFIB, no need for header fixes
+  60784:
+    flavors:
+      bias: 60784-60794
+      trace: 60784, 60787, 60792
+      wave: 60784
+      dome: 60784, 60787, 60792
+      twilight: 60784
+    trigger: Bad weather
+    comment: null
+  60804:
+    flavors:
+      bias: 60804-60814
+      trace: 60804, 60805, 60806, 60809
+      wave: 60804
+      dome: 60804, 60805, 60806, 60809
+      twilight: 60804, 60805, 60806, 60807
+    trigger: Normal operations
+    comment: Possible clouds in twilights
+  60858:
+    flavors:
+      bias: 60858-60868
+      trace: 60858, 60885
+      wave: 60858
+      dome: 60858, 60885
+      twilight: 60858, 60859, 60860
+    trigger: Normal operations
+    comment: Some technical issues
+  60889:
+    flavors:
+      bias: 60889-60899
+      trace: 60889, 60892, 60898, 60904
+      wave: 60889
+      dome: 60889, 60892, 60898, 60904
+      twilight: 60895
+    trigger: Normal operations
+    comment: No twilights taken on MJD=60889, using close ones instead
+  60917:
+    flavors:
+      bias: 60917-60927
+      trace: 60917
+      wave: 60917
+      dome: 60917
+      twilight: 60920
+    trigger: Normal operations
+    comment: No twilights taken on MJD=60917, using close ones instead. First night after pixel shift fix from Jose
+  60941:
+    flavors:
+      bias: 60941-60951
+      trace: 60941
+      wave: 60941
+      dome: 60941
+      twilight: 60942
+    trigger: Normal operations
+    comment: No twilights taken on MJD=60941, using close ones instead
+  60949:
+    flavors:
+      bias: 60949-60959
+      trace: 60949
+      wave: 60949
+      dome: 60949
+      twilight: 60949
+    trigger: Issues at LVMi
+    comment: Internet connection issues at LVM did not affect the calibration sequence
+  60974:
+    flavors:
+      bias: 60974-60984
+      trace: 60974
+      wave: 60974
+      dome: 60974
+      twilight: 60974
+    trigger: Warm up
+    comment: The INDURA delivery person accidentally left the pressure regulator valve closed after completing the tank fill on Friday Oct. 24th (see email 'Temperature blip this morning')
+  60985:
+    flavors:
+      bias: 60986-60995
+      trace: 60986
+      wave: 60986
+      dome: 60986
+      twilight: 60987
+    trigger: Instrument intervention
+    comment: No twilights taken on MJD=60985, using close ones instead. Wash of siderostat mirrors (first since commissioning) yield ~15% in throughput recovery (see email MJD '60985 calibration epoch')

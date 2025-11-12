@@ -27,7 +27,6 @@ fixes:
 - fileroot: sdR-*-*-00006334
   keyword: TILE_ID
   value: 1029243
-
 - fileroot: sdR-*-*-00006318
   keyword: SKYENAME
   value: grid027
@@ -64,4 +63,96 @@ fixes:
 - fileroot: sdR-*-*-00006312
   keyword: SKYWNAME
   value: grid003
-
+- fileroot: sdR-*-*-00006273
+  keyword: CALIBFIB
+  value: P1-2
+- fileroot: sdR-*-*-00006274
+  keyword: CALIBFIB
+  value: P1-2
+- fileroot: sdR-*-*-00006275
+  keyword: CALIBFIB
+  value: P1-2
+- fileroot: sdR-*-*-00006276
+  keyword: CALIBFIB
+  value: P1-2
+- fileroot: sdR-*-*-00006288
+  keyword: CALIBFIB
+  value: P1-2
+- fileroot: sdR-*-*-00006289
+  keyword: CALIBFIB
+  value: P1-2
+- fileroot: sdR-*-*-00006290
+  keyword: CALIBFIB
+  value: P1-2
+- fileroot: sdR-*-*-00006291
+  keyword: CALIBFIB
+  value: P1-2
+- fileroot: sdR-*-*-00006258
+  keyword: CALIBFIB
+  value: P1-1
+- fileroot: sdR-*-*-00006259
+  keyword: CALIBFIB
+  value: P1-2
+- fileroot: sdR-*-*-00006260
+  keyword: CALIBFIB
+  value: P1-3
+- fileroot: sdR-*-*-00006261
+  keyword: CALIBFIB
+  value: P1-4
+- fileroot: sdR-*-*-00006262
+  keyword: CALIBFIB
+  value: P1-5
+- fileroot: sdR-*-*-00006263
+  keyword: CALIBFIB
+  value: P1-6
+- fileroot: sdR-*-*-00006277
+  keyword: CALIBFIB
+  value: P1-2
+- fileroot: sdR-*-*-00006292
+  keyword: CALIBFIB
+  value: null
+- fileroot: sdR-*-*-00006293
+  keyword: CALIBFIB
+  value: P1-1
+- fileroot: sdR-*-*-00006294
+  keyword: CALIBFIB
+  value: P1-2
+- fileroot: sdR-*-*-00006295
+  keyword: CALIBFIB
+  value: P1-2
+- fileroot: sdR-*-*-00006296
+  keyword: CALIBFIB
+  value: P1-2
+- fileroot: sdR-*-*-00006297
+  keyword: CALIBFIB
+  value: P1-2
+- fileroot: sdR-*-*-00006298
+  keyword: CALIBFIB
+  value: null
+- fileroot: sdR-*-*-00006299
+  keyword: CALIBFIB
+  value: null
+- fileroot: sdR-*-*-00006300
+  keyword: CALIBFIB
+  value: P1-2
+- fileroot: sdR-*-*-00006301
+  keyword: CALIBFIB
+  value: null
+- fileroot: sdR-*-*-00006302
+  keyword: CALIBFIB
+  value: null
+- fileroot: sdR-*-*-00006303
+  keyword: CALIBFIB
+  value: null
+- fileroot: sdR-*-*-00006304
+  keyword: CALIBFIB
+  value: null
+- fileroot: sdR-*-*-00006305
+  keyword: CALIBFIB
+  value: null
+- fileroot: sdR-*-*-00006278
+  keyword: CALIBFIB
+  value: P1-2
+- fileroot: sdR-*-*-00006260
+  keyword: QAQUAL
+  value: BAD
