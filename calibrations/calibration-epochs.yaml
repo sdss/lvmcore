@@ -93,7 +93,7 @@ epochs:
       dome: 60446, 60447, 60448, 60452
       twilight: 60448, 60450
     trigger: Warm-up
-    comment: No twilights taken on MJD=60446, using close ones insted. Last epoch effected by the fiber selector issue (fixed on MJD=60450)
+    comment: No twilights taken on MJD=60446, using close ones instead. Last epoch effected by the fiber selector issue (fixed on MJD=60450)
   60465:
     flavors:
       bias: 60469-60479
@@ -310,3 +310,12 @@ epochs:
       twilight: 60987
     trigger: Instrument intervention
     comment: No twilights taken on MJD=60985, using close ones instead. Wash of siderostat mirrors (first since commissioning) yield ~15% in throughput recovery (see email MJD '60985 calibration epoch')
+  60995:
+    flavors:
+      bias: 60995-61005
+      trace: 60995
+      wave: 60995
+      dome: 60995
+      twilight: 60995
+    trigger: Normal operations
+    comment: null
