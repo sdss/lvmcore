@@ -331,7 +331,7 @@ epochs:
   61038:
     flavors:
       bias: 61038-61048
-      trace: 61035,61038
+      trace: 61038
       wave: 61038
       dome: 61038
       twilight: 61039
