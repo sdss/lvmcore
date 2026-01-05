@@ -309,7 +309,7 @@ epochs:
       dome: 60986
       twilight: 60987
     trigger: Instrument intervention
-    comment: No twilights taken on MJD=60985, using close ones instead. Wash of siderostat mirrors (first since commissioning) yield ~15% in throughput recovery (see email MJD '60985 calibration epoch')
+    comment: No twilights taken on MJD=60985, using close ones instead. Wash of siderostat mirrors (first since commissioning) yield ~15% in throughput recovery (see email 'MJD 60985 calibration epoch')
   60995:
     flavors:
       bias: 60995-61005
@@ -319,3 +319,21 @@ epochs:
       twilight: 60995
     trigger: Normal operations
     comment: null
+  61021:
+    flavors:
+      bias: 61021-61031
+      trace: 61021
+      wave: 61021
+      dome: 61021
+      twilight: 61022
+    trigger: Seism on 61019
+    comment: No twilights taken on MJD=61021, using close ones instead
+  61038:
+    flavors:
+      bias: 61038-61048
+      trace: 61035,61038
+      wave: 61038
+      dome: 61038
+      twilight: 61039
+    trigger: Bad weather
+    comment: No twilights taken on MJD=61038, using close ones instead
