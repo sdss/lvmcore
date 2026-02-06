@@ -1,13 +1,13 @@
 schema:
-- name: fileroot
+- description: the raw frame file root with * as wildcard
   dtype: str
-  description: the raw frame file root with * as wildcard
-- name: keyword
+  name: fileroot
+- description: the name of the header keyword to fix
   dtype: str
-  description: the name of the header keyword to fix
-- name: value
+  name: keyword
+- description: the value of the header keyword to update
   dtype: str
-  description: the value of the header keyword to update
+  name: value
 fixes:
 - fileroot: sdR-*-*-00052690
   keyword: QAQUAL
@@ -21,3 +21,75 @@ fixes:
 - fileroot: sdR-*-*-00052634
   keyword: QAFLAG
   value: '00000'
+- fileroot: sdR-*-*-00052644
+  keyword: LDLS
+  value: 'OFF'
+- fileroot: sdR-*-*-00052644
+  keyword: QUARTZ
+  value: 'ON'
+- fileroot: sdR-*-*-00052644
+  keyword: NEON
+  value: 'OFF'
+- fileroot: sdR-*-*-00052644
+  keyword: HGNE
+  value: 'OFF'
+- fileroot: sdR-*-*-00052644
+  keyword: ARGON
+  value: 'OFF'
+- fileroot: sdR-*-*-00052644
+  keyword: XENON
+  value: 'OFF'
+- fileroot: sdR-*-*-00052651
+  keyword: LDLS
+  value: 'ON'
+- fileroot: sdR-*-*-00052651
+  keyword: QUARTZ
+  value: 'OFF'
+- fileroot: sdR-*-*-00052651
+  keyword: NEON
+  value: 'OFF'
+- fileroot: sdR-*-*-00052651
+  keyword: HGNE
+  value: 'OFF'
+- fileroot: sdR-*-*-00052651
+  keyword: ARGON
+  value: 'OFF'
+- fileroot: sdR-*-*-00052651
+  keyword: XENON
+  value: 'OFF'
+- fileroot: sdR-*-*-00052657
+  keyword: LDLS
+  value: 'ON'
+- fileroot: sdR-*-*-00052657
+  keyword: QUARTZ
+  value: 'OFF'
+- fileroot: sdR-*-*-00052657
+  keyword: NEON
+  value: 'OFF'
+- fileroot: sdR-*-*-00052657
+  keyword: HGNE
+  value: 'OFF'
+- fileroot: sdR-*-*-00052657
+  keyword: ARGON
+  value: 'OFF'
+- fileroot: sdR-*-*-00052657
+  keyword: XENON
+  value: 'OFF'
+- fileroot: sdR-*-*-00052658
+  keyword: LDLS
+  value: 'ON'
+- fileroot: sdR-*-*-00052658
+  keyword: QUARTZ
+  value: 'OFF'
+- fileroot: sdR-*-*-00052658
+  keyword: NEON
+  value: 'OFF'
+- fileroot: sdR-*-*-00052658
+  keyword: HGNE
+  value: 'OFF'
+- fileroot: sdR-*-*-00052658
+  keyword: ARGON
+  value: 'OFF'
+- fileroot: sdR-*-*-00052658
+  keyword: XENON
+  value: 'OFF'
