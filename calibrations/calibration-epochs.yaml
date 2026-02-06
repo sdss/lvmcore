@@ -337,3 +337,12 @@ epochs:
       twilight: 61039
     trigger: Bad weather
     comment: No twilights taken on MJD=61038, using close ones instead
+  61065:
+    flavors:
+      bias: 61065-61075
+      trace: 61065
+      wave: 61065
+      dome: 61065
+      twilight: 61067
+    trigger: Issues at LVMi
+    comment: Power outage rendering dome and other sub-systems unresponsive
