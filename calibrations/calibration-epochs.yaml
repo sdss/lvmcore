@@ -4,7 +4,7 @@ schemas:
     description: Dictionary mapping epoch MJD to its calibration metadata
     keyschemas:
       - name: flavors
-        dtype: dict[int, list[str]]
+        dtype: dict[str, int|str]
         description: Dictionary mapping calibration flavors (e.g., bias, dome, arc, twilight) to a list of MJDs to source from
       - name: trigger
         dtype: str
@@ -56,8 +56,8 @@ epochs:
       wave: 60355
       dome: 60355, 60356, 60361
       twilight: 60355, 60356
-    trigger: Seism on 60355
-    comment: null
+    trigger: Seismic event
+    comment: Reported seismic event on 60355
   60380:
     flavors:
       bias: 60380-60390
@@ -191,7 +191,7 @@ epochs:
       wave: 60670
       dome: 60670, 60675, 60680
       twilight: 60671
-    trigger: Seism
+    trigger: Seismic event
     comment: No twilights taken on MJD=60670, using close ones instead
   60698:
     flavors:
@@ -326,8 +326,8 @@ epochs:
       wave: 61021
       dome: 61021
       twilight: 61022
-    trigger: Seism on 61019
-    comment: No twilights taken on MJD=61021, using close ones instead
+    trigger: Seismic event
+    comment: Reported seismic event on 61019. No twilights taken on MJD=61021, using close ones instead
   61038:
     flavors:
       bias: 61038-61048
@@ -346,3 +346,12 @@ epochs:
       twilight: 61067
     trigger: Issues at LVMi
     comment: Power outage rendering dome and other sub-systems unresponsive
+  61104:
+    flavors:
+      bias: 61104-61114
+      trace: 61104
+      wave: 61104
+      dome: 61104
+      twilight: 61104
+    trigger: Bad weather
+    comment: null
