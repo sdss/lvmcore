@@ -364,3 +364,12 @@ epochs:
       twilight: 61117
     trigger: Seismic event
     comment: null
+  61143:
+    flavors:
+      bias: 61143-61153
+      trace: 61143
+      wave: 61143
+      dome: 61143
+      twilight: 61143
+    trigger: Bad weather
+    comment: null
