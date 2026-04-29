@@ -1,3 +1,279 @@
+LMC:
+  coords:
+  - 79.5135633
+  - -68.5271292
+  exptime: 900
+  frame: icrs
+  group:
+  - MCs
+  max_airmass: 2.0
+  max_lunation: 0.25
+  min_exposures: 3
+  min_moon_dist: 45
+  min_shadowheight: 1.0
+  n_exposures: 9
+  observatory: LCO
+  overhead: 1.1
+  priority: 30
+  region_params:
+    r: 5.0
+  region_type: circle
+  telescope: LVM-160
+  tile_overlap: 0.0416
+  tiling_strategy: center_first
+SMCwest:
+  coords:
+  - 13.1583
+  - -72.8003
+  exptime: 900
+  frame: icrs
+  group:
+  - MCs
+  max_airmass: 1.75
+  max_lunation: 0.25
+  min_exposures: 3
+  min_moon_dist: 45
+  min_shadowheight: 1.0
+  n_exposures: 9
+  observatory: LCO
+  overhead: 1.1
+  priority: 30
+  region_params:
+    a: 2.8
+    b: 1.6
+    pa: 45
+  region_type: ellipse
+  telescope: LVM-160
+  tile_overlap: 0.0416
+  tile_union: SMCwhole
+  tiling_strategy: center_first
+SMCeast:
+  coords:
+  - 20
+  - -73.2
+  exptime: 900
+  frame: icrs
+  group:
+  - MCs
+  max_airmass: 1.75
+  max_lunation: 0.25
+  min_exposures: 3
+  min_moon_dist: 45
+  min_shadowheight: 1.0
+  n_exposures: 9
+  observatory: LCO
+  overhead: 1.1
+  priority: 30
+  region_params:
+    a: 1.5
+    b: 1.0
+    pa: 155
+  region_type: ellipse
+  telescope: LVM-160
+  tile_overlap: 0.0416
+  tile_union: SMCwhole
+  tiling_strategy: center_first
+ORION:
+  coords:
+  - 206.42
+  - -17.74
+  exptime: 900
+  frame: galactic
+  group:
+  - ORI
+  max_airmass: 1.75
+  max_lunation: 1.0
+  min_exposures: 1
+  min_moon_dist: 60
+  min_shadowheight: 500.0
+  n_exposures: 1
+  observatory: BOTH
+  overhead: 1.1
+  priority: 19
+  region_params:
+    r: 6.5
+  region_type: circle
+  telescope: LVM-160
+  tile_overlap: 0.0416
+  tiling_strategy: center_first
+ORION_SPARSE:
+  coords:
+  - 206.42
+  - -17.74
+  exptime: 900
+  frame: galactic
+  group:
+  - ORI
+  max_airmass: 1.75
+  max_lunation: 1.0
+  min_exposures: 1
+  min_moon_dist: 60
+  min_shadowheight: 500.0
+  n_exposures: 1
+  observatory: BOTH
+  overhead: 1.1
+  priority: 18
+  region_params:
+    r: 19.5
+  region_type: circle
+  sparse: 5
+  telescope: LVM-160
+  tiling_strategy: center_first
+MW1:
+  coords:
+  - 315.0
+  - 0.0
+  exptime: 900
+  frame: galactic
+  group:
+  - MW
+  max_airmass: 1.75
+  max_lunation: 1.0
+  min_exposures: 1
+  min_moon_dist: 60
+  min_shadowheight: 1000.0
+  n_exposures: 1
+  observatory: LCO
+  overhead: 1.1
+  priority: 9
+  region_params:
+    height: 18.0
+    pa: 0
+    width: 150.0
+  region_type: rectangle
+  telescope: LVM-160
+  tile_overlap: 0.0416
+  tile_union: MW
+  tiling_strategy: lowest_airmass
+MW2:
+  coords:
+  - 282
+  - 0.0
+  exptime: 900
+  frame: galactic
+  group:
+  - MW
+  max_airmass: 1.75
+  max_lunation: 1.0
+  min_exposures: 1
+  min_moon_dist: 60
+  min_shadowheight: 1000.0
+  n_exposures: 1
+  observatory: LCO
+  overhead: 1.1
+  priority: 10
+  region_params:
+    height: 8.0
+    pa: 0
+    width: 215
+  region_type: rectangle
+  telescope: LVM-160
+  tile_overlap: 0.0416
+  tile_union: MW
+  tiling_strategy: lowest_airmass
+THOR:
+  coords:
+  - 15
+  - 0.0
+  exptime: 900
+  frame: galactic
+  group:
+  - MW
+  max_airmass: 1.75
+  max_lunation: 1.0
+  min_exposures: 1
+  min_moon_dist: 60
+  min_shadowheight: 1000.0
+  n_exposures: 1
+  observatory: LCO
+  overhead: 1.1
+  priority: 11
+  region_params:
+    height: 2.0
+    pa: 0
+    width: 31.0
+  region_type: rectangle
+  telescope: LVM-160
+  tile_overlap: 0.0416
+  tile_union: MW
+  tiling_strategy: center_first
+Gum_SW_limb:
+  coords:
+  - 109.53171831
+  - -41.53573432
+  exptime: 900
+  frame: icrs
+  group:
+  - GUM
+  max_airmass: 1.75
+  max_lunation: 1.0
+  min_exposures: 1
+  min_moon_dist: 60
+  min_shadowheight: 500.0
+  n_exposures: 1
+  observatory: LCO
+  overhead: 1.1
+  priority: 10
+  region_params:
+    a: 5.5
+    b: 5.5
+    pa: 0
+  region_type: ellipse
+  telescope: LVM-160
+  tile_overlap: 0.0416
+  tiling_strategy: center_first
+Gum_shell:
+  coords:
+  - 119.7499028
+  - -50.90300515
+  exptime: 900
+  frame: icrs
+  group:
+  - GUM
+  max_airmass: 1.75
+  max_lunation: 1.0
+  min_exposures: 1
+  min_moon_dist: 60
+  min_shadowheight: 500.0
+  n_exposures: 1
+  observatory: LCO
+  overhead: 1.1
+  priority: 10
+  region_params:
+    a: 5.5
+    b: 5.5
+    pa: 0
+  region_type: ellipse
+  telescope: LVM-160
+  tile_overlap: 0.0416
+  tiling_strategy: center_first
+FULLSKY:
+  coords:
+  - 180
+  - 0
+  exptime: 900
+  frame: galactic
+  geodesic: true
+  group:
+  - ALLSKY
+  max_airmass: 1.75
+  max_lunation: 1.0
+  min_exposures: 1
+  min_moon_dist: 60
+  min_shadowheight: 1000.0
+  n_exposures: 1
+  observatory: LCO
+  overhead: 1.1
+  overlap: true
+  priority: 1
+  region_params:
+    height: 179
+    pa: 0
+    width: 358
+  region_type: rectangle
+  sparse: 90
+  telescope: LVM-160
+  tiling_strategy: lowest_airmass
 CGMW1-260:
   coords:
   - 99.50041666667286
@@ -323,33 +599,6 @@ ESO558-011:
   telescope: LVM-160
   tile_overlap: 0.0416
   tiling_strategy: center_first
-FULLSKY:
-  coords:
-  - 180
-  - 0
-  exptime: 900
-  frame: galactic
-  geodesic: true
-  group:
-  - ALLSKY
-  max_airmass: 1.75
-  max_lunation: 1.0
-  min_exposures: 1
-  min_moon_dist: 60
-  min_shadowheight: 1000.0
-  n_exposures: 1
-  observatory: LCO
-  overhead: 1.1
-  overlap: true
-  priority: 1
-  region_params:
-    height: 179
-    pa: 0
-    width: 358
-  region_type: rectangle
-  sparse: 90
-  telescope: LVM-160
-  tiling_strategy: lowest_airmass
 GR8:
   coords:
   - 194.66833333969117
@@ -370,56 +619,6 @@ GR8:
   region_params:
     a: 0.2
     b: 0.2
-    pa: 0
-  region_type: ellipse
-  telescope: LVM-160
-  tile_overlap: 0.0416
-  tiling_strategy: center_first
-Gum_SW_limb:
-  coords:
-  - 109.53171831
-  - -41.53573432
-  exptime: 900
-  frame: icrs
-  group:
-  - GUM
-  max_airmass: 1.75
-  max_lunation: 1.0
-  min_exposures: 1
-  min_moon_dist: 60
-  min_shadowheight: 500.0
-  n_exposures: 1
-  observatory: LCO
-  overhead: 1.1
-  priority: 10
-  region_params:
-    a: 5.5
-    b: 5.5
-    pa: 0
-  region_type: ellipse
-  telescope: LVM-160
-  tile_overlap: 0.0416
-  tiling_strategy: center_first
-Gum_shell:
-  coords:
-  - 119.7499028
-  - -50.90300515
-  exptime: 900
-  frame: icrs
-  group:
-  - GUM
-  max_airmass: 1.75
-  max_lunation: 1.0
-  min_exposures: 1
-  min_moon_dist: 60
-  min_shadowheight: 500.0
-  n_exposures: 1
-  observatory: LCO
-  overhead: 1.1
-  priority: 10
-  region_params:
-    a: 5.5
-    b: 5.5
     pa: 0
   region_type: ellipse
   telescope: LVM-160
@@ -1425,29 +1624,6 @@ KKSG18:
   telescope: LVM-160
   tile_overlap: 0.0416
   tiling_strategy: center_first
-LMC:
-  coords:
-  - 79.5135633
-  - -68.5271292
-  exptime: 900
-  frame: icrs
-  group:
-  - MCs
-  max_airmass: 2.0
-  max_lunation: 0.25
-  min_exposures: 3
-  min_moon_dist: 45
-  min_shadowheight: 1.0
-  n_exposures: 9
-  observatory: LCO
-  overhead: 1.1
-  priority: 30
-  region_params:
-    r: 5.0
-  region_type: circle
-  telescope: LVM-160
-  tile_overlap: 0.0416
-  tiling_strategy: center_first
 M33:
   coords:
   - 23.462042
@@ -1473,58 +1649,6 @@ M33:
   telescope: LVM-160
   tile_overlap: 0.0416
   tiling_strategy: center_first
-MW1:
-  coords:
-  - 315.0
-  - 0.0
-  exptime: 900
-  frame: galactic
-  group:
-  - MW
-  max_airmass: 1.75
-  max_lunation: 1.0
-  min_exposures: 1
-  min_moon_dist: 60
-  min_shadowheight: 1000.0
-  n_exposures: 1
-  observatory: LCO
-  overhead: 1.1
-  priority: 9
-  region_params:
-    height: 18.0
-    pa: 0
-    width: 150.0
-  region_type: rectangle
-  telescope: LVM-160
-  tile_overlap: 0.0416
-  tile_union: MW
-  tiling_strategy: lowest_airmass
-MW2:
-  coords:
-  - 282
-  - 0.0
-  exptime: 900
-  frame: galactic
-  group:
-  - MW
-  max_airmass: 1.75
-  max_lunation: 1.0
-  min_exposures: 1
-  min_moon_dist: 60
-  min_shadowheight: 1000.0
-  n_exposures: 1
-  observatory: LCO
-  overhead: 1.1
-  priority: 10
-  region_params:
-    height: 8.0
-    pa: 0
-    width: 215
-  region_type: rectangle
-  telescope: LVM-160
-  tile_overlap: 0.0416
-  tile_union: MW
-  tiling_strategy: lowest_airmass
 NGC0024:
   coords:
   - 2.485000006357829
@@ -9425,52 +9549,6 @@ NGC991:
   telescope: LVM-160
   tile_overlap: 0.0416
   tiling_strategy: center_first
-ORION:
-  coords:
-  - 206.42
-  - -17.74
-  exptime: 900
-  frame: galactic
-  group:
-  - ORI
-  max_airmass: 1.75
-  max_lunation: 1.0
-  min_exposures: 1
-  min_moon_dist: 60
-  min_shadowheight: 500.0
-  n_exposures: 1
-  observatory: BOTH
-  overhead: 1.1
-  priority: 19
-  region_params:
-    r: 6.5
-  region_type: circle
-  telescope: LVM-160
-  tile_overlap: 0.0416
-  tiling_strategy: center_first
-ORION_SPARSE:
-  coords:
-  - 206.42
-  - -17.74
-  exptime: 900
-  frame: galactic
-  group:
-  - ORI
-  max_airmass: 1.75
-  max_lunation: 1.0
-  min_exposures: 1
-  min_moon_dist: 60
-  min_shadowheight: 500.0
-  n_exposures: 1
-  observatory: BOTH
-  overhead: 1.1
-  priority: 18
-  region_params:
-    r: 19.5
-  region_type: circle
-  sparse: 5
-  telescope: LVM-160
-  tiling_strategy: center_first
 PGC13809:
   coords:
   - 56.579196
@@ -10346,58 +10424,6 @@ PGC8602:
   telescope: LVM-160
   tile_overlap: 0.0416
   tiling_strategy: center_first
-SMCeast:
-  coords:
-  - 20
-  - -73.2
-  exptime: 900
-  frame: icrs
-  group:
-  - MCs
-  max_airmass: 1.75
-  max_lunation: 0.25
-  min_exposures: 3
-  min_moon_dist: 45
-  min_shadowheight: 1.0
-  n_exposures: 9
-  observatory: LCO
-  overhead: 1.1
-  priority: 30
-  region_params:
-    a: 1.5
-    b: 1.0
-    pa: 155
-  region_type: ellipse
-  telescope: LVM-160
-  tile_overlap: 0.0416
-  tile_union: SMCwhole
-  tiling_strategy: center_first
-SMCwest:
-  coords:
-  - 13.1583
-  - -72.8003
-  exptime: 900
-  frame: icrs
-  group:
-  - MCs
-  max_airmass: 1.75
-  max_lunation: 0.25
-  min_exposures: 3
-  min_moon_dist: 45
-  min_shadowheight: 1.0
-  n_exposures: 9
-  observatory: LCO
-  overhead: 1.1
-  priority: 30
-  region_params:
-    a: 2.8
-    b: 1.6
-    pa: 45
-  region_type: ellipse
-  telescope: LVM-160
-  tile_overlap: 0.0416
-  tile_union: SMCwhole
-  tiling_strategy: center_first
 SexA:
   coords:
   - 152.753333333383
@@ -10447,32 +10473,6 @@ SexB:
   region_type: ellipse
   telescope: LVM-160
   tile_overlap: 0.0416
-  tiling_strategy: center_first
-THOR:
-  coords:
-  - 15
-  - 0.0
-  exptime: 900
-  frame: galactic
-  group:
-  - MW
-  max_airmass: 1.75
-  max_lunation: 1.0
-  min_exposures: 1
-  min_moon_dist: 60
-  min_shadowheight: 1000.0
-  n_exposures: 1
-  observatory: LCO
-  overhead: 1.1
-  priority: 11
-  region_params:
-    height: 2.0
-    pa: 0
-    width: 31.0
-  region_type: rectangle
-  telescope: LVM-160
-  tile_overlap: 0.0416
-  tile_union: MW
   tiling_strategy: center_first
 UGC05456:
   coords:
@@ -11424,6 +11424,412 @@ ancillary_ORIGIN_group:
   telescope: LVM-160
   tile_overlap: 0.0416
   tiling_strategy: center_first
+ancillary_Sh2-311:
+  coords:
+  - 118.07708333333333
+  - -26.428055555555556
+  exptime: 900
+  frame: icrs
+  group: *id001
+  max_airmass: 1.75
+  max_lunation: 0.25
+  min_exposures: 3
+  min_moon_dist: 45
+  min_shadowheight: 1000
+  n_exposures: 9
+  observatory: LCO
+  overhead: 1.1
+  priority: 2
+  region_params: *id002
+  region_type: ellipse
+  telescope: LVM-160
+  tile_overlap: 0.0416
+  tiling_strategy: center_first
+ancillary_Sh_2-284:
+  coords:
+  - 101.03941498004136
+  - -0.0656070425086614
+  exptime: 900
+  frame: icrs
+  group: *id001
+  max_airmass: 1.75
+  max_lunation: 0.25
+  min_exposures: 3
+  min_moon_dist: 45
+  min_shadowheight: 1000
+  n_exposures: 9
+  observatory: LCO
+  overhead: 1.1
+  priority: 2
+  region_params: *id002
+  region_type: ellipse
+  telescope: LVM-160
+  tile_overlap: 0.0416
+  tiling_strategy: center_first
+ancillary_Silk01:
+  coords:
+  - 116.55499999999999
+  - 14.294994444444445
+  exptime: 900
+  frame: icrs
+  group: *id001
+  max_airmass: 1.75
+  max_lunation: 0.25
+  min_exposures: 3
+  min_moon_dist: 45
+  min_shadowheight: 1000
+  n_exposures: 9
+  observatory: LCO
+  overhead: 1.1
+  priority: 2
+  region_params: *id002
+  region_type: ellipse
+  telescope: LVM-160
+  tile_overlap: 0.0416
+  tiling_strategy: center_first
+ancillary_Silk02:
+  coords:
+  - 116.17795833333332
+  - 18.383244444444443
+  exptime: 900
+  frame: icrs
+  group: *id001
+  max_airmass: 1.75
+  max_lunation: 0.25
+  min_exposures: 3
+  min_moon_dist: 45
+  min_shadowheight: 1000
+  n_exposures: 9
+  observatory: LCO
+  overhead: 1.1
+  priority: 2
+  region_params: *id002
+  region_type: ellipse
+  telescope: LVM-160
+  tile_overlap: 0.0416
+  tiling_strategy: center_first
+ancillary_Silk03:
+  coords:
+  - 116.30166666666666
+  - 22.750930555555556
+  exptime: 900
+  frame: icrs
+  group: *id001
+  max_airmass: 1.75
+  max_lunation: 0.25
+  min_exposures: 3
+  min_moon_dist: 45
+  min_shadowheight: 1000
+  n_exposures: 9
+  observatory: LCO
+  overhead: 1.1
+  priority: 2
+  region_params: *id002
+  region_type: ellipse
+  telescope: LVM-160
+  tile_overlap: 0.0416
+  tiling_strategy: center_first
+ancillary_Silk04:
+  coords:
+  - 115.334875
+  - 20.854205555555556
+  exptime: 900
+  frame: icrs
+  group: *id001
+  max_airmass: 1.75
+  max_lunation: 0.25
+  min_exposures: 3
+  min_moon_dist: 45
+  min_shadowheight: 1000
+  n_exposures: 9
+  observatory: LCO
+  overhead: 1.1
+  priority: 2
+  region_params: *id002
+  region_type: ellipse
+  telescope: LVM-160
+  tile_overlap: 0.0416
+  tiling_strategy: center_first
+ancillary_SilkBG01:
+  coords:
+  - 115.61741666666666
+  - 18.1464
+  exptime: 900
+  frame: icrs
+  group: *id001
+  max_airmass: 1.75
+  max_lunation: 0.25
+  min_exposures: 3
+  min_moon_dist: 45
+  min_shadowheight: 1000
+  n_exposures: 9
+  observatory: LCO
+  overhead: 1.1
+  priority: 2
+  region_params: *id002
+  region_type: ellipse
+  telescope: LVM-160
+  tile_overlap: 0.0416
+  tiling_strategy: center_first
+ancillary_SilkBG02:
+  coords:
+  - 117.92220833333332
+  - 21.763952777777778
+  exptime: 900
+  frame: icrs
+  group: *id001
+  max_airmass: 1.75
+  max_lunation: 0.25
+  min_exposures: 3
+  min_moon_dist: 45
+  min_shadowheight: 1000
+  n_exposures: 9
+  observatory: LCO
+  overhead: 1.1
+  priority: 2
+  region_params: *id002
+  region_type: ellipse
+  telescope: LVM-160
+  tile_overlap: 0.0416
+  tiling_strategy: center_first
+ancillary_Vela_C_CR1_CN:
+  coords:
+  - 134.5838241343636
+  - -43.864561484907156
+  exptime: 900
+  frame: icrs
+  group: *id001
+  max_airmass: 1.75
+  max_lunation: 0.25
+  min_exposures: 3
+  min_moon_dist: 45
+  min_shadowheight: 1000
+  n_exposures: 9
+  observatory: LCO
+  overhead: 1.1
+  priority: 2
+  region_params: *id002
+  region_type: ellipse
+  telescope: LVM-160
+  tile_overlap: 0.0416
+  tiling_strategy: center_first
+ancillary_W43:
+  coords:
+  - 282.0043333333333
+  - -1.9728527777777778
+  exptime: 900
+  frame: icrs
+  group: *id001
+  max_airmass: 1.75
+  max_lunation: 0.25
+  min_exposures: 3
+  min_moon_dist: 45
+  min_shadowheight: 1000
+  n_exposures: 9
+  observatory: LCO
+  overhead: 1.1
+  priority: 2
+  region_params: *id002
+  region_type: ellipse
+  telescope: LVM-160
+  tile_overlap: 0.0416
+  tiling_strategy: center_first
+ancillary_WR_124:
+  coords:
+  - 287.878625
+  - 16.860583333333334
+  exptime: 900
+  frame: icrs
+  group: *id001
+  max_airmass: 1.75
+  max_lunation: 0.25
+  min_exposures: 3
+  min_moon_dist: 45
+  min_shadowheight: 1000
+  n_exposures: 9
+  observatory: LCO
+  overhead: 1.1
+  priority: 2
+  region_params: *id002
+  region_type: ellipse
+  telescope: LVM-160
+  tile_overlap: 0.0416
+  tiling_strategy: center_first
+ancillary_SNR_G4.2-3.5:
+  coords:
+  - 272.233244
+  - -27.3046
+  exptime: 900
+  frame: icrs
+  group:
+  - ancillary
+  max_airmass: 1.75
+  max_lunation: 0.25
+  min_exposures: 3
+  min_moon_dist: 45
+  min_shadowheight: 1000
+  n_exposures: 9
+  observatory: LCO
+  overhead: 1.1
+  priority: 2
+  region_params:
+    a: 0.2
+    b: 0.2
+    pa: 0
+  region_type: ellipse
+  telescope: LVM-160
+  tile_overlap: 0.0416
+  tiling_strategy: center_first
+ancillary_SNR_G4.5+6.8_(Kepler_SNR):
+  coords:
+  - 262.663916
+  - -21.648359
+  exptime: 900
+  frame: icrs
+  group:
+  - ancillary
+  max_airmass: 1.75
+  max_lunation: 0.25
+  min_exposures: 3
+  min_moon_dist: 45
+  min_shadowheight: 1000
+  n_exposures: 9
+  observatory: LCO
+  overhead: 1.1
+  priority: 2
+  region_params:
+    a: 0.2
+    b: 0.2
+    pa: 0
+  region_type: ellipse
+  telescope: LVM-160
+  tile_overlap: 0.0416
+  tiling_strategy: center_first
+ancillary_SNR_G5.4-1.2_(Milne_56):
+  coords:
+  - 270.555322
+  - -25.004229
+  exptime: 900
+  frame: icrs
+  group:
+  - ancillary
+  max_airmass: 1.75
+  max_lunation: 0.25
+  min_exposures: 3
+  min_moon_dist: 45
+  min_shadowheight: 1000
+  n_exposures: 9
+  observatory: LCO
+  overhead: 1.1
+  priority: 2
+  region_params:
+    a: 0.35
+    b: 0.3
+    pa: 0
+  region_type: ellipse
+  telescope: LVM-160
+  tile_overlap: 0.35
+  tiling_strategy: center_first
+ancillary_SNR_G5.5+0.3:
+  coords:
+  - 269.253473
+  - -24.166254
+  exptime: 900
+  frame: icrs
+  group:
+  - ancillary
+  max_airmass: 1.75
+  max_lunation: 0.25
+  min_exposures: 3
+  min_moon_dist: 45
+  min_shadowheight: 1000
+  n_exposures: 9
+  observatory: LCO
+  overhead: 1.1
+  priority: 2
+  region_params:
+    a: 0.2
+    b: 0.2
+    pa: 0
+  region_type: ellipse
+  telescope: LVM-160
+  tile_overlap: 0.0416
+  tiling_strategy: center_first
+ancillary_SNR_G6.1+0.5:
+  coords:
+  - 269.460597
+  - -23.547741
+  exptime: 900
+  frame: icrs
+  group:
+  - ancillary
+  max_airmass: 1.75
+  max_lunation: 0.25
+  min_exposures: 3
+  min_moon_dist: 45
+  min_shadowheight: 1000
+  n_exposures: 9
+  observatory: LCO
+  overhead: 1.1
+  priority: 2
+  region_params:
+    a: 0.2
+    b: 0.2
+    pa: 0
+  region_type: ellipse
+  telescope: LVM-160
+  tile_overlap: 0.0416
+  tiling_strategy: center_first
+ancillary_SNR_G6.5-0.4:
+  coords:
+  - 270.53428
+  - -23.731649
+  exptime: 900
+  frame: icrs
+  group:
+  - ancillary
+  max_airmass: 1.75
+  max_lunation: 0.25
+  min_exposures: 3
+  min_moon_dist: 45
+  min_shadowheight: 1000
+  n_exposures: 9
+  observatory: LCO
+  overhead: 1.1
+  priority: 2
+  region_params:
+    a: 0.2
+    b: 0.2
+    pa: 0
+  region_type: ellipse
+  telescope: LVM-160
+  tile_overlap: 0.0416
+  tiling_strategy: center_first
+ancillary_SNR_G9.9-0.8:
+  coords:
+  - 272.659256
+  - -20.881633
+  exptime: 900
+  frame: icrs
+  group:
+  - ancillary
+  max_airmass: 1.75
+  max_lunation: 0.25
+  min_exposures: 3
+  min_moon_dist: 45
+  min_shadowheight: 1000
+  n_exposures: 9
+  observatory: LCO
+  overhead: 1.1
+  priority: 2
+  region_params:
+    a: 0.2
+    b: 0.2
+    pa: 0
+  region_type: ellipse
+  telescope: LVM-160
+  tile_overlap: 0.0416
+  tiling_strategy: center_first
 ancillary_SNR_G12.7-0.0:
   coords:
   - 273.208278
@@ -11545,6 +11951,406 @@ ancillary_SNR_G18.9-1.1:
   telescope: LVM-160
   tile_overlap: 0.0416
   tiling_strategy: center_first
+ancillary_SNR_G27.4+0.0:
+  coords:
+  - 280.318093
+  - -5.098256
+  exptime: 900
+  frame: icrs
+  group:
+  - ancillary
+  max_airmass: 1.75
+  max_lunation: 0.25
+  min_exposures: 3
+  min_moon_dist: 45
+  min_shadowheight: 1000
+  n_exposures: 9
+  observatory: LCO
+  overhead: 1.1
+  priority: 2
+  region_params:
+    a: 0.2
+    b: 0.2
+    pa: 0
+  region_type: ellipse
+  telescope: LVM-160
+  tile_overlap: 0.0416
+  tiling_strategy: center_first
+ancillary_SNR_G32.8-0.1_(Kes_78):
+  coords:
+  - 282.812724
+  - -0.345391
+  exptime: 900
+  frame: icrs
+  group:
+  - ancillary
+  max_airmass: 1.75
+  max_lunation: 0.25
+  min_exposures: 3
+  min_moon_dist: 45
+  min_shadowheight: 1000
+  n_exposures: 9
+  observatory: LCO
+  overhead: 1.1
+  priority: 2
+  region_params:
+    a: 0.2
+    b: 0.2
+    pa: 0
+  region_type: ellipse
+  telescope: LVM-160
+  tile_overlap: 0.0416
+  tiling_strategy: center_first
+ancillary_SNR_G34.7-0.4_(W44):
+  coords:
+  - 283.938885
+  - 1.257352
+  exptime: 900
+  frame: icrs
+  group:
+  - ancillary
+  max_airmass: 1.75
+  max_lunation: 0.25
+  min_exposures: 3
+  min_moon_dist: 45
+  min_shadowheight: 1000
+  n_exposures: 9
+  observatory: LCO
+  overhead: 1.1
+  priority: 2
+  region_params:
+    a: 0.2
+    b: 0.25
+    pa: 0
+  region_type: ellipse
+  telescope: LVM-160
+  tile_overlap: 0.6
+  tiling_strategy: center_first
+ancillary_SNR_G38.7-1.3:
+  coords:
+  - 286.698831
+  - 4.369351
+  exptime: 900
+  frame: icrs
+  group:
+  - ancillary
+  max_airmass: 1.75
+  max_lunation: 0.25
+  min_exposures: 3
+  min_moon_dist: 45
+  min_shadowheight: 1000
+  n_exposures: 9
+  observatory: LCO
+  overhead: 1.1
+  priority: 2
+  region_params:
+    a: 0.2
+    b: 0.2
+    pa: 180
+  region_type: ellipse
+  telescope: LVM-160
+  tile_overlap: 0.0416
+  tiling_strategy: center_first
+ancillary_SNR_G39.7-2.0_(W50):
+  coords:
+  - 288.003434
+  - 4.987535
+  exptime: 900
+  frame: icrs
+  group:
+  - ancillary
+  max_airmass: 1.75
+  max_lunation: 0.25
+  min_exposures: 3
+  min_moon_dist: 45
+  min_shadowheight: 1000
+  n_exposures: 9
+  observatory: LCO
+  overhead: 1.1
+  priority: 2
+  region_params:
+    a: 1
+    b: 0.5
+    pa: 0
+  region_type: ellipse
+  telescope: LVM-160
+  tile_overlap: 0.0416
+  tiling_strategy: center_first
+ancillary_SNR_G49.2-0.7_(W51):
+  coords:
+  - 290.959061
+  - 13.917942
+  exptime: 900
+  frame: icrs
+  group:
+  - ancillary
+  max_airmass: 1.75
+  max_lunation: 0.25
+  min_exposures: 3
+  min_moon_dist: 45
+  min_shadowheight: 1000
+  n_exposures: 9
+  observatory: LCO
+  overhead: 1.1
+  priority: 2
+  region_params:
+    a: 0.2
+    b: 0.2
+    pa: 0
+  region_type: ellipse
+  telescope: LVM-160
+  tile_overlap: 0.0416
+  tiling_strategy: center_first
+ancillary_SNR_G53.6-2.2_(3C400.2):
+  coords:
+  - 294.627633
+  - 17.149628
+  exptime: 900
+  frame: icrs
+  group:
+  - ancillary
+  max_airmass: 1.75
+  max_lunation: 0.25
+  min_exposures: 3
+  min_moon_dist: 45
+  min_shadowheight: 1000
+  n_exposures: 9
+  observatory: LCO
+  overhead: 1.1
+  priority: 2
+  region_params:
+    a: 0.35
+    b: 0.2
+    pa: 0
+  region_type: ellipse
+  telescope: LVM-160
+  tile_overlap: 0.3
+  tiling_strategy: center_first
+ancillary_SNR_G54.4-0.3_(HC40):
+  coords:
+  - 293.280031
+  - 18.947994
+  exptime: 900
+  frame: icrs
+  group:
+  - ancillary
+  max_airmass: 1.75
+  max_lunation: 0.25
+  min_exposures: 3
+  min_moon_dist: 45
+  min_shadowheight: 1000
+  n_exposures: 9
+  observatory: LCO
+  overhead: 1.1
+  priority: 2
+  region_params:
+    a: 0.5
+    b: 0.5
+    pa: 0
+  region_type: ellipse
+  telescope: LVM-160
+  tile_overlap: 0.0416
+  tiling_strategy: center_first
+ancillary_SNR_G59.5+0.1:
+  coords:
+  - 295.625527
+  - 23.462368
+  exptime: 900
+  frame: icrs
+  group:
+  - ancillary
+  max_airmass: 1.75
+  max_lunation: 0.25
+  min_exposures: 3
+  min_moon_dist: 45
+  min_shadowheight: 1000
+  n_exposures: 9
+  observatory: LCO
+  overhead: 1.1
+  priority: 2
+  region_params:
+    a: 0.2
+    b: 0.2
+    pa: 0
+  region_type: ellipse
+  telescope: LVM-160
+  tile_overlap: 0.0416
+  tiling_strategy: center_first
+ancillary_SNR_G64.5+0.9:
+  coords:
+  - 297.591882
+  - 28.10259
+  exptime: 900
+  frame: icrs
+  group:
+  - ancillary
+  max_airmass: 1.75
+  max_lunation: 0.25
+  min_exposures: 3
+  min_moon_dist: 45
+  min_shadowheight: 1000
+  n_exposures: 9
+  observatory: LCO
+  overhead: 1.1
+  priority: 2
+  region_params:
+    a: 0.2
+    b: 0.2
+    pa: 0
+  region_type: ellipse
+  telescope: LVM-160
+  tile_overlap: 0.0416
+  tiling_strategy: center_first
+ancillary_SNR_G66.0-0.0:
+  coords:
+  - 299.501903
+  - 28.95225
+  exptime: 900
+  frame: icrs
+  group:
+  - ancillary
+  max_airmass: 1.75
+  max_lunation: 0.25
+  min_exposures: 3
+  min_moon_dist: 45
+  min_shadowheight: 1000
+  n_exposures: 9
+  observatory: LCO
+  overhead: 1.1
+  priority: 2
+  region_params:
+    a: 0.2
+    b: 0.2
+    pa: 0
+  region_type: ellipse
+  telescope: LVM-160
+  tile_overlap: 0.0416
+  tiling_strategy: center_first
+ancillary_SNR_G70.0-21.5_region6:
+  coords:
+  - 318.451444
+  - 18.913976
+  exptime: 900
+  frame: icrs
+  group:
+  - ancillary
+  max_airmass: 1.75
+  max_lunation: 0.25
+  min_exposures: 3
+  min_moon_dist: 45
+  min_shadowheight: 1000
+  n_exposures: 9
+  observatory: LCO
+  overhead: 1.1
+  priority: 2
+  region_params:
+    a: 0.2
+    b: 0.2
+    pa: 0
+  region_type: ellipse
+  telescope: LVM-160
+  tile_overlap: 0.0416
+  tiling_strategy: center_first
+ancillary_SNR_G70.0-21.5_region7:
+  coords:
+  - 318.530109
+  - 19.281147
+  exptime: 900
+  frame: icrs
+  group:
+  - ancillary
+  max_airmass: 1.75
+  max_lunation: 0.25
+  min_exposures: 3
+  min_moon_dist: 45
+  min_shadowheight: 1000
+  n_exposures: 9
+  observatory: LCO
+  overhead: 1.1
+  priority: 2
+  region_params:
+    a: 0.2
+    b: 0.2
+    pa: 0
+  region_type: ellipse
+  telescope: LVM-160
+  tile_overlap: 0.0416
+  tiling_strategy: center_first
+ancillary_SNR_G70.0-21.5_region3:
+  coords:
+  - 321.272777
+  - 16.78774
+  exptime: 900
+  frame: icrs
+  group:
+  - ancillary
+  max_airmass: 1.75
+  max_lunation: 0.25
+  min_exposures: 3
+  min_moon_dist: 45
+  min_shadowheight: 1000
+  n_exposures: 9
+  observatory: LCO
+  overhead: 1.1
+  priority: 2
+  region_params:
+    a: 0.2
+    b: 0.2
+    pa: 0
+  region_type: ellipse
+  telescope: LVM-160
+  tile_overlap: 0.0416
+  tiling_strategy: center_first
+ancillary_SNR_G70.0-21.5_region1:
+  coords:
+  - 323.814916
+  - 19.170027
+  exptime: 900
+  frame: icrs
+  group:
+  - ancillary
+  max_airmass: 1.75
+  max_lunation: 0.25
+  min_exposures: 3
+  min_moon_dist: 45
+  min_shadowheight: 1000
+  n_exposures: 9
+  observatory: LCO
+  overhead: 1.1
+  priority: 2
+  region_params:
+    a: 0.2
+    b: 0.2
+    pa: 0
+  region_type: ellipse
+  telescope: LVM-160
+  tile_overlap: 0.0416
+  tiling_strategy: center_first
+ancillary_SNR_G70.0-21.5_region4:
+  coords:
+  - 322.327762
+  - 17.096948
+  exptime: 900
+  frame: icrs
+  group:
+  - ancillary
+  max_airmass: 1.75
+  max_lunation: 0.25
+  min_exposures: 3
+  min_moon_dist: 45
+  min_shadowheight: 1000
+  n_exposures: 9
+  observatory: LCO
+  overhead: 1.1
+  priority: 2
+  region_params:
+    a: 0.2
+    b: 0.2
+    pa: 0
+  region_type: ellipse
+  telescope: LVM-160
+  tile_overlap: 0.0416
+  tiling_strategy: center_first
 ancillary_SNR_G182.4+4.3:
   coords:
   - 92.092083
@@ -11645,31 +12451,6 @@ ancillary_SNR_G206.9+2.3_(PKS_0646+06):
   telescope: LVM-160
   tile_overlap: 0.0416
   tiling_strategy: center_first
-ancillary_SNR_G209.9-8.2_east:
-  coords:
-  - 93.613272
-  - -0.990017
-  exptime: 900
-  frame: icrs
-  group:
-  - ancillary
-  max_airmass: 1.75
-  max_lunation: 0.25
-  min_exposures: 3
-  min_moon_dist: 45
-  min_shadowheight: 1000
-  n_exposures: 9
-  observatory: LCO
-  overhead: 1.1
-  priority: 2
-  region_params:
-    a: 0.2
-    b: 0.2
-    pa: 0
-  region_type: ellipse
-  telescope: LVM-160
-  tile_overlap: 0.0416
-  tiling_strategy: center_first
 ancillary_SNR_G209.9-8.2_north:
   coords:
   - 94.242654
@@ -11714,6 +12495,31 @@ ancillary_SNR_G209.9-8.2_west:
   priority: 2
   region_params:
     a: 0.7
+    b: 0.2
+    pa: 0
+  region_type: ellipse
+  telescope: LVM-160
+  tile_overlap: 0.0416
+  tiling_strategy: center_first
+ancillary_SNR_G209.9-8.2_east:
+  coords:
+  - 93.613272
+  - -0.990017
+  exptime: 900
+  frame: icrs
+  group:
+  - ancillary
+  max_airmass: 1.75
+  max_lunation: 0.25
+  min_exposures: 3
+  min_moon_dist: 45
+  min_shadowheight: 1000
+  n_exposures: 9
+  observatory: LCO
+  overhead: 1.1
+  priority: 2
+  region_params:
+    a: 0.2
     b: 0.2
     pa: 0
   region_type: ellipse
@@ -11770,10 +12576,60 @@ ancillary_SNR_G260.4-3.4_(Puppis_A):
   telescope: LVM-160
   tile_overlap: 0.0416
   tiling_strategy: center_first
-ancillary_SNR_G27.4+0.0:
+ancillary_Vela_Target_1:
   coords:
-  - 280.318093
-  - -5.098256
+  - 130.197024
+  - -44.826756
+  exptime: 900
+  frame: icrs
+  group:
+  - ancillary
+  max_airmass: 1.75
+  max_lunation: 0.25
+  min_exposures: 3
+  min_moon_dist: 45
+  min_shadowheight: 1000
+  n_exposures: 9
+  observatory: LCO
+  overhead: 1.1
+  priority: 2
+  region_params:
+    a: 0.2
+    b: 0.2
+    pa: 0
+  region_type: ellipse
+  telescope: LVM-160
+  tile_overlap: 0.0416
+  tiling_strategy: center_first
+ancillary_Vela_Target_2:
+  coords:
+  - 134.320174
+  - -42.099484
+  exptime: 900
+  frame: icrs
+  group:
+  - ancillary
+  max_airmass: 1.75
+  max_lunation: 0.25
+  min_exposures: 3
+  min_moon_dist: 45
+  min_shadowheight: 1000
+  n_exposures: 9
+  observatory: LCO
+  overhead: 1.1
+  priority: 2
+  region_params:
+    a: 0.2
+    b: 0.2
+    pa: 0
+  region_type: ellipse
+  telescope: LVM-160
+  tile_overlap: 0.0416
+  tiling_strategy: center_first
+ancillary_Vela_Target_HeII:
+  coords:
+  - 133.561375
+  - -43.877662
   exptime: 900
   frame: icrs
   group:
@@ -11970,31 +12826,6 @@ ancillary_SNR_G299.2-2.9:
   telescope: LVM-160
   tile_overlap: 0.0416
   tiling_strategy: center_first
-ancillary_SNR_G315.4-0.3:
-  coords:
-  - 218.980699
-  - -60.767427
-  exptime: 900
-  frame: icrs
-  group:
-  - ancillary
-  max_airmass: 1.75
-  max_lunation: 0.25
-  min_exposures: 3
-  min_moon_dist: 45
-  min_shadowheight: 1000
-  n_exposures: 9
-  observatory: LCO
-  overhead: 1.1
-  priority: 2
-  region_params:
-    a: 0.2
-    b: 0.2
-    pa: 0
-  region_type: ellipse
-  telescope: LVM-160
-  tile_overlap: 0.0416
-  tiling_strategy: center_first
 ancillary_SNR_G315.4-2.3_(RCW_86):
   coords:
   - 220.711235
@@ -12020,10 +12851,10 @@ ancillary_SNR_G315.4-2.3_(RCW_86):
   telescope: LVM-160
   tile_overlap: 0.0416
   tiling_strategy: center_first
-ancillary_SNR_G317.3-0.2:
+ancillary_SNR_G315.4-0.3:
   coords:
-  - 222.396485
-  - -59.93299
+  - 218.980699
+  - -60.767427
   exptime: 900
   frame: icrs
   group:
@@ -12045,10 +12876,10 @@ ancillary_SNR_G317.3-0.2:
   telescope: LVM-160
   tile_overlap: 0.0416
   tiling_strategy: center_first
-ancillary_SNR_G32.8-0.1_(Kes_78):
+ancillary_SNR_G317.3-0.2:
   coords:
-  - 282.812724
-  - -0.345391
+  - 222.396485
+  - -59.93299
   exptime: 900
   frame: icrs
   group:
@@ -12170,10 +13001,10 @@ ancillary_SNR_G327.6+14.6_(SN1006):
   telescope: LVM-160
   tile_overlap: 0.4
   tiling_strategy: center_first
-ancillary_SNR_G332.4+0.1_(Kes_32):
+ancillary_SNR_G332.4-0.4_(RCW_103):
   coords:
-  - 243.816324
-  - -50.865049
+  - 244.370933
+  - -51.198134
   exptime: 900
   frame: icrs
   group:
@@ -12195,10 +13026,10 @@ ancillary_SNR_G332.4+0.1_(Kes_32):
   telescope: LVM-160
   tile_overlap: 0.0416
   tiling_strategy: center_first
-ancillary_SNR_G332.4-0.4_(RCW_103):
+ancillary_SNR_G332.4+0.1_(Kes_32):
   coords:
-  - 244.370933
-  - -51.198134
+  - 243.816324
+  - -50.865049
   exptime: 900
   frame: icrs
   group:
@@ -12269,31 +13100,6 @@ ancillary_SNR_G338.1+0.4:
   region_type: ellipse
   telescope: LVM-160
   tile_overlap: 0.0416
-  tiling_strategy: center_first
-ancillary_SNR_G34.7-0.4_(W44):
-  coords:
-  - 283.938885
-  - 1.257352
-  exptime: 900
-  frame: icrs
-  group:
-  - ancillary
-  max_airmass: 1.75
-  max_lunation: 0.25
-  min_exposures: 3
-  min_moon_dist: 45
-  min_shadowheight: 1000
-  n_exposures: 9
-  observatory: LCO
-  overhead: 1.1
-  priority: 2
-  region_params:
-    a: 0.2
-    b: 0.25
-    pa: 0
-  region_type: ellipse
-  telescope: LVM-160
-  tile_overlap: 0.6
   tiling_strategy: center_first
 ancillary_SNR_G340.6+0.3:
   coords:
@@ -12395,674 +13201,6 @@ ancillary_SNR_G359.1-0.5:
   telescope: LVM-160
   tile_overlap: 0.0416
   tiling_strategy: center_first
-ancillary_SNR_G38.7-1.3:
-  coords:
-  - 286.698831
-  - 4.369351
-  exptime: 900
-  frame: icrs
-  group:
-  - ancillary
-  max_airmass: 1.75
-  max_lunation: 0.25
-  min_exposures: 3
-  min_moon_dist: 45
-  min_shadowheight: 1000
-  n_exposures: 9
-  observatory: LCO
-  overhead: 1.1
-  priority: 2
-  region_params:
-    a: 0.2
-    b: 0.2
-    pa: 180
-  region_type: ellipse
-  telescope: LVM-160
-  tile_overlap: 0.0416
-  tiling_strategy: center_first
-ancillary_SNR_G39.7-2.0_(W50):
-  coords:
-  - 288.003434
-  - 4.987535
-  exptime: 900
-  frame: icrs
-  group:
-  - ancillary
-  max_airmass: 1.75
-  max_lunation: 0.25
-  min_exposures: 3
-  min_moon_dist: 45
-  min_shadowheight: 1000
-  n_exposures: 9
-  observatory: LCO
-  overhead: 1.1
-  priority: 2
-  region_params:
-    a: 1
-    b: 0.5
-    pa: 0
-  region_type: ellipse
-  telescope: LVM-160
-  tile_overlap: 0.0416
-  tiling_strategy: center_first
-ancillary_SNR_G4.2-3.5:
-  coords:
-  - 272.233244
-  - -27.3046
-  exptime: 900
-  frame: icrs
-  group:
-  - ancillary
-  max_airmass: 1.75
-  max_lunation: 0.25
-  min_exposures: 3
-  min_moon_dist: 45
-  min_shadowheight: 1000
-  n_exposures: 9
-  observatory: LCO
-  overhead: 1.1
-  priority: 2
-  region_params:
-    a: 0.2
-    b: 0.2
-    pa: 0
-  region_type: ellipse
-  telescope: LVM-160
-  tile_overlap: 0.0416
-  tiling_strategy: center_first
-ancillary_SNR_G4.5+6.8_(Kepler_SNR):
-  coords:
-  - 262.663916
-  - -21.648359
-  exptime: 900
-  frame: icrs
-  group:
-  - ancillary
-  max_airmass: 1.75
-  max_lunation: 0.25
-  min_exposures: 3
-  min_moon_dist: 45
-  min_shadowheight: 1000
-  n_exposures: 9
-  observatory: LCO
-  overhead: 1.1
-  priority: 2
-  region_params:
-    a: 0.2
-    b: 0.2
-    pa: 0
-  region_type: ellipse
-  telescope: LVM-160
-  tile_overlap: 0.0416
-  tiling_strategy: center_first
-ancillary_SNR_G49.2-0.7_(W51):
-  coords:
-  - 290.959061
-  - 13.917942
-  exptime: 900
-  frame: icrs
-  group:
-  - ancillary
-  max_airmass: 1.75
-  max_lunation: 0.25
-  min_exposures: 3
-  min_moon_dist: 45
-  min_shadowheight: 1000
-  n_exposures: 9
-  observatory: LCO
-  overhead: 1.1
-  priority: 2
-  region_params:
-    a: 0.2
-    b: 0.2
-    pa: 0
-  region_type: ellipse
-  telescope: LVM-160
-  tile_overlap: 0.0416
-  tiling_strategy: center_first
-ancillary_SNR_G5.4-1.2_(Milne_56):
-  coords:
-  - 270.555322
-  - -25.004229
-  exptime: 900
-  frame: icrs
-  group:
-  - ancillary
-  max_airmass: 1.75
-  max_lunation: 0.25
-  min_exposures: 3
-  min_moon_dist: 45
-  min_shadowheight: 1000
-  n_exposures: 9
-  observatory: LCO
-  overhead: 1.1
-  priority: 2
-  region_params:
-    a: 0.35
-    b: 0.3
-    pa: 0
-  region_type: ellipse
-  telescope: LVM-160
-  tile_overlap: 0.35
-  tiling_strategy: center_first
-ancillary_SNR_G5.5+0.3:
-  coords:
-  - 269.253473
-  - -24.166254
-  exptime: 900
-  frame: icrs
-  group:
-  - ancillary
-  max_airmass: 1.75
-  max_lunation: 0.25
-  min_exposures: 3
-  min_moon_dist: 45
-  min_shadowheight: 1000
-  n_exposures: 9
-  observatory: LCO
-  overhead: 1.1
-  priority: 2
-  region_params:
-    a: 0.2
-    b: 0.2
-    pa: 0
-  region_type: ellipse
-  telescope: LVM-160
-  tile_overlap: 0.0416
-  tiling_strategy: center_first
-ancillary_SNR_G53.6-2.2_(3C400.2):
-  coords:
-  - 294.627633
-  - 17.149628
-  exptime: 900
-  frame: icrs
-  group:
-  - ancillary
-  max_airmass: 1.75
-  max_lunation: 0.25
-  min_exposures: 3
-  min_moon_dist: 45
-  min_shadowheight: 1000
-  n_exposures: 9
-  observatory: LCO
-  overhead: 1.1
-  priority: 2
-  region_params:
-    a: 0.35
-    b: 0.2
-    pa: 0
-  region_type: ellipse
-  telescope: LVM-160
-  tile_overlap: 0.3
-  tiling_strategy: center_first
-ancillary_SNR_G54.4-0.3_(HC40):
-  coords:
-  - 293.280031
-  - 18.947994
-  exptime: 900
-  frame: icrs
-  group:
-  - ancillary
-  max_airmass: 1.75
-  max_lunation: 0.25
-  min_exposures: 3
-  min_moon_dist: 45
-  min_shadowheight: 1000
-  n_exposures: 9
-  observatory: LCO
-  overhead: 1.1
-  priority: 2
-  region_params:
-    a: 0.5
-    b: 0.5
-    pa: 0
-  region_type: ellipse
-  telescope: LVM-160
-  tile_overlap: 0.0416
-  tiling_strategy: center_first
-ancillary_SNR_G59.5+0.1:
-  coords:
-  - 295.625527
-  - 23.462368
-  exptime: 900
-  frame: icrs
-  group:
-  - ancillary
-  max_airmass: 1.75
-  max_lunation: 0.25
-  min_exposures: 3
-  min_moon_dist: 45
-  min_shadowheight: 1000
-  n_exposures: 9
-  observatory: LCO
-  overhead: 1.1
-  priority: 2
-  region_params:
-    a: 0.2
-    b: 0.2
-    pa: 0
-  region_type: ellipse
-  telescope: LVM-160
-  tile_overlap: 0.0416
-  tiling_strategy: center_first
-ancillary_SNR_G6.1+0.5:
-  coords:
-  - 269.460597
-  - -23.547741
-  exptime: 900
-  frame: icrs
-  group:
-  - ancillary
-  max_airmass: 1.75
-  max_lunation: 0.25
-  min_exposures: 3
-  min_moon_dist: 45
-  min_shadowheight: 1000
-  n_exposures: 9
-  observatory: LCO
-  overhead: 1.1
-  priority: 2
-  region_params:
-    a: 0.2
-    b: 0.2
-    pa: 0
-  region_type: ellipse
-  telescope: LVM-160
-  tile_overlap: 0.0416
-  tiling_strategy: center_first
-ancillary_SNR_G6.5-0.4:
-  coords:
-  - 270.53428
-  - -23.731649
-  exptime: 900
-  frame: icrs
-  group:
-  - ancillary
-  max_airmass: 1.75
-  max_lunation: 0.25
-  min_exposures: 3
-  min_moon_dist: 45
-  min_shadowheight: 1000
-  n_exposures: 9
-  observatory: LCO
-  overhead: 1.1
-  priority: 2
-  region_params:
-    a: 0.2
-    b: 0.2
-    pa: 0
-  region_type: ellipse
-  telescope: LVM-160
-  tile_overlap: 0.0416
-  tiling_strategy: center_first
-ancillary_SNR_G64.5+0.9:
-  coords:
-  - 297.591882
-  - 28.10259
-  exptime: 900
-  frame: icrs
-  group:
-  - ancillary
-  max_airmass: 1.75
-  max_lunation: 0.25
-  min_exposures: 3
-  min_moon_dist: 45
-  min_shadowheight: 1000
-  n_exposures: 9
-  observatory: LCO
-  overhead: 1.1
-  priority: 2
-  region_params:
-    a: 0.2
-    b: 0.2
-    pa: 0
-  region_type: ellipse
-  telescope: LVM-160
-  tile_overlap: 0.0416
-  tiling_strategy: center_first
-ancillary_SNR_G66.0-0.0:
-  coords:
-  - 299.501903
-  - 28.95225
-  exptime: 900
-  frame: icrs
-  group:
-  - ancillary
-  max_airmass: 1.75
-  max_lunation: 0.25
-  min_exposures: 3
-  min_moon_dist: 45
-  min_shadowheight: 1000
-  n_exposures: 9
-  observatory: LCO
-  overhead: 1.1
-  priority: 2
-  region_params:
-    a: 0.2
-    b: 0.2
-    pa: 0
-  region_type: ellipse
-  telescope: LVM-160
-  tile_overlap: 0.0416
-  tiling_strategy: center_first
-ancillary_SNR_G70.0-21.5_region1:
-  coords:
-  - 323.814916
-  - 19.170027
-  exptime: 900
-  frame: icrs
-  group:
-  - ancillary
-  max_airmass: 1.75
-  max_lunation: 0.25
-  min_exposures: 3
-  min_moon_dist: 45
-  min_shadowheight: 1000
-  n_exposures: 9
-  observatory: LCO
-  overhead: 1.1
-  priority: 2
-  region_params:
-    a: 0.2
-    b: 0.2
-    pa: 0
-  region_type: ellipse
-  telescope: LVM-160
-  tile_overlap: 0.0416
-  tiling_strategy: center_first
-ancillary_SNR_G70.0-21.5_region3:
-  coords:
-  - 321.272777
-  - 16.78774
-  exptime: 900
-  frame: icrs
-  group:
-  - ancillary
-  max_airmass: 1.75
-  max_lunation: 0.25
-  min_exposures: 3
-  min_moon_dist: 45
-  min_shadowheight: 1000
-  n_exposures: 9
-  observatory: LCO
-  overhead: 1.1
-  priority: 2
-  region_params:
-    a: 0.2
-    b: 0.2
-    pa: 0
-  region_type: ellipse
-  telescope: LVM-160
-  tile_overlap: 0.0416
-  tiling_strategy: center_first
-ancillary_SNR_G70.0-21.5_region4:
-  coords:
-  - 322.327762
-  - 17.096948
-  exptime: 900
-  frame: icrs
-  group:
-  - ancillary
-  max_airmass: 1.75
-  max_lunation: 0.25
-  min_exposures: 3
-  min_moon_dist: 45
-  min_shadowheight: 1000
-  n_exposures: 9
-  observatory: LCO
-  overhead: 1.1
-  priority: 2
-  region_params:
-    a: 0.2
-    b: 0.2
-    pa: 0
-  region_type: ellipse
-  telescope: LVM-160
-  tile_overlap: 0.0416
-  tiling_strategy: center_first
-ancillary_SNR_G70.0-21.5_region6:
-  coords:
-  - 318.451444
-  - 18.913976
-  exptime: 900
-  frame: icrs
-  group:
-  - ancillary
-  max_airmass: 1.75
-  max_lunation: 0.25
-  min_exposures: 3
-  min_moon_dist: 45
-  min_shadowheight: 1000
-  n_exposures: 9
-  observatory: LCO
-  overhead: 1.1
-  priority: 2
-  region_params:
-    a: 0.2
-    b: 0.2
-    pa: 0
-  region_type: ellipse
-  telescope: LVM-160
-  tile_overlap: 0.0416
-  tiling_strategy: center_first
-ancillary_SNR_G70.0-21.5_region7:
-  coords:
-  - 318.530109
-  - 19.281147
-  exptime: 900
-  frame: icrs
-  group:
-  - ancillary
-  max_airmass: 1.75
-  max_lunation: 0.25
-  min_exposures: 3
-  min_moon_dist: 45
-  min_shadowheight: 1000
-  n_exposures: 9
-  observatory: LCO
-  overhead: 1.1
-  priority: 2
-  region_params:
-    a: 0.2
-    b: 0.2
-    pa: 0
-  region_type: ellipse
-  telescope: LVM-160
-  tile_overlap: 0.0416
-  tiling_strategy: center_first
-ancillary_SNR_G9.9-0.8:
-  coords:
-  - 272.659256
-  - -20.881633
-  exptime: 900
-  frame: icrs
-  group:
-  - ancillary
-  max_airmass: 1.75
-  max_lunation: 0.25
-  min_exposures: 3
-  min_moon_dist: 45
-  min_shadowheight: 1000
-  n_exposures: 9
-  observatory: LCO
-  overhead: 1.1
-  priority: 2
-  region_params:
-    a: 0.2
-    b: 0.2
-    pa: 0
-  region_type: ellipse
-  telescope: LVM-160
-  tile_overlap: 0.0416
-  tiling_strategy: center_first
-ancillary_Sh2-311:
-  coords:
-  - 118.07708333333333
-  - -26.428055555555556
-  exptime: 900
-  frame: icrs
-  group: *id001
-  max_airmass: 1.75
-  max_lunation: 0.25
-  min_exposures: 3
-  min_moon_dist: 45
-  min_shadowheight: 1000
-  n_exposures: 9
-  observatory: LCO
-  overhead: 1.1
-  priority: 2
-  region_params: *id002
-  region_type: ellipse
-  telescope: LVM-160
-  tile_overlap: 0.0416
-  tiling_strategy: center_first
-ancillary_Sh_2-284:
-  coords:
-  - 101.03941498004136
-  - -0.0656070425086614
-  exptime: 900
-  frame: icrs
-  group: *id001
-  max_airmass: 1.75
-  max_lunation: 0.25
-  min_exposures: 3
-  min_moon_dist: 45
-  min_shadowheight: 1000
-  n_exposures: 9
-  observatory: LCO
-  overhead: 1.1
-  priority: 2
-  region_params: *id002
-  region_type: ellipse
-  telescope: LVM-160
-  tile_overlap: 0.0416
-  tiling_strategy: center_first
-ancillary_Silk01:
-  coords:
-  - 116.55499999999999
-  - 14.294994444444445
-  exptime: 900
-  frame: icrs
-  group: *id001
-  max_airmass: 1.75
-  max_lunation: 0.25
-  min_exposures: 3
-  min_moon_dist: 45
-  min_shadowheight: 1000
-  n_exposures: 9
-  observatory: LCO
-  overhead: 1.1
-  priority: 2
-  region_params: *id002
-  region_type: ellipse
-  telescope: LVM-160
-  tile_overlap: 0.0416
-  tiling_strategy: center_first
-ancillary_Silk02:
-  coords:
-  - 116.17795833333332
-  - 18.383244444444443
-  exptime: 900
-  frame: icrs
-  group: *id001
-  max_airmass: 1.75
-  max_lunation: 0.25
-  min_exposures: 3
-  min_moon_dist: 45
-  min_shadowheight: 1000
-  n_exposures: 9
-  observatory: LCO
-  overhead: 1.1
-  priority: 2
-  region_params: *id002
-  region_type: ellipse
-  telescope: LVM-160
-  tile_overlap: 0.0416
-  tiling_strategy: center_first
-ancillary_Silk03:
-  coords:
-  - 116.30166666666666
-  - 22.750930555555556
-  exptime: 900
-  frame: icrs
-  group: *id001
-  max_airmass: 1.75
-  max_lunation: 0.25
-  min_exposures: 3
-  min_moon_dist: 45
-  min_shadowheight: 1000
-  n_exposures: 9
-  observatory: LCO
-  overhead: 1.1
-  priority: 2
-  region_params: *id002
-  region_type: ellipse
-  telescope: LVM-160
-  tile_overlap: 0.0416
-  tiling_strategy: center_first
-ancillary_Silk04:
-  coords:
-  - 115.334875
-  - 20.854205555555556
-  exptime: 900
-  frame: icrs
-  group: *id001
-  max_airmass: 1.75
-  max_lunation: 0.25
-  min_exposures: 3
-  min_moon_dist: 45
-  min_shadowheight: 1000
-  n_exposures: 9
-  observatory: LCO
-  overhead: 1.1
-  priority: 2
-  region_params: *id002
-  region_type: ellipse
-  telescope: LVM-160
-  tile_overlap: 0.0416
-  tiling_strategy: center_first
-ancillary_SilkBG01:
-  coords:
-  - 115.61741666666666
-  - 18.1464
-  exptime: 900
-  frame: icrs
-  group: *id001
-  max_airmass: 1.75
-  max_lunation: 0.25
-  min_exposures: 3
-  min_moon_dist: 45
-  min_shadowheight: 1000
-  n_exposures: 9
-  observatory: LCO
-  overhead: 1.1
-  priority: 2
-  region_params: *id002
-  region_type: ellipse
-  telescope: LVM-160
-  tile_overlap: 0.0416
-  tiling_strategy: center_first
-ancillary_SilkBG02:
-  coords:
-  - 117.92220833333332
-  - 21.763952777777778
-  exptime: 900
-  frame: icrs
-  group: *id001
-  max_airmass: 1.75
-  max_lunation: 0.25
-  min_exposures: 3
-  min_moon_dist: 45
-  min_shadowheight: 1000
-  n_exposures: 9
-  observatory: LCO
-  overhead: 1.1
-  priority: 2
-  region_params: *id002
-  region_type: ellipse
-  telescope: LVM-160
-  tile_overlap: 0.0416
-  tiling_strategy: center_first
 ancillary_TELEIOS:
   coords:
   - 198.738673
@@ -13088,144 +13226,6 @@ ancillary_TELEIOS:
   telescope: LVM-160
   tile_overlap: 0.0416
   tiling_strategy: center_first
-ancillary_Vela_C_CR1_CN:
-  coords:
-  - 134.5838241343636
-  - -43.864561484907156
-  exptime: 900
-  frame: icrs
-  group: *id001
-  max_airmass: 1.75
-  max_lunation: 0.25
-  min_exposures: 3
-  min_moon_dist: 45
-  min_shadowheight: 1000
-  n_exposures: 9
-  observatory: LCO
-  overhead: 1.1
-  priority: 2
-  region_params: *id002
-  region_type: ellipse
-  telescope: LVM-160
-  tile_overlap: 0.0416
-  tiling_strategy: center_first
-ancillary_Vela_Target_1:
-  coords:
-  - 130.197024
-  - -44.826756
-  exptime: 900
-  frame: icrs
-  group:
-  - ancillary
-  max_airmass: 1.75
-  max_lunation: 0.25
-  min_exposures: 3
-  min_moon_dist: 45
-  min_shadowheight: 1000
-  n_exposures: 9
-  observatory: LCO
-  overhead: 1.1
-  priority: 2
-  region_params:
-    a: 0.2
-    b: 0.2
-    pa: 0
-  region_type: ellipse
-  telescope: LVM-160
-  tile_overlap: 0.0416
-  tiling_strategy: center_first
-ancillary_Vela_Target_2:
-  coords:
-  - 134.320174
-  - -42.099484
-  exptime: 900
-  frame: icrs
-  group:
-  - ancillary
-  max_airmass: 1.75
-  max_lunation: 0.25
-  min_exposures: 3
-  min_moon_dist: 45
-  min_shadowheight: 1000
-  n_exposures: 9
-  observatory: LCO
-  overhead: 1.1
-  priority: 2
-  region_params:
-    a: 0.2
-    b: 0.2
-    pa: 0
-  region_type: ellipse
-  telescope: LVM-160
-  tile_overlap: 0.0416
-  tiling_strategy: center_first
-ancillary_Vela_Target_HeII:
-  coords:
-  - 133.561375
-  - -43.877662
-  exptime: 900
-  frame: icrs
-  group:
-  - ancillary
-  max_airmass: 1.75
-  max_lunation: 0.25
-  min_exposures: 3
-  min_moon_dist: 45
-  min_shadowheight: 1000
-  n_exposures: 9
-  observatory: LCO
-  overhead: 1.1
-  priority: 2
-  region_params:
-    a: 0.2
-    b: 0.2
-    pa: 0
-  region_type: ellipse
-  telescope: LVM-160
-  tile_overlap: 0.0416
-  tiling_strategy: center_first
-ancillary_W43:
-  coords:
-  - 282.0043333333333
-  - -1.9728527777777778
-  exptime: 900
-  frame: icrs
-  group: *id001
-  max_airmass: 1.75
-  max_lunation: 0.25
-  min_exposures: 3
-  min_moon_dist: 45
-  min_shadowheight: 1000
-  n_exposures: 9
-  observatory: LCO
-  overhead: 1.1
-  priority: 2
-  region_params: *id002
-  region_type: ellipse
-  telescope: LVM-160
-  tile_overlap: 0.0416
-  tiling_strategy: center_first
-ancillary_WR_124:
-  coords:
-  - 287.878625
-  - 16.860583333333334
-  exptime: 900
-  frame: icrs
-  group: *id001
-  max_airmass: 1.75
-  max_lunation: 0.25
-  min_exposures: 3
-  min_moon_dist: 45
-  min_shadowheight: 1000
-  n_exposures: 9
-  observatory: LCO
-  overhead: 1.1
-  priority: 2
-  region_params: *id002
-  region_type: ellipse
-  telescope: LVM-160
-  tile_overlap: 0.0416
-  tiling_strategy: center_first
 ancillary_WR_128:
   coords:
   - 297.13416666666666
@@ -13247,4 +13247,3 @@ ancillary_WR_128:
   telescope: LVM-160
   tile_overlap: 0.0416
   tiling_strategy: center_first
-
