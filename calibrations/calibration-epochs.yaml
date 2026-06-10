@@ -373,3 +373,30 @@ epochs:
       twilight: 61143
     trigger: Bad weather
     comment: null
+  61166:
+    flavors:
+      bias: 61166-61176
+      trace: 61166
+      wave: 61166
+      dome: 61166
+      twilight: 61166
+    trigger: Normal operations
+    comment: null
+  61183:
+    flavors:
+      bias: 61183-61193
+      trace: 61183
+      wave: 61183
+      dome: 61183
+      twilight: 61187
+    trigger: Bad weather
+    comment: No twilights taken on MJD=61183, using close ones instead
+  61193:
+    flavors:
+      bias: 61193-61203
+      trace: 61193
+      wave: 61193,61195
+      dome: 61193
+      twilight: 61194
+    trigger: Seismic event
+    comment: No twilights taken on MJD=61193, using close ones instead. A Seism was registered at 6:14 UT, calibrations taken afterwards at 8:20 UT
