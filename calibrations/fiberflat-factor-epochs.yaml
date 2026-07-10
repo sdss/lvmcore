@@ -1,0 +1,60 @@
+schema:
+  name: epochs
+  dtype: dict[int, dict]
+  description: Dictionary mapping fiber flat factors to exposure numbers used to generate
+    those factors, epochs are divided by 'Instrument intervention' event.
+  keyschmas:
+  - name: flavors
+    dtype: dict[int, int|str]
+    description: Dictionary mapping frame flavors, either 'science' or 'twilight'
+      to a list of MJDs to source from.
+  - name: trigger
+    dtype: str | null
+    description: Reason for which these factors were measured, see calibration epochs
+      `trigger`.
+  - name: comment
+    dtype: str | null
+    description: Optional comment providing more context about the factors measurements.
+epochs:
+  60177:
+    flavors:
+      science: 60255-60338
+      twilight: 60255-60338
+    trigger: Early-science
+    comment: We use the more reliable survey data instead
+  60255:
+    flavors:
+      science: 60255-60284
+      twilight: 60255-60284
+    trigger: Survey start
+    comment: null
+  60339:
+    flavors:
+      science: 60339-60368
+      twilight: 60339-60368
+    trigger: Instrument intervention
+    comment: null
+  60465:
+    flavors:
+      science: 60465-60494
+      twilight: 60465-60494
+    trigger: Instrument intervention
+    comment: null
+  60573:
+    flavors:
+      science: 60573-60602
+      twilight: 60573-60602
+    trigger: Instrument intervention
+    comment: null
+  60744:
+    flavors:
+      science: 60744-60773
+      twilight: 60744-60773
+    trigger: Instrument intervention
+    comment: null
+  60985:
+    flavors:
+      science: 60985-61014
+      twilight: 60985-61014
+    trigger: Instrument intervention
+    comment: null
