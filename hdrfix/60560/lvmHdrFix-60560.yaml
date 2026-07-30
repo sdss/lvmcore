@@ -207,3 +207,21 @@ fixes:
 - fileroot: sdR-*-*-00024953
   keyword: POSCIDE
   value: -68.95178304203834
+- fileroot: sdR-*-*-00024933
+  keyword: POSKYERA
+  value: 12.060701
+- fileroot: sdR-*-*-00024933
+  keyword: POSKYEDE
+  value: -69.595018
+- fileroot: sdR-*-*-00024933
+  keyword: SKYENAME
+  value: grid017
+- fileroot: sdR-*-*-00024933
+  keyword: POSKYWRA
+  value: 321.613
+- fileroot: sdR-*-*-00024933
+  keyword: POSKYWDE
+  value: -44.5432
+- fileroot: sdR-*-*-00024933
+  keyword: SKYWNAME
+  value: WHAM_south_06

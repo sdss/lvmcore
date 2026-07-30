@@ -21,3 +21,21 @@ fixes:
 - fileroot: sdR-*-*-00048279
   keyword: QAFLAG
   value: '00000'
+- fileroot: sdR-*-*-00048278
+  keyword: POSKYERA
+  value: 70.8595
+- fileroot: sdR-*-*-00048278
+  keyword: POSKYEDE
+  value: -56.128
+- fileroot: sdR-*-*-00048278
+  keyword: SKYENAME
+  value: WHAM_south_08
+- fileroot: sdR-*-*-00048278
+  keyword: POSKYWRA
+  value: 90.139524
+- fileroot: sdR-*-*-00048278
+  keyword: POSKYWDE
+  value: -69.965163
+- fileroot: sdR-*-*-00048278
+  keyword: SKYWNAME
+  value: grid132
