@@ -303,3 +303,6 @@ fixes:
 - fileroot: sdR-*-*-00005693
   keyword: QAQUAL
   value: BAD
+- fileroot: sdR-*-*-00005691
+  keyword: QAQUAL
+  value: BAD
