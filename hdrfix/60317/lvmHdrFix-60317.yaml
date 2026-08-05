@@ -192,3 +192,21 @@ fixes:
 - fileroot: sdR-*-*-00010475
   keyword: QAQUAL
   value: BAD
+- fileroot: sdR-*-*-00010491
+  keyword: POSKYERA
+  value: 90.139524
+- fileroot: sdR-*-*-00010491
+  keyword: POSKYEDE
+  value: -69.965163
+- fileroot: sdR-*-*-00010491
+  keyword: SKYENAME
+  value: WHAM_south_08
+- fileroot: sdR-*-*-00010491
+  keyword: POSKYWRA
+  value: 70.8595
+- fileroot: sdR-*-*-00010491
+  keyword: POSKYWDE
+  value: -56.128
+- fileroot: sdR-*-*-00010491
+  keyword: SKYWNAME
+  value: grid132

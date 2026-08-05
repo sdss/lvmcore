@@ -1,0 +1,65 @@
+schema:
+- name: fileroot
+  dtype: str
+  description: the raw frame file root with * as wildcard
+- name: keyword
+  dtype: str
+  description: the name of the header keyword to fix
+- name: value
+  dtype: str
+  description: the value of the header keyword to update
+fixes:
+- fileroot: sdR-*-*-00060716
+  keyword: POSKYERA
+  value: 321.613
+- fileroot: sdR-*-*-00060716
+  keyword: POSKYEDE
+  value: -44.5432
+- fileroot: sdR-*-*-00060716
+  keyword: SKYENAME
+  value: WHAM_south_06
+- fileroot: sdR-*-*-00060716
+  keyword: POSKYWRA
+  value: 290.103862
+- fileroot: sdR-*-*-00060716
+  keyword: POSKYWDE
+  value: 11.306538
+- fileroot: sdR-*-*-00060716
+  keyword: SKYWNAME
+  value: grid421
+- fileroot: sdR-*-*-00060717
+  keyword: POSKYERA
+  value: 290.103862
+- fileroot: sdR-*-*-00060717
+  keyword: POSKYEDE
+  value: 11.306538
+- fileroot: sdR-*-*-00060717
+  keyword: SKYENAME
+  value: grid421
+- fileroot: sdR-*-*-00060717
+  keyword: POSKYWRA
+  value: 321.613
+- fileroot: sdR-*-*-00060717
+  keyword: POSKYWDE
+  value: -44.5432
+- fileroot: sdR-*-*-00060717
+  keyword: SKYWNAME
+  value: WHAM_south_06
+- fileroot: sdR-*-*-00060718
+  keyword: POSKYERA
+  value: 290.103862
+- fileroot: sdR-*-*-00060718
+  keyword: POSKYEDE
+  value: 11.306538
+- fileroot: sdR-*-*-00060718
+  keyword: SKYENAME
+  value: grid421
+- fileroot: sdR-*-*-00060718
+  keyword: POSKYWRA
+  value: 321.613
+- fileroot: sdR-*-*-00060718
+  keyword: POSKYWDE
+  value: -44.5432
+- fileroot: sdR-*-*-00060718
+  keyword: SKYWNAME
+  value: WHAM_south_06
