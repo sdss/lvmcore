@@ -18,8 +18,8 @@ schema:
 epochs:
   60177:
     flavors:
-      science: 60255-60338
-      twilight: 60255-60338
+      science: 60255-60284
+      twilight: 60255-60284
     trigger: Early-science
     comment: We use the more reliable survey data instead
   60255:
