@@ -48,10 +48,10 @@ epochs:
     comment: null
   60744:
     flavors:
-      science: 60744-60773
-      twilight: 60744-60773
+      science: 60750-60779
+      twilight: 60750-60779
     trigger: Instrument intervention
-    comment: null
+    comment: Skipping first science nights due to bad weather and eclipse observations
   60985:
     flavors:
       science: 60985-61014
