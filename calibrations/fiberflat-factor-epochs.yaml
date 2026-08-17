@@ -20,14 +20,8 @@ epochs:
     flavors:
       science: 60255-60284
       twilight: 60255-60284
-    trigger: Early-science
-    comment: We use the more reliable survey data instead
-  60255:
-    flavors:
-      science: 60255-60284
-      twilight: 60255-60284
     trigger: Survey start
-    comment: null
+    comment: We define a single factors epoch for 60177 and 60255 for simplicity. For 60177, we use survey data for reliability
   60339:
     flavors:
       science: 60339-60368
