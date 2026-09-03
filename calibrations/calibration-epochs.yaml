@@ -400,3 +400,12 @@ epochs:
       twilight: 61194
     trigger: Seismic event
     comment: No twilights taken on MJD=61193, using close ones instead. A Seism was registered at 6:14 UT, calibrations taken afterwards at 8:20 UT
+  61277:
+    flavors:
+      bias: 61277
+      trace: 61277
+      wave: 61277
+      dome: 61277
+      twilight: 61279
+    trigger: Warm-up
+    comment: Resuming operations after snow storm 61236-61276
