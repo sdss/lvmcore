@@ -1,159 +1,188 @@
 schemas:
-  - name: epochs
-    dtype: dict[int, dict]
-    description: Dictionary mapping epoch MJD to its calibration metadata
-    keyschemas:
-      - name: sources
-        dtype: dict[int, list[str]]
-        description: Dictionary mapping source MJD to list of calibration types (e.g., bias, dome, arc, twilight)
-      - name: trigger
-        dtype: str
-        description: Reason for which these calibrations were taken, e.g., 'Early-science', 'Survey start', 'Instrument intervention', etc.
-      - name: comment
-        dtype: str | null
-        description: Optional comment providing more context about the calibration epoch
+- name: epochs
+  dtype: dict[int, dict]
+  description: Dictionary mapping epoch MJD to its calibration metadata
+  keyschemas:
+  - name: sources
+    dtype: dict[int, list[str]]
+    description: Dictionary mapping source MJD to list of calibration types (e.g.,
+      bias, dome, arc, twilight)
+  - name: trigger
+    dtype: str
+    description: Reason for which these calibrations were taken, e.g., 'Early-science',
+      'Survey start', 'Instrument intervention', etc.
+  - name: comment
+    dtype: str | null
+    description: Optional comment providing more context about the calibration epoch
 epochs:
   60458:
     sources:
-      - 60458
-      - 60459
+    - 60458
+    - 60459
     sequences:
       b1:
         kind: 1f1d
         expnums:
-          - 18266, 18366
-        rejects: null
+        - 18266, 18366
+        rejects:
+        - 18290, 18292
       r1:
         kind: 1f1d
         expnums:
-          - 18266, 18366
-        rejects: null
+        - 18266, 18366
+        rejects:
+        - 18290, 18292
       z1:
         kind: 1f1b
         expnums:
-          - 18182, 18242
-        rejects: null
+        - 18182, 18242
+        rejects:
+        - 18238, 18240
       b2:
         kind: 1f1d
         expnums:
-          - 18396, 18496
-        rejects: null
+        - 18396, 18496
+        rejects:
+        - 18426, 18428
+        - 18472, 18474
       r2:
         kind: 1f1d
         expnums:
-          - 18396, 18496
-        rejects: null
+        - 18396, 18496
+        rejects:
+        - 18426, 18428
+        - 18472, 18474
       z2:
         kind: 1f1b
         expnums:
-          - 18502, 18562
-        rejects: null
+        - 18502, 18562
+        rejects:
+        - 18558, 18560
     trigger: Instrument intervention
-    comment: First time taking pixel flats using the pixel flat slit. Missing spectrograph 3 due to time constrains
+    comment: First time taking pixel flats using the pixel flat slit. Missing spectrograph
+      3 due to time constrains
   60570:
     sources:
-      - 60570
-      - 60571
+    - 60570
+    - 60571
     sequences:
       b1:
         kind: 2f1d
         expnums:
-          - 25402, 25432
-        rejects: null
+        - 25402, 25432
+        rejects:
+        - 25414, 25417
+        - 25420, 25423
       r1:
         kind: 2f1d
         expnums:
-          - 25402, 25432
-        rejects: null
+        - 25402, 25432
+        rejects:
+        - 25414, 25417
+        - 25420, 25423
       z1:
         kind: 1f1b
         expnums:
-          - 25436, 25496
+        - 25436, 25496
         rejects: null
       b2:
         kind: 2f1d
         expnums:
-          - 25544, 25574
+        - 25544, 25574
         rejects: null
       r2:
         kind: 2f1d
         expnums:
-          - 25544, 25574
+        - 25544, 25574
         rejects: null
       z2:
         kind: 1f1b
         expnums:
-          - 25577, 25637
+        - 25577, 25637
         rejects: null
       b3:
         kind: 2f1d
         expnums:
-          - 25733, 25763
-        rejects: null
+        - 25733, 25763
+        rejects:
+        - 25745, 25748
       r3:
         kind: 2f1d
         expnums:
-          - 25733, 25763
-        rejects: null
+        - 25733, 25763
+        rejects:
+        - 25745, 25748
       z3:
         kind: 1f1b
         expnums:
-          - 25767, 25827
-        rejects: null
+        - 25767, 25827
+        rejects:
+        - 25789, 25791
     trigger: Instrument intervention
     comment: Improved pixel flat slit plus diffuser to improve blue end count levels
   60741:
     sources:
-      - 60741
-      - 60742
-      - 60743
+    - 60741
+    - 60742
+    - 60743
     sequences:
       b1:
         kind: 2f1d
         expnums:
-          - 35921, 35951
-        rejects: null
+        - 35921, 35951
+        rejects:
+        - 35924, 35927
       r1:
         kind: 2f1d
         expnums:
-          - 35921, 35951
-        rejects: null
+        - 35921, 35951
+        rejects:
+        - 35924, 35927
       z1:
         kind: 1f1b
         expnums:
-          - 36105, 36225
-        rejects: null
+        - 36105, 36225
+        rejects:
+        - 36177, 36179
       b2:
         kind: 2f1d
         expnums:
-          - 36252, 36340
+        - 36252, 36340
         rejects:
-          - 36284
+        - 36284
+        - 36289, 36292
       r2:
         kind: 2f1d
         expnums:
-          - 36252, 36340
+        - 36252, 36340
         rejects:
-          - 36284
+        - 36284
+        - 36289, 36292
       z2:
         kind: 1f1b
         expnums:
-          - 36490, 36610
+        - 36490, 36610
         rejects: null
       b3:
         kind: 2f1d
         expnums:
-          - 35499, 35529
-        rejects: null
+        - 35499, 35529
+        rejects:
+        - 35505, 35508
+        - 35526, 35529
       r3:
         kind: 2f1d
         expnums:
-          - 35499, 35529
-        rejects: null
+        - 35499, 35529
+        rejects:
+        - 35505, 35508
+        - 35526, 35529
       z3:
         kind: 1f1b
         expnums:
-          - 35680, 35800
-        rejects: null
+        - 35680, 35800
+        rejects:
+        - 35726, 35728
+        - 35746, 35748
     trigger: Instrument intervention
     comment: null
