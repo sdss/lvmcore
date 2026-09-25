@@ -409,3 +409,12 @@ epochs:
       twilight: 61279
     trigger: Warm-up
     comment: Resuming operations after snow storm 61236-61276
+  61301:
+    flavors:
+      bias: 61301
+      trace: 61301
+      wave: 61301
+      dome: 61301
+      twilight: 61304
+    trigger: null
+    comment: null
