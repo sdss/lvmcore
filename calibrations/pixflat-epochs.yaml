@@ -186,3 +186,55 @@ epochs:
         - 35746, 35748
     trigger: Instrument intervention
     comment: null
+  61313:
+    sources:
+    - 61313
+    - 61314
+    sequences:
+      b1:
+        kind: 3f1d
+        expnums:
+        - 63874, 64154
+        rejects: null
+      r1:
+        kind: 3f1d
+        expnums:
+        - 63874, 64154
+        rejects: null
+      z1:
+        kind: 3f1d
+        expnums:
+        - 64156, 64436
+        rejects: null
+      b2:
+        kind: auto
+        expnums:
+        - 63592, 63872
+        rejects: null
+      r2:
+        kind: auto
+        expnums:
+        - 63592, 63872
+        rejects: null
+      z2:
+        kind: 3f1d
+        expnums:
+        - 63310, 63590
+        rejects: null
+      b3:
+        kind: 3f1d
+        expnums:
+        - 62808, 62848
+        rejects: null
+      r3:
+        kind: 3f1d
+        expnums:
+        - 62808, 62848
+        rejects: null
+      z3:
+        kind: 3f1d
+        expnums:
+        - 63064, 63304
+        rejects: null
+    trigger: Instrument intervention
+    comment: No Quartz lamp available for NIR exposures. All pixel flats taken using LDLS
