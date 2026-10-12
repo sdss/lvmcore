@@ -1,0 +1,42 @@
+schema:
+- name: keyword
+  dtype: str
+  description: Keyword to specify ignored exposures, either 'mjd', 'tileid', 'expnum'
+- name: value
+  dtype: str
+  description: Value specification, follows conventions x; xi-xf; xi-; -xf; x1,...,xn
+- name: reason
+  dtype: str
+  description: Categorized reason why these exposures should be ignored e.g., 'Engineering run', 'Test run'
+- name: comment
+  dtype: str
+  description: Additional remarks about the excluded exposures
+excludes:
+- keyword: mjd
+  value: 60330-60336
+  reason: 'Engineering run'
+  comment: null
+- keyword: mjd
+  value: 60439-60445
+  reason: 'Engineering run'
+  comment: null
+- keyword: mjd
+  value: 60453-60464
+  reason: 'Engineering run'
+  comment: null
+- keyword: mjd
+  value: 60567-60572
+  reason: 'Engineering run'
+  comment: null
+- keyword: tileid
+  value: 9999999
+  reason: 'Test run'
+  comment: 'Sky test while blackout (MJD=60645)'
+- keyword: mjd
+  value: 60739-60743
+  reason: 'Engineering run'
+  comment: null
+- keyword: mjd
+  value: 61312-61318
+  reason: 'Engineering run'
+  comment: 'There are test science exposures MJD=61315; exposures 64438 and 64439 (see thread lvm-data 2147)'
